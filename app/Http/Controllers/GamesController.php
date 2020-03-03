@@ -1,0 +1,140 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Level;
+use App\Models\Player;
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
+use App\Models\Game;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Game as Gamemail;
+use App\Mail\Game as GameParty;
+
+
+class GamesController extends Controller
+{
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+
+    public function index($id)
+    {
+        $user = Auth::user();
+        $levels = Level::all();
+        $player = $user->players;
+        return view('games.index', compact('players', 'levels'));
+    }
+
+    public function score()
+    {
+        $users = Auth::user();
+        $players = $users->players;
+        $playerId = $_COOKIE["player_id"];
+        $playerDifficulty = $_COOKIE["player_difficulty"];
+        $player = Player::find($playerId);
+        $scoreTotal = $_COOKIE['scoreTotal'];
+
+        if(isset($scoreTotal) && $scoreTotal !== 0){
+            $player = Player::find($playerId);
+            $player->score = $player->score + $scoreTotal;
+            $player->nbGames = $player->nbGames + 1;
+            $player->save();
+        }
+
+        $gameTpsTotal = 0;
+        for ($i=1; $i<=10; $i++){
+            $gameTpsTotal += $_COOKIE["temps".$i];;
+        }
+
+        for ($i=1; $i<=10; $i++){
+            $game = new Game();
+            $game->player_id = $playerId;
+            $game->difficulty = $playerDifficulty;
+            $game->numGame = $player->nbGames;
+            $game->level_id = $i;
+            $game->score_level = $_COOKIE["score".$i];
+            $game->duree_level = $_COOKIE["temps".$i];
+            $game->score_game =  $_COOKIE['scoreTotal'];
+            $game->duree_game = $gameTpsTotal;
+            $game->save();
+        }
+
+        if ($users->newsletter == 1){
+            // Transfert de l'email
+            $title = 'Une partie vient d\'être réalisée';
+            $contentEnfant = $player->name;
+            $contentParent = $users->name;
+            $score = $_COOKIE['scoreTotal'];
+            if ($gameTpsTotal >= 60){
+                $min = floor($gameTpsTotal/60);
+                $s = $gameTpsTotal % 60;
+                $temps = $min. ' minutes et '. $s. ' secondes';
+            } else{
+                $temps = $gameTpsTotal. ' secondes';
+            }
+            $min = floor($gameTpsTotal/60);
+            $s = $gameTpsTotal % 60;
+            $dif = $playerDifficulty;
+            $mail = $users->email;
+            $mailGood = trim($mail);
+
+            $_SESSION['info'] = 'Un email a été envoyé !';
+            Mail::to($mailGood)->send(new GameParty($title, $contentParent, $contentEnfant, $score, $temps, $dif));
+
+            return redirect()->route('pindex')->with(['info' => 'Bravo '.$player->name. ' pour ce nouveau jeu !!',
+                                                     'info1' => 'La partie a été sauvegardée et nous vous avons envoyé un email récapitulatif.']);
+
+        }elseif ($users->newsletter == 0){
+            return redirect()->route('pindex')->with('info', 'Bravo '.$player->name. ' pour ce nouveau jeu !!'. '<br>'.'La partie a bien été sauvegardée.');
+        }
+    }
+
+    public function selectPlayer()
+    {
+        $player = Player::where('id', $_GET['id']);
+        return view('games.index', compact('player'));
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+
+    public function show(game $game)
+    {
+        $players = Game::find($game->id)->players;
+        return view('users.show', compact('players', 'user'));
+    }
+
+    public function index1()
+    {
+        $games = Game::paginate(10);
+        foreach ($games as $game){
+            $user = User::find($game->player_id);
+        }
+        return view('games.index1', compact('games', 'user'));
+    }
+
+    public function destroy($id)
+    {
+        $game = Game::find($id);
+        $gameid = $game->id;
+        $player = Player::find($game->player_id);
+        $playerName = $player->name;
+        Game::find($id)->delete();
+        $games = Game::paginate(10);
+        return back()->with('type', 'success')
+                    ->with('message', 'Le game portant l\'id ' .$gameid. ' du joueur ' .$playerName. ' a bien été supprimé.');
+    }
+}

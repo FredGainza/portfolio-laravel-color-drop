@@ -1,0 +1,54 @@
+.radialtimer *, .radialtimer ::after, .radialtimer ::before {
+    box-sizing: content-box;
+}
+
+.radialtimer {
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10vw 0 0 -10vw;
+}
+.radialtimer .n {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background: hsl(164, 95%, 43%);
+  background-image: url('../img/game/star-timer-80.png');
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20vw;
+  font-family: "Georgia";
+  font-size: 7vw;
+  color: black;
+  text-shadow: 2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, -2px 0 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px 2px 0 white, -2px -2px 0 white;
+}
+.radialtimer .slice {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  clip: rect(0, 20vw, 20vw, 10vw);
+}
+.radialtimer .slice.nc {
+  clip: rect(auto, auto, auto, auto);
+}
+.radialtimer .slice .q {
+  position: absolute;
+  width: 17vw;
+  height: 17vw;
+  border: 1.6vw hsl(164, 95%, 43%) solid;
+  border-radius: 50%;
+  clip: rect(0px, 10vw, 10vw, 0px);
+  z-index: 2;
+}
+.radialtimer .slice .pie {
+  border: 1.5vw hsl(195, 70%, 22%) solid;
+  position: absolute;
+  width: 17vw;
+  height: 17vw;
+  clip: rect(0, 10vw, 20vw, 0);
+  border-radius: 50%;
+  transition: all 1s linear;
+  z-index: 1;
+}

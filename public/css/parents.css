@@ -1,0 +1,159 @@
+/*
+==========================================
+#               GENERAL                  #
+==========================================
+*/
+body {
+    margin: 0 !important;
+    padding-top:0 !important;
+    min-height: 100vh;
+    background-image: url("../img/bbbt.png");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-color: #c2d835;
+    background-position: top;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.containerPerso{
+    width: 450px;
+    margin: 0 auto !important
+}
+
+
+/*----------  FONTS ----------*/
+.fz-90p{font-size: 90% !important;}
+.fz-110p{font-size: 110% !important;}
+
+
+/*----------  COLORS - BACKGROUNDS ----------*/
+.bg-lightperso {
+    background-color: hsl(174, 62%, 75%);
+}
+.bg-encart{
+    background-color: hsla(172, 23%, 68%, 0.89);
+    border-radius: 20px 20px 50px 50px;
+    border: 2px solid hsl(172, 23%, 68%);
+    -webkit-box-shadow: -1px 7px 27px -12px rgba(118,135,152,0.75);
+    -moz-box-shadow: -1px 7px 27px -12px rgba(118,135,152,0.75);
+    box-shadow: -1px 7px 27px -12px rgba(118,135,152,0.75);
+}
+.bg-opacite{
+    background-color: hsla(170, 40%, 60%, 0.9);
+}
+.espace{
+    background-color: olive;
+}
+
+
+/*----------  MARGIN ----------*/
+.m0 {margin: 0 !important;}
+.ml-10p{margin-left: 10%;}
+.ml-40p {margin-left: 40%;}
+.mr-10p{margin-right: 10%;}
+.mx-20p{
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+
+/*----------  PADDING ----------*/
+.pt-20p{padding-top: 9% !important;}
+
+
+
+/*----------  PADDING MARGIN ----------*/
+.pt-0 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+.disp-but{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+/*
+==========================================
+#               PARTICULIER              #
+==========================================
+*/
+/*----------  TABLEAUX ADMINISTRATION PARENTS ----------*/
+.fz-150 {
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -webkit-max-content; /* Chrome */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    text-align: center;
+    margin: .7vw auto;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    padding: 0 8px;
+    border-bottom: 3px solid firebrick;
+    font-size: 150%;
+    color: #3b5998;
+    font-weight: bolder;
+}
+
+/*----------  NAVBAR ----------*/
+.navbar-nav a {
+    color: #185459 !important;
+    text-decoration: none;
+}
+.navbar-nav a:hover {
+    color: #3b5897b3 !important;
+}
+.dropdown-menu{
+    background-color: #5eb1b3b8;
+    padding: 0.2vw 0;
+    margin: 0;
+    border: none;
+}
+.dropdown-item:hover{
+    background-color: #91ccceb8 !important;
+}
+.taille-hamb{
+    width: 30%;
+}
+
+
+/*----------  BOUTONS CONFIG & AIDE ----------*/
+.audio3, .audio4{
+    width: 60px;
+    position: fixed !important;
+    filter:brightness(50%);
+    bottom: -30px !important;
+    z-index: 0;
+}
+.audio3:hover, .audio4:hover{
+    width: 60px;
+    filter:brightness(90%);
+    position: fixed !important;
+    bottom: -10px !important;
+}
+.audio3{left: 2% !important;}
+.audio4{left: 5% !important;}
+
+
+/*
+==========================================
+#              RESPONSIVE                #
+==========================================
+*/
+@media screen and (max-width: 767px){
+    .taille-hamb{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .taille-hamb{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 1199px){
+    .taille-hamb{
+        width: 35%;
+    }
+}
