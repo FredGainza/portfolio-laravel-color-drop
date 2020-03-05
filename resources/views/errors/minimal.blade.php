@@ -27,7 +27,7 @@
  <style>
     html, body {
         background-color: #fff;
-        color: #636b6f;
+        color: #f7f8f8;
         font-family: 'Nunito', sans-serif;
         font-weight: 100;
         height: 100vh;
@@ -74,11 +74,17 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <img src="../../../img/logo-color.png" width="30%" alt="" class="mr-10p">
+                <a href="{{ route('pindex') }}" class="mr-10p taille-hamb"><img src="../../../img/logo-color2.png" alt="Logo Color-Drop" class="img-fluid"></a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                    <li class="fz-150">Message d'erreurs</li>
+                        <li class="fz-150">Message d'erreurs</li>
+                        <li class="nav-link mx-5">
+                            <a href="{{ route('pindex') }}">Accueil</a>
+                        </li>
+                        <li class="nav-link mr-5">
+                            <a href="{{ route('help') }}">Aide</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

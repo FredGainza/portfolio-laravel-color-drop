@@ -55,7 +55,13 @@ body {
     margin-left: 20% !important;
     margin-right: 20% !important;
 }
-
+.mx-resp{
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+}
+.flex-init{
+    flex: initial;
+}
 
 /*----------  PADDING ----------*/
 .pt-20p{padding-top: 9% !important;}
@@ -141,6 +147,15 @@ body {
 @media screen and (max-width: 767px){
     .taille-hamb{
         width: 50%;
+    }
+    .containerPerso{
+        width: 92% !important;
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+    .mx-resp{
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
     }
 }
 

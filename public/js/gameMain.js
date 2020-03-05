@@ -316,8 +316,14 @@ $(document).ready(function () {
     }
     if ($choixJoueur == 'difficile'){
         $difficulte = "fit";
-        $snapTolerance = 5;
+        $snapTolerance = 0;
     }
+
+
+
+    // if ($nbClick >= 1 && window.location.href == "https://project-color.fgainza.fr/pindex") {
+    //     confirm('Si vous quittez le jeu maintenant, la partie en cours sera annulée. \n Etes-vous certain de vouloir quitter le jeu ?');
+    // }
 
     $scoreTotal = $('#scoreCumulInit').text();
     $scoreTotalAfficher = parseInt($scoreTotal);
@@ -326,11 +332,11 @@ $(document).ready(function () {
     $dureePartieParLevel = [];
     $scorePartieParLevel = [];
     $('.ecouteurJeu').click(function () {
-
+        $nbClick++;
         $debut = new Date();
         $debutMs = $debut.getTime();
         $debutPartieMs = $debutMs;
-        $nbClick++;
+
         console.log("Début (en ms) du level "+$nbClick+" : "+$debutMs);
         console.log("le nombre de clicks est de "+$nbClick)
 
@@ -401,8 +407,9 @@ $(document).ready(function () {
 
             // AJOUT DANS LE DOM DES DIV DES CARRES CIBLES ET DES DIV DE LA PALETTE COLOR
 
+			$d=0;
             if ($difficulte == "fit"){
-                if (window.innerWidth<1000){
+                if (window.innerWidth<1100){
                     $d="18%";
                 } else {
                     $d="17%";
@@ -410,6 +417,7 @@ $(document).ready(function () {
             } else {
                 $d = "16%";
             }
+
 
             for ($i = 0; $i <$nbCarres; $i++) {
                 $('#cible').append('<canvas id="carre_'+$i+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-2 mb-2"></canvas>'); // DIV CARRES CIBLES
@@ -446,7 +454,7 @@ $(document).ready(function () {
                 $("#carre_"+$couleurs[$i]).draggable ({
                     containment : 'body',
                     snap: '.draggable',
-                    snapTolerance: '0',
+                    snapTolerance: $snapTolerance,
                     revert : 'invalid',
                     cursor: 'pointer',
                 });
@@ -535,10 +543,18 @@ $(document).ready(function () {
 
         // FONCTIONS JS POUR AFFICHER FORMES GEOMETRIQUES EN FONCTION DU NIVEAU
         $d=0;
+        if ($difficulte == "fit"){
+            if (window.innerWidth<1100){
+                $d="18%";
+            } else {
+                $d="17%";
+            }
+        } else {
+            $d = "16%";
+        }
 
         function formesCible() {
             $formesCibles = [];
-            $difficulte =="fit" ? $d = "17%" : $d = "16%";
             for($i=0; $i<$nbFormes; $i++){
                 $formesCibles[$i] = '<canvas id="formeCible'+$i+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-1"></canvas><br>';
             }
@@ -728,8 +744,8 @@ $(document).ready(function () {
             cercle("formeCible0", "black", couleursNiv6[0]);
             etoile("formeCible1", 50, 52, 5, 45, 25, "black", couleursNiv6[1]);
             cercle("formeCible2", "black", couleursNiv6[2]);
-            carre("formeCible3", 10, 10, 80, "black", couleursNiv6[4]);
             triangle("formeCible4", "black", couleursNiv6[3]);
+            carre("formeCible3", 10, 10, 80, "black", couleursNiv6[4]);
             triangle("formeCible5", "black", couleursNiv6[5]);
 
             formesOrigine();
@@ -745,8 +761,8 @@ $(document).ready(function () {
             cercle("forme0", "black", couleursNiv6[0]);
             etoile("forme1", 50, 52, 5, 45, 25, "black", couleursNiv6[1]);
             cercle("forme2", "black", couleursNiv6[2]);
-            carre("forme3", 10, 10, 80, "black", couleursNiv6[4]);
             triangle("forme4", "black", couleursNiv6[3]);
+            carre("forme3", 10, 10, 80, "black", couleursNiv6[4]);
             triangle("forme5", "black", couleursNiv6[5]);
         }
 
@@ -760,7 +776,7 @@ $(document).ready(function () {
             $('#forme' + $i).draggable({
                 containment: 'body',
                 snap: '.draggable',
-                snapTolerance: '0',
+                snapTolerance: $snapTolerance,
                 revert: 'invalid',
                 cursor: 'pointer',
             });
@@ -931,7 +947,7 @@ $(document).ready(function () {
             $('#fruitCible_' + $i).draggable({
                 containment: 'body',
                 snap: '.draggable',
-                snapTolerance: '0',
+                snapTolerance: $snapTolerance,
                 revert: 'invalid',
             });
         }

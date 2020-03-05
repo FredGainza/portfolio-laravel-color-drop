@@ -20,7 +20,7 @@
     <div class="container">
         <div class="containerPerso bg-encart py-3">
 
-            <div class="row pt-0">
+            <div class="row pt-0 px-5">
                 <h3 class="mx-auto textEnfant">Compte de : {{$users->name}}</h3>
             </div>
             <hr>
@@ -29,8 +29,9 @@
                 @csrf
                 <!-- Prénom -->
                 <div class="row">
-                    <div class="col-sm-10 offset-sm-1">
-                        <span><i class="fas fa-user prefix mx-2"></i>Nom de l'utilisateur</span>
+                    <div class="col-12 flex-init mx-resp">
+                        <i class="fas fa-user prefix mx-2"></i>
+                        <label for="name">Nom de l'utilisateur</label>
                         <input type="text" id="name" name="name" class="form-control @error('name') is-invalid @enderror" placeholder="Nom" value="{{ $users->name }}"><br>
                         @error('name')
                             <div class="invalid-feedback">{{ $message }}</div>
@@ -40,7 +41,7 @@
 
                 <!-- Difficulté -->
                 <div class="row mt-3">
-                    <div class="col-sm-10 offset-sm-1">
+                    <div class="col-12 flex-init mx-resp">
                         <span><i class="far fa-envelope mx-2"></i>Mail de l'utilisateur</span>
                         <input type="mail" id="email" name="email" class="form-control mt-2 @error('email') is-invalid @enderror" placeholder="Adresse email" value="{{ $users->email }}"><br>
                         @error('email')
@@ -56,12 +57,6 @@
                     <a href="{{ route('pindex') }}">Page précédente</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="option" class="row option">
-        <div class="width-button" id="audioTool">
-            <a href="https://project-color.fgainza.fr/pindex"><img src="img/config.png" id="config" title="Administration Parents" class="width-button disp-but audio3"></a>
-            <a href="https://project-color.fgainza.fr/help"><img src="img/info.png" id="info" title="Informations et Aide" class="width-button disp-but audio4"></a>
         </div>
     </div>
 </main>

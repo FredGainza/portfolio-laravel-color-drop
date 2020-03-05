@@ -186,7 +186,7 @@
                 <div id="gameEnd" class="gameEnd" style="display:none;">
                     <form action=""></form>
                     <a href="{{ route('score') }}">
-                        <button class="btn btn-success btn-lg" type="button">VALIDER LA PARTIE</button>
+                        <button class="btn btn-success btn-lg" type="button" onclick="this.disabled = true;">VALIDER LA PARTIE</button>
                     </a>
                 </div>
 

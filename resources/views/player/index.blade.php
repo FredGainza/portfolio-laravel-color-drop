@@ -371,7 +371,7 @@
                 $nbJoueurs = count($players);
                 if($nbJoueurs == 0){
             ?>
-            <div class="alert alert-success mx-auto px-auto pt-3 alert-dismissible fade show my-3">
+            <div class="alert alert-success mx-auto px-auto pt-3 alert-dismissible fade show my-2">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
 
                 <h2 class="mb-3 centre-txt bg-perso">Bienvenue sur Color-Drops ! </h2>
@@ -522,7 +522,7 @@
         <span id="goToGame" class="color-btn my-4" onclick="window.location='games?id='+document.querySelector('input[name=playerId]:checked').value"><button class="btn btn-block w-75 text-white style-btn-jouer mt-2">Aller vers le jeu</button></span>
 
     </div>
-    <div class="text-center small-edit ">
+    <div class="text-center small-edit mb-3">
         <small>Pour un meilleur confort à l'usage, le jeu se lancera en mode "Plein Ecran" si votre résolution est faible (moins de 900 px en longueur).<br>
         Une icone en haut à droite de l'écran apparaîtra et il vous suffira de cliquer dessus pour revenir en mode normal (et inversémeent).</small>
     </div>

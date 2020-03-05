@@ -47,53 +47,55 @@
         <table class="table center table-striped" id="tab_game">
             <thead class="bg-light">
                 <tr class="text-center bg-dark text-white">
-                    <th>Id</th>
+                    <th>N° de partie</th>
                     <th>Nom Player</th>
                     <th>Nom Parents</th>
                     <th>Difficulté</th>
-                    <th>Numéro de la partie</th>
-                    <th>Num du niveau</th>
-                    <th>Score de la partie</th>
-                    <th>Durée de la partie</th>
-                    <th>Score du level</th>
-                    <th>Durée du level</th>
+                    <th>Score Partie</th>
+                    <th>Durée Partie</th>
                     <th>Date de réalisation</th>
                     <th>Suppression</th>
                 </tr>
             </thead>
             <tbody>
                 @if(!empty($games))
-                    @foreach($games as $game)
+                    @php
+                        $nbParties = count($games)/10;
+                    @endphp
+                    @for($i=0; $i<$nbParties; $i++)
                         <tr class="text-center">
-                            <td>{{ $game->id }}</td>
+                            <td id="numPartie"><span>{{$i+1}}</span></td>
                             @php
-                                $player = App\Models\Player::find($game->player_id);
-                                $user = App\Models\User::find($player->user_id);
+                                $d=(10*($i+1)-5);
+                                $game = $games[$d];
+
+                                $playerId = $game->player_id;
+                                $player = App\Models\Player::find($playerId);
+                                $userId = $player->user_id;
+                                $user = App\Models\User::find($userId);
                             @endphp
-                            <td>{{ $player->name }}</td>
-                            <td>{{ $user->name }}</td>
-                            <td>{{ $game->difficulty }}</td>
-                            <td>{{ $game->numGame}}</td>
-                            <td>{{ $game->level_id }}</td>
-                            <td>{{ $game->score_game }}</td>
-                            <td>{{ $game->duree_game }}</td>
-                            <td>{{ $game->score_level }}</td>
-                            <td>{{ $game->duree_level }}</td>
-                            <td>{{ $game->created_at->format('d/m/Y') }}</td>
+                            <td id="player"><span>{{$player->name}}</span></td>
+                            <td id="user"><span>{{$user->name}}</span></td>
+                            <td id="difficulty"><span>{{$games[10*($i+1)-1]->difficulty}}</span></td>
+                            <td id="score_game"><span>{{$games[10*($i+1)-1]->score_game}}</span></td>
+                            <td id="duree_game"><span>{{$games[10*($i+1)-1]->duree_game}}</span></td>
+                            <td id="date"><span>{{ $games[10*($i+1)-1]->created_at->format('d/m/Y') }}</span></td>
                             <td>
-                                <form action="{{ route('games.destroy', $game->id) }}" method="post">
+                                <form action="{{ route('games.destroy', $i) }}" method="post">
                                     @csrf
                                     @method('DELETE')
-                                    <input type="hidden" name="_id" id="_id" value="{{$game->id}}">
+                                    <input type="hidden" name="_id" id="_id" value="{{$i}}">
+                                    <input type="hidden" name="_playerId" id="_playerId" value="{{$player->id}}">
                                     <button type="submit" class="btn btn-sm" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger border-0 bg-body"></i></button>
                                 </form>
                             </td>
+
                         </tr>
-                    @endforeach
+                    @endfor
                 @endif
             </tbody>
         </table>
-        {{ $games->links() }}
+        {{-- {{ $games->links() }} --}}
     </div>
 </div>
 @endsection

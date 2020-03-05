@@ -119,22 +119,38 @@ class GamesController extends Controller
 
     public function index1()
     {
-        $games = Game::paginate(10);
-        foreach ($games as $game){
-            $user = User::find($game->player_id);
+        $games = Game::all();
+        $users = User::all();
+        $players = Player::all();
+        $nbParties = count($games)/10;
+        for ($i=0;  $i<$nbParties; $i++){
+            $partie = Game::find($i*10+5);
+            $player = $partie['player_id'];
+            $user = User::find($player['user_id']);
         }
-        return view('games.index1', compact('games', 'user'));
+        return view('games.index1', compact('games', 'users', 'players'));
     }
 
     public function destroy($id)
     {
-        $game = Game::find($id);
-        $gameid = $game->id;
-        $player = Player::find($game->player_id);
-        $playerName = $player->name;
-        Game::find($id)->delete();
-        $games = Game::paginate(10);
+
+        $games = Game::all();
+
+        for($i=0; $i<10; $i++){
+            $x = ($id)*10 + $i;
+            $games[$x]->delete();
+        }
+        $x=$id+1;
+
+        $score=$games[$id*10+5]['score_game'];
+        $player=Player::find($games[$id*10+5]['player_id']);
+
+        $name = $player->name;
+        $player->nbGames--;
+        $player->score -= $score;
+        $player->save();
+
         return back()->with('type', 'success')
-                    ->with('message', 'Le game portant l\'id ' .$gameid. ' du joueur ' .$playerName. ' a bien été supprimé.');
+                    ->with('message', 'La partie ' .$x. ' du joueur ' .$name. ' bien été supprimée, et ses statistiques mises à jour.');
     }
 }

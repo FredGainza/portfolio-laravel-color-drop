@@ -50,6 +50,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <a href="{{ route('pindex') }}" class="mr-10p taille-hamb"><img src="../../../img/logo-color2.png" alt="Logo Color-Drop" class="img-fluid"></a>
+
                 <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">

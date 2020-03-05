@@ -422,7 +422,9 @@
     </div>
 
 </main>
-<script>
+@endsection
+@section('scripts-footer')
+    <script>
     $(document).ready(function(){
         $('#explication').click(function(){
             if($("#notif").hasClass("visibyOff")){
@@ -438,3 +440,5 @@
     });
 </script>
 @endsection
+
+

@@ -36,6 +36,9 @@
 			color: inherit !important;
 			text-decoration: none !important;
 		}
+        .num4 a{
+                color: #ffffff !important;
+            }
 	</style>
 	<style id="media-query" type="text/css">
 		@media (max-width: 620px) {
@@ -147,7 +150,7 @@
 												<div style="font-size:1px;line-height:25px"> </div><img align="center"
 													alt="Image" border="0" class="center autowidth"
 													src="https://project-color.fgainza.fr/img/mail/rounder-up.png"
-													style="text-decoration: none; -ms-interpolation-mode: bicubic; border: 0; height: 10px; width: 100%; max-width: 600px; display: block;"
+													style="text-decoration: none; -ms-interpolation-mode: bicubic; border: 0; height: auto; width: 100%; max-width: 600px; display: block;"
 													title="Image" width="600" />
 												<!--[if mso]></td></tr></table><![endif]-->
 											</div>
@@ -400,7 +403,7 @@
 													<p
 														style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; mso-line-height-alt: 14px; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 10px;">
 														Email <span
-															style="color: #ffffff; font-size: 12px;">project-color@fgainza.fr</span>
+															style="color: #ffffff; font-size: 12px;"><a href="mailto:project-color@fgainza.fr">project-color@fgainza.fr</a></span>
 													</p>
 												</div>
 											</div>

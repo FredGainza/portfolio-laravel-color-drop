@@ -23,7 +23,7 @@
     <div class="container">
         <div class="containerPerso bg-encart py-3">
 
-            <div class="row pt-0">
+            <div class="row pt-0 px-5">
                 <h3 class="mx-auto textEnfant">Ajouter un enfant</h3>
             </div>
 
@@ -33,8 +33,8 @@
                 @csrf
                 <!-- Prénom -->
                 <div class="row">
-                    <div class="col-sm-10 offset-sm-1">
-                        <i class="fas fa-user prefix ml-2"></i>
+                    <div class="col-12 flex-init mx-resp">
+                        <i class="fas fa-user prefix mx-2"></i>
                         <label for="name">Prénom de l'enfant</label>
                         <input type="text" id="name" name="name" class="form-control @error('name') is-invalid @enderror" placeholder="Prénom" value="{{ old('name') }}">
                         @error('name')
@@ -45,7 +45,7 @@
 
                 <!-- Difficulté -->
                 <div class="row mt-3">
-                    <div class="col-sm-10 offset-sm-1">
+                    <div class="col-12 flex-init mx-resp">
                         <span><i class="fas fa-tachometer-alt mx-2"></i> Niveau de difficulté</span>
                         <select name="difficulty" id="dif-select" class="browser-default custom-select mt-2">
                             <option value="facile">Facile</option>

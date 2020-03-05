@@ -6,9 +6,12 @@
         background-attachment: fixed;
         background-position: top;
         background-position-x: center;
-        background-color: #fcb82f;
+        background-color: #fcb82f !important;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+    .bg-opacite {
+        background-color: ##fdd250a3 !important;
     }
     </style>
 @endsection

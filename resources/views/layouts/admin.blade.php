@@ -99,8 +99,7 @@
                         <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
                     </button>
 
-                    <a href="{{ route('pindex') }}"></a><img src="../../../img/logo-color2.png" alt="Logo Color-Drop" class="mr-10p taille-hamb">
-
+                    <a href="{{ route('pindex') }}" class="mr-10p taille-hamb"><img src="../../../img/logo-color2.png" alt="Logo Color-Drop" class="img-fluid"></a>
 
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
