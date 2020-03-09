@@ -34,10 +34,10 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6 mx-3 mt-3">
+        <div class="col-lg-6 mx-auto my-3">
             <h3 class="text-center titre-form mb-3">AJOUTER UN JOUEUR</h3>
             <div class="cadre-form">
-                <form class="mt-3" action="{{ route('players.store') }}" method="POST">
+                <form action="{{ route('players.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <label for="">Prénom</label>
@@ -49,7 +49,7 @@
                     <div class="form-group">
                         <label for="">Parent</label>
                         <div class="select">
-                            <select name="user_id" class="form-control @error('user_id') is-invalid @enderror">
+                            <select name="user_id" class="form-control custom-select @error('user_id') is-invalid @enderror">
                                 <option selected>Choisir son parent</option>
                                 @foreach($users as $user)
                                     <option value="{{ $user->id }}">{{ $user->name }}</option>

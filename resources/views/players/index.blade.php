@@ -6,6 +6,11 @@
         width: 75px;
     }
 
+    .table th, .table td {
+        vertical-align: middle;
+        padding: .5rem .75rem;
+    }
+
     img.col-perso{
         width: 60px;
     }
@@ -39,10 +44,10 @@
 @section('content')
 <div class="container">
     <div class="row mt-3">
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h1>Liste des joueurs</h1>
         </div>
-        <div class="col-md-6 text-right">
+        <div class="col-md-4 text-right">
             <a href="{{ route('players.create') }}"><button class="btn btn-dark mr-0">Ajouter un joueur</button></a>
         </div>
     </div>
@@ -79,7 +84,7 @@
                                         @csrf
                                         @method('DELETE')
                                         <input type="hidden" name="_id" id="_id" value="{{$player->id}}">
-                                        <button type="submit" class="btn btn-sm" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger mx-3"></i></button>
+                                        <button type="submit" class="btn btn" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger"></i></button>
                                     </form>
                                 </td>
                             </tr>

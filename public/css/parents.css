@@ -24,6 +24,9 @@ body {
 /*----------  FONTS ----------*/
 .fz-90p{font-size: 90% !important;}
 .fz-110p{font-size: 110% !important;}
+.fz-115p{font-size: 115% !important;}
+.fz-95r{font-size: .95rem !important;}
+.fz-105r{font-size: 1.05rem !important;}
 
 
 /*----------  COLORS - BACKGROUNDS ----------*/
@@ -44,6 +47,7 @@ body {
 .espace{
     background-color: olive;
 }
+.color-titre-aide{color: #283158;}
 
 
 /*----------  MARGIN ----------*/
@@ -89,10 +93,10 @@ body {
     width: intrinsic;           /* Safari/WebKit uses a non-standard name */
     width: -webkit-max-content; /* Chrome */
     width: -moz-max-content;    /* Firefox/Gecko */
-    text-align: center;
-    margin: .7vw auto;
+    text-align: left;
+    margin-left: 35%;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
-    padding: 0 8px;
+    /* padding: 0 8px; */
     border-bottom: 3px solid firebrick;
     font-size: 150%;
     color: #3b5998;
@@ -122,6 +126,7 @@ body {
 
 
 /*----------  BOUTONS CONFIG & AIDE ----------*/
+.btn-sm{padding: .25rem .5rem !important;}
 .audio3, .audio4{
     width: 60px;
     position: fixed !important;
@@ -156,6 +161,15 @@ body {
     .mx-resp{
         margin-left: 1rem !important;
         margin-right: 1rem !important;
+    }
+    .fz-150{
+        font-size: 130%;
+    }
+    .alert{
+        padding: .25rem .5rem !important;
+    }
+    #notif ul{
+        padding: 0 .2rem 0 1rem !important;
     }
 }
 

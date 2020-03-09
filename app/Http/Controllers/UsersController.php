@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Ajout;
 
 class UsersController extends Controller
 {
@@ -102,15 +103,42 @@ class UsersController extends Controller
         $request->validate([
             'name' => 'required|string|max:50',
             'email' => 'email',
-            'password' => 'required|string',
         ]);
         $parent = new User;
+
+        $mdpTemp = "";
+
+        $min = "abcdefghijklmnopqrstuvwxyz";
+        $caract = $min . "0123456789";
+        $maj = strtoupper($min);
+        $caract_spe = $caract . "&#\@$*%!?";
+
+        //mdp
+        $caract_total = $caract . $maj . $caract_spe;
+        $len_caract_total = strlen($caract_total);
+        for ($i = 0; $i < 11; $i++) {
+            $position_caract = rand(0, $len_caract_total - 1);
+            $mdpTemp .= $caract_total[$position_caract];
+        }
+
+
+
+
         $parent->name = $request->name;
         $parent->email = $request->email;
-        $parent->password = Hash::make($request->password);
+        $parent->password = Hash::make($mdpTemp);
         $parent->message2players = $request->message2players;
         $parent->newsletter = $request->newsletter;
-        $parent->save();
+
+        $title = 'Vous avez été inscrit sur Color-Drop !';
+        $content = $parent->name;
+        $mail = $parent->email;
+        $mailGood = trim($mail);
+
+        Mail::to($mailGood)->send(new Ajout($title, $content, $mdpTemp));
+
+$parent->save();
+
         return redirect()->route('users.index')->with('type', 'success')
                                                 ->with('message', 'L\'utilisateur ' .$parent->name. ' a bien été ajouté.');
     }
@@ -170,12 +198,11 @@ class UsersController extends Controller
         $users = Auth::user();
         $users->name = $value['name'];
         $users->email = $value['email'];
+        $users->newsletter = $value['newsletter'];
 
         $users->save();
         $players = $users->players;
 
-        return view('player.index')->with('players', $players)
-                                    ->with('users', $users);
-
+        return redirect()->route('pindex')->with('info', 'Vos informations ont bien été mises à jour.');
     }
 }

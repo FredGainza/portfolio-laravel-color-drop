@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use DB;
 use Illuminate\Http\Request;
 use App\Models\Player;
 use App\Models\User;
 use App\Models\Game;
 use App\Models\Level;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class PlayerController extends Controller
 {
@@ -122,10 +122,16 @@ class PlayerController extends Controller
         $games = Game::where('player_id', $_GET['id'])->get();
         $durees = Game::where('player_id', $_GET['id'])->get()
                     ->where('level_id', 10);
+        if (isset($games)){
+            $dureeMin = Game::where('player_id', $_GET['id'])->get()->min('duree_game');
+            $partieMin = Game::where('duree_game', $dureeMin)->select('numGame')->distinct()->get();
+        }
         return view('player.resume')->with('player', $player)
                                     ->with('games', $games)
                                     ->with('user', $user)
-                                    ->with('durees', $durees);
+                                    ->with('durees', $durees)
+                                    ->with('dureeMin', $dureeMin)
+                                    ->with('partieMin', $partieMin);
     }
 
     public function select()

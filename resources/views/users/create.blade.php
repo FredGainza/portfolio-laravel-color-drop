@@ -35,51 +35,51 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6 mx-3 mt-3">
-        <h3 class="text-center titre-form mb-3">AJOUTER UN UTILISATEUR</h3>
-            <div class="cadre-form">
-        <form action={{ route('users.store') }} method="POST">
-            @csrf
-            <div class="form-group">
-                <label for="name">Nom</label>
-                <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" placeholder="Saisir le nom">
-                @error('name')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+        <div class="col-lg-6 mx-auto my-3">
+            <h3 class="text-center titre-form mb-3">AJOUTER UN UTILISATEUR</h3>
+                <div class="cadre-form">
+                <form action={{ route('users.store') }} method="POST">
+                    @csrf
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" placeholder="Saisir le nom">
+                        @error('name')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                    <div class="form-group mt-4">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="Saisir l'email">
+                        @error('email')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                    <div class="form-group mt-4">
+                        <label for="message2players">Notifications activées<br></label>
+                        <select name="message2players" id="message2players" class="form-control custom-select @error('message2players') is-invalid @enderror" value="{{ old('message2players') }}">
+                            <option value="" selected>---- Choisir la réponse ----</option>
+                            <option value="1">oui</option>
+                            <option value="0">non</option>
+                        </select>
+                        @error('message2players')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                    <div class="form-group mt-4">
+                        <label for="newsletter">Envoi de mails<br></label>
+                        <select name="newsletter" id="newsletter" class="form-control custom-select @error('newsletter') is-invalid @enderror" value="{{ old('newsletter') }}">
+                            <option value="" selected>---- Choisir la réponse ----</option>
+                            <option value="1">oui</option>
+                            <option value="0">non</option>
+                        </select>
+                        @error('newsletter')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100 mt-3">Ajouter l'utilisateur</button>
+                </form>
             </div>
-            <div class="form-group mt-4">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="Saisir l'email">
-                @error('email')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
-            </div>
-            <div class="form-group mt-4">
-                <label for="">Mot de passe</label>
-                <input type="password" name="password" id="password" class="form-control @error('password') is-invalid @enderror" value="{{ old('password') }}" placeholder="Saisir un mot de passe">
-                    @error('password')
-                        <div class="invalid-feedback">{{ $message }}</div>
-                    @enderror
-            </div>
-            <div class="form-group mt-4">
-                <label for="message2players">Notifications activées<br>(0: non / 1: oui)</label>
-                <input type="number" min="0" max="1" step="1" name="message2players" id="message2players" class="form-control @error('message2players') is-invalid @enderror" value="{{ old('message2players') == "oui" ? 0 :  1 }}">
-                @error('message2players')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
-            </div>
-            <div class="form-group mt-4">
-                <label for="newsletter">Accepte les mails<br>(0: non / 1: oui)</label>
-                <input type="number" min="0" max="1" step="1" name="newsletter" id="newsletter" class="form-control @error('newsletter') is-invalid @enderror" value="{{ old('newsletter') == "oui" ? 0 :  1 }}">
-                @error('newsletter')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
-            </div>
-            <button type="submit" class="btn btn-dark w-100 mt-3">Ajouter l'utilisateur</button>
-
-        </form>
+        </div>
     </div>
-    </div>
-</div>
 </div>
 @endsection

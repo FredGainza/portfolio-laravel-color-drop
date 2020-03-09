@@ -89,11 +89,15 @@ body
 	text-shadow: 0px -2px #BD3E31;
 }
 
-.yellow
-{
-	background-color: #F2CF66;
-	border-bottom: 5px solid #D1B358;
-	text-shadow: 0px -2px #D1B358;
+.yellow{
+    background-color: #c86219;
+    border-bottom: 5px solid #bf5a12;
+    text-shadow: 0px -2px #9a490e;
+}
+.yellow:hover{
+	background-color: #f29f64;
+	border-bottom: 5px solid #f7a76e;
+	text-shadow: 0px -2px #e08442e0;
 }
 
 

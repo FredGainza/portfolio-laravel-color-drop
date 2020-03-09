@@ -6,6 +6,11 @@
         width: 75px;
     }
 
+    .table th, .table td {
+        vertical-align: middle;
+        padding: .5rem .75rem;
+    }
+
     img.col-perso {
         width: 60px;
     }
@@ -17,8 +22,8 @@
     .bg-body {
         background-color: #f8fafc;
     }
-    table thead th {
-        vertical-align: middle !important;
+    table tbody {
+        line-height: 1.2 !important;
     }
 
     @media screen and (max-width: 767px){
@@ -36,10 +41,10 @@
 @section('content')
 <div class="container">
     <div class="row mt-3">
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h1>Liste des utilisateurs</h1>
         </div>
-        <div class="col-md-6 text-right">
+        <div class="col-md-4 text-right">
             <a href="{{ route('users.create') }}"><button class="btn btn-dark mr-0">Ajouter un utilisateur</button></a>
         </div>
     </div>
@@ -73,7 +78,7 @@
                             @csrf
                             @method('DELETE')
                             <input type="hidden" name="_id" id="_id" value="{{$user->id}}">
-                            <button type="submit" class="btn btn-sm" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger mx-3"></i></button>
+                            <button type="submit" class="btn btn" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger"></i></button>
                         </form>
                     </td>
                 </tr>
@@ -85,21 +90,5 @@
         {{-- {{ $users->links() }} --}}
     </div>
 </div>
-@if(session()->has('info'))
-<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
-    <div role="alert" aria-live="assertive" aria-atomic="true" class="toast"
-        style="position: absolute; bottom: 0; right: 50px;" data-autohide="false">
-        <div class="toast-header">
-            <i class="far fa-comment mr-2 info"></i>
-            <strong class="mr-auto">Information :</strong>
-            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="toast-body bg-pers">
-            {{ session('info') }}
-        </div>
-    </div>
-</div>
-@endif
+
 @endsection

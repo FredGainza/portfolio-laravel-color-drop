@@ -29,13 +29,14 @@
         color: #c9c9c9
     }
 </style>
+<link rel="stylesheet" href="../../css/hamburger.css">
 @endsection
 
 @section('content')
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6 mx-3 mt-3">
+        <div class="col-lg-6 mx-auto my-3">
             <h3 class="text-center titre-form mb-3">EDITER UN NIVEAU</h3>
             <div class="cadre-form">
                 <form action="{{ route('levels.update', $level->id) }}" method="POST" >
@@ -71,4 +72,7 @@
         </div>
     </div>
 </div>
+@endsection
+@section('scripts-footer')
+    <script type="text/javascript" src="../../js/hamburger.js"></script>
 @endsection

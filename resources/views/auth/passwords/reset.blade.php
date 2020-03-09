@@ -1,7 +1,5 @@
 @extends('layouts.app')
-@section('scripts-header')
-<link rel="stylesheet" href="../css/style.css">
-@endsection
+
 @section('content')
 
 

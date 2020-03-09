@@ -27,8 +27,8 @@
 
             <form action="" method="post">
                 @csrf
-                <!-- Prénom -->
-                <div class="row">
+                <!-- Nom utilisateur -->
+                <div class="row mt-3">
                     <div class="col-12 flex-init mx-resp">
                         <i class="fas fa-user prefix mx-2"></i>
                         <label for="name">Nom de l'utilisateur</label>
@@ -39,19 +39,47 @@
                     </div>
                 </div>
 
-                <!-- Difficulté -->
-                <div class="row mt-3">
+                <!-- Mail utilisateur -->
+                <div class="row">
                     <div class="col-12 flex-init mx-resp">
-                        <span><i class="far fa-envelope mx-2"></i>Mail de l'utilisateur</span>
-                        <input type="mail" id="email" name="email" class="form-control mt-2 @error('email') is-invalid @enderror" placeholder="Adresse email" value="{{ $users->email }}"><br>
+                        <i class="far fa-envelope mx-2"></i>
+                        <label for="email">Mail de l'utilisateur</label>
+                        <input type="mail" id="email" name="email" class="form-control @error('email') is-invalid @enderror" placeholder="Adresse email" value="{{ $users->email }}">
+                        <div class="text-right my-1">
+                            <a href="{{ route('password.update') }}" target="_blank">Changer le mot de passe</a>
+                        </div>
                         @error('email')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
+                        <br>
+                    </div>
+
+                </div>
+
+                <!-- Recevoir mail -->
+                <div class="row">
+                    <div class="col-12 flex-init mx-resp">
+                        <i class="far fa-paper-plane mx-2"></i>
+                        <label for="newsletter">Recevoir les emails</label>
+                        <select name="newsletter" value="{{ old('newsletter', $users->newsletter) }}" class="custom-select" selected>
+                            <option value="1" <?= $users->newsletter == "1" ? "selected" : ""; ?>>Oui</option>
+                            <option value="0" <?= $users->newsletter == "0" ? "selected" : ""; ?>>Non</option>
+                        </select>
+                        @error('newsletter')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+
+                <!-- BTN Submit -->
+                <div class="row mt-3">
+                    <div class="col-12 flex-init mx-resp">
                         <button class="btn btn-info btn-block mt-3">Modifier</button>
                     </div>
                 </div>
             </form>
 
+            <!-- Link Page précédente -->
             <div class="row mt-3 mb-4">
                 <div class="col-sm-6 offset-sm-3 text-center">
                     <a href="{{ route('pindex') }}">Page précédente</a>

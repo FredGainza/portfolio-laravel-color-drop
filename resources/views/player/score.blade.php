@@ -36,10 +36,12 @@
     }
 
 
+
 /***** COLORS *****/
     .espace{background-color: darkolivegreen !important;}
     .bg-card{background-color:#37696dcc !important;}
     .col-orange{color: hsla(35, 92%, 67%, 0.95);}
+    .text-darkos{color: #07162e;}
 
 
 /***** DISPLAY *****/
@@ -69,7 +71,7 @@
         color: white !important;
         text-decoration: none !important;
     }
-        a:hover.link-unsub {
+    a:hover.link-unsub {
         color: #e7e9e9d1 !important;
     }
     .btn-link{
@@ -142,9 +144,7 @@
         table tbody td {
             font-size: 95%;
         }
-        .nav-link{
-            padding: .3vw .6vw !important;
-        }
+        .nav-link-3{padding: .3vw .6vw !important;}
 
         .nav{
             flex-wrap: nowrap !important;
@@ -175,30 +175,36 @@
 
         <!-- START ROW 2 - AIDE -->
         <div class="row">
-            <div class="col-lg-8 offset-lg-2">
+            <div class="col-lg-8 mx-auto">
                 <div id="notif" class="visibyOff alert bg-card txt-card fade show my-3 mb-0 fz-95" role="alert">
                     <p class="col-orange fz-140 text-center mb-4">Informations concernant ces tableaux</p>
-                    <p class="fz-95 font-weight-bold">La rubrique "détail" comporte 4 types de tableaux différents :</p>
+                    <p class="fz-115p font-weight-bold">La rubrique "détail" comporte quatre types de tableaux différents&nbsp;:</p>
                     <ul class="mx-auto puces">
-                        <li class="text-dark">
-                            <h5 class="text-dark font-weight-bold">Totalité par partie et Totalité par niveau</h5>
-                            <span class="txt-card"><i class="fas fa-caret-right mx-2"></i> Les données de ces 2 tableaux sont les mêmes mais elles sont présentées de manière différente : par partie pour le premier tableau, par niveau pour le second. <br>
-                            <i class="fas fa-caret-right mx-2"></i> Vous disposez des données suivantes : les scores (en nombre d'étoiles), les temps (en secondes) , la date de réalisation de la partie ainsi que le niveau de difficulté choisi pour chacun des niveaux et chacune des parties.</span>
+                        <li class="text-darkos">
+                            <h5 class="text-darkos fz-105r font-weight-bold">Totalité par partie et Totalité par niveau</h5>
+                            <span class="txt-card fz-95r">
+                                <i class="fas fa-caret-right mx-2"></i> Les données de ces deux tableaux sont les mêmes mais elles sont présentées de manière différente : par partie pour le premier tableau, par niveau pour le second. <br>
+                                <i class="fas fa-caret-right mx-2"></i> Vous disposez des données suivantes&nbsp;: les scores (en nombre d'étoiles), les temps (en secondes) , la date de réalisation de la partie ainsi que le niveau de difficulté choisi pour chacun des niveaux et chacune des parties.
+                            </span>
                         </li>
                         <br>
-                        <li class="text-dark">
-                            <h5 class="text-dark font-weight-bold">Regroupement des niveaux par thèmes</h5>
-                            <span class="txt-card"><i class="fas fa-caret-right mx-2"></i> Afin de rendre les données plus lisibles, le troisième tableau regroupe les niveaux en 3 thèmes différent, à savoir :
+                        <li class="text-darkos">
+                            <h5 class="text-darkos fz-105r font-weight-bold">Regroupement des niveaux par thèmes</h5>
+                            <span class="txt-card fz-95r">
+                                <i class="fas fa-caret-right mx-2"></i> Afin de rendre les données plus lisibles, le troisième tableau regroupe les niveaux en trois thèmes différent, à savoir :
                                 <ul class="mx-auto list-pers">
                                     <li><i class="fas fa-share fa-sm mr-2"></i></i><span class="text-theme font-weight-bold">Thème "Couleur"</span> (niveaux 1, 2, 3 et 4)</li>
                                     <li><i class="fas fa-share fa-sm mr-2"></i></i><span class="text-theme font-weight-bold">Thème "Forme"</span> (niveaux 5, 6, 7 et 8)</li>
                                     <li><i class="fas fa-share fa-sm mr-2"></i></i><span class="text-theme font-weight-bold">Thème "Objets"</span> (niveaux 9 et 10)</li>
                                 </ul>
+                            </span>
                         </li>
                         <br>
-                        <li class="text-dark">
-                            <h5 class="text-dark font-weight-bold">Seulement les parties</h5>
-                            <span class="txt-card"><i class="fas fa-caret-right mx-2"></i> Tableau synthétique, avec 2 valeurs pour chaque partie : le score obtenu et le temps réalisé.<br>
+                        <li class="text-darkos">
+                            <h5 class="text-darkos fz-105r font-weight-bold">Seulement les parties</h5>
+                            <span class="txt-card fz-95r">
+                                <i class="fas fa-caret-right mx-2"></i> Tableau synthétique, avec 2 valeurs pour chaque partie&nbsp;: le score obtenu et le temps réalisé.
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -210,16 +216,16 @@
         <!-- LISTE DE CHOIX DES TABLEAUX -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="niveaux-tab" data-toggle="tab" href="#niveaux" role="tab" aria-controls="niveaux" aria-selected="true">Totalité par partie</a>
+                <a class="nav-link active nav-link-3" id="niveaux-tab" data-toggle="tab" href="#niveaux" role="tab" aria-controls="niveaux" aria-selected="true">Totalité par partie</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="group-tab" data-toggle="tab" href="#group" role="tab" aria-controls="group" aria-selected="true">Totalité par niveau</a>
+                <a class="nav-link nav-link-3" id="group-tab" data-toggle="tab" href="#group" role="tab" aria-controls="group" aria-selected="true">Totalité par niveau</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="theme-tab" data-toggle="tab" href="#theme" role="tab" aria-controls="theme" aria-selected="true">Seulement les thèmes</a>
+                <a class="nav-link nav-link-3" id="theme-tab" data-toggle="tab" href="#theme" role="tab" aria-controls="theme" aria-selected="true">Seulement les thèmes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="parties-tab" data-toggle="tab" href="#parties" role="tab" aria-controls="parties" aria-selected="true">Seulement les parties</a>
+                <a class="nav-link nav-link-3" id="parties-tab" data-toggle="tab" href="#parties" role="tab" aria-controls="parties" aria-selected="true">Seulement les parties</a>
             </li>
 
         </ul>

@@ -142,7 +142,7 @@
 									<div style="width:100% !important;">
 										<!--[if (!mso)&(!IE)]><!-->
 										<div
-											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
+											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
 											<!--<![endif]-->
 											<div align="center" class="img-container center autowidth"
 												style="padding-right: 0px;padding-left: 0px;">
@@ -175,7 +175,7 @@
 									<div style="width:100% !important;">
 										<!--[if (!mso)&(!IE)]><!-->
 										<div
-											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
 											<!--<![endif]-->
 											<div align="center" class="img-container center"
 												style="padding-right: 0px;padding-left: 0px;">
@@ -194,10 +194,11 @@
 													<p
 														style="font-size: 20px; line-height: 1.2; text-align: left; word-break: break-word; mso-line-height-alt: 34px; margin-top: 10px; margin-bottom: 0; margin-left: 10px; margin-right: 10px;">
 														<span style="font-size: 28px;"><strong><span
-																	style="font-size: 20x; text-align: center;">Bonjour {!! $contentParent !!} </span></strong></span><br /><br /><span
-															style="font-size: 16px; text-align: left;">Nous vous informons que votre enfant
-                                                            {!! $contentEnfant !!} a terminé une partie sur Color-Drop.<br /><br />
-                                                        Il a obtenu un score de {!! $score !!} étoiles en {!! $temps !!}, avec un niveau de jeu {!! $dif !!} </span></p>
+																	style="font-size: 16px; text-align: center;">Bonjour {!! $content !!} </span></strong></span><br /><br /><span
+                                                            style="font-size: 14px; text-align: left;">Nous vous confirmons votre inscription sur <a href="https://project-color.fgainza.fr">Color-Drop</a> par un de nos administrateurs.<br /><br />
+                                                            Un mot de passe temporaire a été créé pour que vous puissez accéder au site :
+                                                             <strong><span style="color:tomato;">{!! $mdpTemp !!}</span> </strong><br />
+                                                            Pensez à le changer dès votre première connexion.</span></p><br />
 												</div>
 											</div>
 											<!--[if mso]></td></tr></table><![endif]-->
@@ -222,7 +223,7 @@
 									<div style="width:100% !important;">
 										<!--[if (!mso)&(!IE)]><!-->
 										<div
-											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
 											<!--<![endif]-->
 											<div align="center" class="img-container center">
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="" align="center"><![endif]--><img
@@ -238,9 +239,9 @@
 												<div
 													style="font-size: 12px; line-height: 1.5; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 18px;">
 													<p
-														style="font-size: 14px; line-height: 1.5; text-align: center; word-break: break-word; mso-line-height-alt: 21px; margin: 0;">
-														Rendez-vous sur <a href="https://project-color.fgainza.fr">Color-Drop</a> pour des informations plus détaillées !<br /><span
-															style="color: #a8bf6f; font-size: 14px;"><strong><br /></strong></span>
+														style="font-size: 14px; line-height: 1.5; text-align: left; word-break: break-word; mso-line-height-alt: 21px; margin: 0;">
+                                                        <br />Nous vous souhaitons un bon début d'aventure sur  <a href="https://project-color.fgainza.fr">Color-Drop</a>.<br />
+                                                        A très bientôt !!<br /><span style="color: #a8bf6f; font-size: 14px;"><strong><br /></strong></span>
 													</p>
 												</div>
 											</div>
@@ -366,7 +367,7 @@
 									<div style="width:100% !important;">
 										<!--[if (!mso)&(!IE)]><!-->
 										<div
-											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
 											<!--<![endif]-->
 											<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top: 20px; padding-bottom: 0px; font-family: Tahoma, sans-serif"><![endif]-->
 											<div
@@ -393,7 +394,7 @@
 									<div style="width:100% !important;">
 										<!--[if (!mso)&(!IE)]><!-->
 										<div
-											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
 											<!--<![endif]-->
 											<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top: 20px; padding-bottom: 0px; font-family: Tahoma, sans-serif"><![endif]-->
 											<div
@@ -424,13 +425,13 @@
 							<div
 								style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;">
 								<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px"><tr class="layout-full-width" style="background-color:transparent"><![endif]-->
-								<!--[if (mso)|(IE)]><td align="center" width="600" style="background-color:transparent;width:600px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"><![endif]-->
+								<!--[if (mso)|(IE)]><td align="center" width="600" style="background-color:transparent;width:600px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
 								<div class="col num12"
 									style="min-width: 320px; max-width: 600px; display: table-cell; vertical-align: top; width: 600px;">
 									<div style="width:100% !important;">
 										<!--[if (!mso)&(!IE)]><!-->
 										<div
-											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+											style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">
 											<!--<![endif]-->
 											<div align="center" class="img-container center autowidth"
 												style="padding-right: 0px;padding-left: 0px;">

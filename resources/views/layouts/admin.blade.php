@@ -33,7 +33,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="../css/hamburger.css">
     <style>
         body {
             background-color: #e3e3e3;
@@ -105,10 +105,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
                         <ul class="navbar-nav mx-auto">
-                            <li class="mr-5"><a href="{{ route('users.index') }}">Users</a></li>
-                            <li class="mr-5"><a href="{{ route('players.index') }}">Players</a></li>
-                            <li class="mr-5"><a href="{{ route('levels.index') }}">Levels</a></li>
-                            <li class="mr-5"><a href="{{ route('games.index1') }}">Games</a></li>
+                            <li class="nav-link mr-5"><a href="{{ route('users.index') }}">Users</a></li>
+                            <li class="nav-link mr-5"><a href="{{ route('players.index') }}">Players</a></li>
+                            <li class="nav-link mr-5"><a href="{{ route('levels.index') }}">Levels</a></li>
+                            <li class="nav-link mr-5"><a href="{{ route('games.index1') }}">Games</a></li>
                         </ul>
 
                         <!-- Right Side Of Navbar -->
@@ -153,7 +153,7 @@
     </div>
     <div class="container">
         @if(session()->has('type') && session()->has('message'))
-        <div class="alert alert-{{ session('type')}} alert-dismissible fade show w-50 mx-auto my-4" role="alert">
+        <div class="alert alert-{{ session('type')}} alert-dismissible fade show w-100 mx-auto my-4" role="alert">
             {{ session('message')}}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -170,7 +170,7 @@
 
     </div>
 
-    <script type="text/javascript" src="js/hamburger.js"></script>
+    <script type="text/javascript" src="../js/hamburger.js"></script>
     @yield('scripts-footer')
 </body>
 

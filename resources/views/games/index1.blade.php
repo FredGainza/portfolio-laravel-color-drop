@@ -1,6 +1,10 @@
 @extends('layouts.admin')
 @section('scripts-header')
     <style>
+        .table th, .table td {
+            vertical-align: middle;
+            padding: .5rem .75rem;
+        }
         .page-item.active .page-link {
             background-color: #6c757d !important;
             border-color: #7f878e !important;
@@ -40,7 +44,7 @@
 @section('content')
 <div class="container">
     <div class="row mt-3">
-        <h1>Liste des games</h1>
+        <h1>Liste des parties</h1>
     </div>
 
     <div class="row">
@@ -86,7 +90,7 @@
                                     @method('DELETE')
                                     <input type="hidden" name="_id" id="_id" value="{{$i}}">
                                     <input type="hidden" name="_playerId" id="_playerId" value="{{$player->id}}">
-                                    <button type="submit" class="btn btn-sm" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger border-0 bg-body"></i></button>
+                                    <button type="submit" class="btn" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger"></i></button>
                                 </form>
                             </td>
 

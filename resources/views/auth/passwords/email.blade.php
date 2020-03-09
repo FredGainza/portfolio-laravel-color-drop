@@ -34,9 +34,9 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-8 ml-auto">
                                 <button type="submit" class="action-button shadow animate yellow">
-                                    {{ __('Send Password Reset Link') }}
+                                    {{ 'Réinitialisation du mot de passe' }}
                                 </button>
                             </div>
                         </div>

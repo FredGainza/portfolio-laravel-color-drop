@@ -316,14 +316,8 @@ $(document).ready(function () {
     }
     if ($choixJoueur == 'difficile'){
         $difficulte = "fit";
-        $snapTolerance = 0;
+        $snapTolerance = 5;
     }
-
-
-
-    // if ($nbClick >= 1 && window.location.href == "https://project-color.fgainza.fr/pindex") {
-    //     confirm('Si vous quittez le jeu maintenant, la partie en cours sera annulée. \n Etes-vous certain de vouloir quitter le jeu ?');
-    // }
 
     $scoreTotal = $('#scoreCumulInit').text();
     $scoreTotalAfficher = parseInt($scoreTotal);
@@ -332,11 +326,11 @@ $(document).ready(function () {
     $dureePartieParLevel = [];
     $scorePartieParLevel = [];
     $('.ecouteurJeu').click(function () {
-        $nbClick++;
+
         $debut = new Date();
         $debutMs = $debut.getTime();
         $debutPartieMs = $debutMs;
-
+        $nbClick++;
         console.log("Début (en ms) du level "+$nbClick+" : "+$debutMs);
         console.log("le nombre de clicks est de "+$nbClick)
 
@@ -361,6 +355,7 @@ $(document).ready(function () {
             $('#player').fadeIn(600);
             $nbCarres=3;
             $nbCouleurs=3;
+
         } else if ($nbClick === 2){
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
@@ -368,6 +363,7 @@ $(document).ready(function () {
             nbClick = 2;
             $nbCarres=5;
             $nbCouleurs=5;
+
         } else if ($nbClick === 3){
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
@@ -375,6 +371,7 @@ $(document).ready(function () {
             nbClick = 3;
             $nbCarres=7;
             $nbCouleurs=7;
+
         } else if ($nbClick === 4){
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
@@ -383,6 +380,7 @@ $(document).ready(function () {
             $nbCarres=9;
             $nbCouleurs=9;
         }
+
 
         if($nbClick< 5){
             $('#successLevel').removeAttr('src');
@@ -406,18 +404,16 @@ $(document).ready(function () {
             */
 
             // AJOUT DANS LE DOM DES DIV DES CARRES CIBLES ET DES DIV DE LA PALETTE COLOR
-
 			$d=0;
             if ($difficulte == "fit"){
-                if (window.innerWidth<1100){
-                    $d="18%";
+                if (window.innerWidth<1000){
+                    $d="20%";
                 } else {
-                    $d="17%";
+                    $d="18%";
                 }
             } else {
                 $d = "16%";
             }
-
 
             for ($i = 0; $i <$nbCarres; $i++) {
                 $('#cible').append('<canvas id="carre_'+$i+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-2 mb-2"></canvas>'); // DIV CARRES CIBLES
@@ -476,7 +472,6 @@ $(document).ready(function () {
                         .fadeOut(200, function(){
                             $('.reussiteCorrespondance').hide();
                         });
-                        // $(this).effect("bounce", { times: 3 }, "slow")
                         $(this).effect("pulsate")
                         .addClass("correct")
                         .delay(1000)
@@ -541,319 +536,198 @@ $(document).ready(function () {
         ===================================================================================
         */
 
-        // FONCTIONS JS POUR AFFICHER FORMES GEOMETRIQUES EN FONCTION DU NIVEAU
-        $d=0;
-        if ($difficulte == "fit"){
-            if (window.innerWidth<1100){
-                $d="18%";
-            } else {
-                $d="17%";
-            }
-        } else {
-            $d = "16%";
-        }
+        if($nbClick >4 && $nbClick<9){
 
-        function formesCible() {
-            $formesCibles = [];
-            for($i=0; $i<$nbFormes; $i++){
-                $formesCibles[$i] = '<canvas id="formeCible'+$i+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-1"></canvas><br>';
-            }
-        }
+            // FONCTIONS JS POUR AFFICHER FORMES GEOMETRIQUES EN FONCTION DU NIVEAU
 
-        function formesOrigine() {
-            $formes = [];
-            for($i=0; $i<$nbFormes; $i++){
-                $formes[$i] = '<canvas id="forme'+$i+'" width="100" height="100" style ="width :9% ; height : auto ;" class="bg-darky2 mx-3"></canvas><br>';
-            }
-        }
-
-
-        // LEVEL 5 : 3 FIGURES GEOMETRIQUES
-        if ($nbClick === 5) {
-            nbClick = 5;
-            $('#levelNumber').text('Niveau '+$nbClick);
-            $('#successLevel').removeAttr('src');
-            $('#nextLevel').fadeOut(500);
-            $nbFormes = 3;
-            nbFormes = 3;
-            $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
-            $('#containerCible').css("bottom", "10%");
-            $('#cible').css("bottom", "52%");
-            $('#cible').empty();
-            $('#origin').empty();
-            let couleursMelange3 = shuffle(couleursOrder);
-            couleursMelange3 = [].concat(couleursMelange3);
-            let couleursNiv3 = couleursMelange3;
-            console.log(couleursNiv3);
-
-            $x1=[];
-            $x1 = shuffle([0, 1, 2]);
-            $x1 = [].concat($x1);
-
-            formesCible();
-
-            for ($i=0; $i<$formesCibles.length; $i++){
-                $('#cible').append($formesCibles[$x1[$i]]);
-            }
-
-            cercle("formeCible0", "black", couleursNiv3[0]);
-            triangle("formeCible1", "black", couleursNiv3[1]);
-            carre("formeCible2", 10, 10, 80, "black", couleursNiv3[2]);
-
-            formesOrigine();
-
-            $x2=[];
-            $x2 = shuffle($x1);
-            $x2 = [].concat($x2);
-
-            for ($i=0; $i<$formes.length; $i++){
-                $('#origin').append($formes[$x2[$i]]);
-            }
-
-            cercle("forme0", "black", couleursNiv3[0]);
-            triangle("forme1", "black", couleursNiv3[1]);
-            carre("forme2", 10, 10, 80, "black", couleursNiv3[2]);
-
-        // LEVEL 6 : 4 FIGURES GEOMETRIQUES
-        } else if ($nbClick === 6) {
-            nbClick = 6;
-            $('#levelNumber').text('Niveau '+$nbClick);
-            $('#successLevel').removeAttr('src');
-            $('#nextLevel').fadeOut(500);
-            $nbFormes = 4;
-            nbFormes = 4;
-            $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
-            $('#containerCible').css("bottom", "10%");
-            $('#cible').css("bottom", "52%");
-            let couleursMelange4 = shuffle(couleursOrder);
-            couleursMelange4 = [].concat(couleursMelange4);
-            let couleursNiv4 = couleursMelange4;
-            console.log(couleursNiv4);
-            $('#cible').empty();
-            $('#origin').empty();
-
-            $x1=[];
-            $x1 = shuffle([0, 1, 2, 3]);
-            $x1 = [].concat($x1);
-
-            formesCible();
-
-            for ($i=0; $i<$formesCibles.length; $i++){
-                $('#cible').append($formesCibles[$x1[$i]]);
-            }
-
-            cercle("formeCible0", "black", couleursNiv4[0]);
-            etoile("formeCible1", 50, 52, 5, 45, 25, "black", couleursNiv4[1]);
-            cercle("formeCible2", "black", couleursNiv4[2]);
-            triangle("formeCible3", "black", couleursNiv4[3]);
-
-            formesOrigine();
-
-            $x2=[];
-            $x2 = shuffle($x1);
-            $x2 = [].concat($x2);
-
-            for ($i=0; $i<$formes.length; $i++){
-                $('#origin').append($formes[$x2[$i]]);
-            }
-
-            cercle("forme0", "black", couleursNiv4[0]);
-            etoile("forme1", 50, 52, 5, 45, 25, "black", couleursNiv4[1]);
-            cercle("forme2", "black", couleursNiv4[2]);
-            triangle("forme3", "black", couleursNiv4[3]);
-
-
-        // LEVEL 7 : 5 FIGURES GEOMETRIQUES
-        } else if ($nbClick === 7) {
-            nbClick = 7;
-            $('#levelNumber').text('Niveau '+$nbClick);
-            $('#successLevel').removeAttr('src');
-            $('#nextLevel').fadeOut(500);
-            $nbFormes = 5;
-            nbFormes = 5;
-            $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
-            $('#containerCible').css("bottom", "10%");
-            $('#cible').css("bottom", "52%");
-            let couleursMelange5 = shuffle(couleursOrder);
-            couleursMelange5 = [].concat(couleursMelange5);
-            let couleursNiv5 = couleursMelange5;
-            console.log(couleursNiv5);
-            $('#cible').empty();
-            $('#origin').empty();
-
-            $x1=[];
-            $x1 = shuffle([0, 1, 2, 3, 4]);
-            $x1 = [].concat($x1);
-
-            formesCible();
-
-            for ($i=0; $i<$formesCibles.length; $i++){
-                $('#cible').append($formesCibles[$x1[$i]]);
-            }
-
-            cercle("formeCible0", "black", couleursNiv5[0]);
-            etoile("formeCible1", 50, 52, 5, 45, 25, "black", couleursNiv5[1]);
-            cercle("formeCible2", "black", couleursNiv5[2]);
-            triangle("formeCible3", "black", couleursNiv5[3]);
-            carre("formeCible4", 10, 10, 80, "black", couleursNiv5[4]);
-
-            formesOrigine();
-
-            $x2=[];
-            $x2 = shuffle($x1);
-            $x2 = [].concat($x2);
-
-            for ($i=0; $i<$formes.length; $i++){
-                $('#origin').append($formes[$x2[$i]]);
-            }
-
-            cercle("forme0", "black", couleursNiv5[0]);
-            etoile("forme1", 50, 52, 5, 45, 25, "black", couleursNiv5[1]);
-            cercle("forme2", "black", couleursNiv5[2]);
-            triangle("forme3", "black", couleursNiv5[3]);
-            carre("forme4", 10, 10, 80, "black", couleursNiv5[4]);
-
-        // LEVEL 8 : 6 FIGURES GEOMETRIQUES
-        } else if ($nbClick === 8) {
-            nbClick = 8;
-            $('#levelNumber').text('Niveau '+$nbClick);
-            $('#successLevel').removeAttr('src');
-            $('#nextLevel').fadeOut(500);
-            $nbFormes = 6;
-            nbFormes = 6;
-            $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
-            $('#containerCible').css("bottom", "10%");
-            $('#cible').css("bottom", "52%");
-            let couleursMelange6 = shuffle(couleursOrder);
-            couleursMelange6 = [].concat(couleursMelange6);
-            let couleursNiv6 = couleursMelange6;
-            console.log(couleursNiv6);
-            $('#cible').empty();
-            $('#origin').empty();
-
-            $x1=[];
-            $x1 = shuffle([0, 1, 2, 3, 4, 5]);
-            $x1 = [].concat($x1);
-
-            formesCible();
-
-            for ($i=0; $i<$formesCibles.length; $i++){
-                $('#cible').append($formesCibles[$x1[$i]]);
-            }
-
-            cercle("formeCible0", "black", couleursNiv6[0]);
-            etoile("formeCible1", 50, 52, 5, 45, 25, "black", couleursNiv6[1]);
-            cercle("formeCible2", "black", couleursNiv6[2]);
-            triangle("formeCible4", "black", couleursNiv6[3]);
-            carre("formeCible3", 10, 10, 80, "black", couleursNiv6[4]);
-            triangle("formeCible5", "black", couleursNiv6[5]);
-
-            formesOrigine();
-
-            $x2=[];
-            $x2 = shuffle($x1);
-            $x2 = [].concat($x2);
-
-            for ($i=0; $i<$formes.length; $i++){
-                $('#origin').append($formes[$x2[$i]]);
-            }
-
-            cercle("forme0", "black", couleursNiv6[0]);
-            etoile("forme1", 50, 52, 5, 45, 25, "black", couleursNiv6[1]);
-            cercle("forme2", "black", couleursNiv6[2]);
-            triangle("forme4", "black", couleursNiv6[3]);
-            carre("forme3", 10, 10, 80, "black", couleursNiv6[4]);
-            triangle("forme5", "black", couleursNiv6[5]);
-        }
-
-        /*
-        ===================================================================================
-            TECHNIQUE DU DRAG & DROP (LEVELS 5 A 8)
-        ===================================================================================
-        */
-
-        for ($i = 0; $i < $nbFormes; $i++) {
-            $('#forme' + $i).draggable({
-                containment: 'body',
-                snap: '.draggable',
-                snapTolerance: $snapTolerance,
-                revert: 'invalid',
-                cursor: 'pointer',
-            });
-        }
-
-        $nb = 0;
-        for ($i = 0; $i < $nbFormes; $i++) {
-            $('#formeCible' + $i).droppable({
-                accept: '#forme' + $i,
-                tolerance: $difficulte,
-                drop: function (event, ui) {
-                    if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
-                        ion.sound.play("success");
-                    };
-                    $(ui.draggable).remove();
-                    // $('.reussiteCorrespondance').show().fadeIn(500)
-                    $('.reussiteCorrespondance2').show().fadeIn(500)
-                    .delay(1200)
-                    .fadeOut(200, function () {
-                        $('.reussiteCorrespondance2').hide();
-                    });
-                    $(this).effect("pulsate")
-                    .addClass("correct")
-                    .delay(500)
-                    .fadeOut(300, function () {
-                        $(this).remove();
-                        $nb++;
-                        console.log($nb);
-                        if ($nb == $nbFormes) {
-                            $('#containerCible').css("background-image", "none");
-                            $('#containerCible').css("bottom", "80%");
-                            $('#cible').css("bottom", "72%");
-                            $fin = new Date();
-                            $finMs = $fin.getTime();
-                            $duree = ($finMs - $debutMs) / 1000;
-                            $dureePartieParLevel.push($duree);
-                            $('#nextLevel').fadeIn(500);
-
-                            if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
-                                ion.sound.play("success_level");
-                            };
-
-                            // DETERMINATION DU NOMBRE D'ETOILES
-                            $('#successLevel').removeAttr('src');
-                            if ($duree < parseInt($("#3et_level_"+$nbClick).html())){
-                                $nbEtoiles = 3;
-                                $('#successLevel').attr('src', 'img/game/3etoiles-500.png');
-                            } else if ($duree > parseInt($("#2et_level_"+$nbClick).html())){
-                                $nbEtoiles = 1;
-                                $('#successLevel').attr('src', 'img/game/1etoile-500.png');
-                            } else {
-                                $nbEtoiles = 2;
-                                $('#successLevel').attr('src', 'img/game/2etoiles-500.png');
-                            }
-                            $scorePartieParLevel.push($nbEtoiles);
-                            $scoreEtoiles += $nbEtoiles;
-                            $('#scoreAffiche').text($scoreEtoiles);
-                            $scoreTotalAfficher = parseInt($scoreTotal) + parseInt($scoreEtoiles);
-                            $('#scoreCumul').text($scoreTotalAfficher);
-                            console.log("####################################################################################################");
-                            // console.log("Couleurs random pour le niveau "+nbClick+" : "+couleursMelange+nbFormes);
-                            // console.log("Couleurs Niv"+nbClick+" = "+couleurNiv+nbFormes);
-                            console.log("level "+$nbClick);
-                            console.log("Temps réalisé (en s) : " +$duree);
-                            console.log("Nombre d'étoiles gagnées dans ce niveau: "+$nbEtoiles);
-                            console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
-                            console.log("Tab qui renvoie le score par niveau : "+$scorePartieParLevel);
-                            console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
-                            console.log("####################################################################################################");
-                            let score = $nbEtoiles;
-                            document.cookie = 'score'+nbClick+'='+score+'; path=/; expires=' + date;
-                            let temps = $duree;
-                            document.cookie = 'temps'+nbClick+'='+temps+'; path=/; expires=' + date;
-                        }
-                    });
+            function formesCible() {
+                $formesCibles = [];
+                $difficulte =="fit" ? $d = "17%" : $d = "16%";
+                for($z=0; $z<$nbFormes; $z++){
+                    $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-1"></canvas><br>';
                 }
-            });
+            }
+
+            function formesOrigine() {
+                $formes = [];
+                for($z=0; $z<$nbFormes; $z++){
+                    $formes[$z] = '<canvas id="forme'+$z+'" width="100" height="100" style ="width :9% ; height : auto ;" class="bg-darky2 mx-3"></canvas><br>';
+                }
+            }
+
+
+            function suiteRandom() {
+                $suites=[];
+                $x1=[];
+                $x2=[];
+
+                for($y=0; $y<$nbFormes; $y++){
+                    $suites[$y]=$y;
+                }
+            }
+
+            $i = $nbClick;
+            nbClick = $i;
+            couleurTab=[];
+
+            $('#levelNumber').text('Niveau '+$i);
+            $('#successLevel').removeAttr('src');
+            $('#nextLevel').fadeOut(500);
+            $nbFormes = -2+$i;
+            nbFormes = -2+$i;
+            couleurTab[$i-5] = [];
+            $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
+            $('#containerCible').css("bottom", "10%");
+            $('#cible').css("bottom", "52%");
+            $('#cible').empty();
+            $('#origin').empty();
+            couleurTab[$i-5] = shuffle(couleursOrder);
+            couleurTab[$i-5] = [].concat(couleurTab[$i-5]);
+            console.log(couleurTab);
+
+            suiteRandom();
+            $x1 = shuffle($suites);
+            $x1 = [].concat($x1);
+            formesCible();
+            for ($j=0; $j<$formesCibles.length; $j++){
+                $('#cible').append($formesCibles[$x1[$j]]);
+            }
+            $x2 = shuffle($x1);
+            $x2 = [].concat($x2);
+            formesOrigine();
+            for ($j=0; $j<$formes.length; $j++){
+                $('#origin').append($formes[$x2[$j]]);
+            }
+
+            // Affichage random des couleurs et de la position des figures (et random du type de figure pour la dernière)
+            if($i >= 5){
+                cercle("formeCible0", "black", couleurTab[$i-5][0]);
+                triangle("formeCible1", "black", couleurTab[$i-5][3]);
+                carre("formeCible2", 10, 10, 80, "black", couleurTab[$i-5][2]);
+
+                cercle("forme0", "black", couleurTab[$i-5][0]);
+                triangle("forme1", "black", couleurTab[$i-5][3]);
+                carre("forme2", 10, 10, 80, "black", couleurTab[$i-5][2]);
+
+                if ($i >= 6){
+                    etoile("formeCible3", 50, 52, 5, 45, 25, "black", couleurTab[$i-5][1]);
+                    etoile("forme3", 50, 52, 5, 45, 25, "black", couleurTab[$i-5][1]);
+
+
+                    if ($i >= 7){
+                        carre("formeCible4", 10, 10, 80, "black", couleurTab[$i-5][4]);
+                        carre("forme4", 10, 10, 80, "black", couleurTab[$i-5][4]);
+
+                        if ($i == 8){
+                            $random = Math.floor(Math.random() * Math.floor(3))
+                            if ($random == 0){
+                                triangle("formeCible5", "black", couleurTab[$i-5][5]);
+                                triangle("forme5", "black", couleurTab[$i-5][5]);
+                            }
+                            if ($random == 1){
+                                cercle("formeCible5", "black", couleurTab[$i-5][5]);
+                                cercle("forme5", "black", couleurTab[$i-5][5]);
+                            }
+                            if ($random == 2){
+                                etoile("formeCible5", 50, 52, 5, 45, 25, "black", couleurTab[$i-5][5]);
+                                etoile("forme5", 50, 52, 5, 45, 25, "black", couleurTab[$i-5][5]);
+                            }
+
+                        }
+                    }
+
+                }
+
+            }
+
+
+            /*
+            ===================================================================================
+                TECHNIQUE DU DRAG & DROP (LEVELS 5 A 8)
+            ===================================================================================
+            */
+
+            for ($j = 0; $j < $nbFormes; $j++) {
+                $('#forme' + $j).draggable({
+                    containment: 'body',
+                    snap: '.draggable',
+                    snapTolerance: $snapTolerance,
+                    revert: 'invalid',
+                    cursor: 'pointer',
+                });
+            }
+
+            $nb = 0;
+            for ($j = 0; $j < $nbFormes; $j++) {
+                $('#formeCible' + $j).droppable({
+                    accept: '#forme' + $j,
+                    tolerance: $difficulte,
+                    drop: function (event, ui) {
+                        if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
+                            ion.sound.play("success");
+                        };
+                        $(ui.draggable).remove();
+                        // $('.reussiteCorrespondance').show().fadeIn(500)
+                        $('.reussiteCorrespondance2').show().fadeIn(500)
+                        .delay(1200)
+                        .fadeOut(200, function () {
+                            $('.reussiteCorrespondance2').hide();
+                        });
+                        $(this).effect("pulsate")
+                        .addClass("correct")
+                        .delay(500)
+                        .fadeOut(300, function () {
+                            $(this).remove();
+                            $nb++;
+                            console.log($nb);
+                            if ($nb == $nbFormes) {
+                                $('#containerCible').css("background-image", "none");
+                                $('#containerCible').css("bottom", "80%");
+                                $('#cible').css("bottom", "72%");
+                                $fin = new Date();
+                                $finMs = $fin.getTime();
+                                $duree = ($finMs - $debutMs) / 1000;
+                                $dureePartieParLevel.push($duree);
+                                $('#nextLevel').fadeIn(500);
+
+                                if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
+                                    ion.sound.play("success_level");
+                                };
+
+                                // DETERMINATION DU NOMBRE D'ETOILES
+                                $('#successLevel').removeAttr('src');
+                                if ($duree < parseInt($("#3et_level_"+$nbClick).html())){
+                                    $nbEtoiles = 3;
+                                    $('#successLevel').attr('src', 'img/game/3etoiles-500.png');
+                                } else if ($duree > parseInt($("#2et_level_"+$nbClick).html())){
+                                    $nbEtoiles = 1;
+                                    $('#successLevel').attr('src', 'img/game/1etoile-500.png');
+                                } else {
+                                    $nbEtoiles = 2;
+                                    $('#successLevel').attr('src', 'img/game/2etoiles-500.png');
+                                }
+                                $scorePartieParLevel.push($nbEtoiles);
+                                $scoreEtoiles += $nbEtoiles;
+                                $('#scoreAffiche').text($scoreEtoiles);
+                                $scoreTotalAfficher = parseInt($scoreTotal) + parseInt($scoreEtoiles);
+                                $('#scoreCumul').text($scoreTotalAfficher);
+                                console.log("####################################################################################################");
+                                console.log("level "+$nbClick);
+                                console.log("Temps réalisé (en s) : " +$duree);
+                                console.log("Nombre d'étoiles gagnées dans ce niveau: "+$nbEtoiles);
+                                console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
+                                console.log("Tab qui renvoie le score par niveau : "+$scorePartieParLevel);
+                                console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
+                                console.log("####################################################################################################");
+                                let score = $nbEtoiles;
+                                document.cookie = 'score'+nbClick+'='+score+'; path=/; expires=' + date;
+                                let temps = $duree;
+                                document.cookie = 'temps'+nbClick+'='+temps+'; path=/; expires=' + date;
+                            }
+                        });
+                    }
+                });
+            };
         };
 
         /*
@@ -866,27 +740,47 @@ $(document).ready(function () {
         $ordre = [0, 1, 2, 3, 4, 5]
         $desordre = shuffle($ordre);
         $desordreFix = [].concat($desordre);
+        $coul_ok=[['orange_ok', 'vert_ok'], ['jaune_ok', 'rouge_ok']]
 
-        // LEVEL 9 : 6 FRUITS AVEC COULEURS ORANGE ET VERT
-        if ($nbClick === 9) {
-            nbClick = 9;
-            $('.rowFlex').css('flex-wrap', 'nowrap');
-            $('.cible').css('position', 'static').css('width', '100%').css('margin-top', '3vw');
-
+        if($nbClick > 8 && $nbClick < 11){
             $('#levelNumber').text('Niveau '+$nbClick);
-            $('#successLevel').removeAttr('src');
             $('#nextLevel').fadeOut(500);
-            $('body').css("background-image", "url('../img/fond-sans-soleil.png')");
-            $('#cible').removeClass('align-items-center justify-content-center');
-            $('#cible').append('<div id="panier_1" class="draggable panier-gauche d-inline-block"><img src="../img/game/orange_ok.png" width="200" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
-            $('#cible').append('<div id="panier_2" class="draggable panier-droite d-inline-block"><img src="../img/game/vert_ok.png" width="200" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
+            $('#successLevel').removeAttr('src');
+
+            if ($nbClick === 9) {
+                nbClick = 9;
+                $('.rowFlex').css('flex-wrap', 'nowrap');
+				$('#containerCible').css('bottom', '10%').css('width', '90%').css('right', '5%');
+                $('.cible').css('position', 'static').css('width', '100%').css('margin-top', '3vw');
+                $('body').css("background-image", "url('../img/fond-sans-soleil.png')");
+                $('#cible').removeClass('align-items-center justify-content-center');
+            }
+
+            if ($nbClick === 10) {
+                nbClick = 10;
+                $('#containerCible').css("bottom", "10%").css('width', '90%').css('right', '5%');
+                $('#cible').css("bottom", "52%");
+                $('#panier_1').empty();
+                $('#panier_2').empty();
+            }
+
+            $('#cible').append('<div id="panier_1" class="draggable panier-gauche d-inline-block"><img src="../img/game/'+$coul_ok[$nbClick-9][0]+'.png" width="200" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
+            $('#cible').append('<div id="panier_2" class="draggable panier-droite d-inline-block"><img src="../img/game/'+$coul_ok[$nbClick-9][1]+'.png" width="200" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
             $('.correct').css('display', 'none');
 
             $('#origin').empty();
             $panier1Drop = [];
             $panier2Drop = [];
             $('#origin').removeClass('origin').addClass('originFruits');
-            $fruitsImg = ['vert-avocat', 'vert-citron', 'vert-kiwi', 'orange-ananas', 'orange-carotte', 'orange-orange'];
+
+            if ($nbClick === 9) {
+                $fruitsImg = ['vert-avocat', 'vert-citron', 'vert-kiwi', 'orange-ananas', 'orange-carotte', 'orange-orange'];
+            }
+
+            if ($nbClick === 10) {
+                $fruitsImg = ['jaune-ananas', 'jaune-banane', 'jaune-citron', 'rouge-pomme', 'rouge-cerises', 'rouge-fraise'];
+            }
+
             for ($i = 0; $i < $nbFruits; $i++) {
                 $('#origin').append('<img id="fruitCible_' + $i + '" src="../img/game/fruits/' + $fruitsImg[$desordreFix[$i]] + '.png" class="maxHeigth mx-3" width="50" alt="Fruit"></div>');
                 $x = ($('#fruitCible_' + $i).attr('src').slice(19, 22));
@@ -894,7 +788,7 @@ $(document).ready(function () {
                 $x === 'ora' ? $panier1Drop.push($id) : $panier2Drop.push($id);
             }
             for ($i = 0; $i < $nbFruits; $i++) {
-                if (($('#fruitCible_' + $i).attr('src').slice(19, 22)) == 'ora'){
+                if (($('#fruitCible_' + $i).attr('src').slice(19, 22)) == 'ora' || ($('#fruitCible_' + $i).attr('src').slice(19, 22)) == 'jau') {
                     $('#fruitCible_' + $i).addClass('drop1');
                 }else{
                     $('#fruitCible_' + $i).addClass('drop2');
@@ -902,39 +796,6 @@ $(document).ready(function () {
             }
         }
 
-        // LEVEL 10 : 6 FRUITS AVEC COULEURS JAUNE ET ROUGE
-        if ($nbClick === 10) {
-            nbClick = 10;
-            $('#levelNumber').text('Niveau '+$nbClick);
-            $('#nextLevel').fadeOut(500);
-            $('#containerCible').css("bottom", "10%");
-            $('#cible').css("bottom", "52%");
-            $('#successLevel').removeAttr('src');
-            $('#panier_1').empty();
-            $('#panier_2').empty();
-            $('#cible').append('<div id="panier_1" class="draggable panier-gauche d-inline-block"><img src="../img/game/jaune_ok.png" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
-            $('#cible').append('<div id="panier_2" class="draggable panier-droite d-inline-block"><img src="../img/game/rouge_ok.png" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
-            $('.correct').css('display', 'none');
-
-            $('#origin').empty();
-            $panier1Drop = [];
-            $panier2Drop = [];
-            $('#origin').removeClass('origin').addClass('originFruits');
-            $fruitsImg = ['jaune-ananas', 'jaune-banane', 'jaune-citron', 'rouge-pomme', 'rouge-cerises', 'rouge-fraise'];
-            for ($i = 0; $i < $nbFruits; $i++) {
-                $('#origin').append('<img id="fruitCible_' + $i + '" src="../img/game/fruits/' + $fruitsImg[$desordreFix[$i]] + '.png" class="maxHeigth mx-3" width="50" alt="Fruit"></div>');
-                $x = ($('#fruitCible_' + $i).attr('src').slice(19, 22));
-                $id = "fruitCible_" + $i;
-                $x === 'jau' ? $panier1Drop.push($id) : $panier2Drop.push($id);
-            }
-            for ($i = 0; $i < $nbFruits; $i++) {
-                if (($('#fruitCible_' + $i).attr('src').slice(19, 22)) == 'jau'){
-                    $('#fruitCible_' + $i).addClass('drop1');
-                }else{
-                    $('#fruitCible_' + $i).addClass('drop2');
-                }
-            }
-        }
 
         /*
         ===================================================================================
@@ -983,7 +844,7 @@ $(document).ready(function () {
 
                             if($nbClick <= 10){
                                 if($nbClick == 9){
-                                    $('#containerCible').css("bottom", "80%");
+                                    $('#containerCible').css("bottom", "80%").css("right", "80%");
                                     $('#cible').css("bottom", "72%");
                                     $('#nextLevel').fadeIn(500);
                                     if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
@@ -1034,7 +895,6 @@ $(document).ready(function () {
                                     ion.sound.play("success_game");
                                 }
 
-
                                 /*
                                 ===================================================================================
                                     ANIMATION FIN DE JEU
@@ -1081,8 +941,6 @@ $(document).ready(function () {
                                     FIN ANIMATION FIN DE JEU
                                 ===================================================================================
                                 */
-
-
                                 for ($i=0; $i<$dureePartieParLevel.length; $i++){
                                     $dureePartie += $dureePartieParLevel[$i];
                                 }
@@ -1111,8 +969,8 @@ $(document).ready(function () {
                     });
                 }
             });
-        };
-    })
 
+        }
+    })
 });
 /**********************************************************************/

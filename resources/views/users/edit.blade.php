@@ -35,7 +35,7 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6 mx-3 mt-3">
+        <div class="col-lg-6 mx-auto my-3">
         <h3 class="text-center titre-form mb-3">EDITER UN UTILISATEUR</h3>
             <div class="cadre-form">
         <form action="{{ route('users.update', $user->id) }}" method="POST">
@@ -57,15 +57,21 @@
                 @enderror
             </div>
             <div class="form-group mt-4">
-                <label for="message2players">Notifications activées<br>(0: non / 1: oui)</label>
-                <input type="number" min="0" max="1" step="1" name="message2players" id="message2players" class="form-control @error('message2players') is-invalid @enderror" value="{{ old('message2players', $user->message2players) == "oui" ? 0 :  1 }}">
+                <label for="message2players">Notifications activées<br></label>
+                <select name="message2players" id="message2players" class="custom-select form-control @error('message2players') is-invalid @enderror" value="{{ old('message2players', $user->message2players == 1 ? 'oui' : 'non')}}" selected>
+                    <option value="1" <?= $user->message2players == 1 ? "selected" : ""; ?>>Oui</option>
+                    <option value="0" <?= $user->message2players == 0 ? "selected" : ""; ?>>Non</option>
+                </select>
                 @error('message2players')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
             <div class="form-group mt-4">
-                <label for="newsletter">Accepte les mails<br>(0: non / 1: oui)</label>
-                <input type="number" min="0" max="1" step="1" name="newsletter" id="newsletter" class="form-control @error('newsletter') is-invalid @enderror" value="{{ old('newsletter', $user->newsletter) == "oui" ? 0 :  1 }}">
+                <label for="newsletter">Accepte les mails<br></label>
+                <select name="newsletter" id="newsletter" class="custom-select form-control @error('newsletter') is-invalid @enderror" value="{{ old('newsletter', $user->newsletter == 1 ? 'oui' : 'non')}}" selected>
+                    <option value="1" <?= $user->newsletter == 1 ? "selected" : ""; ?>>Oui</option>
+                    <option value="0" <?= $user->newsletter == 0 ? "selected" : ""; ?>>Non</option>
+                </select>
                 @error('newsletter')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror

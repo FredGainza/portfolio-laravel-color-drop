@@ -95,6 +95,7 @@ for ($j = 0; $j < $nbParties; $j++) {
     <!-- Google font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
     <link rel="stylesheet" href="css/parents.css">
+    <link rel="stylesheet" href="css/hamburger.css">
     <style>
         body {
             margin: 0 !important;
@@ -136,6 +137,7 @@ for ($j = 0; $j < $nbParties; $j++) {
 /***** Colors *****/
         .bg-card{background-color:#37696dcc !important;}
         .txt-card{color: #e6e6e6;}
+        .text-darkos{color: #07162e;}
         .espace {
             background-color: darkolivegreen !important;
         }
@@ -208,6 +210,9 @@ for ($j = 0; $j < $nbParties; $j++) {
             font-size: 120%;
             color: #f8ea91;
         }
+        .chiffrePartieNum{
+            color: #f8ea91;
+        }
 
 /*
 ==========================================
@@ -276,8 +281,8 @@ for ($j = 0; $j < $nbParties; $j++) {
     <nav class="navbar navbar-expand-md bg-opacite">
         <div class="container">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+            <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
             </button>
             <a href="{{ route('pindex') }}" class="mr-10p taille-hamb"><img src="../../../img/logo-color2.png" alt="Logo Color-Drop" class="img-fluid"></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -333,19 +338,19 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             <!-- START ROW 1 - ENTETE (précédent + aide) -->
             <div class="row mb-3 mt-1">
-                <a class="btn btn-small btn-dark fz-80p" href="{{ route('pindex') }}"><i class="fas fa-angle-double-left mr-2"></i>Précédent</a>
-                <button id="explication" class="btn btn-light btn-sm mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
+                <a class="btn btn-sm btn-dark fz-80p" href="{{ route('pindex') }}"><i class="fas fa-angle-double-left mr-2"></i>Précédent</a>
+                <button id="explication" class="btn btn-light btn-sm fz-80p mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
             </div>
             <!-- END ROW 1 - ENTETE (précédent + aide) -->
 
 
             <!-- START ROW 2 - AIDE -->
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div class="col-lg-8 mx-auto">
                     <div id="notif" class="visibyOff alert bg-card txt-card fade show my-2 mb-0 fz-95" role="alert">
-                        <p class="col-orange fz-140 text-center mb-4">Données synthétiques : statistiques et graphiques</p>
-                        <p class="font-weight-bold">La rubrique "résumé" est constituée de 2 éléments :</p>
-                        <ul class="text-intro mx-3">
+                        <p class="col-orange fz-140 text-center mb-4">Données synthétiques&nbsp;: statistiques et graphiques</p>
+                        <p class="font-weight-bold fz-115p text-darkos">La rubrique "résumé" est constituée de deux éléments&nbsp;:</p>
+                        <ul class="text-intro mx-3 fz-95r">
                             <li class="pl-2">
                                 Des statistiques qui résument en quelques chiffres-clés l'activité de votre enfant sur Color-Drop<br>
                             </li>
@@ -354,11 +359,12 @@ for ($j = 0; $j < $nbParties; $j++) {
                                 Des graphiques qui permettent de visualiser plus facilement les données des tableaux de la rubrique "détail". <br>
                             </li>
                         </ul>
-                        <span class="pl-2">
-                            <b>Remarque :</b></span>
-                            <p class="ml-4 pl-4">Vous pouvez modifier ces graphiques en excluant certaines données. Il vous suffit pour cela de cliquer sur le (ou les) jeu(x) de données à exclure dans la partie située sous le graphique.</p>
-                        <span class="pl-2">
-                            <i>Exemple :</i>
+                        <span class="pl-2 fz-95r text-darkos">
+                            <b>Remarque&nbsp;:</b>
+                        </span>
+                        <p class="ml-4 pl-4">Vous pouvez modifier ces graphiques en excluant certaines données. Il vous suffit pour cela de cliquer sur le (ou les) jeu(x) de données à exclure dans la partie située sous le graphique.</p>
+                        <span class="pl-4">
+                            <i>Exemple&nbsp;:</i>
                         </span>
                         <p  class="ml-4 pl-4">Votre enfant a réalisé 5 parties, mais vous ne voulez que seules les 3 dernières parties soient représentées graphiquement. Il vous suffit alors de cliquer sur "Partie 1" et sur "Partie 2" pour qu'elles n'apparaissent pas sur le graphique.</p>
                     </div>
@@ -409,9 +415,9 @@ for ($j = 0; $j < $nbParties; $j++) {
                                     $partDifficile = round($difficile/$nbParties * 100);
 
                             @endphp
-                            <span class="ml-4">- Niveau facile : </span><span class="chiffresCles">{{$partFacile}}%</span><br>
-                            <span class="ml-4">- Niveau moyen : </span><span class="chiffresCles">{{$partMoyen}}%</span><br>
-                            <span class="ml-4">- Niveau difficile : </span><span class="chiffresCles">{{$partDifficile}}%</span><br>
+                            <span class="ml-4">- Niveau facile&nbsp;: </span><span class="chiffresCles">{{$partFacile}}%</span><br>
+                            <span class="ml-4">- Niveau moyen&nbsp;: </span><span class="chiffresCles">{{$partMoyen}}%</span><br>
+                            <span class="ml-4">- Niveau difficile&nbsp;: </span><span class="chiffresCles">{{$partDifficile}}%</span><br>
                             @php
                                     }else{
                             @endphp
@@ -429,6 +435,20 @@ for ($j = 0; $j < $nbParties; $j++) {
                                 @else
                                 <span class="chiffresCles">--</span>
                                 @endif
+                            </li>
+
+                            {{-------- CALCUL MEILLEUR TEMPS --------}}
+                            <li class="my-2"><i class="fas fa-angle-right icon"></i>Meilleur temps:&nbsp;:&nbsp;
+                                <span class="chiffresCles">
+                                    @if ($player->nbGames !== 0)
+                                        {{floor($dureeMin / 60)}}m et {{($dureeMin % 60)}}s
+                                    @else
+                                        --
+                                    @endif
+                                </span>
+                                    @if ($player->nbGames !== 0)
+                                        <span class="ml-1 chiffrePartieNum">(partie&nbsp;{{$partieMin[0]['numGame']}})</span>
+                                    @endif
                             </li>
 
                             {{-------- CALCUL DUREE TOTALE DE JEU --------}}
@@ -463,6 +483,8 @@ for ($j = 0; $j < $nbParties; $j++) {
                                     if ($x > 60) {
                                         echo '<span class="chiffresCles">' . round(($x / 60)) . 'm et ' . round(($x % 60)) . 's</span>';
                                     }
+                                } else {
+                                    echo '--';
                                 }
                                 ?>
                             </li>
