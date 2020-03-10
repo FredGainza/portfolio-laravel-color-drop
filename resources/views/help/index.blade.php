@@ -182,34 +182,6 @@
                         </div>
 
                         <div class="card ml--2">
-                            <div class="card-header" id="headingOne">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    <li class="links fz-110">L'ajout et la configuration de joueurs</li>
-                                </button>
-                            </h3>
-                            </div>
-
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body bg-card txt-card">
-                                    <p class="font-weight-bold text-grise fz-105r">Méthode à appliquer lorsque l'on s'inscrit sur Color-Drop :</p>
-                                    <ul class="text-intro mx-3 puces fz-95r">
-                                        <li class="pl-2">
-                                            Commencez par enregistrer un joueur en cliquant sur "ajouter un enfant". <br>
-                                            Vous pourrez alors choisir un prénom et un degré de difficulté (facile, moyen, difficile) : plus le mode est facile, plus l'élément bougé par le joueur va facilement correspondre avec son élément-cible. <br>
-                                            Nous vous conseillons de débuter avec le mode facile, puis de modifier si besoin (vous pouvez changer le niveau de difficulté entre chaque partie en cliquant sur "modifier", à la ligne de votre enfant).
-                                        </li>
-                                        <br>
-                                        <li class="pl-2">
-                                            Vous avez la possibilité d'enregistrer plusieurs joueurs, en suivant la même démarche. <br>
-                                            Il vous faudra dans ce cas sélectionner l'enfant qui jouera la prochaine partie en cochant la case correspondant à son nom.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card ml--2">
                             <div class="card-header" id="headingOneBis">
                             <h3 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOneBis" aria-expanded="false" aria-controls="collapseOneBis">

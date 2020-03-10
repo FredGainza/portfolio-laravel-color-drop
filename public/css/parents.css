@@ -26,7 +26,11 @@ body {
 .fz-110p{font-size: 110% !important;}
 .fz-115p{font-size: 115% !important;}
 .fz-95r{font-size: .95rem !important;}
+.fz-1r{font-size: 1rem !important;}
 .fz-105r{font-size: 1.05rem !important;}
+.fz-110r{font-size: 1.1rem !important;}
+
+.va-middle{vertical-align: middle !important;}
 
 
 /*----------  COLORS - BACKGROUNDS ----------*/
@@ -48,6 +52,13 @@ body {
     background-color: olive;
 }
 .color-titre-aide{color: #283158;}
+.btn-dark:active {border :none !important;}
+.navbar-nav a.text-dashboard  {
+    color: #782002 !important;
+}
+.navbar-nav a.text-dashboard:hover  {
+    color: #7920028f !important;
+}
 
 
 /*----------  MARGIN ----------*/
@@ -102,6 +113,9 @@ body {
     color: #3b5998;
     font-weight: bolder;
 }
+.text-nowrap-resp{
+    white-space: nowrap !important;
+}
 
 /*----------  NAVBAR ----------*/
 .navbar-nav a {
@@ -126,7 +140,7 @@ body {
 
 
 /*----------  BOUTONS CONFIG & AIDE ----------*/
-.btn-sm{padding: .25rem .5rem !important;}
+.btn-sm{padding: .25rem .8rem !important;}
 .audio3, .audio4{
     width: 60px;
     position: fixed !important;
@@ -149,6 +163,12 @@ body {
 #              RESPONSIVE                #
 ==========================================
 */
+
+@media screen and (max-width: 475px){
+    .text-nowrap-resp{
+        white-space: normal !important;
+    }
+}
 @media screen and (max-width: 767px){
     .taille-hamb{
         width: 50%;

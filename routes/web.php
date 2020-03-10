@@ -36,7 +36,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/admin', 'AdminController@admin')
+Route::get('/admin', 'AdminController@admin')->name('admin')
     ->middleware ('is_admin');
 
     Route::post('/games/', 'GamesController@destroy')->name('games.destroy')
@@ -81,9 +81,9 @@ Route::get('/pscore', 'PlayerController@score');
 Route::get('games', 'PlayerController@select')->name('games');
 // Route::post('games', 'PlayerController@select');
 
-Route::get('/pscore', 'PlayerController@score');
+Route::get('/pscore', 'PlayerController@score')->name('pscore');
 
-Route::get('/presume', 'PlayerController@resume');
+Route::get('/presume', 'PlayerController@resume')->name('presume');
 Route::get('/pmsg', 'UsersController@msg2players')->name('msg2players');
 Route::get('/pnewsletter', 'UsersController@newsletter')->name('newsletter');
 

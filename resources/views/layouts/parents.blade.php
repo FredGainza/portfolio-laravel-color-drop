@@ -60,6 +60,11 @@
                         <li class="nav-link mr-5">
                             <a href="{{ route('help') }}">Aide</a>
                         </li>
+                        @if (Auth::user()->type == 'admin')
+                            <li class="nav-link mr-5">
+                                <a href="{{ route('admin') }}" class="text-dashboard">DASHBOARD</a>
+                            </li>
+                        @endif
                     </ul>
 
                     <!-- Right Side Of Navbar -->
