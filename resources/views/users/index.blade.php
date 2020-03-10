@@ -25,6 +25,9 @@
     table tbody {
         line-height: 1.2 !important;
     }
+    table thead th {
+        vertical-align: middle !important;
+    }
 
     @media screen and (max-width: 767px){
         .table th, .table td {

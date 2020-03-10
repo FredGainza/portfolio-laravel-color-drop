@@ -163,7 +163,8 @@
         <!-- START ROW 1 - ENTETE (précédent + aide + Titre) -->
         <div class="row w-100 pt-0 mt-0 mb-3">
             <div class="col-md-6 entete-resp">
-                <a href="{{ route('pindex') }}" class="btn btn-light btn-sm btn-previous mr-10p-resp text-dark"><i class="fas fa-angle-double-left mr-2"></i>Précédent</a>
+                <a href="{{ route('pindex') }}" class="btn btn-light btn-sm btn-previous mr-10p-resp text-dark">Accueil</a>
+                <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="btn btn-light btn-sm btn-previous mr-10p-resp text-dark">Resumé</a>
                 <button id="explication" class="btn btn-light btn-sm mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
             </div>
             <div class="col-md-6 m-resp-titre">

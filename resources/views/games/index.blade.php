@@ -145,7 +145,7 @@
                             <h3 class="reussiteCorrespondance2 text-left animated jackInTheBox duration-2s">Bonne
                                 réponse ! &#128515;</h3>
                             <img id="successLevel" src="" class="successLevel img-fluid animated flash delay-3s infinite pulse pvw-t-3"
-                                alt="">
+                                alt="Animation relative à la réussite d'un niveau">
                             <!-- Affichage du message : Niveau Suivant -->
                             <div class="containerLevelJeu pvw-t-1">
                                 <img id="nextLevel" src="img/suivant.png" width="300" class="jeuLevel ecouteurJeu mx-auto animated infinite jello img-fluid">

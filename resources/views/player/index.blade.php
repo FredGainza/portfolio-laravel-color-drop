@@ -247,9 +247,6 @@
         vertical-align: middle !important;
         font-size: .9rem !important;
     }
-    table.table th:last-child {
-        width: 25%;
-    }
     table.table2 td:last-child {
         padding-bottom: 0 !important;
     }
@@ -621,7 +618,7 @@
                         <a href="https://project-color.fgainza.fr/padd" class="btn btn-info btn-sm ml-auto mr-3 my-1"><i class="material-icons">&#xE147;</i> <span class="line-h-1 my-auto">Ajouter un enfant</span></a>
                     </div>
                 </div>
-                <div class="table-responsive">
+                <div class="table-responsive-sm">
                     <table class="table table2 table-striped-perso table-sm">
                         {{-- THEAD --}}
 
@@ -640,7 +637,7 @@
                                     <th>Niveau de difficulté</th>
                                     <th>Nombre de parties</th>
                                     <th>Score cumulé</th>
-                                    <th style="width: 10%;">Score moyen</th>
+                                    <th class="pr-1">Score moyen</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -664,20 +661,23 @@
                                     </td>
                                 </tr>
                                 <tr class="line-h-5">
-                                    <td></td>
-                                    <td class="text-nowrap text-left">
-                                        <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-chart-bar text-info mr-1"></i>Resumé</a> &nbsp;
+
+                                    <td colspan="6" class="text-nowrap-resp w-100 px-2">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                            <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="mb-3 text-nowrap line-h-2-5"><i class="fas fa-chart-line text-info fa-lg mr-2 fz-110r"></i>Resumé</a> &nbsp;
+                                        </div>
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                            <a href="https://project-color.fgainza.fr/pscore?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-file-alt text-success mr-2 fz-1r"></i>Détail</a> &nbsp;
+                                        </div>
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                            <a href="https://project-color.fgainza.fr/pedit?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-edit text-dark mr-1"></i>Modifier</a> &nbsp;
+                                        </div>
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                            <a href="https://project-color.fgainza.fr/pdelete?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="far fa-times-circle text-danger mr-1 fa-lg fz-105r"></i>Supprimer</a>&nbsp;
+                                        </div>
                                     </td>
-                                    <td class="text-nowrap text-center">
-                                        <a href="https://project-color.fgainza.fr/pscore?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-file-alt text-success mr-1"></i>Détail</a> &nbsp;
-                                    </td>
-                                    <td class="text-nowrap text-center">
-                                        <a href="https://project-color.fgainza.fr/pedit?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-edit text-dark mr-1"></i>Modifier</a> &nbsp;
-                                    </td>
-                                    <td class="text-nowrap text-right">
-                                        <a href="https://project-color.fgainza.fr/pdelete?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="far fa-times-circle text-danger mr-1"></i>Supprimer</a>&nbsp;
-                                    </td>
-                                    <td></td>
+
+
                                 </tr>
                             </tbody>
                             @endforeach

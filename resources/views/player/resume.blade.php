@@ -338,7 +338,8 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             <!-- START ROW 1 - ENTETE (précédent + aide) -->
             <div class="row mb-3 mt-1">
-                <a class="btn btn-sm btn-dark fz-80p" href="{{ route('pindex') }}"><i class="fas fa-angle-double-left mr-2"></i>Précédent</a>
+                <a class="btn btn-sm btn-dark fz-80p" href="{{ route('pindex') }}">Accueil</a>
+                <a class="btn btn-sm btn-dark fz-80p mx-3" href="https://project-color.fgainza.fr/pscore?id={{$player->id}}">Détail</a>
                 <button id="explication" class="btn btn-light btn-sm fz-80p mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
             </div>
             <!-- END ROW 1 - ENTETE (précédent + aide) -->
