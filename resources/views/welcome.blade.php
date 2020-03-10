@@ -45,12 +45,12 @@
     </div>
 
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <!-- stats.js lib -->
-    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <!-- star JS -->
     <script src="js/star.js"></script>
-    <!-- Cookjie Bar -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?always=1"></script>
+    <!-- Cookie Bar -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?remember=1%20days"></script>
 </body>
 </html>
