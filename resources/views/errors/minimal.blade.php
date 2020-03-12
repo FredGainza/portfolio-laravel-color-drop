@@ -49,16 +49,17 @@
     }
 
     .code {
-        border-right: 2px solid;
-        font-size: 26px;
-        padding: 0 15px 0 15px;
+        font-size: 1.8vw;
+        padding: 10px 15px 10px 15px;
         text-align: center;
     }
 
     .message {
-        font-size: 18px;
+        font-size: 1.8vw;
         text-align: center;
     }
+
+    .fz-150{margin-left: 0 !important;}
 </style>
  @yield('scripts-header')
 </head>
@@ -124,11 +125,11 @@
         </nav>
 
         <div class="flex-center mt-2">
-            <div class="code">
+            <div class="code color-msg">
                 @yield('code')
             </div>
 
-            <div class="message" style="padding: 10px;">
+            <div class="message color-msg" style="padding: 10px;">
                 @yield('message')
             </div>
         </div>

@@ -13,8 +13,14 @@
     .bg-opacite {
         background-color: ##fdd250a3 !important;
     }
+    .color-msg{
+        color: #f7f8f8 !important;
+        background-color: #fcb82f !important;
+    }
+
     </style>
 @endsection
 @section('title', 'Interdit')
 @section('code', '403')
+@section('message', 'Vous n\'êtes pas autorisé à accéder à cette ressource')
 

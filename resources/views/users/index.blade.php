@@ -69,7 +69,7 @@
                 @foreach($users as $user)
                 <tr>
                     <td>{{ $user->id }}</td>
-                    <td>{{ $user->name }}</td>
+                    <td>{{ ucfirst($user->name) }}</td>
                     <td>{{ $user->email }}</td>
                     <td><?= $user->message2players == 1 ? "oui" : "non"; ?></td>
                     <td><?= $user->newsletter == 1 ? "oui" : "non"; ?></td>

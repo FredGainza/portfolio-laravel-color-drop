@@ -13,6 +13,11 @@
     .bg-opacite {
         background-color: hsl(210, 6%, 73.7%) !important;
     }
+    .color-msg{
+        color: #f7f8f8 !important;
+        background-color: #07213a !important;
+    }
+
     </style>
 @endsection
 @section('title', 'Non trouvé')

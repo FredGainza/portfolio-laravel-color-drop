@@ -44,7 +44,7 @@
 
             <div class="form-group">
                 <label for="name">Nom</label>
-                <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name', $user->name) }}" placeholder="Saisir le nom">
+                <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name', ucfirst($user->name)) }}" placeholder="Saisir le nom">
                 @error('name')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror

@@ -40,6 +40,10 @@
         padding-left: 1.5rem !important;
     }
     .pad-1{padding-left: .7rem !important;}
+    .pad-perso {
+        padding-bottom: 0 !important;
+        padding-top: .5rem !important;
+    }
 
 
     /*----------  MARGIN ----------*/
@@ -247,9 +251,6 @@
         vertical-align: middle !important;
         font-size: .9rem !important;
     }
-    table.table2 td:last-child {
-        padding-bottom: 0 !important;
-    }
     table.table1 td:first-child, table.table1 th:first-child{
         padding-left: 4%;
     }
@@ -284,6 +285,7 @@
     .table-striped-perso tbody tr:nth-of-type(3n+1) {
         background-color: rgba(0, 0, 0, 0.05) !important;
     }
+    .va-super{vertical-align: super !important;}
 
     /*----------  CUSTOM RADIO ----------*/
     .custom-radio {
@@ -595,7 +597,7 @@
                         {{-- TBODY --}}
                         <tbody>
                             <tr>
-                                <td>{{ $users->name }}</td>
+                                <td>{{ ucfirst($users->name) }}</td>
                                 <td>{{ $users->email }}</td>
                                 <td class="text-center">{{ $users->newsletter == 1 ? "Oui" : "Non"}}</td>
                                 <td class="text-center text-nowrap">
@@ -642,14 +644,14 @@
                             </thead>
                             <tbody>
                                 <tr class="text-center">
-                                    <td>
+                                    <td class="pad-perso">
                                         <span class="custom-radio">
                                         <input type="radio" id="radio{{$i}}" name="playerId" value="{{$player->id}}"<?= $i==1 ? 'checked' : '' ?> >
                                             <label for="radio{{$i}}"></label>
                                         </span>
                                     </td>
-                                    <td>{{ $player->name }}</td>
-                                    <td>{{ $player->difficulty }}</td>
+                                    <td>{{ ucfirst($player->name) }}</td>
+                                    <td>{{ ucfirst($player->difficulty) }}</td>
                                     <td>{{ $player->nbGames }}</td>
                                     <td>{{ $player->score }}</td>
                                     <td>
@@ -663,16 +665,16 @@
                                 <tr class="line-h-5">
 
                                     <td colspan="6" class="text-nowrap-resp w-100 px-2">
-                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="mb-3 text-nowrap line-h-2-5"><i class="fas fa-chart-line text-info fa-lg mr-2 fz-110r"></i>Resumé</a> &nbsp;
                                         </div>
-                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/pscore?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-file-alt text-success mr-2 fz-1r"></i>Détail</a> &nbsp;
                                         </div>
-                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/pedit?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-edit text-dark mr-1"></i>Modifier</a> &nbsp;
                                         </div>
-                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-middle">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/pdelete?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="far fa-times-circle text-danger mr-1 fa-lg fz-105r"></i>Supprimer</a>&nbsp;
                                         </div>
                                     </td>

@@ -14,6 +14,11 @@
     .bg-opacite {
         background-color: #f0f9d7 !important;
     }
+    .color-msg{
+        color: #4f4f4f !important;
+        background-color: white !important;
+    }
+
     </style>
 @endsection
 @section('title', 'Erreur Serveur')

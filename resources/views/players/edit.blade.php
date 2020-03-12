@@ -43,7 +43,7 @@
                         @csrf
                         <div class="form-group">
                             <label for="">Nom Joueur</label>
-                            <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name', $player->name) }}" placeholder="Saisir le nom">
+                            <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name', ucfirst($player->name)) }}" placeholder="Saisir le nom">
                             @error('name')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -52,9 +52,9 @@
                         <div class="form-group mt-4">
                             <label for="">Nom Parents</label>
                             <div class="select">
-                                <select name="user_id" value="{{ old($player->user_id, $player->user_id) }}" class="custom-select">
+                                <select name="user_id" value="{{ old($player->user_id, $player->user_id) }}" class="custom-select" selected>
                                     @foreach($users as $user)
-                                        <option value="{{ $user->id }}">{{ $user->name }}</option>
+                                        <option value="{{ $user->id }}" <?= $player->user_id == $user->id ? "selected" : ""; ?>>{{ ucfirst($user->name) }}</option>
                                     @endforeach
                                 </select>
                             </div>

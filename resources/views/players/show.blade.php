@@ -27,7 +27,7 @@
                 </div>
                 <div class="card-body">
                     <ul class="list-unstyled">
-                        <li class="mt-3"><b>Nom</b> :  {{ $player->name }}</li>
+                        <li class="mt-3"><b>Nom</b> :  {{ ucfirst($player->name) }}</li>
                         <hr>
                         <li class="mt-3"><b>Difficulté</b> :  {{ ucfirst($player->difficulty) }}</li>
                         <hr>

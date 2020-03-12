@@ -27,7 +27,7 @@
             </div>
             <div class="card-body">
                 <ul class="list-unstyled">
-                    <li class="mt-3"><b>Nom</b> :  {{ $user->name }}</li>
+                    <li class="mt-3"><b>Nom</b> :  {{ ucfirst($user->name) }}</li>
                     <hr>
                     <li class="mt-3"><b>Adresse mail</b> :  {{ $user->email }}</li>
                     <hr>
@@ -42,7 +42,7 @@
                                 @php
                                     $playerId = $player->id;
                                 @endphp
-                                <li><a href="/players/{{ $player->id}}">{{ $player->name}}</a></li>
+                                <li><a href="/players/{{ $player->id}}">{{ ucfirst($player->name) }}</a></li>
                             @endforeach
                         @endif
                     </ul>

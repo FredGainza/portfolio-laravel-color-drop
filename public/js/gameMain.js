@@ -957,7 +957,7 @@ $(document).ready(function () {
                                 $('#gameEnd').show(300);
 
                                 $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Bravo, tu as gagné '+$scoreEtoiles+' etoiles au cours de cette partie !"</span><br>');
-                                $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Tu as terminé Color-Drop en '+$dureePartieMinutes+' minutes et '+$dureePartieSecondes+ ' secondes. (soit '+$dureePartie+' secondes au total")</span>');
+                                $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Tu as terminé Color-Drop en '+$dureePartieMinutes+' minutes et '+$dureePartieSecondes+ ' secondes.")</span>');
 
                                 let scoreTotal = $scoreEtoiles;
                                 document.cookie = 'scoreTotal='+scoreTotal+'; path=/; expires=' + date;
