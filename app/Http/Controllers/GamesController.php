@@ -16,10 +16,19 @@ use App\Mail\Game as GameParty;
 
 class GamesController extends Controller
 {
-    public function __construct()
+    public function invit()
     {
-        $this->middleware('auth');
+        $userInvit=User::find(1);
+        $userInvit = Auth::user();
+        $player = Player::find(1);
+        $levels = Level::all();
+        return view('games.index', compact('player', 'levels'));
     }
+
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     /**
      * Display a listing of the resource.
      *
@@ -37,7 +46,7 @@ class GamesController extends Controller
     public function score()
     {
         $users = Auth::user();
-        $players = $users->players;
+        // $players = $users->players;
         $playerId = $_COOKIE["player_id"];
         $playerDifficulty = $_COOKIE["player_difficulty"];
         $player = Player::find($playerId);
@@ -68,33 +77,39 @@ class GamesController extends Controller
             $game->save();
         }
 
-        if ($users->newsletter == 1){
-            // Transfert de l'email
-            $title = 'Une partie vient d\'être réalisée';
-            $contentEnfant = $player->name;
-            $contentParent = $users->name;
-            $score = $_COOKIE['scoreTotal'];
-            if ($gameTpsTotal >= 60){
+        if($player->id == 1){
+            return view('welcome');
+        } else{
+            if ($users->newsletter == 1){
+                // Transfert de l'email
+                $title = 'Une partie vient d\'être réalisée';
+                $contentEnfant = $player->name;
+                $contentParent = $users->name;
+                $score = $_COOKIE['scoreTotal'];
+                if ($gameTpsTotal >= 60){
+                    $min = floor($gameTpsTotal/60);
+                    $s = $gameTpsTotal % 60;
+                    $temps = $min. ' minutes et '. $s. ' secondes';
+                } else{
+                    $temps = $gameTpsTotal. ' secondes';
+                }
                 $min = floor($gameTpsTotal/60);
                 $s = $gameTpsTotal % 60;
-                $temps = $min. ' minutes et '. $s. ' secondes';
-            } else{
-                $temps = $gameTpsTotal. ' secondes';
+                $dif = $playerDifficulty;
+                $mail = $users->email;
+                $mailGood = trim($mail);
+
+                $_SESSION['info'] = 'Un email a été envoyé !';
+                Mail::to($mailGood)->send(new GameParty($title, $contentParent, $contentEnfant, $score, $temps, $dif));
+
+                return redirect()->route('pindex')->with(['info' => 'Bravo '.$player->name. ' pour ce nouveau jeu !!',
+                                                        'info1' => 'La partie a été sauvegardée et nous vous avons envoyé un email récapitulatif.']);
+
+            }elseif ($users->newsletter == 0){
+
+                return redirect()->route('pindex')->with(['info' => 'Bravo '.$player->name. ' pour ce nouveau jeu !!',
+                                                        'info1' => 'La partie a bien été sauvegardée.']);
             }
-            $min = floor($gameTpsTotal/60);
-            $s = $gameTpsTotal % 60;
-            $dif = $playerDifficulty;
-            $mail = $users->email;
-            $mailGood = trim($mail);
-
-            $_SESSION['info'] = 'Un email a été envoyé !';
-            Mail::to($mailGood)->send(new GameParty($title, $contentParent, $contentEnfant, $score, $temps, $dif));
-
-            return redirect()->route('pindex')->with(['info' => 'Bravo '.$player->name. ' pour ce nouveau jeu !!',
-                                                     'info1' => 'La partie a été sauvegardée et nous vous avons envoyé un email récapitulatif.']);
-
-        }elseif ($users->newsletter == 0){
-            return redirect()->route('pindex')->with('info', 'Bravo '.$player->name. ' pour ce nouveau jeu !!'. '<br>'.'La partie a bien été sauvegardée.');
         }
     }
 

@@ -4,12 +4,13 @@ $nbParties = count($games) / 10;
 $score = [];
 $duree = [];
 $label = [];
-
+// dd($nbParties);
 for ($i = 0; $i < $nbParties; $i++) {
     $label[$i] = $i + 1 . ' ('.$games[10*$i + $i]->created_at->format('d/m/Y').')';
     $score[$i] = $games[10 * ($i + 1) - 1]->score_game;
     $duree[$i] = $games[10 * ($i + 1) - 1]->duree_game;
 };
+
 $scoreJson = json_encode($score);
 $dureeJson = json_encode($duree, JSON_NUMERIC_CHECK);
 $labelJson = json_encode($label);
@@ -94,7 +95,7 @@ for ($j = 0; $j < $nbParties; $j++) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <!-- Google font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
-    <link rel="stylesheet" href="css/parents.css">
+    <link rel="stylesheet" href="css/parents.min.css">
     <link rel="stylesheet" href="css/hamburger.css">
     <style>
         body {

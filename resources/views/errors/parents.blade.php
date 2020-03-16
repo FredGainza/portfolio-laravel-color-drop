@@ -36,7 +36,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="css/parents.css">
+    <link rel="stylesheet" href="css/parents.min.css">
     @yield('scripts-header')
 </head>
 <body>

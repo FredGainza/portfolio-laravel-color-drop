@@ -10,7 +10,7 @@ function cercle(id, colorC = 0, color = 0) {
     var context = canvas.getContext("2d");
     var X = canvas.width / 2;
     var Y = canvas.height / 2;
-    var R = 45
+    var R = 45;
     context.beginPath(); // Initialisation du dessin
     if (colorC != 0) {
         context.strokeStyle = colorC; // Couleur du trait
@@ -81,19 +81,19 @@ function carre(id, x, y, w, colorC = 0, color = 0) {
         ctx.strokeStyle = colorC; // Couleur du trait
     }
     ctx.beginPath();
-    ctx.moveTo(cx, cy - outerRadius)
+    ctx.moveTo(cx, cy - outerRadius);
     for (i = 0; i < spikes; i++) {
         x = cx + Math.cos(rot) * outerRadius;
         y = cy + Math.sin(rot) * outerRadius;
-        ctx.lineTo(x, y)
-        rot += step
+        ctx.lineTo(x, y);
+        rot += step;
 
         x = cx + Math.cos(rot) * innerRadius;
         y = cy + Math.sin(rot) * innerRadius;
-        ctx.lineTo(x, y)
-        rot += step
+        ctx.lineTo(x, y);
+        rot += step;
     }
-    ctx.lineTo(cx, cy - outerRadius)
+    ctx.lineTo(cx, cy - outerRadius);
     ctx.closePath();
     ctx.lineWidth=7;
     if (colorC != 0) {
@@ -135,7 +135,7 @@ function shuffle(a) {
     TABLEAU DES COULEURS JS
 ===============================================
 */
-let couleurs = ["red", "blue", "yellow", "green", "purple", "maroon", "hotpink", "darkorange"];
+let couleurs = ["red", "blue", "yellow", "green", "purple", "maroon", "#ff0080", "darkorange"];
 let couleursOrder = [].concat(couleurs);
 
 let nbFormes = 0;
@@ -211,7 +211,7 @@ $(document).ready(function () {
             $icon.removeAttr('src');
             $icon.attr('src', 'img/audio/music-off.png');
         }
-    })
+    });
 
     /*
     ===============================================
@@ -319,24 +319,199 @@ $(document).ready(function () {
         $snapTolerance = 5;
     }
 
+/*
+===============================================
+    DEBUT FONCTION DRAG AND DROP TERMINE
+===============================================
+*/
+    function affich(){
+        if ($nbClick > 8 && $nbClick <= 10){
+            $('#panier_1').remove();
+            $('#panier_2').remove();
+        }
+
+        // Détermination de la durée
+        $fin = new Date();
+        $finMs = $fin.getTime();
+        $duree = ($finMs - $debutMs) / 1000;
+        $dureePartieParLevel.push($duree);
+        if ($nbClick == 10){
+            $finPartieMs = $finMs;
+        }
+
+        if ($nbClick <= 9){
+            //Gestion des affichages
+            $('#containerCible').css("background-image", "none");
+            if (($nbClick < 9)){
+                $('#containerCible').css("bottom", "80%");
+            } else {
+                $('#containerCible').css("bottom", "80%").css("right", "80%");
+            }
+            $('#cible').css("bottom", "72%");
+            $('.reussiteCorrespondance_'+$rand).hide();
+            $('#nextLevel').fadeIn(500);
+
+            // Gestion des effets audio
+            if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
+                ion.sound.play("success_level");
+            }
+
+        }
+
+        // Détermination du score (= le nombre d'étoiles)
+        $('#successLevel').removeAttr('src');
+        if ($duree < parseInt($("#3et_level_"+$nbClick).html())){
+            $nbEtoiles = 3;
+            $('#successLevel').attr('src', 'img/game/3etoiles-500.png');
+        } else if ($duree > parseInt($("#2et_level_"+$nbClick).html())){
+            $nbEtoiles = 1;
+            $('#successLevel').attr('src', 'img/game/1etoile-500.png');
+        } else {
+            $nbEtoiles = 2;
+            $('#successLevel').attr('src', 'img/game/2etoiles-500.png');
+        }
+
+        $scorePartieParLevel.push($nbEtoiles);
+        $scoreEtoiles = $scoreEtoiles + $nbEtoiles;
+        $('#scoreAffiche').text($scoreEtoiles);
+        $scoreTotalAfficher = parseInt($scoreTotal) + parseInt($scoreEtoiles);
+        $('#scoreCumul').text($scoreTotalAfficher);
+        console.log("####################################################################################################");
+        console.log("level "+$nbClick);
+        console.log("Temps réalisé (en s) : " +$duree);
+        console.log("Nombre d'étoiles gagnées dans ce niveau: "+$nbEtoiles);
+        console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
+        console.log("Tab qui renvoie le score par niveau : "+$scorePartieParLevel);
+        console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
+        console.log("####################################################################################################");
+        let score = $nbEtoiles;
+        document.cookie = 'score'+nbClick+'='+score+'; path=/; expires=' + date;
+        let temps = $duree;
+        document.cookie = 'temps'+nbClick+'='+temps+'; path=/; expires=' + date;
+
+        if($nbClick == 10){
+            $('#successLevel').delay(2500).hide();
+            $('#containerCible').css("bottom", "70%");
+            $dureePartie = 0;
+            $dureePartieMinutes = 0;
+            $dureePartieSecondes = 0;
+
+            if ( $icon.attr('src') == 'img/audio/music-on.png' && $bruit.attr('src') == 'img/audio/bruit-on.png'){
+                var myMusic = document.getElementById("music");
+                myMusic.pause();
+                ion.sound.play("success_game");
+            }
+
+            /*
+            ===================================================================================
+                ANIMATION FIN DE JEU
+            ===================================================================================
+            */
+            // On fait un random d couleurs
+            const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+            const numBalls = 100;
+            const balls = [];
+            for (let i = 0; i < numBalls; i++) {
+                let ball = document.createElement("div");
+                ball.classList.add("ball");
+                ball.style.background = colors[Math.floor(Math.random() * colors.length)];
+                ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
+                ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
+                ball.style.transform = `scale(${Math.random()})`;
+                ball.style.width = `${Math.random()}em`;
+                ball.style.height = ball.style.width;
+                balls.push(ball);
+                document.body.append(ball);
+            }
+
+            // Keyframes : séquences de l'animation
+            balls.forEach((el, i, ra) => {
+            let to = {
+                x: Math.random() * (i % 2 === 0 ? -11 : 11),
+                y: Math.random() * 12
+            };
+            let anim = el.animate(
+                [
+                    { transform: "translate(0, 0)" },
+                    { transform: `translate(${to.x}rem, ${to.y}rem)` }
+                ],
+                    {
+                    duration: (Math.random() + 1) * 2000, // random duration
+                    direction: "alternate",
+                    fill: "both",
+                    iterations: Infinity,
+                    easing: "ease-in-out"
+                    }
+                );
+            });
+            /*
+            ===================================================================================
+                FIN ANIMATION FIN DE JEU
+            ===================================================================================
+            */
+
+            //Récap des données avec enregistrement des données de la partie (pas eulement des niveaux)
+            for ($i=0; $i<$dureePartieParLevel.length; $i++){
+                $dureePartie += $dureePartieParLevel[$i];
+            }
+            $dureePartie = Math.round($dureePartie);
+            $dureePartieMinutes = Math.floor($dureePartie/60);
+            $dureePartieSecondes = $dureePartie % 60;
+            console.log("####################################################################################################");
+            console.log("Temps total en secondes : "+$dureePartie);
+            console.log("Temps total en min:s : "+$dureePartieMinutes+" : "+$dureePartieSecondes);
+            console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
+            console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
+            console.log("####################################################################################################");
+            $('#gameFinished').show(100);
+            $('#gameEnd').show(300);
+
+            // Affichage de fin de jeu
+            $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Bravo, tu as gagné '+$scoreEtoiles+' etoiles au cours de cette partie !"</span><br>');
+            $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Tu as terminé Color-Drop en '+$dureePartieMinutes+' minutes et '+$dureePartieSecondes+ ' secondes.")</span>');
+
+            let scoreTotal = $scoreEtoiles;
+            document.cookie = 'scoreTotal='+scoreTotal+'; path=/; expires=' + date;
+        }
+    }
+/*
+===============================================
+    FIN FONCTION DRAG AND DROP TERMINE
+===============================================
+*/
+
+    //Déclaration des variables relatives au score
     $scoreTotal = $('#scoreCumulInit').text();
     $scoreTotalAfficher = parseInt($scoreTotal);
     $('#scoreCumul').text($scoreTotalAfficher);
 
+    //Déclaration des tableaux qui vont contenir le score et la durée de chaque niveau
     $dureePartieParLevel = [];
     $scorePartieParLevel = [];
+
+    //Ecouteur sur le clic "niveau suivant"
     $('.ecouteurJeu').click(function () {
 
+        //Préparation pour création de cokkie de durée avec Date()
         $debut = new Date();
         $debutMs = $debut.getTime();
         $debutPartieMs = $debutMs;
         $nbClick++;
         console.log("Début (en ms) du level "+$nbClick+" : "+$debutMs);
-        console.log("le nombre de clicks est de "+$nbClick)
+        console.log("le nombre de clicks est de "+$nbClick);
 
+        /*
+        ===================================================================================
+            1ERE PARTIE : NIVEAUX 1 A 4 (APPRENTISSAGE DES COULEURS UNIQUEMENT)
+        ===================================================================================
+        */
+
+        //Niveau 1
         if($nbClick === 1){
             nbClick = 1;
             $('div').remove('.radialtimer');
+
+            // Passage en fullscreen si le viewport est inférieur à 890px de large + mise en place des icones "fullscreen"
             if (window.innerWidth < 890){
                 GoInFullscreen($("#element").get(0));
                 $('#fullScreen').attr('src', 'img/reduce-128-blue.png');
@@ -346,9 +521,10 @@ $(document).ready(function () {
                 $('.fullScreen').css('display', 'initial');
             }
 
+            // Gestion des 2 containers du jeu : Origine (cf. drag) et Cible (cf. drop)
             $('#lancerJeu').fadeOut(500, function(){
                 $('#containerOrigin').fadeIn(600);
-            })
+            });
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
 
             $('#score').fadeIn(600);
@@ -356,6 +532,7 @@ $(document).ready(function () {
             $nbCarres=3;
             $nbCouleurs=3;
 
+        // Niveau 2
         } else if ($nbClick === 2){
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
@@ -364,6 +541,7 @@ $(document).ready(function () {
             $nbCarres=5;
             $nbCouleurs=5;
 
+        // Niveau 3
         } else if ($nbClick === 3){
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
@@ -372,6 +550,8 @@ $(document).ready(function () {
             $nbCarres=7;
             $nbCouleurs=7;
 
+
+        // Niveau 4
         } else if ($nbClick === 4){
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
@@ -381,8 +561,9 @@ $(document).ready(function () {
             $nbCouleurs=9;
         }
 
-
+        // Pour les niveaux de 1 à 4
         if($nbClick< 5){
+            // Gestion des affichages
             $('#successLevel').removeAttr('src');
             $('#levelNumber').text('Niveau '+$nbClick);
             $('#nextLevel').fadeOut(500);
@@ -390,20 +571,13 @@ $(document).ready(function () {
             for($position=$couleurs.length-1; $position>=1; $position--){
                 //hasard reçoit un nombre entier aléatoire entre 0 et position
                 $hasard=Math.floor(Math.random()*($position+1));
-
                 //Echange
                 $sauve=$couleurs[$position];
                 $couleurs[$position]=$couleurs[$hasard];
                 $couleurs[$hasard]=$sauve;
             }
 
-            /*
-            ===================================================================================
-                1ERE PARTIE : NIVEAUX 1 A 4 (APPRENTISSAGE DES COULEURS UNIQUEMENT)
-            ===================================================================================
-            */
-
-            // AJOUT DANS LE DOM DES DIV DES CARRES CIBLES ET DES DIV DE LA PALETTE COLOR
+            // Gestion de la difficulté (plus le niveau est facile, plus le magnétisme est important)
 			$d=0;
             if ($difficulte == "fit"){
                 if (window.innerWidth<1000){
@@ -415,13 +589,13 @@ $(document).ready(function () {
                 $d = "16%";
             }
 
+            // Ajout dans le DOM des DIV des carrés cibles et des DIV de la palette color
             for ($i = 0; $i <$nbCarres; $i++) {
                 $('#cible').append('<canvas id="carre_'+$i+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-2 mb-2"></canvas>'); // DIV CARRES CIBLES
             }
-
             $('#origin').empty();
             for ($i = 0; $i < $couleurs.length; $i++){
-                $('#origin').append('<canvas id="carre_'+$couleurs[$i]+'" width="80" height="80"  style ="width :8% ; height : auto ;" class="bg-darky mx-2"></canvas>'); // DIV CARRES DE LA COLOR PALETTE
+                $('#origin').append('<canvas id="carre_'+$couleurs[$i]+'" width="80" height="80"  style ="width :8% ; height : auto ; z-index: 999;" class="bg-darky mx-2"></canvas>'); // DIV CARRES DE LA COLOR PALETTE
             }
 
             // CALCUL DU RANDOM DES COULEURS DE LA COLOR PALETTE
@@ -446,6 +620,7 @@ $(document).ready(function () {
             ===================================================================================
             */
 
+            // Caractéristiques des éléments "draggable"
             for ($i = 0; $i <9; $i++) {
                 $("#carre_"+$couleurs[$i]).draggable ({
                     containment : 'body',
@@ -457,20 +632,27 @@ $(document).ready(function () {
             }
 
             $nb=0;
+            // Caractéristiques des éléments "droppables"
             for ($i = 0; $i <$nbCarres; $i++) {
-
+                // $rand = Math.floor(Math.random() * Math.floor(6));
+                // $reussite = '.reussiteCorrespondance_'+$possibilites[$rand-1];
                 $("#carre_"+$i).droppable ({
+                    // Détermination du "match" entre le drop et le drag
                     accept :  "#carre_"+$couleurCibles[$i],
+                    // Prise en compte de la difficulté
                     tolerance: $difficulte,
+                    // Evenements lorsqu'un drag & drop est réalisé
                     drop: function(event, ui){
                         if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
                             ion.sound.play("success");
-                        };
+                        }
                         $(ui.draggable).remove();
-                        $('.reussiteCorrespondance').show().fadeIn(500)
+                        $rand=Math.floor(Math.random() * Math.floor(13)) + 1;
+                        console.log($rand);
+                        $('.reussiteCorrespondance_'+$rand).show().fadeIn(500)
                         .delay(1200)
                         .fadeOut(200, function(){
-                            $('.reussiteCorrespondance').hide();
+                            $(this).hide();
                         });
                         $(this).effect("pulsate")
                         .addClass("correct")
@@ -478,56 +660,16 @@ $(document).ready(function () {
                         .fadeOut(300, function() {
                             $(this).remove();
                             $nb++;
+
+                            // Evenements lorsque tous les drag & drop sont réalisés (= lorsque le niveau est terminé)
                             if($nb == $nbCarres){
-                                $('#containerCible').css("background-image", "none");
-                                $('#containerCible').css("bottom", "80%");
-                                $('#cible').css("bottom", "72%");
-                                $('.reussiteCorrespondance').hide();
-                                $fin = new Date();
-                                $finMs = $fin.getTime();
-                                $duree = ($finMs - $debutMs) / 1000;
-                                $dureePartieParLevel.push($duree);
-                                $('#nextLevel').fadeIn(500);
-
-                                if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
-                                    ion.sound.play("success_level");
-                                };
-
-                                // DETERMINATION DU NOMBRE D'ETOILES
-                                $('#successLevel').removeAttr('src');
-                                if ($duree < parseInt($("#3et_level_"+$nbClick).html())){
-                                    $nbEtoiles = 3;
-                                    $('#successLevel').attr('src', 'img/game/3etoiles-500.png');
-                                } else if ($duree > parseInt($("#2et_level_"+$nbClick).html())){
-                                    $nbEtoiles = 1;
-                                    $('#successLevel').attr('src', 'img/game/1etoile-500.png');
-                                } else {
-                                    $nbEtoiles = 2;
-                                    $('#successLevel').attr('src', 'img/game/2etoiles-500.png');
-                                }
-                                $scorePartieParLevel.push($nbEtoiles);
-                                $scoreEtoiles = $scoreEtoiles + $nbEtoiles;
-                                $('#scoreAffiche').text($scoreEtoiles);
-                                $scoreTotalAfficher = parseInt($scoreTotal) + parseInt($scoreEtoiles);
-                                $('#scoreCumul').text($scoreTotalAfficher);
-                                console.log("####################################################################################################");
-                                console.log("level "+$nbClick);
-                                console.log("Temps réalisé (en s) : " +$duree);
-                                console.log("Nombre d'étoiles gagnées dans ce niveau: "+$nbEtoiles);
-                                console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
-                                console.log("Tab qui renvoie le score par niveau : "+$scorePartieParLevel);
-                                console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
-                                console.log("####################################################################################################");
-                                let score = $nbEtoiles;
-                                document.cookie = 'score'+nbClick+'='+score+'; path=/; expires=' + date;
-                                let temps = $duree;
-                                document.cookie = 'temps'+nbClick+'='+temps+'; path=/; expires=' + date;
+                                affich();
                             }
                         });
                     }
                 });
 
-            };
+            }
         }
 
         /*
@@ -536,43 +678,44 @@ $(document).ready(function () {
         ===================================================================================
         */
 
+        // Fonctions JS pour afficher les formes géométriques en fonction du niveau
+        function formesCible() {
+            $formesCibles = [];
+            $difficulte =="fit" ? $d = "17%" : $d = "16%";
+            for($z=0; $z<$nbFormes; $z++){
+                $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-1"></canvas><br>';
+            }
+        }
+
+        function formesOrigine() {
+            $formes = [];
+            for($z=0; $z<$nbFormes; $z++){
+                $formes[$z] = '<canvas id="forme'+$z+'" width="100" height="100" style ="width :9% ; height : auto; z-index: 999" class="bg-darky2 mx-3"></canvas><br>';
+            }
+        }
+
+        function suiteRandom() {
+            $suites=[];
+            $x1=[];
+            $x2=[];
+
+            for($y=0; $y<$nbFormes; $y++){
+                $suites[$y]=$y;
+            }
+        }
+
         if($nbClick >4 && $nbClick<9){
-
-            // FONCTIONS JS POUR AFFICHER FORMES GEOMETRIQUES EN FONCTION DU NIVEAU
-
-            function formesCible() {
-                $formesCibles = [];
-                $difficulte =="fit" ? $d = "17%" : $d = "16%";
-                for($z=0; $z<$nbFormes; $z++){
-                    $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-1"></canvas><br>';
-                }
-            }
-
-            function formesOrigine() {
-                $formes = [];
-                for($z=0; $z<$nbFormes; $z++){
-                    $formes[$z] = '<canvas id="forme'+$z+'" width="100" height="100" style ="width :9% ; height : auto ;" class="bg-darky2 mx-3"></canvas><br>';
-                }
-            }
-
-
-            function suiteRandom() {
-                $suites=[];
-                $x1=[];
-                $x2=[];
-
-                for($y=0; $y<$nbFormes; $y++){
-                    $suites[$y]=$y;
-                }
-            }
 
             $i = $nbClick;
             nbClick = $i;
             couleurTab=[];
 
+            // Gestion affichage des messages
             $('#levelNumber').text('Niveau '+$i);
             $('#successLevel').removeAttr('src');
             $('#nextLevel').fadeOut(500);
+
+            // Préparation du random des couleurs
             $nbFormes = -2+$i;
             nbFormes = -2+$i;
             couleurTab[$i-5] = [];
@@ -581,17 +724,23 @@ $(document).ready(function () {
             $('#cible').css("bottom", "52%");
             $('#cible').empty();
             $('#origin').empty();
+
+            // On mélange les positions du tableau de couleurs :
             couleurTab[$i-5] = shuffle(couleursOrder);
             couleurTab[$i-5] = [].concat(couleurTab[$i-5]);
             console.log(couleurTab);
-
             suiteRandom();
+
+            // On random l'ordre d'apparition :
+            // - des formes Cibles : x1
             $x1 = shuffle($suites);
             $x1 = [].concat($x1);
             formesCible();
             for ($j=0; $j<$formesCibles.length; $j++){
                 $('#cible').append($formesCibles[$x1[$j]]);
             }
+
+            // - des formes Origines : x2
             $x2 = shuffle($x1);
             $x2 = [].concat($x2);
             formesOrigine();
@@ -619,7 +768,7 @@ $(document).ready(function () {
                         carre("forme4", 10, 10, 80, "black", couleurTab[$i-5][4]);
 
                         if ($i == 8){
-                            $random = Math.floor(Math.random() * Math.floor(3))
+                            $random = Math.floor(Math.random() * Math.floor(3));
                             if ($random == 0){
                                 triangle("formeCible5", "black", couleurTab[$i-5][5]);
                                 triangle("forme5", "black", couleurTab[$i-5][5]);
@@ -647,6 +796,7 @@ $(document).ready(function () {
             ===================================================================================
             */
 
+            // Caractéristiques des éléments "draggable"
             for ($j = 0; $j < $nbFormes; $j++) {
                 $('#forme' + $j).draggable({
                     containment: 'body',
@@ -658,20 +808,25 @@ $(document).ready(function () {
             }
 
             $nb = 0;
+            // Caractéristiques des éléments "droppables"
             for ($j = 0; $j < $nbFormes; $j++) {
                 $('#formeCible' + $j).droppable({
+                    // Détermination du "match" entre le drop et le drag
                     accept: '#forme' + $j,
+                    // Prise en compte de la difficulté
                     tolerance: $difficulte,
+                    // Evenements lorsqu'un drag & drop est réalisé
                     drop: function (event, ui) {
-                        if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
+                        if ($bruit.attr('src') == 'img/audio/bruit-on.png'){
                             ion.sound.play("success");
-                        };
+                        }
                         $(ui.draggable).remove();
-                        // $('.reussiteCorrespondance').show().fadeIn(500)
-                        $('.reussiteCorrespondance2').show().fadeIn(500)
+                        $rand=Math.floor(Math.random() * Math.floor(13)) + 1;
+                        console.log($rand);
+                        $('.reussiteCorrespondance_'+$rand).show().fadeIn(500)
                         .delay(1200)
                         .fadeOut(200, function () {
-                            $('.reussiteCorrespondance2').hide();
+                            $(this).hide();
                         });
                         $(this).effect("pulsate")
                         .addClass("correct")
@@ -679,56 +834,16 @@ $(document).ready(function () {
                         .fadeOut(300, function () {
                             $(this).remove();
                             $nb++;
-                            console.log($nb);
+
+                            // Evenements lorsque tous les drag & drop sont réalisés (= lorsque le niveau est terminé)
                             if ($nb == $nbFormes) {
-                                $('#containerCible').css("background-image", "none");
-                                $('#containerCible').css("bottom", "80%");
-                                $('#cible').css("bottom", "72%");
-                                $fin = new Date();
-                                $finMs = $fin.getTime();
-                                $duree = ($finMs - $debutMs) / 1000;
-                                $dureePartieParLevel.push($duree);
-                                $('#nextLevel').fadeIn(500);
-
-                                if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
-                                    ion.sound.play("success_level");
-                                };
-
-                                // DETERMINATION DU NOMBRE D'ETOILES
-                                $('#successLevel').removeAttr('src');
-                                if ($duree < parseInt($("#3et_level_"+$nbClick).html())){
-                                    $nbEtoiles = 3;
-                                    $('#successLevel').attr('src', 'img/game/3etoiles-500.png');
-                                } else if ($duree > parseInt($("#2et_level_"+$nbClick).html())){
-                                    $nbEtoiles = 1;
-                                    $('#successLevel').attr('src', 'img/game/1etoile-500.png');
-                                } else {
-                                    $nbEtoiles = 2;
-                                    $('#successLevel').attr('src', 'img/game/2etoiles-500.png');
-                                }
-                                $scorePartieParLevel.push($nbEtoiles);
-                                $scoreEtoiles += $nbEtoiles;
-                                $('#scoreAffiche').text($scoreEtoiles);
-                                $scoreTotalAfficher = parseInt($scoreTotal) + parseInt($scoreEtoiles);
-                                $('#scoreCumul').text($scoreTotalAfficher);
-                                console.log("####################################################################################################");
-                                console.log("level "+$nbClick);
-                                console.log("Temps réalisé (en s) : " +$duree);
-                                console.log("Nombre d'étoiles gagnées dans ce niveau: "+$nbEtoiles);
-                                console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
-                                console.log("Tab qui renvoie le score par niveau : "+$scorePartieParLevel);
-                                console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
-                                console.log("####################################################################################################");
-                                let score = $nbEtoiles;
-                                document.cookie = 'score'+nbClick+'='+score+'; path=/; expires=' + date;
-                                let temps = $duree;
-                                document.cookie = 'temps'+nbClick+'='+temps+'; path=/; expires=' + date;
+                                affich();
                             }
                         });
                     }
                 });
-            };
-        };
+            }
+        }
 
         /*
         ===================================================================================
@@ -737,16 +852,17 @@ $(document).ready(function () {
         */
 
         $nbFruits = 6;
-        $ordre = [0, 1, 2, 3, 4, 5]
+        $ordre = [0, 1, 2, 3, 4, 5];
         $desordre = shuffle($ordre);
         $desordreFix = [].concat($desordre);
-        $coul_ok=[['orange_ok', 'vert_ok'], ['jaune_ok', 'rouge_ok']]
+        $coul_ok=[['orange_ok', 'vert_ok'], ['jaune_ok', 'rouge_ok']];
 
         if($nbClick > 8 && $nbClick < 11){
             $('#levelNumber').text('Niveau '+$nbClick);
             $('#nextLevel').fadeOut(500);
             $('#successLevel').removeAttr('src');
 
+            // Gestion affichage
             if ($nbClick === 9) {
                 nbClick = 9;
                 $('.rowFlex').css('flex-wrap', 'nowrap');
@@ -756,6 +872,7 @@ $(document).ready(function () {
                 $('#cible').removeClass('align-items-center justify-content-center');
             }
 
+            // Gestion affichage
             if ($nbClick === 10) {
                 nbClick = 10;
                 $('#containerCible').css("bottom", "10%").css('width', '90%').css('right', '5%');
@@ -764,23 +881,26 @@ $(document).ready(function () {
                 $('#panier_2').empty();
             }
 
+            // Injection dans le DOM des bonnes couleurs aux paniers 1 et 2
             $('#cible').append('<div id="panier_1" class="draggable panier-gauche d-inline-block"><img src="../img/game/'+$coul_ok[$nbClick-9][0]+'.png" width="200" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
             $('#cible').append('<div id="panier_2" class="draggable panier-droite d-inline-block"><img src="../img/game/'+$coul_ok[$nbClick-9][1]+'.png" width="200" class="panier panier-flex img-fluid" alt="Panier de fruits"></div>');
             $('.correct').css('display', 'none');
 
+            // Préparation des éléments drop
             $('#origin').empty();
             $panier1Drop = [];
             $panier2Drop = [];
             $('#origin').removeClass('origin').addClass('originFruits');
 
+            // Pour chacun des 2 niveaux, on fixe un ordre de référence des éléments sources
             if ($nbClick === 9) {
                 $fruitsImg = ['vert-avocat', 'vert-citron', 'vert-kiwi', 'orange-ananas', 'orange-carotte', 'orange-orange'];
             }
-
             if ($nbClick === 10) {
                 $fruitsImg = ['jaune-ananas', 'jaune-banane', 'jaune-citron', 'rouge-pomme', 'rouge-cerises', 'rouge-fraise'];
             }
 
+            // On affiche les éléments cibles de façon random, à la position $desordreFix[$i]
             for ($i = 0; $i < $nbFruits; $i++) {
                 $('#origin').append('<img id="fruitCible_' + $i + '" src="../img/game/fruits/' + $fruitsImg[$desordreFix[$i]] + '.png" class="maxHeigth mx-3" width="50" alt="Fruit"></div>');
                 $x = ($('#fruitCible_' + $i).attr('src').slice(19, 22));
@@ -804,6 +924,7 @@ $(document).ready(function () {
         */
 
         $nb = 0;
+        // Caractéristiques des éléments "draggable"
         for ($i = 0; $i < $nbFruits; $i++) {
             $('#fruitCible_' + $i).draggable({
                 containment: 'body',
@@ -813,19 +934,25 @@ $(document).ready(function () {
             });
         }
 
+        // Caractéristiques des éléments "droppables"
         for ($i = 1; $i < 3; $i++) {
             $('#panier_' + $i).droppable({
+                // Détermination du "match" entre le drop et le drag
                 accept: '.drop'+$i,
+                // Prise en compte de la difficulté
                 tolerance: $difficulte,
+                // Evenements lorsqu'un drag & drop est réalisé
                 drop: function (event, ui) {
                     if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
                         ion.sound.play("success");
-                    };
+                    }
                     $(ui.draggable).remove();
-                    $('.reussiteCorrespondance').show().fadeIn(500)
+                    $rand=Math.floor(Math.random() * Math.floor(13)) + 1;
+                    console.log($rand);
+                    $('.reussiteCorrespondance_'+$rand).show().fadeIn(500)
                         .delay(1200)
                         .fadeOut(200, function () {
-                            $('.reussiteCorrespondance').hide();
+                            $(this).hide();
                         });
 
                     $(this).addClass("correct").effect("pulsate")
@@ -833,136 +960,10 @@ $(document).ready(function () {
                     .fadeOut(300, function () {
                         $(this).removeClass("correct").delay(1500).fadeOut();
                         $nb++;
+
+                        // Evenements lorsque tous les drag & drop sont réalisés (= lorsque le niveau est terminé)
                         if ($nb == $nbFruits) {
-                            $('#panier_1').remove();
-                            $('#panier_2').remove();
-                            $fin = new Date();
-                            $finMs = $fin.getTime();
-                            $duree = ($finMs - $debutMs) / 1000;
-                            $dureePartieParLevel.push($duree);
-                            $finPartieMs = $finMs;
-
-                            if($nbClick <= 10){
-                                if($nbClick == 9){
-                                    $('#containerCible').css("bottom", "80%").css("right", "80%");
-                                    $('#cible').css("bottom", "72%");
-                                    $('#nextLevel').fadeIn(500);
-                                    if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
-                                        ion.sound.play("success_level");
-                                    };
-                                }
-
-                                // DETERMINATION DU NOMBRE D'ETOILES
-                                $('#successLevel').removeAttr('src');
-                                if ($duree < parseInt($("#3et_level_"+$nbClick).html())){
-                                    $nbEtoiles = 3;
-                                    $('#successLevel').attr('src', 'img/game/3etoiles-500.png');
-                                } else if ($duree > parseInt($("#2et_level_"+$nbClick).html())){
-                                    $nbEtoiles = 1;
-                                    $('#successLevel').attr('src', 'img/game/1etoile-500.png');
-                                } else {
-                                    $nbEtoiles = 2;
-                                    $('#successLevel').attr('src', 'img/game/2etoiles-500.png');
-                                }
-                                $scorePartieParLevel.push($nbEtoiles);
-                                $scoreEtoiles += $nbEtoiles
-                                $('#scoreAffiche').text($scoreEtoiles);
-                                $scoreTotalAfficher = parseInt($scoreTotal) + parseInt($scoreEtoiles);
-                                $('#scoreCumul').text($scoreTotalAfficher);
-                                console.log("####################################################################################################");
-                                console.log("level "+$nbClick);
-                                console.log("Temps réalisé (en s) : " +$duree);
-                                console.log("Nombre d'étoiles gagnées dans ce niveau: "+$nbEtoiles);
-                                console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
-                                console.log("Tab qui renvoie le score par niveau : "+$scorePartieParLevel);
-                                console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
-                                ("####################################################################################################");
-                                let score = $nbEtoiles;
-                                document.cookie = 'score'+nbClick+'='+score+'; path=/; expires=' + date;
-                                let temps = $duree;
-                                document.cookie = 'temps'+nbClick+'='+temps+'; path=/; expires=' + date;
-                            }
-                            if($nbClick == 10){
-                                $('#successLevel').delay(2500).hide();
-                                $('#containerCible').css("bottom", "70%");
-                                $dureePartie = 0;
-                                $dureePartieMinutes = 0;
-                                $dureePartieSecondes = 0;
-
-                                if ( $icon.attr('src') == 'img/audio/music-on.png' && $bruit.attr('src') == 'img/audio/bruit-on.png'){
-                                    var myMusic = document.getElementById("music")
-                                    myMusic.pause();
-                                    ion.sound.play("success_game");
-                                }
-
-                                /*
-                                ===================================================================================
-                                    ANIMATION FIN DE JEU
-                                ===================================================================================
-                                */
-                                // Some random colors
-                                const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
-                                const numBalls = 100;
-                                const balls = [];
-                                for (let i = 0; i < numBalls; i++) {
-                                    let ball = document.createElement("div");
-                                    ball.classList.add("ball");
-                                    ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-                                    ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-                                    ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
-                                    ball.style.transform = `scale(${Math.random()})`;
-                                    ball.style.width = `${Math.random()}em`;
-                                    ball.style.height = ball.style.width;
-                                    balls.push(ball);
-                                    document.body.append(ball);
-                                }
-                                // Keyframes
-                                balls.forEach((el, i, ra) => {
-                                let to = {
-                                    x: Math.random() * (i % 2 === 0 ? -11 : 11),
-                                    y: Math.random() * 12
-                                };
-                                let anim = el.animate(
-                                    [
-                                        { transform: "translate(0, 0)" },
-                                        { transform: `translate(${to.x}rem, ${to.y}rem)` }
-                                    ],
-                                        {
-                                        duration: (Math.random() + 1) * 2000, // random duration
-                                        direction: "alternate",
-                                        fill: "both",
-                                        iterations: Infinity,
-                                        easing: "ease-in-out"
-                                        }
-                                    );
-                                });
-                                /*
-                                ===================================================================================
-                                    FIN ANIMATION FIN DE JEU
-                                ===================================================================================
-                                */
-                                for ($i=0; $i<$dureePartieParLevel.length; $i++){
-                                    $dureePartie += $dureePartieParLevel[$i];
-                                }
-                                $dureePartie = Math.round($dureePartie);
-                                $dureePartieMinutes = Math.floor($dureePartie/60);
-                                $dureePartieSecondes = $dureePartie % 60;
-                                ("####################################################################################################");
-                                console.log("Temps total en secondes : "+$dureePartie);
-                                console.log("Temps total en min:s : "+$dureePartieMinutes+" : "+$dureePartieSecondes);
-                                console.log("Nombre d'étoiles cumulées au cours de la partie : "+$scoreEtoiles);
-                                console.log("Tab qui renvoie le temps réalisé par level : " +$dureePartieParLevel);
-                                console.log("####################################################################################################");
-                                $('#gameFinished').show(100);
-                                $('#gameEnd').show(300);
-
-                                $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Bravo, tu as gagné '+$scoreEtoiles+' etoiles au cours de cette partie !"</span><br>');
-                                $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Tu as terminé Color-Drop en '+$dureePartieMinutes+' minutes et '+$dureePartieSecondes+ ' secondes.")</span>');
-
-                                let scoreTotal = $scoreEtoiles;
-                                document.cookie = 'scoreTotal='+scoreTotal+'; path=/; expires=' + date;
-
-                            }
+                            affich();
                         }
                         $('#panier_' + $i).removeClass("correct");
 
@@ -971,6 +972,6 @@ $(document).ready(function () {
             });
 
         }
-    })
+    });
 });
 /**********************************************************************/

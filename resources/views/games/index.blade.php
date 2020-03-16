@@ -1,4 +1,6 @@
 <?php
+    $id = $player->id;
+    $retour = 0;
     // Création de cookie (pour gérer lien avec la bdd)
     setcookie('player_id', $player->id, time() + 24*3600);
     setcookie('player_difficulty', $player->difficulty, time() + 24*3600);
@@ -54,7 +56,7 @@
         <!-- CSS Timer -->
         <link rel="stylesheet" href="css/timer.css">
 
-        <link rel="stylesheet" href="css/gameStyle.css">
+        <link rel="stylesheet" href="css/gameStyle.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
 
         <title>Color-Drop - Le JEU</title>
@@ -94,13 +96,13 @@
 
                 <div id="container1" class="container">
                     <!-- ################ ROW 1 ################ -->
-                    <div class="row">
+                    <div class="row mr-30px flex-no-wrap">
 
                         <!-- Affichage du score -->
-                        <div class="col-5 offset-3 mt-4">
+                        <div class="col-5 offset-3 mt-4 nowrap">
                             <img src="img/logo-color.png" class="img-fluid" alt="Logo de Color-Drop">
                         </div>
-                        <div id="score" class="col-3 mt2-5r score cartoon">
+                        <div id="score" class="col-3 mt2-5r ml-5 score cartoon">
                             <span>SCORE :</span> &nbsp;&nbsp;&nbsp; <span id="scoreAffiche" class="text-danger"></span>
                         </div>
                         <!-- Affichage icône fullscreen -->
@@ -125,6 +127,8 @@
                             <img src="img/bandeau.png" class="img-fluid" alt="Bandeau décoratif du panel joueur">
                             <div class="pad-b-10p lineHeight-1">
                                 <div id="playerId" class="fz-2-5rem lineHeight-4 cartoon mvw-y-2">{{$player->name}}</div>
+
+                                @if ($id != 1)
                                 <div id="numPartie" class="fz-1-7rem cartoon lineHeight-1-5">Partie n° : <span
                                         class="color-encart">{{$player->nbGames + 1}}</span></div>
                                 <div class="lineHeight-1-5">
@@ -133,6 +137,16 @@
                                     <span id="mode jeu" class="fz-1-7rem cartoon">Mode de jeu : <span
                                             class="color-encart">{{ucfirst($player->difficulty)}}</span></span>
                                 </div>
+                                @endif
+
+                                @if ($id == 1)
+                                <div id="numPartie" class="fz-1-7rem cartoon lineHeight-1-5 d-none">Partie X<span class="color-encart">{{$player->nbGames + 1}}</span></div>
+                                <div class="lineHeight-1-5">
+                                    <span id="scoreCumul" class="fz-1-7rem cartoon color-encart d-none"></span><br>
+                                    <span id="mode jeu" class="fz-1-7rem cartoon">Mode de jeu : <span
+                                            class="color-encart">{{ucfirst($player->difficulty)}}</span></span>
+                                </div>
+                                @endif
                             </div>
                         </div>
 
@@ -140,12 +154,24 @@
 
                         <!-- Message de réussite lors de chaque correspondance -->
                         <div class="col-sm-6 offset-sm-4 pvw-r-3 text-center">
-                            <h3 class="reussiteCorrespondance text-left animated wobble duration-2s">Bonne
-                                réponse ! &#128515;</h3>
-                            <h3 class="reussiteCorrespondance2 text-left animated jackInTheBox duration-2s">Bonne
-                                réponse ! &#128515;</h3>
-                            <img id="successLevel" src="" class="successLevel img-fluid animated flash delay-3s infinite pulse pvw-t-3"
-                                alt="Animation relative à la réussite d'un niveau">
+                            <h3 class="reussiteCorrespondance_1 text-left animated wobble duration-2s">⭐ Bravo ! 😸</h3>
+                            <h3 class="reussiteCorrespondance_2 text-left animated jackInTheBox duration-2s">🌟 Bonne
+                                réponse ! 😸</h3>
+                            <h3 class="reussiteCorrespondance_3 text-left animated rubberBand duration-2s">✨ Félicitations ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_4 text-left animated swing duration-2s">👏 Bonne
+                                réponse ! 😸</h3>
+                            <h3 class="reussiteCorrespondance_5 text-left animated tada duration-2s">⭐ Bravo ! Continue ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_6 text-left animated bounce duration-2s">🌟 Parfait ! ⭐</h3>
+                            <h3 class="reussiteCorrespondance_7 text-left animated zoomIn duration-2s">👍 Félicitations ! 🌟</h3>
+                            <h3 class="reussiteCorrespondance_8 text-left animated zoomInLeft duration-2s">🙃 Bravo ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_9 text-left animated fadeInDown duration-2s">✨ Bonne
+                                réponse ! 😸</h3>
+                                <h3 class="reussiteCorrespondance_10 text-left animated slideInLeft duration-2s">⭐ Félicitations ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_11 text-left animated zoomOutUp duration-4s">🌟 Bonne
+                                réponse ! 😸</h3>
+                            <h3 class="reussiteCorrespondance_12 text-left animated flipInX duration-2s">👍 Bravo ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_13 text-left animated flipOutY duration-2s">👏 Réponse exacte ! ⭐</h3>
+                            <img id="successLevel" src="" class="successLevel img-fluid animated flash delay-3s infinite pulse pvw-t-3" alt="">
                             <!-- Affichage du message : Niveau Suivant -->
                             <div class="containerLevelJeu pvw-t-1">
                                 <img id="nextLevel" src="img/suivant.png" width="300" class="jeuLevel ecouteurJeu mx-auto animated infinite jello img-fluid">
@@ -168,11 +194,11 @@
 
                 <!-- Récupération des données de la table level (temps limites pour nombre d'étoiles) -->
                 @if(!empty($levels))
-                @foreach($levels as $level)
-                <div id="level_{{ $level->id }}" style="display:none;">{{ $level->id }}</div>
-                <div id="2et_level_{{ $level->id }}" style="display:none;">{{ $level->two_stars }}</div>
-                <div id="3et_level_{{ $level->id }}" style="display:none;">{{ $level->three_stars }}</div>
-                @endforeach
+                    @foreach($levels as $level)
+                        <div id="level_{{ $level->id }}" style="display:none;">{{ $level->id }}</div>
+                        <div id="2et_level_{{ $level->id }}" style="display:none;">{{ $level->two_stars }}</div>
+                        <div id="3et_level_{{ $level->id }}" style="display:none;">{{ $level->three_stars }}</div>
+                    @endforeach
                 @endif
 
                 <!-- Bouton pour lancer la partie -->
@@ -182,6 +208,7 @@
                     </div>
                 </div>
 
+                @if ($id != 1)
                 <!-- Bouton pour enregistrer la partie dans la bdd -->
                 <div id="gameEnd" class="gameEnd" style="display:none;">
                     <form action=""></form>
@@ -189,15 +216,37 @@
                         <button class="btn btn-success btn-lg" type="button" onclick="this.disabled = true;">VALIDER LA PARTIE</button>
                     </a>
                 </div>
+                @endif
+
+                @if ($id == 1)
+                    <div id="gameEnd" class="gameEnd" style="display:none;">
+                        <form action=""></form>
+                        <a href="{{ route('score') }}">
+                            <button class="btn btn-success btn-lg ml-3">Terminé</button></a>
+                    </div>
+                @endif
+{{--
+                @if ($id == 10)
+                    <div id="gameEnd" class="gameEnd" style="display:none;">
+                        <form action=""></form>
+                        <a href="{{ route('score', $retour=1) }}">
+                            <button class="btn btn-success btn-lg ml-3">Nouvelle partie</button></a>
+                        <a href="{{ route('score', $retour=2) }}">
+                            <button class="btn btn-info btn-lg ml-3">Accueil</button></a>
+                    </div>
+                @endif --}}
+
 
                 <!-- Zone des réglages (boutons audio, config et didactitiel) -->
                 <div class="container">
                     <div id="option" class="row option">
                         <div class="width-button" id="audioTool">
-                            <a href="https://project-color.fgainza.fr/pindex"
-                                onclick="return confirm('Si vous quittez le jeu maintenant, la partie en cours sera annulée. \n Etes-vous certain de vouloir quitter le jeu ?')"><img
-                                    src="img/config.png" id="config" title="Administration Parents"
-                                    class="width-button disp-but audio3 img-fluid"></a>
+                            @if ($id != 1)
+                                <a href="https://project-color.fgainza.fr/pindex"
+                                    onclick="return confirm('Si vous quittez le jeu maintenant, la partie en cours sera annulée. \n Etes-vous certain de vouloir quitter le jeu ?')"><img
+                                        src="img/config.png" id="config" title="Administration Parents"
+                                        class="width-button disp-but audio3 img-fluid"></a>
+                            @endif
                             <a href="https://project-color.fgainza.fr/help" target="_blank"
                                 onclick="return alert('La page demandée va s\'ouvrir dans un nouvel onglet pour que vous puissiez continuer votre partie en cours')"><img
                                     src="img/info.png" id="info" title="Informations et Aide" class="width-button disp-but audio4 img-fluid"></a>
@@ -249,12 +298,10 @@
             </script>
             <!-- JS IonSounds  -->
             <script src="js/ion.sound.min.js"></script>
-            <!-- JS jQueryRotate  -->
-            <script src="js/jQueryRotate.js"></script>
             <!-- JS Timer  -->
             <script src="js/timer.js"></script>
             <!-- JS Personnel  -->
-            <script src="js/gameMain.js"></script>
+            <script src="js/gameMain.min.js"></script>
 
             <!-- Script qui gère le fullscreen et l'affichage des icônes -->
             <script>

@@ -3,7 +3,7 @@ Jeu éducatif d'apprentissage des formes et des couleurs
 
 V1 Officielle - 09.03.2020
 
-Version actuelle (10.03.2020) : v1-0-1
+Version actuelle (16.03.2020) : v1-0-3
 ------------------
 
 * 10.03.2020 : V1-0-1 Améliorations mineures:
@@ -16,3 +16,9 @@ Version actuelle (10.03.2020) : v1-0-1
 * 12.03.2020 : V1-0-2 Améliorations mineures:
     - Page Edit Player de la partie admin : correction de la sélection du nom de l'utilisateur
     - Amélioration de la lisibilité du texte des pages d'erreurs personnalisées
+
+* 16.03.2020 : v1-0-3 Améliorations:
+    - Ajout de la possibilité de jouer sans s'inscrire
+    - Code JS optimisé et minifié
+    - CSS minifié (les fichiers les plus lourds)
+    - Phrases différentes et random pour les correspondances "origine" - "cible"

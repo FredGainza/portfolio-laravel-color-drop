@@ -27,9 +27,13 @@ Route::get('/', function () {
     if (auth()->user()){
         $users = Auth::user();
         $players = $users->players;
+        if ($users->id != 1){
+            return view('player.index')->with('players', $players)
+                                        ->with('users', $users);
+        }else{
+            return view('welcome');
+        }
 
-        return view('player.index')->with('players', $players)
-                                    ->with('users', $users);
     }else{
         return view('welcome');
     }
@@ -65,6 +69,8 @@ Route::resource('games', 'GamesController')
 Route::get('/pindex', 'PlayerController@index1')->name('pindex');
 // Route::get('/pindex', 'GamesController@score')->name('score');
 // Route::get('/var', 'UserController@vor');
+
+Route::get('/games&id=1', 'GamesController@invit')->name('games.invit');
 
 Route::get('/pedit', 'PlayerController@list');
 Route::post('/pedit', 'PlayerController@up');

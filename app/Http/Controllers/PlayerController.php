@@ -19,7 +19,7 @@ class PlayerController extends Controller
 
     public function pasConnect()
     {
-        if (!(Auth::user())){
+        if (!(Auth::user()) || Auth::id() == 1){
             return redirect()->route('/')->with('info', 'Il faut être connecté pour accéder à cette page.');
         }
     }
@@ -126,6 +126,7 @@ class PlayerController extends Controller
             $dureeMin = Game::where('player_id', $_GET['id'])->get()->min('duree_game');
             $partieMin = Game::where('duree_game', $dureeMin)->select('numGame')->distinct()->get();
         }
+
         return view('player.resume')->with('player', $player)
                                     ->with('games', $games)
                                     ->with('user', $user)

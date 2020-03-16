@@ -18,6 +18,7 @@
     .fz-95{font-size: .95rem;}
     .fz-140{font-size: 140%;}
     h5{font-size: 1.05rem !important;}
+    .fz-110r{font-size: 1.1rem;}
 
 
     /*----------  COLORS ----------*/
@@ -27,6 +28,7 @@
     .-ange{color: hsla(35, 92%, 67%, 0.95);}
     .text-darkos{color: #07162e;}
     .text-theme {color: hsla(35, 92%, 67%, 0.95);}
+    .text-bdx{color: #7c1818;}
 
 
     /*----------  DISPLAY ----------*/
@@ -249,7 +251,10 @@
     }
     .table th, .table td {
         vertical-align: middle !important;
-        font-size: .9rem !important;
+        font-size: .9rem;
+    }
+    .table2 td{
+        font-weight: bold !important;
     }
     table.table1 td:first-child, table.table1 th:first-child{
         padding-left: 4%;
@@ -650,7 +655,7 @@
                                             <label for="radio{{$i}}"></label>
                                         </span>
                                     </td>
-                                    <td>{{ ucfirst($player->name) }}</td>
+                                    <td class="fz-110r text-bdx">{{ ucfirst($player->name) }}</td>
                                     <td>{{ ucfirst($player->difficulty) }}</td>
                                     <td>{{ $player->nbGames }}</td>
                                     <td>{{ $player->score }}</td>
