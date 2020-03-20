@@ -46,7 +46,7 @@
                 <!-- Difficulté -->
                 <div class="row mt-4">
                     <div class="col-12 flex-init mx-resp">
-                        <span><i class="fas fa-tachometer-alt mx-2"></i> Niveau de difficulté</span>
+                        <span><i class="fas fa-sort mx-2"></i> Niveau de difficulté</span>
                         <select name="difficulty" id="dif-select" class="browser-default custom-select mt-2">
                             <option value="facile">Facile</option>
                             <option value="moyen">Moyen</option>

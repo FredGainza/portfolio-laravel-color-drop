@@ -53,8 +53,8 @@
 
             </div>
         </div>
-        <div class="row justify-content-center align-items-center pt-4">
-            <a href="{{ route('games.invit') }}" target="_blank" class="buttun btn-2 action-button4 red">Testez-moi !</a>
+        <div class="row justify-content-center align-items-center pt-4 mb-5">
+            <a href="{{ route('games.invit') }}" class="buttun btn-2 action-button4 red">Testez-moi !</a>
             <i class="qtip tip-left ml-3" data-tip="Vous pouvez jouer sans vous inscrire. Mais si vous voulez suivre la progression de votre enfant dans le temps, nous vous conseillons de créer un compte."><img src="img/info2.png" alt=""></i>
 
         </div>

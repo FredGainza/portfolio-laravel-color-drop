@@ -43,8 +43,27 @@
 
 @section('content')
 <div class="container">
-    <div class="row mt-3">
-        <h1>Liste des parties</h1>
+    <div class="row my-3">
+        <div class="col-lg-4 text-left">
+            <h1>Liste des parties</h1>
+        </div>
+        <div class="offset-lg-2 col-lg-6 text-right">
+            <div class="select">
+                <select onchange="window.location.href = this.value" class="custom-select">
+                    <option class="w-100" value="{{ route('games.index1') }}" @unless($name) selected @endunless>-- Toutes les parties --</option>
+                    @foreach($players as $player)
+                        @php
+                            $playerActivite = $player->nbGames;
+                        @endphp
+                        <option value="{{ route('games.player', $player->name) }}"
+                            @if ($playerActivite == 0)
+                             class="text-danger"
+                            @endif
+                            {{ $name == $player->name ? ' selected' : '' }}>{{ $player->name }}</option>
+                    @endforeach
+                </select>
+            </div>
+        </div>
     </div>
 
     <div class="row">

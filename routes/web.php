@@ -106,7 +106,7 @@ Route::get('/rules', function() {
 
 Route::get('/help', 'HelpController@index')->name('help');
 
-
+Route::get('/games-admin-{player}', 'GamesController@index1')->name('games.player')->middleware ('is_admin');
 Route::get('/games-admin', 'GamesController@index1')->name('games.index1')
 ->middleware ('is_admin');
 

@@ -22,3 +22,8 @@ Version actuelle (16.03.2020) : v1-0-3
     - Code JS optimisé et minifié
     - CSS minifié (les fichiers les plus lourds)
     - Phrases différentes et random pour les correspondances "origine" - "cible"
+
+* 20.03.2020 : v1-0-4 Améliorations:
+    - Amélioration palette couleur "Origin" dans le jeu
+    - Partie admin : ajout d'un select dans la partie game pour sélectionner les parties d'un joueur en particulier
+                    ( + différenciation entre joueurs qui ont réalisé des parties et les autres)
