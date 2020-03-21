@@ -1497,3 +1497,625 @@
 #=#=#=# Syncrun started 2020-03-20T18:30:55Z
 #=#=#=#=# Propagation starts 2020-03-20T18:30:56Z (last step: 350 msec, total: 350 msec)
 #=#=#=# Syncrun finished 2020-03-20T18:30:56Z (last step: 10 msec, total: 360 msec)
+#=#=#=# Syncrun started 2020-03-21T11:53:45Z
+#=#=#=#=# Propagation starts 2020-03-21T11:53:46Z (last step: 242 msec, total: 242 msec)
+11:53:47||public/js/gameMain.js|INST_SYNC|Up|1584791623|de8e9d737e4e3cca37f350b4c1efb096|38014|00217638|4||204|39009|1584791440|fde69b0b-9da7-4117-a038-34a0833750a0|
+#=#=#=# Syncrun finished 2020-03-21T11:53:46Z (last step: 293 msec, total: 536 msec)
+#=#=#=# Syncrun started 2020-03-21T11:54:39Z
+#=#=#=#=# Propagation starts 2020-03-21T11:54:39Z (last step: 654 msec, total: 654 msec)
+#=#=#=# Syncrun finished 2020-03-21T11:54:39Z (last step: 8 msec, total: 662 msec)
+#=#=#=# Syncrun started 2020-03-21T11:55:49Z
+#=#=#=#=# Propagation starts 2020-03-21T11:55:50Z (last step: 351 msec, total: 351 msec)
+11:55:51||storage/framework/views/90b1e60d912cfd1e8606225a0d8ab4a3f49bc52c.php|INST_SYNC|Up|1584791747|fb3226fcf41f90da2069c06b37024eb1|4171|00217964|4||204|4085|1584556085|f7b7c4bc-244c-451e-8958-45678057236a|
+#=#=#=# Syncrun finished 2020-03-21T11:55:50Z (last step: 361 msec, total: 713 msec)
+#=#=#=# Syncrun started 2020-03-21T11:55:54Z
+#=#=#=#=# Propagation starts 2020-03-21T11:55:55Z (last step: 1086 msec, total: 1086 msec)
+11:55:57||storage/framework/views/99537e2f048ce45a48f3c5e1c020de86c471c830.php|INST_SYNC|Up|1584791752|b19f2f3208a33bd69b0889930ec47195|19560|00217967|4||204|19212|1584714610|f07ae1ef-3de6-4bf6-a2e6-98d039c124f3|
+#=#=#=# Syncrun finished 2020-03-21T11:55:56Z (last step: 238 msec, total: 1324 msec)
+#=#=#=# Syncrun started 2020-03-21T11:56:40Z
+#=#=#=#=# Propagation starts 2020-03-21T11:56:41Z (last step: 1113 msec, total: 1113 msec)
+#=#=#=# Syncrun finished 2020-03-21T11:56:41Z (last step: 7 msec, total: 1120 msec)
+#=#=#=# Syncrun started 2020-03-21T11:56:47Z
+#=#=#=#=# Propagation starts 2020-03-21T11:56:48Z (last step: 285 msec, total: 285 msec)
+11:56:49||public/js/gameMain.js|INST_SYNC|Up|1584791805|3ac8be112c0007bf3fb9bd2a77f90da3|38012|00217638|4||204|38014|1584791623|d29922dc-1fc5-4ea6-99ff-63ad1ab9e74f|
+#=#=#=# Syncrun finished 2020-03-21T11:56:48Z (last step: 318 msec, total: 603 msec)
+#=#=#=# Syncrun started 2020-03-21T11:57:39Z
+#=#=#=#=# Propagation starts 2020-03-21T11:57:40Z (last step: 712 msec, total: 712 msec)
+#=#=#=# Syncrun finished 2020-03-21T11:57:40Z (last step: 8 msec, total: 720 msec)
+#=#=#=# Syncrun started 2020-03-21T11:58:37Z
+#=#=#=#=# Propagation starts 2020-03-21T11:58:37Z (last step: 339 msec, total: 339 msec)
+11:58:38||public/js/gameMain.js|INST_SYNC|Up|1584791915|40cbc89e18f94623765253c0fa9c8988|38012|00217638|4||204|38012|1584791805|aa8c3bf0-cc5b-41de-966e-197e606facd7|
+#=#=#=# Syncrun finished 2020-03-21T11:58:37Z (last step: 446 msec, total: 786 msec)
+#=#=#=# Syncrun started 2020-03-21T11:59:09Z
+#=#=#=#=# Propagation starts 2020-03-21T11:59:10Z (last step: 702 msec, total: 702 msec)
+#=#=#=# Syncrun finished 2020-03-21T11:59:10Z (last step: 12 msec, total: 714 msec)
+#=#=#=# Syncrun started 2020-03-21T12:06:32Z
+#=#=#=#=# Propagation starts 2020-03-21T12:06:32Z (last step: 278 msec, total: 278 msec)
+12:06:34||public/js/gameMain.js|INST_SYNC|Up|1584792390|f6b2243b43513099aab358410dfd4ba9|38007|00217638|4||204|38012|1584791915|ddf3a963-bc17-4322-bd03-3399b509d1b2|
+#=#=#=# Syncrun finished 2020-03-21T12:06:33Z (last step: 401 msec, total: 679 msec)
+#=#=#=# Syncrun started 2020-03-21T12:07:09Z
+#=#=#=#=# Propagation starts 2020-03-21T12:07:10Z (last step: 670 msec, total: 670 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:07:10Z (last step: 10 msec, total: 681 msec)
+#=#=#=# Syncrun started 2020-03-21T12:07:26Z
+#=#=#=#=# Propagation starts 2020-03-21T12:07:27Z (last step: 286 msec, total: 286 msec)
+12:07:28||public/js/gameMain.js|INST_SYNC|Up|1584792444|40cbc89e18f94623765253c0fa9c8988|38012|00217638|4||204|38007|1584792390|107f8111-fc05-491c-ab84-f66755866153|
+#=#=#=# Syncrun finished 2020-03-21T12:07:27Z (last step: 322 msec, total: 609 msec)
+#=#=#=# Syncrun started 2020-03-21T12:07:50Z
+#=#=#=#=# Propagation starts 2020-03-21T12:07:51Z (last step: 668 msec, total: 668 msec)
+12:07:52||resources/views/games/index.blade.php|INST_SYNC|Up|1584792468|683fa18b6fda5195eb6ccc950856fd3a|19164|00217723|4||204|19517|1584791440|2b845ec0-fedf-4371-82ce-b3c657ca1824|
+#=#=#=# Syncrun finished 2020-03-21T12:07:52Z (last step: 795 msec, total: 1464 msec)
+#=#=#=# Syncrun started 2020-03-21T12:08:05Z
+#=#=#=#=# Propagation starts 2020-03-21T12:08:06Z (last step: 843 msec, total: 843 msec)
+12:08:07||resources/views/games/index.blade.php|INST_SYNC|Up|1584792483|159cf8e524989935b0ae377b9094ec12|19160|00217723|4||204|19164|1584792468|e7762594-1ccb-4af1-a487-018acf52eb50|
+#=#=#=# Syncrun finished 2020-03-21T12:08:07Z (last step: 1115 msec, total: 1958 msec)
+#=#=#=# Syncrun started 2020-03-21T12:08:09Z
+#=#=#=#=# Propagation starts 2020-03-21T12:08:10Z (last step: 1000 msec, total: 1000 msec)
+12:08:12||storage/framework/views/99537e2f048ce45a48f3c5e1c020de86c471c830.php|INST_SYNC|Up|1584792486|60c2e77b2237477def7380670130befc|19212|00217967|4||204|19560|1584791752|dc284241-9e9e-437b-aeae-a0262d05a5a4|
+#=#=#=# Syncrun finished 2020-03-21T12:08:11Z (last step: 332 msec, total: 1332 msec)
+#=#=#=# Syncrun started 2020-03-21T12:09:09Z
+#=#=#=#=# Propagation starts 2020-03-21T12:09:10Z (last step: 1138 msec, total: 1138 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:09:10Z (last step: 8 msec, total: 1147 msec)
+#=#=#=# Syncrun started 2020-03-21T12:09:44Z
+#=#=#=#=# Propagation starts 2020-03-21T12:09:44Z (last step: 269 msec, total: 269 msec)
+12:09:46||public/js/gameMain.js|INST_SYNC|Up|1584792582|0ae341577b2c3a1699c850cee4c8c542|38056|00217638|4||204|38012|1584792444|ba127b70-b787-4d93-b262-020fa87d2c35|
+#=#=#=# Syncrun finished 2020-03-21T12:09:45Z (last step: 317 msec, total: 586 msec)
+#=#=#=# Syncrun started 2020-03-21T12:10:39Z
+#=#=#=#=# Propagation starts 2020-03-21T12:10:39Z (last step: 610 msec, total: 610 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:10:39Z (last step: 9 msec, total: 620 msec)
+#=#=#=# Syncrun started 2020-03-21T12:10:43Z
+#=#=#=#=# Propagation starts 2020-03-21T12:10:44Z (last step: 326 msec, total: 326 msec)
+12:10:45||public/js/gameMain.js|INST_SYNC|Up|1584792641|fc0d079c8fabc12a07293a2a0d473633|38093|00217638|4||204|38056|1584792582|ba130ea9-94a5-446d-b2db-7c3e612c05a6|
+#=#=#=# Syncrun finished 2020-03-21T12:10:44Z (last step: 284 msec, total: 611 msec)
+#=#=#=# Syncrun started 2020-03-21T12:11:39Z
+#=#=#=#=# Propagation starts 2020-03-21T12:11:39Z (last step: 625 msec, total: 625 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:11:40Z (last step: 7 msec, total: 633 msec)
+#=#=#=# Syncrun started 2020-03-21T12:12:40Z
+#=#=#=#=# Propagation starts 2020-03-21T12:12:40Z (last step: 289 msec, total: 289 msec)
+12:12:42||public/js/gameMain.js|INST_SYNC|Up|1584792758|00e100f2089e3992df6d6a4acb6c94af|38087|00217638|4||204|38093|1584792641|ac957b79-9e16-4f99-a3f8-47bcc471eb07|
+#=#=#=# Syncrun finished 2020-03-21T12:12:41Z (last step: 317 msec, total: 607 msec)
+#=#=#=# Syncrun started 2020-03-21T12:13:39Z
+#=#=#=#=# Propagation starts 2020-03-21T12:13:40Z (last step: 688 msec, total: 688 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:13:40Z (last step: 8 msec, total: 696 msec)
+#=#=#=# Syncrun started 2020-03-21T12:14:26Z
+#=#=#=#=# Propagation starts 2020-03-21T12:14:26Z (last step: 326 msec, total: 326 msec)
+12:14:27||public/js/gameMain.js|INST_SYNC|Up|1584792864|0e38981437154d8f8ab2b8e174aea8bb|38055|00217638|4||204|38087|1584792758|2ae6f333-38ae-4962-914b-4edbcec66533|
+#=#=#=# Syncrun finished 2020-03-21T12:14:26Z (last step: 243 msec, total: 570 msec)
+#=#=#=# Syncrun started 2020-03-21T12:15:09Z
+#=#=#=#=# Propagation starts 2020-03-21T12:15:10Z (last step: 636 msec, total: 636 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:15:10Z (last step: 7 msec, total: 644 msec)
+#=#=#=# Syncrun started 2020-03-21T12:15:53Z
+#=#=#=#=# Propagation starts 2020-03-21T12:15:53Z (last step: 285 msec, total: 285 msec)
+12:15:54||public/js/gameMain.js|INST_SYNC|Up|1584792951|de8e9d737e4e3cca37f350b4c1efb096|38014|00217638|4||204|38055|1584792864|fdd8c580-2c60-4cfb-a15d-b6b2201a5223|
+#=#=#=# Syncrun finished 2020-03-21T12:15:53Z (last step: 335 msec, total: 621 msec)
+#=#=#=# Syncrun started 2020-03-21T12:16:39Z
+#=#=#=#=# Propagation starts 2020-03-21T12:16:40Z (last step: 774 msec, total: 774 msec)
+#=#=#=# Syncrun finished 2020-03-21T12:16:40Z (last step: 8 msec, total: 782 msec)
+#=#=#=# Syncrun started 2020-03-21T13:11:09Z
+#=#=#=#=# Propagation starts 2020-03-21T13:11:14Z (last step: 4459 msec, total: 4459 msec)
+13:11:17||public/js/gameMain_.js|INST_NEW|Up|1584796268|698e746e3ab34726a64d15afaa64bc83|38014|00227691|4||201|0|0|199fef1f-b360-47d5-8d0d-f03acf1f9b50|
+#=#=#=# Syncrun finished 2020-03-21T13:11:16Z (last step: 2644 msec, total: 7104 msec)
+#=#=#=# Syncrun started 2020-03-21T13:12:09Z
+#=#=#=#=# Propagation starts 2020-03-21T13:12:10Z (last step: 700 msec, total: 700 msec)
+#=#=#=# Syncrun finished 2020-03-21T13:12:10Z (last step: 6 msec, total: 707 msec)
+#=#=#=# Syncrun started 2020-03-21T13:37:51Z
+#=#=#=#=# Propagation starts 2020-03-21T13:37:52Z (last step: 355 msec, total: 355 msec)
+13:37:53||public/js/gameMain.js|INST_SYNC|Up|1584797869|9450ccd1054e2280b3465c1fdc5c8963|37701|00217638|4||204|38014|1584792951|80f5e1f4-b73f-463d-9e8f-6703fdc33c2c|
+#=#=#=# Syncrun finished 2020-03-21T13:37:52Z (last step: 438 msec, total: 794 msec)
+#=#=#=# Syncrun started 2020-03-21T13:38:40Z
+#=#=#=#=# Propagation starts 2020-03-21T13:38:40Z (last step: 670 msec, total: 670 msec)
+#=#=#=# Syncrun finished 2020-03-21T13:38:40Z (last step: 7 msec, total: 677 msec)
+#=#=#=# Syncrun started 2020-03-21T13:39:44Z
+#=#=#=#=# Propagation starts 2020-03-21T13:39:44Z (last step: 374 msec, total: 374 msec)
+13:39:45||public/js/gameMain.js|INST_SYNC|Up|1584797982|778e2d0c105e12a27453d7b8469fba0c|37697|00217638|4||204|37701|1584797869|c5273fb3-42ec-4a51-9940-f2aaabfc44e6|
+#=#=#=# Syncrun finished 2020-03-21T13:39:44Z (last step: 423 msec, total: 797 msec)
+#=#=#=# Syncrun started 2020-03-21T13:40:40Z
+#=#=#=#=# Propagation starts 2020-03-21T13:40:41Z (last step: 1020 msec, total: 1020 msec)
+#=#=#=# Syncrun finished 2020-03-21T13:40:41Z (last step: 8 msec, total: 1028 msec)
+#=#=#=# Syncrun started 2020-03-21T13:41:50Z
+#=#=#=#=# Propagation starts 2020-03-21T13:41:50Z (last step: 343 msec, total: 343 msec)
+13:41:52||public/js/gameMain.js|INST_SYNC|Up|1584798108|0e70a97d5ac4705821f7b19537cd5605|37698|00217638|4||204|37697|1584797982|8f64be28-c47a-45e0-974b-76e1610ef0f7|
+#=#=#=# Syncrun finished 2020-03-21T13:41:51Z (last step: 799 msec, total: 1142 msec)
+#=#=#=# Syncrun started 2020-03-21T13:42:28Z
+#=#=#=#=# Propagation starts 2020-03-21T13:42:29Z (last step: 782 msec, total: 782 msec)
+13:42:31||public/js/gameMain.js|INST_SYNC|Up|1584798146|3d5928193086ed5ffc7328bd3d3ca223|37696|00217638|4||204|37698|1584798108|9c885724-8ebd-48e9-880e-b8764bfb4759|
+#=#=#=# Syncrun finished 2020-03-21T13:42:29Z (last step: 331 msec, total: 1114 msec)
+#=#=#=# Syncrun started 2020-03-21T13:43:10Z
+#=#=#=#=# Propagation starts 2020-03-21T13:43:11Z (last step: 1220 msec, total: 1220 msec)
+#=#=#=# Syncrun finished 2020-03-21T13:43:11Z (last step: 7 msec, total: 1228 msec)
+#=#=#=# Syncrun started 2020-03-21T14:00:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:00:09Z (last step: 265 msec, total: 265 msec)
+14:00:11||public/js/gameMain.js|INST_SYNC|Up|1584799207|6c7e13385db9ab586642e31614b61934|38002|00217638|4||204|37696|1584798146|af65574f-7edc-45b4-b201-e069fb2e78e8|
+#=#=#=# Syncrun finished 2020-03-21T14:00:10Z (last step: 607 msec, total: 873 msec)
+#=#=#=# Syncrun started 2020-03-21T14:01:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:01:10Z (last step: 668 msec, total: 668 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:01:10Z (last step: 8 msec, total: 677 msec)
+#=#=#=# Syncrun started 2020-03-21T14:06:13Z
+#=#=#=#=# Propagation starts 2020-03-21T14:06:13Z (last step: 373 msec, total: 373 msec)
+14:06:15||public/js/gameMain.js|INST_SYNC|Up|1584799571|de8e9d737e4e3cca37f350b4c1efb096|38014|00217638|4||204|38002|1584799207|c1b27cea-82fe-46f9-aa80-233d119aee7a|
+#=#=#=# Syncrun finished 2020-03-21T14:06:14Z (last step: 956 msec, total: 1330 msec)
+#=#=#=# Syncrun started 2020-03-21T14:07:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:07:10Z (last step: 696 msec, total: 696 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:07:10Z (last step: 9 msec, total: 705 msec)
+#=#=#=# Syncrun started 2020-03-21T14:09:01Z
+#=#=#=#=# Propagation starts 2020-03-21T14:09:05Z (last step: 3838 msec, total: 3838 msec)
+14:09:07||public/js/gameMain.js|INST_SYNC|Up|1584799739|de8e9d737e4e3cca37f350b4c1efb096|38014|00217638|4||204|38014|1584799571|2f56f031-9631-4973-9ee4-70aa1de69b11|
+#=#=#=# Syncrun finished 2020-03-21T14:09:05Z (last step: 357 msec, total: 4196 msec)
+#=#=#=# Syncrun started 2020-03-21T14:09:39Z
+#=#=#=#=# Propagation starts 2020-03-21T14:09:40Z (last step: 692 msec, total: 692 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:09:40Z (last step: 8 msec, total: 701 msec)
+#=#=#=# Syncrun started 2020-03-21T14:13:00Z
+#=#=#=#=# Propagation starts 2020-03-21T14:13:04Z (last step: 4540 msec, total: 4540 msec)
+14:13:07||public/js/gameMain.js|INST_SYNC|Up|1584799978|7dad38d28ba1ce51940d0b789bd54e07|38093|00217638|4||204|38014|1584799739|85cc9408-ef46-4dd5-af9e-0a28472d5fec|
+#=#=#=# Syncrun finished 2020-03-21T14:13:07Z (last step: 2374 msec, total: 6914 msec)
+#=#=#=# Syncrun started 2020-03-21T14:13:39Z
+#=#=#=#=# Propagation starts 2020-03-21T14:13:40Z (last step: 862 msec, total: 862 msec)
+||public/js/gameMain.js|INST_SYNC|Up|1584800019|7dad38d28ba1ce51940d0b789bd54e07|38093|00217638|3|Fichier local modifié pendant la synchronisation.|0|38093|1584799978||
+#=#=#=# Syncrun finished 2020-03-21T14:13:41Z (last step: 490 msec, total: 1353 msec)
+#=#=#=# Syncrun started 2020-03-21T14:13:43Z
+#=#=#=#=# Propagation starts 2020-03-21T14:13:43Z (last step: 747 msec, total: 747 msec)
+14:13:45||public/js/gameMain.js|INST_SYNC|Up|1584800019|8c153c7c8c60a6a4a6319713f077dc9f|38093|00217638|4||204|38093|1584799978|e2644586-04ae-42b6-8524-c2226284a687|
+#=#=#=# Syncrun finished 2020-03-21T14:13:44Z (last step: 251 msec, total: 999 msec)
+#=#=#=# Syncrun started 2020-03-21T14:14:40Z
+#=#=#=#=# Propagation starts 2020-03-21T14:14:40Z (last step: 662 msec, total: 662 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:14:40Z (last step: 10 msec, total: 673 msec)
+#=#=#=# Syncrun started 2020-03-21T14:16:20Z
+#=#=#=#=# Propagation starts 2020-03-21T14:16:20Z (last step: 272 msec, total: 272 msec)
+14:16:22||public/js/gameMain.js|INST_SYNC|Up|1584800178|965ab138cae9d157189e4b4440236458|38138|00217638|4||204|38093|1584800019|cddbbb62-25e3-458b-a98b-b54349aea367|
+#=#=#=# Syncrun finished 2020-03-21T14:16:20Z (last step: 338 msec, total: 610 msec)
+#=#=#=# Syncrun started 2020-03-21T14:16:23Z
+#=#=#=#=# Propagation starts 2020-03-21T14:16:23Z (last step: 662 msec, total: 662 msec)
+14:16:25||public/js/gameMain.js|INST_SYNC|Up|1584800181|3f7ca31f99726c2da4f8fe5008d29769|38139|00217638|4||204|38138|1584800178|3e1f2a31-12cf-414a-94ec-802c4c4b2638|
+#=#=#=# Syncrun finished 2020-03-21T14:16:23Z (last step: 196 msec, total: 859 msec)
+#=#=#=# Syncrun started 2020-03-21T14:17:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:17:10Z (last step: 681 msec, total: 681 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:17:10Z (last step: 7 msec, total: 688 msec)
+#=#=#=# Syncrun started 2020-03-21T14:17:52Z
+#=#=#=#=# Propagation starts 2020-03-21T14:17:53Z (last step: 321 msec, total: 321 msec)
+14:17:54||public/js/gameMain.js|INST_SYNC|Up|1584800270|39066c098a9c8e3abed53a8b804ef9cf|38091|00217638|4||204|38139|1584800181|7a620125-11be-4bc7-999a-174f1e2a5aed|
+#=#=#=# Syncrun finished 2020-03-21T14:17:53Z (last step: 439 msec, total: 760 msec)
+#=#=#=# Syncrun started 2020-03-21T14:18:39Z
+#=#=#=#=# Propagation starts 2020-03-21T14:18:40Z (last step: 663 msec, total: 663 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:18:40Z (last step: 8 msec, total: 671 msec)
+#=#=#=# Syncrun started 2020-03-21T14:20:11Z
+#=#=#=#=# Propagation starts 2020-03-21T14:20:12Z (last step: 352 msec, total: 352 msec)
+14:20:13||public/js/gameMain.js|INST_SYNC|Up|1584800409|506fb4917a9c98a2d4b5914a9af19964|38090|00217638|4||204|38091|1584800270|0b25eeac-9d68-4443-a617-75431c57f6e2|
+#=#=#=# Syncrun finished 2020-03-21T14:20:12Z (last step: 380 msec, total: 732 msec)
+#=#=#=# Syncrun started 2020-03-21T14:21:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:21:10Z (last step: 673 msec, total: 673 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:21:10Z (last step: 11 msec, total: 685 msec)
+#=#=#=# Syncrun started 2020-03-21T14:22:33Z
+#=#=#=#=# Propagation starts 2020-03-21T14:22:34Z (last step: 331 msec, total: 331 msec)
+14:22:35||public/js/gameMain.js|INST_SYNC|Up|1584800551|416b42c4a6975b9c363d4c713837f826|38094|00217638|4||204|38090|1584800409|4eb562a6-1c70-4241-9d01-e054674eb41e|
+#=#=#=# Syncrun finished 2020-03-21T14:22:34Z (last step: 338 msec, total: 670 msec)
+#=#=#=# Syncrun started 2020-03-21T14:23:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:23:10Z (last step: 692 msec, total: 692 msec)
+14:23:11||public/js/gameMain.js|INST_SYNC|Up|1584800588|3f106b768836390a5a6507acb0700a31|38090|00217638|4||204|38094|1584800551|afb800b5-a5c0-4cb2-965f-904310eed2a7|
+#=#=#=# Syncrun finished 2020-03-21T14:23:10Z (last step: 217 msec, total: 910 msec)
+#=#=#=# Syncrun started 2020-03-21T14:23:12Z
+#=#=#=#=# Propagation starts 2020-03-21T14:23:13Z (last step: 684 msec, total: 684 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:23:13Z (last step: 10 msec, total: 694 msec)
+#=#=#=# Syncrun started 2020-03-21T14:24:02Z
+#=#=#=#=# Propagation starts 2020-03-21T14:24:03Z (last step: 322 msec, total: 322 msec)
+14:24:04||public/js/gameMain.js|INST_SYNC|Up|1584800640|ef0904ac8a1380b827c8e88397ac28c6|38098|00217638|4||204|38090|1584800588|42e3770c-25ba-4b1a-9c5e-27ce60335b13|
+#=#=#=# Syncrun finished 2020-03-21T14:24:03Z (last step: 315 msec, total: 638 msec)
+#=#=#=# Syncrun started 2020-03-21T14:24:39Z
+#=#=#=#=# Propagation starts 2020-03-21T14:24:40Z (last step: 661 msec, total: 661 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:24:40Z (last step: 8 msec, total: 669 msec)
+#=#=#=# Syncrun started 2020-03-21T14:25:47Z
+#=#=#=#=# Propagation starts 2020-03-21T14:25:47Z (last step: 375 msec, total: 375 msec)
+14:25:49||public/js/gameMain.js|INST_SYNC|Up|1584800745|7046203152b4d0514d6a26cccc7b7ef4|38087|00217638|4||204|38098|1584800640|f4d931c6-76f7-4af9-87ff-feae413781ec|
+#=#=#=# Syncrun finished 2020-03-21T14:25:48Z (last step: 467 msec, total: 843 msec)
+#=#=#=# Syncrun started 2020-03-21T14:26:40Z
+#=#=#=#=# Propagation starts 2020-03-21T14:26:41Z (last step: 914 msec, total: 914 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:26:41Z (last step: 7 msec, total: 921 msec)
+#=#=#=# Syncrun started 2020-03-21T14:30:35Z
+#=#=#=#=# Propagation starts 2020-03-21T14:30:35Z (last step: 300 msec, total: 300 msec)
+14:30:36||public/js/gameMain.js|INST_SYNC|Up|1584801033|de8e9d737e4e3cca37f350b4c1efb096|38014|00217638|4||204|38087|1584800745|4a9e27de-4c6d-48aa-9c35-d9cb60f59c6e|
+#=#=#=# Syncrun finished 2020-03-21T14:30:36Z (last step: 868 msec, total: 1168 msec)
+#=#=#=# Syncrun started 2020-03-21T14:31:10Z
+#=#=#=#=# Propagation starts 2020-03-21T14:31:10Z (last step: 771 msec, total: 771 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:31:10Z (last step: 7 msec, total: 779 msec)
+#=#=#=# Syncrun started 2020-03-21T14:37:11Z
+#=#=#=#=# Propagation starts 2020-03-21T14:37:11Z (last step: 312 msec, total: 312 msec)
+14:37:12||public/js/gameMain.js|INST_SYNC|Up|1584801429|86b4f0bea6d6c5138a28b35a078f520b|38128|00217638|4||204|38014|1584801033|87da05a8-ae8d-46bf-a3a2-5b8e3a30ccbb|
+#=#=#=# Syncrun finished 2020-03-21T14:37:11Z (last step: 350 msec, total: 663 msec)
+#=#=#=# Syncrun started 2020-03-21T14:37:56Z
+#=#=#=#=# Propagation starts 2020-03-21T14:37:56Z (last step: 788 msec, total: 788 msec)
+14:37:58||public/js/gameMain.js|INST_SYNC|Up|1584801474|e6831bab071d638656d16226d7c827fb|38252|00217638|4||204|38128|1584801429|f8fa392b-01ba-4b80-b337-3dcd0251f536|
+#=#=#=# Syncrun finished 2020-03-21T14:37:57Z (last step: 431 msec, total: 1220 msec)
+#=#=#=# Syncrun started 2020-03-21T14:38:39Z
+#=#=#=#=# Propagation starts 2020-03-21T14:38:40Z (last step: 719 msec, total: 719 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:38:40Z (last step: 10 msec, total: 729 msec)
+#=#=#=# Syncrun started 2020-03-21T14:38:46Z
+#=#=#=#=# Propagation starts 2020-03-21T14:38:46Z (last step: 381 msec, total: 381 msec)
+14:38:47||public/js/gameMain.js|INST_SYNC|Up|1584801524|bf0699932abc7cd37e5c015438c5abed|38252|00217638|4||204|38252|1584801474|a09cf6dd-7282-401a-8cd5-24c71b6d6f33|
+#=#=#=# Syncrun finished 2020-03-21T14:38:47Z (last step: 644 msec, total: 1026 msec)
+#=#=#=# Syncrun started 2020-03-21T14:39:39Z
+#=#=#=#=# Propagation starts 2020-03-21T14:39:40Z (last step: 656 msec, total: 656 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:39:40Z (last step: 7 msec, total: 664 msec)
+#=#=#=# Syncrun started 2020-03-21T14:49:27Z
+#=#=#=#=# Propagation starts 2020-03-21T14:49:27Z (last step: 280 msec, total: 280 msec)
+14:49:29||public/js/gameMain.js|INST_SYNC|Up|1584802165|1a0619c256322330f0748694a6f9b99a|38150|00217638|4||204|38252|1584801524|30a9663b-d301-43db-a2d6-ecadb04cf215|
+#=#=#=# Syncrun finished 2020-03-21T14:49:28Z (last step: 872 msec, total: 1152 msec)
+#=#=#=# Syncrun started 2020-03-21T14:50:09Z
+#=#=#=#=# Propagation starts 2020-03-21T14:50:10Z (last step: 691 msec, total: 691 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:50:10Z (last step: 9 msec, total: 700 msec)
+#=#=#=# Syncrun started 2020-03-21T14:50:12Z
+#=#=#=#=# Propagation starts 2020-03-21T14:50:12Z (last step: 367 msec, total: 367 msec)
+14:50:13||public/js/gameMain.js|INST_SYNC|Up|1584802210|1845d42ae6921bf96b4538e5618878a2|38214|00217638|4||204|38150|1584802165|da9042bf-52d1-4413-bebe-d3686d30c09d|
+#=#=#=# Syncrun finished 2020-03-21T14:50:12Z (last step: 342 msec, total: 710 msec)
+#=#=#=# Syncrun started 2020-03-21T14:51:10Z
+#=#=#=#=# Propagation starts 2020-03-21T14:51:10Z (last step: 644 msec, total: 644 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:51:10Z (last step: 7 msec, total: 652 msec)
+#=#=#=# Syncrun started 2020-03-21T14:57:04Z
+#=#=#=#=# Propagation starts 2020-03-21T14:57:05Z (last step: 323 msec, total: 323 msec)
+14:57:06||public/js/gameMain.js|INST_SYNC|Up|1584802622|ca2bd0dc4572a2bdef9d4d34cc6953e2|38177|00217638|4||204|38214|1584802210|36b86538-23ff-4873-9266-af6ae7dd3f14|
+#=#=#=# Syncrun finished 2020-03-21T14:57:06Z (last step: 818 msec, total: 1142 msec)
+#=#=#=# Syncrun started 2020-03-21T14:57:40Z
+#=#=#=#=# Propagation starts 2020-03-21T14:57:40Z (last step: 705 msec, total: 705 msec)
+#=#=#=# Syncrun finished 2020-03-21T14:57:40Z (last step: 7 msec, total: 713 msec)
+#=#=#=# Syncrun started 2020-03-21T15:01:50Z
+#=#=#=#=# Propagation starts 2020-03-21T15:01:51Z (last step: 297 msec, total: 297 msec)
+15:01:52||public/js/gameMain.js|INST_SYNC|Up|1584802908|b9bb6f802fec7c6783ea7b4e192e15af|38310|00217638|4||204|38177|1584802622|4633ed1a-04db-4c58-8b81-5d82b460cfa4|
+#=#=#=# Syncrun finished 2020-03-21T15:01:51Z (last step: 296 msec, total: 594 msec)
+#=#=#=# Syncrun started 2020-03-21T15:02:30Z
+#=#=#=#=# Propagation starts 2020-03-21T15:02:31Z (last step: 756 msec, total: 756 msec)
+15:02:32||public/js/gameMain.js|INST_SYNC|Up|1584802948|b8648197f610bb3f22377eb095ed1702|38311|00217638|4||204|38310|1584802908|317666bb-1056-4181-9798-acd828cbc69a|
+#=#=#=# Syncrun finished 2020-03-21T15:02:31Z (last step: 317 msec, total: 1074 msec)
+#=#=#=# Syncrun started 2020-03-21T15:03:10Z
+#=#=#=#=# Propagation starts 2020-03-21T15:03:10Z (last step: 745 msec, total: 745 msec)
+#=#=#=# Syncrun finished 2020-03-21T15:03:10Z (last step: 9 msec, total: 754 msec)
+#=#=#=# Syncrun started 2020-03-21T15:03:32Z
+#=#=#=#=# Propagation starts 2020-03-21T15:03:32Z (last step: 329 msec, total: 329 msec)
+15:03:34||public/js/gameMain.js|INST_SYNC|Up|1584803010|0fc0189f072b7b3eefa5357857bfcddb|38253|00217638|4||204|38311|1584802948|b4f80b67-fd5d-43a2-a0fb-00c422cefb54|
+#=#=#=# Syncrun finished 2020-03-21T15:03:33Z (last step: 875 msec, total: 1205 msec)
+#=#=#=# Syncrun started 2020-03-21T15:04:10Z
+#=#=#=#=# Propagation starts 2020-03-21T15:04:11Z (last step: 771 msec, total: 771 msec)
+#=#=#=# Syncrun finished 2020-03-21T15:04:11Z (last step: 8 msec, total: 780 msec)
+#=#=#=# Syncrun started 2020-03-21T16:32:02Z
+#=#=#=#=# Propagation starts 2020-03-21T16:32:06Z (last step: 4704 msec, total: 4704 msec)
+16:32:09||public/js/gameMain.js|INST_SYNC|Up|1584808320|f6614e4350c31001ed6737be4eb16186|38160|00217638|4||204|38253|1584803010|ad0451a0-b919-44a0-b4be-cda58efd652a|
+#=#=#=# Syncrun finished 2020-03-21T16:32:09Z (last step: 2379 msec, total: 7083 msec)
+#=#=#=# Syncrun started 2020-03-21T16:32:41Z
+#=#=#=#=# Propagation starts 2020-03-21T16:32:42Z (last step: 845 msec, total: 845 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:32:42Z (last step: 11 msec, total: 857 msec)
+#=#=#=# Syncrun started 2020-03-21T16:37:47Z
+#=#=#=#=# Propagation starts 2020-03-21T16:37:47Z (last step: 315 msec, total: 315 msec)
+16:37:49||resources/views/games/index.blade.php|INST_SYNC|Up|1584808665|8b18e254606411385bc771e4eed88768|19173|00217723|4||204|19160|1584792483|871decbf-c9f9-48a0-bae9-73c6956da415|
+#=#=#=# Syncrun finished 2020-03-21T16:37:48Z (last step: 367 msec, total: 683 msec)
+#=#=#=# Syncrun started 2020-03-21T16:38:20Z
+#=#=#=#=# Propagation starts 2020-03-21T16:38:21Z (last step: 950 msec, total: 950 msec)
+16:38:22||resources/views/games/index.blade.php|INST_SYNC|Up|1584808698|159cf8e524989935b0ae377b9094ec12|19160|00217723|4||204|19173|1584808665|264ea1e6-91b1-4ca7-8014-c64f30f90895|
+#=#=#=# Syncrun finished 2020-03-21T16:38:21Z (last step: 372 msec, total: 1323 msec)
+#=#=#=# Syncrun started 2020-03-21T16:39:11Z
+#=#=#=#=# Propagation starts 2020-03-21T16:39:12Z (last step: 877 msec, total: 877 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:39:12Z (last step: 10 msec, total: 888 msec)
+#=#=#=# Syncrun started 2020-03-21T16:40:19Z
+#=#=#=#=# Propagation starts 2020-03-21T16:40:20Z (last step: 481 msec, total: 481 msec)
+16:40:21||public/js/gameMain.js|INST_SYNC|Up|1584808817|2d686af2f21434ff7d73db67fbf793f6|38046|00217638|4||204|38160|1584808320|6637269b-0238-4aaf-b719-348e9a69378a|
+#=#=#=# Syncrun finished 2020-03-21T16:40:20Z (last step: 301 msec, total: 782 msec)
+#=#=#=# Syncrun started 2020-03-21T16:40:23Z
+#=#=#=#=# Propagation starts 2020-03-21T16:40:24Z (last step: 651 msec, total: 651 msec)
+16:40:25||storage/framework/views/99537e2f048ce45a48f3c5e1c020de86c471c830.php|INST_SYNC|Up|1584808821|60c2e77b2237477def7380670130befc|19212|00217967|4||204|19212|1584792486|bf73b932-d709-4876-93d3-1be5c2f7844e|
+#=#=#=# Syncrun finished 2020-03-21T16:40:24Z (last step: 276 msec, total: 927 msec)
+#=#=#=# Syncrun started 2020-03-21T16:41:11Z
+#=#=#=#=# Propagation starts 2020-03-21T16:41:12Z (last step: 1184 msec, total: 1184 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:41:12Z (last step: 12 msec, total: 1197 msec)
+#=#=#=# Syncrun started 2020-03-21T16:41:48Z
+#=#=#=#=# Propagation starts 2020-03-21T16:41:49Z (last step: 291 msec, total: 291 msec)
+16:41:50||public/js/gameMain.js|INST_SYNC|Up|1584808906|16ec42c44822c2d5b4621eae94318e7c|38043|00217638|4||204|38046|1584808817|6b9f2b2b-f766-4660-a464-5863db4e33c2|
+#=#=#=# Syncrun finished 2020-03-21T16:41:49Z (last step: 340 msec, total: 632 msec)
+#=#=#=# Syncrun started 2020-03-21T16:42:41Z
+#=#=#=#=# Propagation starts 2020-03-21T16:42:42Z (last step: 646 msec, total: 646 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:42:42Z (last step: 11 msec, total: 657 msec)
+#=#=#=# Syncrun started 2020-03-21T16:44:06Z
+#=#=#=#=# Propagation starts 2020-03-21T16:44:06Z (last step: 546 msec, total: 546 msec)
+16:44:08||public/js/gameMain.js|INST_SYNC|Up|1584809044|b3c86241e7bbbaa4b4ee5d7dbd127981|38078|00217638|4||204|38043|1584808906|0a1f3797-053f-4493-982d-26c6f049e414|
+#=#=#=# Syncrun finished 2020-03-21T16:44:07Z (last step: 405 msec, total: 951 msec)
+#=#=#=# Syncrun started 2020-03-21T16:44:41Z
+#=#=#=#=# Propagation starts 2020-03-21T16:44:42Z (last step: 637 msec, total: 637 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:44:42Z (last step: 7 msec, total: 645 msec)
+#=#=#=# Syncrun started 2020-03-21T16:45:49Z
+#=#=#=#=# Propagation starts 2020-03-21T16:45:50Z (last step: 348 msec, total: 348 msec)
+16:45:51||public/js/gameMain.js|INST_SYNC|Up|1584809147|20e9e5c9b982552e6ef4e0f28763c4a0|38077|00217638|4||204|38078|1584809044|b2d87e28-7130-4a5e-9222-b710e336e75e|
+#=#=#=# Syncrun finished 2020-03-21T16:45:50Z (last step: 307 msec, total: 656 msec)
+#=#=#=# Syncrun started 2020-03-21T16:46:41Z
+#=#=#=#=# Propagation starts 2020-03-21T16:46:42Z (last step: 744 msec, total: 744 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:46:42Z (last step: 8 msec, total: 753 msec)
+#=#=#=# Syncrun started 2020-03-21T16:47:55Z
+#=#=#=#=# Propagation starts 2020-03-21T16:47:56Z (last step: 310 msec, total: 310 msec)
+16:47:57||public/js/gameMain.js|INST_SYNC|Up|1584809273|de8e9d737e4e3cca37f350b4c1efb096|38014|00217638|4||204|38077|1584809147|d04c46ee-8a66-424f-9f3d-81d31cdbcaad|
+#=#=#=# Syncrun finished 2020-03-21T16:47:56Z (last step: 393 msec, total: 703 msec)
+#=#=#=# Syncrun started 2020-03-21T16:48:30Z
+#=#=#=#=# Propagation starts 2020-03-21T16:48:31Z (last step: 703 msec, total: 703 msec)
+16:48:32||public/js/gameMain.js|INST_SYNC|Up|1584809308|92bd22695d205a5641e7c015e913a204|38016|00217638|4||204|38014|1584809273|5f9d16b7-d27f-454b-ac98-ec321ec3201f|
+#=#=#=# Syncrun finished 2020-03-21T16:48:31Z (last step: 299 msec, total: 1002 msec)
+#=#=#=# Syncrun started 2020-03-21T16:49:11Z
+#=#=#=#=# Propagation starts 2020-03-21T16:49:12Z (last step: 671 msec, total: 671 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:49:12Z (last step: 9 msec, total: 681 msec)
+#=#=#=# Syncrun started 2020-03-21T16:51:38Z
+#=#=#=#=# Propagation starts 2020-03-21T16:51:38Z (last step: 339 msec, total: 339 msec)
+16:51:39||public/js/gameMain.js|INST_SYNC|Up|1584809496|532fb8a32fa8952bc894255c16e9e183|38022|00217638|4||204|38016|1584809308|189f9931-2b83-4a98-a86c-849a3d4a20b0|
+#=#=#=# Syncrun finished 2020-03-21T16:51:38Z (last step: 455 msec, total: 794 msec)
+#=#=#=# Syncrun started 2020-03-21T16:52:11Z
+#=#=#=#=# Propagation starts 2020-03-21T16:52:12Z (last step: 657 msec, total: 657 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:52:12Z (last step: 7 msec, total: 665 msec)
+#=#=#=# Syncrun started 2020-03-21T16:55:06Z
+#=#=#=#=# Propagation starts 2020-03-21T16:55:06Z (last step: 303 msec, total: 303 msec)
+16:55:07||public/js/gameMain.js|INST_SYNC|Up|1584809704|6349f451e04c38b6e4d40c79b94cd8d3|38044|00217638|4||204|38022|1584809496|394f3c24-6689-4b49-862e-3e876cc2757c|
+#=#=#=# Syncrun finished 2020-03-21T16:55:06Z (last step: 521 msec, total: 825 msec)
+#=#=#=# Syncrun started 2020-03-21T16:55:41Z
+#=#=#=#=# Propagation starts 2020-03-21T16:55:42Z (last step: 668 msec, total: 668 msec)
+#=#=#=# Syncrun finished 2020-03-21T16:55:42Z (last step: 9 msec, total: 677 msec)
+#=#=#=# Syncrun started 2020-03-21T17:05:00Z
+#=#=#=#=# Propagation starts 2020-03-21T17:05:01Z (last step: 481 msec, total: 481 msec)
+17:05:02||public/css/gameStyle.css|INST_SYNC|Up|1584810298|4dd40f41df16ee20776d5c74e69da447|10176|00217436|4||204|10637|1584791440|243aaea3-7d6a-4a05-9dfe-88a68001524d|
+#=#=#=# Syncrun finished 2020-03-21T17:05:02Z (last step: 817 msec, total: 1299 msec)
+#=#=#=# Syncrun started 2020-03-21T17:05:04Z
+#=#=#=#=# Propagation starts 2020-03-21T17:05:04Z (last step: 641 msec, total: 641 msec)
+17:05:06||public/css/gameStyle.min.css|INST_SYNC|Up|1584810302|ec7317e6a777038cf09db2f245beca21|6754|00217437|4||204|6787|1584791440|88a6cb8f-76b4-4e3c-b871-3e1063ea06eb|
+#=#=#=# Syncrun finished 2020-03-21T17:05:05Z (last step: 279 msec, total: 920 msec)
+#=#=#=# Syncrun started 2020-03-21T17:05:19Z
+#=#=#=#=# Propagation starts 2020-03-21T17:05:20Z (last step: 752 msec, total: 752 msec)
+17:05:21||public/js/gameMain.min.js|INST_SYNC|Up|1584810317|ad123cc231482a8242a58f2264dd8363|18182|00227668|4||204|17179|1584791440|e3974761-b4e6-4982-9897-70c0e62ca305|
+#=#=#=# Syncrun finished 2020-03-21T17:05:20Z (last step: 362 msec, total: 1114 msec)
+#=#=#=# Syncrun started 2020-03-21T17:05:25Z
+#=#=#=#=# Propagation starts 2020-03-21T17:05:26Z (last step: 673 msec, total: 673 msec)
+17:05:27||public/js/gameMain.js|INST_SYNC|Up|1584810323|6349f451e04c38b6e4d40c79b94cd8d3|38044|00217638|4||204|38044|1584809704|3802837c-3b15-4695-83d1-4fdc07ae8bc2|
+#=#=#=# Syncrun finished 2020-03-21T17:05:26Z (last step: 864 msec, total: 1537 msec)
+#=#=#=# Syncrun started 2020-03-21T17:05:29Z
+#=#=#=#=# Propagation starts 2020-03-21T17:05:30Z (last step: 610 msec, total: 610 msec)
+17:05:31||public/css/gameStyle.css|INST_SYNC|Up|1584810327|4dd40f41df16ee20776d5c74e69da447|10176|00217436|4||204|10176|1584810298|1b12402b-0d96-4566-8d81-5070417d7e18|
+#=#=#=# Syncrun finished 2020-03-21T17:05:30Z (last step: 504 msec, total: 1114 msec)
+#=#=#=# Syncrun started 2020-03-21T17:06:11Z
+#=#=#=#=# Propagation starts 2020-03-21T17:06:12Z (last step: 713 msec, total: 713 msec)
+#=#=#=# Syncrun finished 2020-03-21T17:06:12Z (last step: 12 msec, total: 726 msec)
+#=#=#=# Syncrun started 2020-03-21T17:07:56Z
+#=#=#=#=# Propagation starts 2020-03-21T17:07:56Z (last step: 291 msec, total: 291 msec)
+17:07:57||public/js/gameMain.js|INST_SYNC|Up|1584810474|103b559c35c79e7523f7ca2a7c58c4dd|38036|00217638|4||204|38044|1584810323|be2c28c7-d67b-428c-a7c9-daf38f87e1e9|
+#=#=#=# Syncrun finished 2020-03-21T17:07:57Z (last step: 851 msec, total: 1143 msec)
+#=#=#=# Syncrun started 2020-03-21T17:08:11Z
+#=#=#=#=# Propagation starts 2020-03-21T17:08:11Z (last step: 648 msec, total: 648 msec)
+17:08:13||public/js/gameMain.js|INST_SYNC|Up|1584810489|103b559c35c79e7523f7ca2a7c58c4dd|38036|00217638|4||204|38036|1584810474|f982c06b-e328-4160-a65b-28b1bd44f5e4|
+#=#=#=# Syncrun finished 2020-03-21T17:08:12Z (last step: 259 msec, total: 908 msec)
+#=#=#=# Syncrun started 2020-03-21T17:09:11Z
+#=#=#=#=# Propagation starts 2020-03-21T17:09:12Z (last step: 671 msec, total: 671 msec)
+#=#=#=# Syncrun finished 2020-03-21T17:09:12Z (last step: 7 msec, total: 679 msec)
+#=#=#=# Syncrun started 2020-03-21T17:13:20Z
+#=#=#=#=# Propagation starts 2020-03-21T17:13:20Z (last step: 273 msec, total: 273 msec)
+17:13:22||public/css/gameStyle.css|INST_SYNC|Up|1584810798|1948a712ffcd1f9a603f25230e0dee46|10174|00217436|4||204|10176|1584810327|5fbc436c-9376-43a8-a49a-c3bb95bbd86f|
+#=#=#=# Syncrun finished 2020-03-21T17:13:21Z (last step: 359 msec, total: 632 msec)
+#=#=#=# Syncrun started 2020-03-21T17:13:52Z
+#=#=#=#=# Propagation starts 2020-03-21T17:13:53Z (last step: 719 msec, total: 719 msec)
+17:13:55||resources/views/games/index.blade.php|INST_SYNC|Up|1584810830|7ab29c996a4a95bb8afcefc2f45e1091|19153|00217723|4||204|19160|1584808698|87e9018a-cd55-4d7f-a9c9-88d463d3694c|
+#=#=#=# Syncrun finished 2020-03-21T17:13:54Z (last step: 331 msec, total: 1051 msec)
+#=#=#=# Syncrun started 2020-03-21T17:14:02Z
+#=#=#=#=# Propagation starts 2020-03-21T17:14:02Z (last step: 814 msec, total: 814 msec)
+17:14:04||resources/views/games/index.blade.php|INST_SYNC|Up|1584810840|055846c49a72c8c570362a61f613ce84|19153|00217723|4||204|19153|1584810830|42de9dc9-a311-465f-807c-ee326c4a03f3|
+#=#=#=# Syncrun finished 2020-03-21T17:14:03Z (last step: 225 msec, total: 1039 msec)
+#=#=#=# Syncrun started 2020-03-21T17:14:22Z
+#=#=#=#=# Propagation starts 2020-03-21T17:14:23Z (last step: 967 msec, total: 967 msec)
+17:14:25||public/css/gameStyle.css|INST_SYNC|Up|1584810860|1948a712ffcd1f9a603f25230e0dee46|10174|00217436|4||204|10174|1584810798|b3b21845-eee2-4d91-b9ea-a2242d71b62e|
+#=#=#=# Syncrun finished 2020-03-21T17:14:24Z (last step: 638 msec, total: 1605 msec)
+#=#=#=# Syncrun started 2020-03-21T17:14:36Z
+#=#=#=#=# Propagation starts 2020-03-21T17:14:37Z (last step: 679 msec, total: 679 msec)
+17:14:38||public/css/gameStyle.min.css|INST_SYNC|Up|1584810874|30b4c4ac62bc82abeaa4fa561b943562|6752|00217437|4||204|6754|1584810302|1a645046-3b42-4f17-9e2c-6f8107b248ed|
+#=#=#=# Syncrun finished 2020-03-21T17:14:37Z (last step: 281 msec, total: 960 msec)
+#=#=#=# Syncrun started 2020-03-21T17:14:43Z
+#=#=#=#=# Propagation starts 2020-03-21T17:14:44Z (last step: 751 msec, total: 751 msec)
+17:14:46||public/css/gameStyle.css|INST_SYNC|Up|1584810881|1948a712ffcd1f9a603f25230e0dee46|10174|00217436|4||204|10174|1584810860|225a327e-07ac-45de-8e1c-18aeb49c198c|
+#=#=#=# Syncrun finished 2020-03-21T17:14:44Z (last step: 229 msec, total: 981 msec)
+#=#=#=# Syncrun started 2020-03-21T17:14:48Z
+#=#=#=#=# Propagation starts 2020-03-21T17:14:49Z (last step: 645 msec, total: 645 msec)
+17:14:50||public/js/gameMain.min.js|INST_SYNC|Up|1584810886|70a961b854532b489c8f67ae834d18ec|18174|00227668|4||204|18182|1584810317|1499827b-bd1f-4f85-90aa-c33e8b1f3028|
+#=#=#=# Syncrun finished 2020-03-21T17:14:49Z (last step: 249 msec, total: 894 msec)
+#=#=#=# Syncrun started 2020-03-21T17:14:52Z
+#=#=#=#=# Propagation starts 2020-03-21T17:14:52Z (last step: 702 msec, total: 702 msec)
+17:14:54||public/js/gameMain.js|INST_SYNC|Up|1584810890|103b559c35c79e7523f7ca2a7c58c4dd|38036|00217638|4||204|38036|1584810489|027a8148-ee6d-468e-b7e5-8e3a8f0d661a|
+#=#=#=# Syncrun finished 2020-03-21T17:14:54Z (last step: 1236 msec, total: 1938 msec)
+#=#=#=# Syncrun started 2020-03-21T17:15:41Z
+#=#=#=#=# Propagation starts 2020-03-21T17:15:42Z (last step: 684 msec, total: 684 msec)
+#=#=#=# Syncrun finished 2020-03-21T17:15:42Z (last step: 9 msec, total: 694 msec)
+#=#=#=# Syncrun started 2020-03-21T17:16:13Z
+#=#=#=#=# Propagation starts 2020-03-21T17:16:14Z (last step: 250 msec, total: 250 msec)
+17:16:15||resources/views/games/index.blade.php|INST_SYNC|Up|1584810971|b148a40b3fc2879774e38ef25490d87d|19161|00217723|4||204|19153|1584810840|f3e774a7-ca66-489a-abe7-8348156f336f|
+#=#=#=# Syncrun finished 2020-03-21T17:16:14Z (last step: 258 msec, total: 508 msec)
+#=#=#=# Syncrun started 2020-03-21T17:16:43Z
+#=#=#=#=# Propagation starts 2020-03-21T17:16:45Z (last step: 1223 msec, total: 1223 msec)
+17:16:46||storage/framework/views/99537e2f048ce45a48f3c5e1c020de86c471c830.php|INST_SYNC|Up|1584811001|a1a40d14dcee4ecf5e12702b8ad97c28|19213|00217967|4||204|19212|1584808821|9c4c2cd0-349e-4cf8-aeb9-557a09a8053e|
+#=#=#=# Syncrun finished 2020-03-21T17:16:45Z (last step: 290 msec, total: 1513 msec)
+#=#=#=# Syncrun started 2020-03-21T17:17:22Z
+#=#=#=#=# Propagation starts 2020-03-21T17:17:23Z (last step: 1286 msec, total: 1286 msec)
+17:17:25||storage/framework/views/1590baa9dae31ebeca64830603c0db04a2eabdd0.php|INST_SYNC|Up|1584811040|26caf1f493bcba4bcdae9453525bd59e|5970|00227625|4||204|5847|1584727843|f43f4449-34ed-40f1-94da-10de2a0d6903|
+#=#=#=# Syncrun finished 2020-03-21T17:17:24Z (last step: 365 msec, total: 1651 msec)
+#=#=#=# Syncrun started 2020-03-21T17:18:11Z
+#=#=#=#=# Propagation starts 2020-03-21T17:18:12Z (last step: 1073 msec, total: 1073 msec)
+#=#=#=# Syncrun finished 2020-03-21T17:18:12Z (last step: 7 msec, total: 1080 msec)
+#=#=#=# Syncrun started 2020-03-21T17:50:22Z
+#=#=#=#=# Propagation starts 2020-03-21T17:50:26Z (last step: 4289 msec, total: 4289 msec)
+17:50:30||storage/framework/views/5882bd50250f34a41b5faa6126a72afc38c7bf26.php|INST_NEW|Up|1584813020|fbedda4e51abac7fa16fa9640ab98779|1239|00227692|4||201|0|0|e2e92589-499d-4f18-919e-157497bc5a0f|
+#=#=#=# Syncrun finished 2020-03-21T17:50:29Z (last step: 2668 msec, total: 6958 msec)
+#=#=#=# Syncrun started 2020-03-21T17:51:11Z
+#=#=#=#=# Propagation starts 2020-03-21T17:51:13Z (last step: 1343 msec, total: 1343 msec)
+#=#=#=# Syncrun finished 2020-03-21T17:51:13Z (last step: 8 msec, total: 1352 msec)
+#=#=#=# Syncrun started 2020-03-21T17:51:19Z
+#=#=#=#=# Propagation starts 2020-03-21T17:51:19Z (last step: 345 msec, total: 345 msec)
+17:51:21||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_NEW|Up|1584813077|aa4b21f7334e0dea008ab0e625d25431|35921|00227693|4||201|0|0|1bf79f84-b23f-4590-a8b0-b942a6acb4f6|
+#=#=#=# Syncrun finished 2020-03-21T17:51:19Z (last step: 221 msec, total: 566 msec)
+#=#=#=# Syncrun started 2020-03-21T17:52:11Z
+#=#=#=#=# Propagation starts 2020-03-21T17:52:13Z (last step: 1192 msec, total: 1192 msec)
+#=#=#=# Syncrun finished 2020-03-21T17:52:13Z (last step: 8 msec, total: 1200 msec)
+#=#=#=# Syncrun started 2020-03-21T18:16:08Z
+#=#=#=#=# Propagation starts 2020-03-21T18:16:08Z (last step: 424 msec, total: 424 msec)
+18:16:09||app/Http/Controllers/PlayerController.php|INST_SYNC|Up|1584814566|522a1f0d46ff3b852f3555aafc4f3e84|5558|00188774|4||204|5707|1584371478|593fb7fc-5fd6-4096-8832-cd6253b6da41|
+#=#=#=# Syncrun finished 2020-03-21T18:16:08Z (last step: 375 msec, total: 800 msec)
+#=#=#=# Syncrun started 2020-03-21T18:16:42Z
+#=#=#=#=# Propagation starts 2020-03-21T18:16:43Z (last step: 911 msec, total: 911 msec)
+#=#=#=# Syncrun finished 2020-03-21T18:16:43Z (last step: 8 msec, total: 919 msec)
+#=#=#=# Syncrun started 2020-03-21T18:36:14Z
+#=#=#=#=# Propagation starts 2020-03-21T18:36:14Z (last step: 315 msec, total: 315 msec)
+18:36:15||public/js/gameMain.js|INST_SYNC|Up|1584815772|a58be90c9e21b84ed341e109db364d7e|38036|00217638|4||204|38036|1584810890|db7c9f2d-01e7-4d56-b0ab-10ccad557fed|
+#=#=#=# Syncrun finished 2020-03-21T18:36:14Z (last step: 407 msec, total: 722 msec)
+#=#=#=# Syncrun started 2020-03-21T18:36:17Z
+#=#=#=#=# Propagation starts 2020-03-21T18:36:18Z (last step: 654 msec, total: 654 msec)
+18:36:19||public/js/gameMain.min.js|INST_SYNC|Up|1584815775|4ec57e7cf44633c2c5fa232273560883|18174|00227668|4||204|18174|1584810886|36cbb078-fff3-43ed-b295-58b872722263|
+#=#=#=# Syncrun finished 2020-03-21T18:36:18Z (last step: 255 msec, total: 910 msec)
+#=#=#=# Syncrun started 2020-03-21T18:36:22Z
+#=#=#=#=# Propagation starts 2020-03-21T18:36:22Z (last step: 646 msec, total: 646 msec)
+18:36:24||public/js/gameMain.js|INST_SYNC|Up|1584815780|a58be90c9e21b84ed341e109db364d7e|38036|00217638|4||204|38036|1584815772|4f97d138-5d88-4782-a867-c57db943bec4|
+#=#=#=# Syncrun finished 2020-03-21T18:36:23Z (last step: 357 msec, total: 1004 msec)
+#=#=#=# Syncrun started 2020-03-21T18:37:12Z
+#=#=#=#=# Propagation starts 2020-03-21T18:37:13Z (last step: 714 msec, total: 714 msec)
+#=#=#=# Syncrun finished 2020-03-21T18:37:13Z (last step: 9 msec, total: 724 msec)
+#=#=#=# Syncrun started 2020-03-21T20:00:55Z
+#=#=#=#=# Propagation starts 2020-03-21T20:01:00Z (last step: 4772 msec, total: 4772 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:01:02Z (last step: 2574 msec, total: 7347 msec)
+#=#=#=# Syncrun started 2020-03-21T20:01:30Z
+#=#=#=#=# Propagation starts 2020-03-21T20:01:30Z (last step: 417 msec, total: 417 msec)
+20:01:33||public/js/gameMain.js|INST_SYNC|Up|1584820888|54d05e85b9d66f5cea3251d2a3625be2|38038|00217638|4||204|38036|1584815780|b4ad785c-7791-440f-9361-2c91495cf237|
+#=#=#=# Syncrun finished 2020-03-21T20:01:30Z (last step: 338 msec, total: 756 msec)
+#=#=#=# Syncrun started 2020-03-21T20:01:32Z
+#=#=#=#=# Propagation starts 2020-03-21T20:01:33Z (last step: 660 msec, total: 660 msec)
+20:01:35||public/js/gameMain.min.js|INST_SYNC|Up|1584820890|3208d66f858c3292d5c2bdbf42c65e4c|18176|00227668|4||204|18174|1584815775|d2285203-a720-4f47-a683-794732bdecf8|
+#=#=#=# Syncrun finished 2020-03-21T20:01:33Z (last step: 215 msec, total: 875 msec)
+#=#=#=# Syncrun started 2020-03-21T20:01:36Z
+#=#=#=#=# Propagation starts 2020-03-21T20:01:36Z (last step: 653 msec, total: 653 msec)
+20:01:39||public/js/gameMain.js|INST_SYNC|Up|1584820894|54d05e85b9d66f5cea3251d2a3625be2|38038|00217638|4||204|38038|1584820888|0d6579e3-8a5f-4fe6-91d7-7b84ffce1576|
+#=#=#=# Syncrun finished 2020-03-21T20:01:37Z (last step: 203 msec, total: 856 msec)
+#=#=#=# Syncrun started 2020-03-21T20:02:24Z
+#=#=#=#=# Propagation starts 2020-03-21T20:02:25Z (last step: 681 msec, total: 681 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:02:25Z (last step: 10 msec, total: 691 msec)
+#=#=#=# Syncrun started 2020-03-21T20:02:52Z
+#=#=#=#=# Propagation starts 2020-03-21T20:02:53Z (last step: 516 msec, total: 516 msec)
+20:02:55||public/js/gameMain.js|INST_SYNC|Up|1584820970|c5eb70662a8d31d60044cedebc2af07c|38038|00217638|4||204|38038|1584820894|ecb423a8-87bb-47b1-b9ad-1e477879b592|
+#=#=#=# Syncrun finished 2020-03-21T20:02:53Z (last step: 267 msec, total: 784 msec)
+#=#=#=# Syncrun started 2020-03-21T20:03:04Z
+#=#=#=#=# Propagation starts 2020-03-21T20:03:05Z (last step: 715 msec, total: 715 msec)
+20:03:07||public/js/gameMain.min.js|INST_SYNC|Up|1584820982|bb25d1e98360c8a9eebf872e3f17cc65|18176|00227668|4||204|18176|1584820890|4415aa7c-c7e4-4609-98c6-d2e31d90d6d1|
+#=#=#=# Syncrun finished 2020-03-21T20:03:05Z (last step: 328 msec, total: 1043 msec)
+#=#=#=# Syncrun started 2020-03-21T20:03:09Z
+#=#=#=#=# Propagation starts 2020-03-21T20:03:10Z (last step: 657 msec, total: 657 msec)
+20:03:12||public/js/gameMain.js|INST_SYNC|Up|1584820987|c5eb70662a8d31d60044cedebc2af07c|38038|00217638|4||204|38038|1584820970|940c374e-8b05-430f-a9eb-05aa6c1141ad|
+#=#=#=# Syncrun finished 2020-03-21T20:03:10Z (last step: 254 msec, total: 912 msec)
+#=#=#=# Syncrun started 2020-03-21T20:03:54Z
+#=#=#=#=# Propagation starts 2020-03-21T20:03:55Z (last step: 642 msec, total: 642 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:03:55Z (last step: 7 msec, total: 650 msec)
+#=#=#=# Syncrun started 2020-03-21T20:35:53Z
+#=#=#=#=# Propagation starts 2020-03-21T20:35:53Z (last step: 269 msec, total: 269 msec)
+20:35:56||resources/views/player/score.blade.php|INST_SYNC|Up|1584822951|36428817cd180c6cca50920947ce9c20|20109|00217742|4||204|20387|1583844750|2ca429f1-b7df-47c0-9a4f-3a6cdcfbbf3e|
+#=#=#=# Syncrun finished 2020-03-21T20:35:53Z (last step: 425 msec, total: 694 msec)
+#=#=#=# Syncrun started 2020-03-21T20:35:59Z
+#=#=#=#=# Propagation starts 2020-03-21T20:36:00Z (last step: 940 msec, total: 940 msec)
+20:36:03||storage/framework/views/9640915879b8a208e62bece3421b3bad62027436.php|INST_SYNC|Up|1584822957|69fc380850469d893822b89c5f6a65a1|20925|00227628|4||204|21201|1584645896|2f223935-f584-4737-ad61-2c9f02bc6182|
+#=#=#=# Syncrun finished 2020-03-21T20:36:00Z (last step: 304 msec, total: 1244 msec)
+#=#=#=# Syncrun started 2020-03-21T20:36:54Z
+#=#=#=#=# Propagation starts 2020-03-21T20:36:56Z (last step: 1153 msec, total: 1153 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:36:56Z (last step: 9 msec, total: 1163 msec)
+#=#=#=# Syncrun started 2020-03-21T20:38:34Z
+#=#=#=#=# Propagation starts 2020-03-21T20:38:34Z (last step: 295 msec, total: 295 msec)
+20:38:37||resources/views/player/score.blade.php|INST_SYNC|Up|1584823112|7b89b4283c122da1972563e0ef0fb754|20210|00217742|4||204|20109|1584822951|0e401af6-3e61-47e4-8cbc-16cb334f1c06|
+#=#=#=# Syncrun finished 2020-03-21T20:38:34Z (last step: 377 msec, total: 672 msec)
+#=#=#=# Syncrun started 2020-03-21T20:38:41Z
+#=#=#=#=# Propagation starts 2020-03-21T20:38:42Z (last step: 884 msec, total: 884 msec)
+20:38:44||storage/framework/views/9640915879b8a208e62bece3421b3bad62027436.php|INST_SYNC|Up|1584823119|42c331982a2a61be70f444d9d5428e32|21026|00227628|4||204|20925|1584822957|82d75b81-e844-47ea-9b47-320a86345435|
+#=#=#=# Syncrun finished 2020-03-21T20:38:42Z (last step: 278 msec, total: 1163 msec)
+#=#=#=# Syncrun started 2020-03-21T20:39:01Z
+#=#=#=#=# Propagation starts 2020-03-21T20:39:02Z (last step: 1178 msec, total: 1178 msec)
+20:39:05||resources/views/player/score.blade.php|INST_SYNC|Up|1584823139|7bdfc850eafc02b084a4587865040058|20210|00217742|4||204|20210|1584823112|15fccd8d-cd83-4820-a5a3-828c9e73e226|
+#=#=#=# Syncrun finished 2020-03-21T20:39:03Z (last step: 238 msec, total: 1417 msec)
+#=#=#=# Syncrun started 2020-03-21T20:39:05Z
+#=#=#=#=# Propagation starts 2020-03-21T20:39:06Z (last step: 880 msec, total: 880 msec)
+20:39:09||storage/framework/views/9640915879b8a208e62bece3421b3bad62027436.php|INST_SYNC|Up|1584823143|46dbb922351eeaeb617d00692a432a31|21026|00227628|4||204|21026|1584823119|d2320b8c-ea74-487b-bf68-efef82060464|
+#=#=#=# Syncrun finished 2020-03-21T20:39:07Z (last step: 260 msec, total: 1140 msec)
+#=#=#=# Syncrun started 2020-03-21T20:39:54Z
+#=#=#=#=# Propagation starts 2020-03-21T20:39:55Z (last step: 1112 msec, total: 1112 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:39:55Z (last step: 6 msec, total: 1119 msec)
+#=#=#=# Syncrun started 2020-03-21T20:39:58Z
+#=#=#=#=# Propagation starts 2020-03-21T20:39:59Z (last step: 284 msec, total: 284 msec)
+20:40:01||resources/views/player/score.blade.php|INST_SYNC|Up|1584823196|7bdfc850eafc02b084a4587865040058|20210|00217742|4||204|20210|1584823139|a4a1efb4-29fc-465b-86b1-0f926328ec40|
+#=#=#=# Syncrun finished 2020-03-21T20:39:59Z (last step: 257 msec, total: 542 msec)
+#=#=#=# Syncrun started 2020-03-21T20:40:54Z
+#=#=#=#=# Propagation starts 2020-03-21T20:40:55Z (last step: 1273 msec, total: 1273 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:40:55Z (last step: 7 msec, total: 1281 msec)
+#=#=#=# Syncrun started 2020-03-21T20:58:49Z
+#=#=#=#=# Propagation starts 2020-03-21T20:58:49Z (last step: 293 msec, total: 293 msec)
+20:58:51||resources/views/player/resume.blade.php|INST_SYNC|Up|1584824327|5ac474443d3cc425de28805bd914bd79|34850|00217741|4||204|35626|1584371478|8bce78f5-2ca4-44ce-a656-dfa3c0eb7e9b|
+#=#=#=# Syncrun finished 2020-03-21T20:58:49Z (last step: 388 msec, total: 681 msec)
+#=#=#=# Syncrun started 2020-03-21T20:59:24Z
+#=#=#=#=# Propagation starts 2020-03-21T20:59:25Z (last step: 875 msec, total: 875 msec)
+#=#=#=# Syncrun finished 2020-03-21T20:59:25Z (last step: 10 msec, total: 885 msec)
+#=#=#=# Syncrun started 2020-03-21T21:44:25Z
+#=#=#=#=# Propagation starts 2020-03-21T21:44:28Z (last step: 3325 msec, total: 3325 msec)
+#=#=#=# Syncrun finished 2020-03-21T21:44:31Z (last step: 2387 msec, total: 5712 msec)
+#=#=#=# Syncrun started 2020-03-21T21:52:22Z
+#=#=#=#=# Propagation starts 2020-03-21T21:52:22Z (last step: 373 msec, total: 373 msec)
+21:52:25||app/Http/Controllers/PlayerController.php|INST_SYNC|Up|1584827540|707cd9aa8ab4b0a4845bd0b9c4192401|5535|00188774|4||204|5558|1584814566|10c3e697-7b1d-4abf-9c1c-2c5e01772c9f|
+#=#=#=# Syncrun finished 2020-03-21T21:52:23Z (last step: 420 msec, total: 793 msec)
+#=#=#=# Syncrun started 2020-03-21T21:52:54Z
+#=#=#=#=# Propagation starts 2020-03-21T21:52:55Z (last step: 891 msec, total: 891 msec)
+#=#=#=# Syncrun finished 2020-03-21T21:52:55Z (last step: 8 msec, total: 899 msec)
+#=#=#=# Syncrun started 2020-03-21T22:10:30Z
+#=#=#=#=# Propagation starts 2020-03-21T22:10:30Z (last step: 304 msec, total: 304 msec)
+22:10:32||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584828628|ccd64eb888850159e34797aefbfa3504|35159|00227693|4||204|35921|1584813077|a79eeb26-e558-4267-9a65-f8de58a0680e|
+22:10:37||storage/logs/laravel.log|INST_SYNC|Up|1584828628|26487f600250d0b02844513d0ce681f1|13591073|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-1020211088-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13569478|1584726654|adf58efc-04ab-4ce1-b509-bab5184ce2df|
+#=#=#=# Syncrun finished 2020-03-21T22:10:37Z (last step: 6995 msec, total: 7300 msec)
+#=#=#=# Syncrun started 2020-03-21T22:10:41Z
+#=#=#=#=# Propagation starts 2020-03-21T22:10:42Z (last step: 1088 msec, total: 1088 msec)
+22:10:45||storage/logs/laravel.log|INST_NEW|Up|1584828628|8609452e1819cbac370e6dea2d014099|13591073|00218011|4||204|13569478|1584726654|f6c7b79e-3595-419d-b7fe-5d7e9c151a97|
+#=#=#=# Syncrun finished 2020-03-21T22:10:44Z (last step: 1936 msec, total: 3024 msec)
+#=#=#=# Syncrun started 2020-03-21T22:11:24Z
+#=#=#=#=# Propagation starts 2020-03-21T22:11:25Z (last step: 671 msec, total: 671 msec)
+#=#=#=# Syncrun finished 2020-03-21T22:11:25Z (last step: 13 msec, total: 684 msec)
+#=#=#=# Syncrun started 2020-03-21T22:12:41Z
+#=#=#=#=# Propagation starts 2020-03-21T22:12:41Z (last step: 293 msec, total: 293 msec)
+22:12:43||resources/views/player/resume.blade.php|INST_SYNC|Up|1584828759|b28d0ae40129bbfb3f4cbc59dbd9d3c8|34823|00217741|4||204|34850|1584824327|86eb32bc-cfc8-4b46-b4a4-4f0917cd5e33|
+#=#=#=# Syncrun finished 2020-03-21T22:12:41Z (last step: 311 msec, total: 604 msec)
+#=#=#=# Syncrun started 2020-03-21T22:12:59Z
+#=#=#=#=# Propagation starts 2020-03-21T22:13:00Z (last step: 894 msec, total: 894 msec)
+22:13:02||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584828777|d3ed1e185e3344bed5e3eec981a9d823|35117|00227693|4||204|35159|1584828628|8016876b-1ee5-4d38-af51-ceddab4139ec|
+22:13:07||storage/logs/laravel.log|INST_SYNC|Up|1584828777|8609452e1819cbac370e6dea2d014099|13611624|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-3968218663-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13591073|1584828628|63b743c5-bfb4-46b5-acad-6a328403ffe2|
+#=#=#=# Syncrun finished 2020-03-21T22:13:07Z (last step: 7329 msec, total: 8224 msec)
+#=#=#=# Syncrun started 2020-03-21T22:13:11Z
+#=#=#=#=# Propagation starts 2020-03-21T22:13:12Z (last step: 1105 msec, total: 1105 msec)
+22:13:15||storage/logs/laravel.log|INST_NEW|Up|1584828777|7634c281bcde6f62544ed43faf6dd8ef|13611624|00218011|4||204|13591073|1584828628|96b2f1cb-7ce1-4ebc-913f-d27c675d9741|
+#=#=#=# Syncrun finished 2020-03-21T22:13:15Z (last step: 2589 msec, total: 3694 msec)
+#=#=#=# Syncrun started 2020-03-21T22:13:38Z
+#=#=#=#=# Propagation starts 2020-03-21T22:13:38Z (last step: 673 msec, total: 673 msec)
+22:13:41||resources/views/player/resume.blade.php|INST_SYNC|Up|1584828816|f3de19e240aa5fadc7ce7147dc0ce2c6|34819|00217741|4||204|34823|1584828759|1c88277c-0cfd-4104-bccd-9844e484651a|
+#=#=#=# Syncrun finished 2020-03-21T22:13:39Z (last step: 816 msec, total: 1490 msec)
+#=#=#=# Syncrun started 2020-03-21T22:13:42Z
+#=#=#=#=# Propagation starts 2020-03-21T22:13:43Z (last step: 911 msec, total: 911 msec)
+22:13:45||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584828820|51d20c5ed19a082d543c45e488dc3201|35113|00227693|4||204|35117|1584828777|aaa23b91-e1f2-454e-b5f8-157d6d1ee563|
+22:13:51||storage/logs/laravel.log|INST_SYNC|Up|1584828820|7634c281bcde6f62544ed43faf6dd8ef|13632241|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-1545562900-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13611624|1584828777|bd2c252a-df9e-4908-8ba3-05882220adfa|
+#=#=#=# Syncrun finished 2020-03-21T22:13:51Z (last step: 7639 msec, total: 8550 msec)
+#=#=#=# Syncrun started 2020-03-21T22:13:55Z
+#=#=#=#=# Propagation starts 2020-03-21T22:13:56Z (last step: 999 msec, total: 999 msec)
+22:13:59||storage/logs/laravel.log|INST_NEW|Up|1584828820|fecb3d82795aeaa1dc5f3e40477d9e7e|13632241|00218011|4||204|13611624|1584828777|f1bc6563-4c30-49f2-a4bb-c68b4d3400c2|
+#=#=#=# Syncrun finished 2020-03-21T22:13:59Z (last step: 2287 msec, total: 3287 msec)
+#=#=#=# Syncrun started 2020-03-21T22:14:02Z
+#=#=#=#=# Propagation starts 2020-03-21T22:14:03Z (last step: 603 msec, total: 603 msec)
+22:14:05||resources/views/player/resume.blade.php|INST_SYNC|Up|1584828840|68f534295008729dc5e4b2ce847db1b8|34820|00217741|4||204|34819|1584828816|4512f5cb-1853-44ac-b298-0d21e40a8e05|
+#=#=#=# Syncrun finished 2020-03-21T22:14:03Z (last step: 379 msec, total: 983 msec)
+#=#=#=# Syncrun started 2020-03-21T22:14:07Z
+#=#=#=#=# Propagation starts 2020-03-21T22:14:08Z (last step: 903 msec, total: 903 msec)
+22:14:10||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584828845|c63a2bdb3aaf52d7673bbc430c333097|35114|00227693|4||204|35113|1584828820|1cce16b7-9266-4b57-bd47-b359315890dc|
+#=#=#=# Syncrun finished 2020-03-21T22:14:08Z (last step: 234 msec, total: 1138 msec)
+#=#=#=# Syncrun started 2020-03-21T22:14:18Z
+#=#=#=#=# Propagation starts 2020-03-21T22:14:19Z (last step: 1108 msec, total: 1108 msec)
+22:14:22||resources/views/player/resume.blade.php|INST_SYNC|Up|1584828856|eaea0db6c3052f1a8bdee56b3792b196|34820|00217741|4||204|34820|1584828840|c59de703-a88d-4076-89c3-82bc145af37d|
+#=#=#=# Syncrun finished 2020-03-21T22:14:19Z (last step: 244 msec, total: 1352 msec)
+#=#=#=# Syncrun started 2020-03-21T22:14:22Z
+#=#=#=#=# Propagation starts 2020-03-21T22:14:23Z (last step: 878 msec, total: 878 msec)
+22:14:25||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584828860|c183782489381bce1cc39496cabb1b3a|35114|00227693|4||204|35114|1584828845|a1751dc1-cf80-45e5-ac57-9bcd3638fea4|
+22:14:31||storage/logs/laravel.log|INST_SYNC|Up|1584828860|fecb3d82795aeaa1dc5f3e40477d9e7e|13653838|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-161512806-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13632241|1584828820|1a9a6714-e830-41a1-b1ba-156e2f8decdc|
+#=#=#=# Syncrun finished 2020-03-21T22:14:30Z (last step: 7804 msec, total: 8683 msec)
+#=#=#=# Syncrun started 2020-03-21T22:14:35Z
+#=#=#=#=# Propagation starts 2020-03-21T22:14:36Z (last step: 1125 msec, total: 1125 msec)
+22:14:39||storage/logs/laravel.log|INST_NEW|Up|1584828860|2b397175c1d77f37e705f88a51e35801|13653838|00218011|4||204|13632241|1584828820|626ad486-cb25-40a2-9586-67e4144be9df|
+#=#=#=# Syncrun finished 2020-03-21T22:14:37Z (last step: 1223 msec, total: 2348 msec)
+#=#=#=# Syncrun started 2020-03-21T22:15:24Z
+#=#=#=#=# Propagation starts 2020-03-21T22:15:25Z (last step: 585 msec, total: 585 msec)
+#=#=#=# Syncrun finished 2020-03-21T22:15:25Z (last step: 7 msec, total: 593 msec)
+#=#=#=# Syncrun started 2020-03-21T23:16:08Z
+#=#=#=#=# Propagation starts 2020-03-21T23:16:11Z (last step: 2944 msec, total: 2944 msec)
+#=#=#=# Syncrun finished 2020-03-21T23:16:13Z (last step: 2365 msec, total: 5310 msec)

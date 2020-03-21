@@ -1,4 +1,5 @@
 <?php
+
 // graph1 : Données synthétisées par partie
 $nbParties = count($games) / 10;
 $score = [];
@@ -71,7 +72,7 @@ for ($j = 0; $j < $nbParties; $j++) {
     $dureeF = 0;
     $dureeO = 0;
 }
-
+dd($partieMin);
 ?>
 <!DOCTYPE html>
 <html lang="fr">

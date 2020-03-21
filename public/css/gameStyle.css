@@ -14,9 +14,10 @@ body,
 }
 
 .bg-darky {
-    background: #121714f0;
-    border-radius: 31% 31%;
-    border: 1px solid #121714db;
+    background: #0f1010;
+    border-radius: 25%;
+    /* border-radius: 31% 31%; */
+    /* border: 1px solid #121714db; */
     padding: 0.5%;
 }
 
@@ -333,7 +334,7 @@ body,
 .score {
     display: none;
     font-size: 2.4vw;
-    margin: auto 2% auto 4%;
+    margin: 1% 2% auto 4%;
     background-color: #92c814;
     border-radius: 10px;
     border: 1px solid black;
