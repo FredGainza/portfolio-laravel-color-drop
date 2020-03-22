@@ -3,7 +3,7 @@ Jeu éducatif d'apprentissage des formes et des couleurs
 
 V1 Officielle - 09.03.2020
 
-Version actuelle (16.03.2020) : v1-0-3
+Version actuelle (22.03.2020) : v1-0-5
 ------------------
 
 * 10.03.2020 : V1-0-1 Améliorations mineures:
@@ -27,3 +27,7 @@ Version actuelle (16.03.2020) : v1-0-3
     - Amélioration palette couleur "Origin" dans le jeu
     - Partie admin : ajout d'un select dans la partie game pour sélectionner les parties d'un joueur en particulier
                     ( + différenciation entre joueurs qui ont réalisé des parties et les autres)
+
+* 22.03.2020 : v1-0-5 corrections d'un bug + amélioration graph:
+    - bug fixed : quand le nombre de parties jouées par 1 player était supérieur à 10 -> error
+    - ajout d'un lien pour chaque graphique (partie "Résumé") qui permet l'affichage en pleine page

@@ -2119,3 +2119,1385 @@
 #=#=#=# Syncrun started 2020-03-21T23:16:08Z
 #=#=#=#=# Propagation starts 2020-03-21T23:16:11Z (last step: 2944 msec, total: 2944 msec)
 #=#=#=# Syncrun finished 2020-03-21T23:16:13Z (last step: 2365 msec, total: 5310 msec)
+#=#=#=# Syncrun started 2020-03-22T06:37:06Z
+#=#=#=#=# Propagation starts 2020-03-22T06:37:10Z (last step: 3850 msec, total: 3850 msec)
+#=#=#=# Syncrun finished 2020-03-22T06:37:12Z (last step: 2378 msec, total: 6229 msec)
+#=#=#=# Syncrun started 2020-03-22T08:37:16Z
+#=#=#=#=# Propagation starts 2020-03-22T08:37:20Z (last step: 3237 msec, total: 3237 msec)
+#=#=#=# Syncrun finished 2020-03-22T08:37:22Z (last step: 2405 msec, total: 5642 msec)
+#=#=#=# Syncrun started 2020-03-22T08:37:26Z
+#=#=#=#=# Propagation starts 2020-03-22T08:37:26Z (last step: 298 msec, total: 298 msec)
+#=#=#=# Syncrun finished 2020-03-22T08:37:26Z (last step: 5 msec, total: 303 msec)
+#=#=#=# Syncrun started 2020-03-22T10:00:50Z
+#=#=#=#=# Propagation starts 2020-03-22T10:00:52Z (last step: 2931 msec, total: 2931 msec)
+#=#=#=# Syncrun finished 2020-03-22T10:00:55Z (last step: 2319 msec, total: 5251 msec)
+#=#=#=# Syncrun started 2020-03-22T12:00:59Z
+#=#=#=#=# Propagation starts 2020-03-22T12:01:02Z (last step: 3048 msec, total: 3048 msec)
+#=#=#=# Syncrun finished 2020-03-22T12:01:04Z (last step: 2297 msec, total: 5346 msec)
+#=#=#=# Syncrun started 2020-03-22T12:01:08Z
+#=#=#=#=# Propagation starts 2020-03-22T12:01:08Z (last step: 273 msec, total: 273 msec)
+#=#=#=# Syncrun finished 2020-03-22T12:01:08Z (last step: 5 msec, total: 278 msec)
+#=#=#=# Syncrun started 2020-03-22T13:39:07Z
+#=#=#=#=# Propagation starts 2020-03-22T13:39:11Z (last step: 4269 msec, total: 4269 msec)
+13:39:16||resources/views/player/resume.blade.php|INST_SYNC|Up|1584884338|df313a29d33c6288b6cff1f3c4ef52bf|34835|00217741|4||204|34820|1584828856|67b77280-febf-4be6-8f63-26c2b7b43084|
+#=#=#=# Syncrun finished 2020-03-22T13:39:14Z (last step: 2555 msec, total: 6824 msec)
+#=#=#=# Syncrun started 2020-03-22T13:40:07Z
+#=#=#=#=# Propagation starts 2020-03-22T13:40:08Z (last step: 916 msec, total: 916 msec)
+#=#=#=# Syncrun finished 2020-03-22T13:40:08Z (last step: 10 msec, total: 926 msec)
+#=#=#=# Syncrun started 2020-03-22T13:41:11Z
+#=#=#=#=# Propagation starts 2020-03-22T13:41:11Z (last step: 294 msec, total: 294 msec)
+13:41:14||resources/views/player/resume.blade.php|INST_SYNC|Up|1584884469|e1697c3fd35effc897a23d29dbae194b|34835|00217741|4||204|34835|1584884338|379277bb-6cd2-4d57-be65-4eca71878789|
+#=#=#=# Syncrun finished 2020-03-22T13:41:12Z (last step: 344 msec, total: 638 msec)
+#=#=#=# Syncrun started 2020-03-22T13:41:40Z
+#=#=#=#=# Propagation starts 2020-03-22T13:41:41Z (last step: 935 msec, total: 935 msec)
+13:41:44||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584884498|16e7b6d622edfd899283b5c9b9aa7adf|35129|00227693|4||204|35114|1584828860|dbf81e52-95a4-4dd7-846c-a0d8b6439242|
+13:41:45||storage/logs/laravel.log|INST_SYNC|Up|1584884498|2b397175c1d77f37e705f88a51e35801|13675435|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-4114915709-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13653838|1584828860|f2db8f87-02ca-432b-a894-46eea45dae89|
+#=#=#=# Syncrun finished 2020-03-22T13:41:43Z (last step: 1517 msec, total: 2453 msec)
+#=#=#=# Syncrun started 2020-03-22T13:41:45Z
+#=#=#=#=# Propagation starts 2020-03-22T13:41:46Z (last step: 1074 msec, total: 1074 msec)
+13:41:49||storage/logs/laravel.log|INST_NEW|Up|1584884498|e80a2028a35254e135078dfd2a330ca2|13675435|00218011|4||204|13653838|1584828860|e10c2168-4991-4f20-96b3-372c408e2b14|
+#=#=#=# Syncrun finished 2020-03-22T13:41:47Z (last step: 1116 msec, total: 2190 msec)
+#=#=#=# Syncrun started 2020-03-22T13:42:37Z
+#=#=#=#=# Propagation starts 2020-03-22T13:42:37Z (last step: 630 msec, total: 630 msec)
+#=#=#=# Syncrun finished 2020-03-22T13:42:37Z (last step: 9 msec, total: 640 msec)
+#=#=#=# Syncrun started 2020-03-22T13:43:33Z
+#=#=#=#=# Propagation starts 2020-03-22T13:43:33Z (last step: 299 msec, total: 299 msec)
+13:43:36||resources/views/player/resume.blade.php|INST_SYNC|Up|1584884611|3047079b8a8627fc8caa75884ea00f66|34834|00217741|4||204|34835|1584884469|3d64fbb0-6469-45e7-8adc-d887ee98c4e7|
+#=#=#=# Syncrun finished 2020-03-22T13:43:34Z (last step: 256 msec, total: 555 msec)
+#=#=#=# Syncrun started 2020-03-22T13:43:52Z
+#=#=#=#=# Propagation starts 2020-03-22T13:43:53Z (last step: 1199 msec, total: 1199 msec)
+13:43:56||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584884630|f41a6a2c2358b5905ac77a066d3921b9|35128|00227693|4||204|35129|1584884498|d1deebdf-a306-436a-9cdf-9230c355944b|
+#=#=#=# Syncrun finished 2020-03-22T13:43:54Z (last step: 342 msec, total: 1541 msec)
+#=#=#=# Syncrun started 2020-03-22T13:43:59Z
+#=#=#=#=# Propagation starts 2020-03-22T13:44:01Z (last step: 1356 msec, total: 1356 msec)
+13:44:04||resources/views/player/resume.blade.php|INST_SYNC|Up|1584884637|e48548997e4f841e565c93ceab716506|34819|00217741|4||204|34834|1584884611|49fe8e2e-879b-4e14-9daf-1da7bfc95216|
+#=#=#=# Syncrun finished 2020-03-22T13:44:01Z (last step: 253 msec, total: 1610 msec)
+#=#=#=# Syncrun started 2020-03-22T13:44:03Z
+#=#=#=#=# Propagation starts 2020-03-22T13:44:04Z (last step: 950 msec, total: 950 msec)
+13:44:07||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584884641|12c41f08f7bac483e9b31b6b270f2bc4|35113|00227693|4||204|35128|1584884630|eb4981b4-42aa-4e49-937d-d38d53863c92|
+#=#=#=# Syncrun finished 2020-03-22T13:44:05Z (last step: 783 msec, total: 1734 msec)
+#=#=#=# Syncrun started 2020-03-22T13:44:15Z
+#=#=#=#=# Propagation starts 2020-03-22T13:44:16Z (last step: 1146 msec, total: 1146 msec)
+13:44:19||resources/views/player/resume.blade.php|INST_SYNC|Up|1584884653|08b07e4ec972bf8441319d77a9ac1f3b|34804|00217741|4||204|34819|1584884637|5da3e163-3181-48b7-93a1-38b56081cabf|
+#=#=#=# Syncrun finished 2020-03-22T13:44:17Z (last step: 822 msec, total: 1969 msec)
+#=#=#=# Syncrun started 2020-03-22T13:44:19Z
+#=#=#=#=# Propagation starts 2020-03-22T13:44:20Z (last step: 871 msec, total: 871 msec)
+13:44:23||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584884655|9241ed2dfe28568c878798e323e4c89f|35098|00227693|4||204|35113|1584884641|a8b2238e-f942-45db-8350-7737f1da3f0e|
+13:44:24||storage/logs/laravel.log|INST_SYNC|Up|1584884655|e80a2028a35254e135078dfd2a330ca2|13697034|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-1592103740-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13675435|1584884498|cb17acb4-18a6-42b4-9aee-369663c2e81e|
+#=#=#=# Syncrun finished 2020-03-22T13:44:21Z (last step: 1608 msec, total: 2479 msec)
+#=#=#=# Syncrun started 2020-03-22T13:44:24Z
+#=#=#=#=# Propagation starts 2020-03-22T13:44:25Z (last step: 989 msec, total: 989 msec)
+13:44:28||storage/logs/laravel.log|INST_NEW|Up|1584884655|7961eb646cf08a55371201f43a0d88d7|13697034|00218011|4||204|13675435|1584884498|96a7e280-284e-4d32-83f9-1fe651d65cfb|
+#=#=#=# Syncrun finished 2020-03-22T13:44:26Z (last step: 669 msec, total: 1659 msec)
+#=#=#=# Syncrun started 2020-03-22T13:45:07Z
+#=#=#=#=# Propagation starts 2020-03-22T13:45:07Z (last step: 643 msec, total: 643 msec)
+#=#=#=# Syncrun finished 2020-03-22T13:45:08Z (last step: 9 msec, total: 653 msec)
+#=#=#=# Syncrun started 2020-03-22T13:45:43Z
+#=#=#=#=# Propagation starts 2020-03-22T13:45:43Z (last step: 281 msec, total: 281 msec)
+13:45:46||resources/views/player/resume.blade.php|INST_SYNC|Up|1584884741|4113ce9c435ebd0b9514e96fff6108f8|34802|00217741|4||204|34804|1584884653|9ab1fb9e-4fa6-4a72-923a-22b824fd5523|
+#=#=#=# Syncrun finished 2020-03-22T13:45:44Z (last step: 299 msec, total: 580 msec)
+#=#=#=# Syncrun started 2020-03-22T13:45:46Z
+#=#=#=#=# Propagation starts 2020-03-22T13:45:47Z (last step: 815 msec, total: 815 msec)
+13:45:50||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584884744|a1bd2c75d571d1808aaa28caee3017ed|35096|00227693|4||204|35098|1584884655|20c023ac-72e7-4bab-9962-54a73250dad1|
+#=#=#=# Syncrun finished 2020-03-22T13:45:47Z (last step: 290 msec, total: 1106 msec)
+#=#=#=# Syncrun started 2020-03-22T13:46:37Z
+#=#=#=#=# Propagation starts 2020-03-22T13:46:38Z (last step: 1171 msec, total: 1171 msec)
+#=#=#=# Syncrun finished 2020-03-22T13:46:38Z (last step: 8 msec, total: 1180 msec)
+#=#=#=# Syncrun started 2020-03-22T13:50:25Z
+#=#=#=#=# Propagation starts 2020-03-22T13:50:26Z (last step: 320 msec, total: 320 msec)
+13:50:29||resources/views/player/resume.blade.php|INST_SYNC|Up|1584885023|ac0250e5b5c901b04854867642c2c526|34906|00217741|4||204|34802|1584884741|b076ed1c-4c32-445c-ad0f-a66159945add|
+#=#=#=# Syncrun finished 2020-03-22T13:50:27Z (last step: 992 msec, total: 1312 msec)
+#=#=#=# Syncrun started 2020-03-22T13:50:48Z
+#=#=#=#=# Propagation starts 2020-03-22T13:50:49Z (last step: 862 msec, total: 862 msec)
+13:50:52||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584885046|bbe48969186ff68b4d58e8847fb8a1cb|35200|00227693|4||204|35096|1584884744|dab7ab85-47ff-4f86-9510-a9e7029d4d22|
+#=#=#=# Syncrun finished 2020-03-22T13:50:49Z (last step: 261 msec, total: 1123 msec)
+#=#=#=# Syncrun started 2020-03-22T13:51:32Z
+#=#=#=#=# Propagation starts 2020-03-22T13:51:33Z (last step: 937 msec, total: 937 msec)
+13:51:36||resources/views/player/resume.blade.php|INST_SYNC|Up|1584885090|0e18783d15413aed548cf339f0495311|34933|00217741|4||204|34906|1584885023|87284a2e-4282-46d7-b9ba-5baea08c6d22|
+#=#=#=# Syncrun finished 2020-03-22T13:51:33Z (last step: 375 msec, total: 1313 msec)
+#=#=#=# Syncrun started 2020-03-22T13:51:35Z
+#=#=#=#=# Propagation starts 2020-03-22T13:51:36Z (last step: 854 msec, total: 854 msec)
+13:51:39||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584885093|2dfb4d79d62a54dc49f6e033df02f3fc|35227|00227693|4||204|35200|1584885046|26cbca7f-aa6b-4838-8a0f-07b0ef532a94|
+#=#=#=# Syncrun finished 2020-03-22T13:51:37Z (last step: 767 msec, total: 1621 msec)
+#=#=#=# Syncrun started 2020-03-22T13:51:55Z
+#=#=#=#=# Propagation starts 2020-03-22T13:51:56Z (last step: 988 msec, total: 988 msec)
+13:51:59||resources/views/player/resume.blade.php|INST_SYNC|Up|1584885113|94bcf7f2856a06416582b4a01e9a661c|34945|00217741|4||204|34933|1584885090|5b5bbb2b-8329-4366-a2c3-f7fd2868ae92|
+#=#=#=# Syncrun finished 2020-03-22T13:51:57Z (last step: 276 msec, total: 1265 msec)
+#=#=#=# Syncrun started 2020-03-22T13:51:59Z
+#=#=#=#=# Propagation starts 2020-03-22T13:51:59Z (last step: 830 msec, total: 830 msec)
+13:52:02||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584885117|f7a1a0e5fe09f539d529bab64247612f|35239|00227693|4||204|35227|1584885093|a24fc975-b70f-4071-8d68-336b9f793b85|
+#=#=#=# Syncrun finished 2020-03-22T13:52:00Z (last step: 320 msec, total: 1150 msec)
+#=#=#=# Syncrun started 2020-03-22T13:52:17Z
+#=#=#=#=# Propagation starts 2020-03-22T13:52:18Z (last step: 1147 msec, total: 1147 msec)
+13:52:21||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584885136|c0ed50ed2058a459422052066f0bcb05|35240|00227693|4||204|35239|1584885117|a351d54a-3c3d-4212-927d-60a0327e864c|
+13:52:21||resources/views/player/resume.blade.php|INST_SYNC|Up|1584885135|4d2c285b41bc7b26d40ed3659d1210dd|34946|00217741|4||204|34945|1584885113|cf8b3285-fc61-4576-8c9a-bfd7adf49561|
+#=#=#=# Syncrun finished 2020-03-22T13:52:18Z (last step: 259 msec, total: 1407 msec)
+#=#=#=# Syncrun started 2020-03-22T13:53:07Z
+#=#=#=#=# Propagation starts 2020-03-22T13:53:08Z (last step: 937 msec, total: 937 msec)
+#=#=#=# Syncrun finished 2020-03-22T13:53:08Z (last step: 12 msec, total: 949 msec)
+#=#=#=# Syncrun started 2020-03-22T15:44:43Z
+#=#=#=#=# Propagation starts 2020-03-22T15:44:47Z (last step: 3926 msec, total: 3926 msec)
+#=#=#=# Syncrun finished 2020-03-22T15:44:50Z (last step: 2443 msec, total: 6370 msec)
+#=#=#=# Syncrun started 2020-03-22T16:07:28Z
+#=#=#=#=# Propagation starts 2020-03-22T16:07:28Z (last step: 369 msec, total: 369 msec)
+||resources/views/player/graphiques-fullscreen.php|INST_NEW|Up|1584893247||2475||3|Fichier local modifié pendant la synchronisation.|0|0|0||
+#=#=#=# Syncrun finished 2020-03-22T16:07:28Z (last step: 60 msec, total: 429 msec)
+#=#=#=# Syncrun started 2020-03-22T16:07:30Z
+#=#=#=#=# Propagation starts 2020-03-22T16:07:30Z (last step: 290 msec, total: 290 msec)
+16:07:33||resources/views/player/graphiques-fullscreen.php|INST_NEW|Up|1584893247|27904641ecae44a1d79a55d9e71b8b31|2475|00227702|4||201|0|0|49aa97e4-1fc2-45e0-b8b7-5ad91349cd90|
+#=#=#=# Syncrun finished 2020-03-22T16:07:31Z (last step: 271 msec, total: 562 msec)
+#=#=#=# Syncrun started 2020-03-22T16:08:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:08:13Z (last step: 906 msec, total: 906 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:08:13Z (last step: 10 msec, total: 916 msec)
+#=#=#=# Syncrun started 2020-03-22T16:22:50Z
+#=#=#=#=# Propagation starts 2020-03-22T16:22:50Z (last step: 309 msec, total: 309 msec)
+16:22:53||resources/views/player/resume.blade.php|INST_SYNC|Up|1584894168|b7eb96af1c8de2107381b4c3c96954cb|34962|00217741|4||204|34946|1584885135|5cb7a280-932d-4d38-86e5-2a472fdce1f5|
+#=#=#=# Syncrun finished 2020-03-22T16:22:50Z (last step: 372 msec, total: 681 msec)
+#=#=#=# Syncrun started 2020-03-22T16:23:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:23:43Z (last step: 948 msec, total: 948 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:23:43Z (last step: 7 msec, total: 955 msec)
+#=#=#=# Syncrun started 2020-03-22T16:23:50Z
+#=#=#=#=# Propagation starts 2020-03-22T16:23:50Z (last step: 282 msec, total: 282 msec)
+16:23:53||resources/views/player/graphiques-fullscreen.php|INST_SYNC|Up|1584894227|5160201c0ba7284e4a8ed162d0e26098|15991|00227702|4||204|2475|1584893247|0448dd9e-6016-4cd4-b2f0-5f4019d7d77c|
+#=#=#=# Syncrun finished 2020-03-22T16:23:50Z (last step: 328 msec, total: 611 msec)
+#=#=#=# Syncrun started 2020-03-22T16:24:03Z
+#=#=#=#=# Propagation starts 2020-03-22T16:24:04Z (last step: 803 msec, total: 803 msec)
+16:24:07||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584894241|9dd271e2eb75372d85c9e52bfd7227f2|35256|00227693|4||204|35240|1584885136|29c524d8-92d2-43e6-bf34-7cdc829cc432|
+16:24:08||storage/logs/laravel.log|INST_SYNC|Up|1584894241|7961eb646cf08a55371201f43a0d88d7|13717831|00218011|3|Error transferring https://114705.connect.drive.infomaniak.com/remote.php/webdav/laravel/color-drop-prod/storage/logs/laravel.log-chunking-262686389-2-1 - server replied:  (An If-Match header was specified, but none of the specified the ETags matched.)|412|13697034|1584884655|dbf1471f-f62c-4f0b-aeb8-6da755ccfce0|
+#=#=#=# Syncrun finished 2020-03-22T16:24:05Z (last step: 1266 msec, total: 2069 msec)
+#=#=#=# Syncrun started 2020-03-22T16:24:08Z
+#=#=#=#=# Propagation starts 2020-03-22T16:24:09Z (last step: 1227 msec, total: 1227 msec)
+16:24:12||storage/logs/laravel.log|INST_NEW|Up|1584894241|c537ced45ad6d7f3027b9604371ef78b|13717831|00218011|4||204|13697034|1584884655|c90a9159-8ff7-49a5-9fa3-f5cea27e92cc|
+#=#=#=# Syncrun finished 2020-03-22T16:24:10Z (last step: 779 msec, total: 2007 msec)
+#=#=#=# Syncrun started 2020-03-22T16:24:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:24:43Z (last step: 610 msec, total: 610 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:24:43Z (last step: 10 msec, total: 621 msec)
+#=#=#=# Syncrun started 2020-03-22T16:24:47Z
+#=#=#=#=# Propagation starts 2020-03-22T16:24:47Z (last step: 266 msec, total: 266 msec)
+16:24:50||resources/views/player/resume.blade.php|INST_SYNC|Up|1584894285|3da6b3ecbdc3f7a04c87831ffa3005dd|34966|00217741|4||204|34962|1584894168|f5a6f9d9-34ee-4095-9410-e88f17e66649|
+#=#=#=# Syncrun finished 2020-03-22T16:24:48Z (last step: 283 msec, total: 550 msec)
+#=#=#=# Syncrun started 2020-03-22T16:24:50Z
+#=#=#=#=# Propagation starts 2020-03-22T16:24:51Z (last step: 859 msec, total: 859 msec)
+16:24:54||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584894288|83c000768a881570faae2e956455b96c|35260|00227693|4||204|35256|1584894241|02c44d4b-7788-496b-9373-bb591180ae78|
+#=#=#=# Syncrun finished 2020-03-22T16:24:52Z (last step: 281 msec, total: 1141 msec)
+#=#=#=# Syncrun started 2020-03-22T16:25:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:25:43Z (last step: 1196 msec, total: 1196 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:25:43Z (last step: 9 msec, total: 1205 msec)
+#=#=#=# Syncrun started 2020-03-22T16:27:32Z
+#=#=#=#=# Propagation starts 2020-03-22T16:27:33Z (last step: 264 msec, total: 264 msec)
+16:27:36||routes/web.php|INST_SYNC|Up|1584894450|3c6385ab7e1bb18da4f0047919c1ee1b|3726|00217759|4||204|3759|1584791440|3caacf68-8b41-48d5-b197-3c03e8eb6789|
+#=#=#=# Syncrun finished 2020-03-22T16:27:33Z (last step: 659 msec, total: 924 msec)
+#=#=#=# Syncrun started 2020-03-22T16:28:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:28:13Z (last step: 453 msec, total: 453 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:28:13Z (last step: 7 msec, total: 461 msec)
+#=#=#=# Syncrun started 2020-03-22T16:30:51Z
+#=#=#=#=# Propagation starts 2020-03-22T16:30:51Z (last step: 306 msec, total: 306 msec)
+16:30:54||app/Http/Controllers/PlayerController.php|INST_SYNC|Up|1584894649|e6f621073528fad9778e9ee04607151d|5874|00188774|4||204|5535|1584827540|3ff380a2-9bc8-4ff5-9c5c-d9dfd18c28bf|
+#=#=#=# Syncrun finished 2020-03-22T16:30:51Z (last step: 329 msec, total: 636 msec)
+#=#=#=# Syncrun started 2020-03-22T16:31:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:31:43Z (last step: 862 msec, total: 862 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:31:43Z (last step: 10 msec, total: 872 msec)
+#=#=#=# Syncrun started 2020-03-22T16:31:45Z
+#=#=#=#=# Propagation starts 2020-03-22T16:31:45Z (last step: 282 msec, total: 282 msec)
+16:31:48||resources/views/player/resume.blade.php|INST_SYNC|Up|1584894703|53b5a4e8a74895af251800f90eee0e00|34975|00217741|4||204|34966|1584894285|d35a8574-7abb-447d-bc31-c7db37d66fd6|
+#=#=#=# Syncrun finished 2020-03-22T16:31:46Z (last step: 504 msec, total: 787 msec)
+#=#=#=# Syncrun started 2020-03-22T16:31:49Z
+#=#=#=#=# Propagation starts 2020-03-22T16:31:50Z (last step: 903 msec, total: 903 msec)
+16:31:53||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584894707|c2441d387e0e3c936ba7c04e7b387c3f|35269|00227693|4||204|35260|1584894288|1f961870-cca9-4b08-a5d2-919742d359b6|
+#=#=#=# Syncrun finished 2020-03-22T16:31:50Z (last step: 241 msec, total: 1145 msec)
+#=#=#=# Syncrun started 2020-03-22T16:32:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:32:43Z (last step: 1312 msec, total: 1312 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:32:43Z (last step: 12 msec, total: 1324 msec)
+#=#=#=# Syncrun started 2020-03-22T16:35:56Z
+#=#=#=#=# Propagation starts 2020-03-22T16:35:57Z (last step: 289 msec, total: 289 msec)
+16:36:00||resources/views/player/graphiques-fullscreen.blade.php|INST_NEW|Up|1584894955|501062d4cc000139361c71c53f17ab9f|15991|00227703|4||201|0|0|fd2bd2d6-cc0f-409d-b6ad-c5bf172b2a7d|
+#=#=#=# Syncrun finished 2020-03-22T16:35:57Z (last step: 228 msec, total: 518 msec)
+#=#=#=# Syncrun started 2020-03-22T16:36:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:36:43Z (last step: 978 msec, total: 978 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:36:43Z (last step: 9 msec, total: 988 msec)
+#=#=#=# Syncrun started 2020-03-22T16:37:09Z
+#=#=#=#=# Propagation starts 2020-03-22T16:37:10Z (last step: 278 msec, total: 278 msec)
+16:37:13||resources/views/player/graph.blade.php|INST_NEW|Up|1584895028|501062d4cc000139361c71c53f17ab9f|15991|00227704|4||201|0|0|69375fa1-97ff-476a-858a-6407e214c1dd|
+#=#=#=# Syncrun finished 2020-03-22T16:37:10Z (last step: 200 msec, total: 478 msec)
+#=#=#=# Syncrun started 2020-03-22T16:37:35Z
+#=#=#=#=# Propagation starts 2020-03-22T16:37:36Z (last step: 1000 msec, total: 1000 msec)
+16:37:40||routes/web.php|INST_SYNC|Up|1584895053|e2a80bae5102e558b8f3890e329f4eb6|3709|00217759|4||204|3726|1584894450|6c74136c-9edf-4787-9927-bad37dc84fb8|
+#=#=#=# Syncrun finished 2020-03-22T16:37:37Z (last step: 329 msec, total: 1330 msec)
+#=#=#=# Syncrun started 2020-03-22T16:38:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:38:13Z (last step: 483 msec, total: 483 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:38:13Z (last step: 9 msec, total: 493 msec)
+#=#=#=# Syncrun started 2020-03-22T16:39:29Z
+#=#=#=#=# Propagation starts 2020-03-22T16:39:29Z (last step: 294 msec, total: 294 msec)
+16:39:32||routes/web.php|INST_SYNC|Up|1584895167|e2a80bae5102e558b8f3890e329f4eb6|3709|00217759|4||204|3709|1584895053|b1c48e54-5112-4d02-922d-e737e33f2762|
+#=#=#=# Syncrun finished 2020-03-22T16:39:29Z (last step: 387 msec, total: 681 msec)
+#=#=#=# Syncrun started 2020-03-22T16:39:58Z
+#=#=#=#=# Propagation starts 2020-03-22T16:39:58Z (last step: 500 msec, total: 500 msec)
+16:40:01||app/Http/Controllers/PlayerController.php|INST_SYNC|Up|1584895196|16e6fb14be1dc3f67a5fef76720dddb4|6427|00188774|4||204|5874|1584894649|11433d37-e974-4f0f-bb3b-61e99f8a2f82|
+#=#=#=# Syncrun finished 2020-03-22T16:39:59Z (last step: 668 msec, total: 1169 msec)
+#=#=#=# Syncrun started 2020-03-22T16:40:18Z
+#=#=#=#=# Propagation starts 2020-03-22T16:40:19Z (last step: 929 msec, total: 929 msec)
+16:40:22||resources/views/player/resume.blade.php|INST_SYNC|Up|1584895216|c5bc5fddb4845d5d1484a1ed19852e67|34959|00217741|4||204|34975|1584894703|8de5de89-4ab9-45e6-adb4-8db4bf5436a7|
+#=#=#=# Syncrun finished 2020-03-22T16:40:19Z (last step: 279 msec, total: 1209 msec)
+#=#=#=# Syncrun started 2020-03-22T16:40:22Z
+#=#=#=#=# Propagation starts 2020-03-22T16:40:23Z (last step: 1005 msec, total: 1005 msec)
+16:40:26||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584895220|7b094d10f6c70edfdbfa3c9053bc410d|35253|00227693|4||204|35269|1584894707|103b68d0-cb05-43e8-88b5-d6ac8d9f5e6e|
+#=#=#=# Syncrun finished 2020-03-22T16:40:23Z (last step: 285 msec, total: 1290 msec)
+#=#=#=# Syncrun started 2020-03-22T16:41:13Z
+#=#=#=#=# Propagation starts 2020-03-22T16:41:14Z (last step: 1139 msec, total: 1139 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:41:14Z (last step: 7 msec, total: 1146 msec)
+#=#=#=# Syncrun started 2020-03-22T16:41:56Z
+#=#=#=#=# Propagation starts 2020-03-22T16:41:57Z (last step: 343 msec, total: 343 msec)
+16:42:00||resources/views/player/resume.blade.php|INST_SYNC|Up|1584895314|99e58f5eae09debb384db273d8cfa783|34955|00217741|4||204|34959|1584895216|44693853-e3f7-490a-b6b7-6a72fba31863|
+#=#=#=# Syncrun finished 2020-03-22T16:41:57Z (last step: 388 msec, total: 731 msec)
+#=#=#=# Syncrun started 2020-03-22T16:42:01Z
+#=#=#=#=# Propagation starts 2020-03-22T16:42:02Z (last step: 979 msec, total: 979 msec)
+||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_NEW|Up|1584895321||16083||3|Fichier local modifié pendant la synchronisation.|0|0|0||
+16:42:05||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584895319|80dd0b5e4effe112d6be10ecd59fbe90|35249|00227693|4||204|35253|1584895220|b0b675f7-3563-4624-8c91-f5a14e09f96f|
+#=#=#=# Syncrun finished 2020-03-22T16:42:02Z (last step: 277 msec, total: 1257 msec)
+#=#=#=# Syncrun started 2020-03-22T16:42:04Z
+#=#=#=#=# Propagation starts 2020-03-22T16:42:05Z (last step: 934 msec, total: 934 msec)
+16:42:08||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_NEW|Up|1584895321|5e5ca62c2e0c2d037b4d42375847d375|16083|00227705|4||201|0|0|7e4882e2-aaad-45c0-88aa-015c0a0c0173|
+#=#=#=# Syncrun finished 2020-03-22T16:42:05Z (last step: 169 msec, total: 1104 msec)
+#=#=#=# Syncrun started 2020-03-22T16:42:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:42:44Z (last step: 1157 msec, total: 1157 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:42:44Z (last step: 16 msec, total: 1174 msec)
+#=#=#=# Syncrun started 2020-03-22T16:42:45Z
+#=#=#=#=# Propagation starts 2020-03-22T16:42:46Z (last step: 238 msec, total: 238 msec)
+16:42:49||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895363|ef94119882bebd71eff3ca2a64c120f4|15984|00227704|4||204|15991|1584895028|6b9428fc-6108-4f00-9cbb-fc52f453a37b|
+#=#=#=# Syncrun finished 2020-03-22T16:42:46Z (last step: 264 msec, total: 502 msec)
+#=#=#=# Syncrun started 2020-03-22T16:42:48Z
+#=#=#=#=# Propagation starts 2020-03-22T16:42:49Z (last step: 840 msec, total: 840 msec)
+16:42:52||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895366|da74cb7b8805b043feef83cc6497256b|16076|00227705|4||204|16083|1584895321|5b45625c-8438-4d28-b5ef-764c2c4d4432|
+#=#=#=# Syncrun finished 2020-03-22T16:42:50Z (last step: 291 msec, total: 1132 msec)
+#=#=#=# Syncrun started 2020-03-22T16:43:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:43:43Z (last step: 990 msec, total: 990 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:43:43Z (last step: 14 msec, total: 1005 msec)
+#=#=#=# Syncrun started 2020-03-22T16:44:45Z
+#=#=#=#=# Propagation starts 2020-03-22T16:44:45Z (last step: 290 msec, total: 290 msec)
+16:44:49||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895483|e9d63e23dae8cbc16126e62908cb3eb9|14130|00227704|4||204|15984|1584895363|5f3fe81e-7859-4bbb-be8d-a3ec7b7661e1|
+#=#=#=# Syncrun finished 2020-03-22T16:44:46Z (last step: 249 msec, total: 539 msec)
+#=#=#=# Syncrun started 2020-03-22T16:44:52Z
+#=#=#=#=# Propagation starts 2020-03-22T16:44:56Z (last step: 3942 msec, total: 3942 msec)
+16:45:01||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895490|4d1e42ce3f32b452659e24defe116a87|14222|00227705|4||204|16076|1584895366|f156f72c-e49d-4e65-9292-56ed7b736281|
+#=#=#=# Syncrun finished 2020-03-22T16:44:58Z (last step: 2540 msec, total: 6483 msec)
+#=#=#=# Syncrun started 2020-03-22T16:45:42Z
+#=#=#=#=# Propagation starts 2020-03-22T16:45:43Z (last step: 1135 msec, total: 1135 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:45:43Z (last step: 10 msec, total: 1146 msec)
+#=#=#=# Syncrun started 2020-03-22T16:46:53Z
+#=#=#=#=# Propagation starts 2020-03-22T16:46:53Z (last step: 270 msec, total: 270 msec)
+16:46:56||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895611|81d73806a210d86295b2d8b0b93620bc|14202|00227704|4||204|14130|1584895483|17cf9eda-4aa9-402d-b8ad-70a244ce2f2e|
+#=#=#=# Syncrun finished 2020-03-22T16:46:54Z (last step: 447 msec, total: 717 msec)
+#=#=#=# Syncrun started 2020-03-22T16:46:57Z
+#=#=#=#=# Propagation starts 2020-03-22T16:46:58Z (last step: 893 msec, total: 893 msec)
+16:47:01||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895615|48e4e8068625fd0a0d9d43737488b9d7|14294|00227705|4||204|14222|1584895490|5e088668-0afe-4ba6-b2f0-92030a56cf96|
+#=#=#=# Syncrun finished 2020-03-22T16:46:59Z (last step: 282 msec, total: 1175 msec)
+#=#=#=# Syncrun started 2020-03-22T16:47:35Z
+#=#=#=#=# Propagation starts 2020-03-22T16:47:37Z (last step: 1453 msec, total: 1453 msec)
+16:47:40||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895653|4223dde1b5d3d6890da787e4a4df8c7d|14212|00227704|4||204|14202|1584895611|a5e57d20-6497-4fc2-b5b6-0df9980cfe8e|
+#=#=#=# Syncrun finished 2020-03-22T16:47:37Z (last step: 342 msec, total: 1796 msec)
+#=#=#=# Syncrun started 2020-03-22T16:47:41Z
+#=#=#=#=# Propagation starts 2020-03-22T16:47:42Z (last step: 801 msec, total: 801 msec)
+16:47:45||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895659|95c72db35172e2c4a7ad53278a6717ce|14244|00227705|4||204|14294|1584895615|967c50f1-8c4c-49ff-a08a-2753749168b8|
+#=#=#=# Syncrun finished 2020-03-22T16:47:42Z (last step: 274 msec, total: 1075 msec)
+#=#=#=# Syncrun started 2020-03-22T16:48:40Z
+#=#=#=#=# Propagation starts 2020-03-22T16:48:41Z (last step: 942 msec, total: 942 msec)
+16:48:45||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895718|b076906c104792afe644c4189ff138fa|14263|00227704|4||204|14212|1584895653|80b2f348-6b90-4495-96b1-a30d8001d754|
+#=#=#=# Syncrun finished 2020-03-22T16:48:42Z (last step: 251 msec, total: 1194 msec)
+#=#=#=# Syncrun started 2020-03-22T16:48:44Z
+#=#=#=#=# Propagation starts 2020-03-22T16:48:45Z (last step: 941 msec, total: 941 msec)
+16:48:48||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895722|f732c9756184df5eb965ab8ee4b2dbaf|14295|00227705|4||204|14244|1584895659|c22d344d-6028-49c8-8076-bac3545bccac|
+#=#=#=# Syncrun finished 2020-03-22T16:48:46Z (last step: 826 msec, total: 1767 msec)
+#=#=#=# Syncrun started 2020-03-22T16:49:22Z
+#=#=#=#=# Propagation starts 2020-03-22T16:49:24Z (last step: 1112 msec, total: 1112 msec)
+16:49:27||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895760|5975c700b83264940f2fa2896b093253|14264|00227704|4||204|14263|1584895718|3b8ec161-8848-4cb6-bfd8-7bd3b814e7ab|
+#=#=#=# Syncrun finished 2020-03-22T16:49:24Z (last step: 613 msec, total: 1725 msec)
+#=#=#=# Syncrun started 2020-03-22T16:49:27Z
+#=#=#=#=# Propagation starts 2020-03-22T16:49:28Z (last step: 900 msec, total: 900 msec)
+16:49:31||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895765|39e1b8f478e675a415538978fcc6929c|14296|00227705|4||204|14295|1584895722|2d18b74f-588a-427c-8c6e-818c0ce1cf69|
+#=#=#=# Syncrun finished 2020-03-22T16:49:28Z (last step: 301 msec, total: 1202 msec)
+#=#=#=# Syncrun started 2020-03-22T16:50:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:50:13Z (last step: 1142 msec, total: 1142 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:50:13Z (last step: 9 msec, total: 1151 msec)
+#=#=#=# Syncrun started 2020-03-22T16:51:26Z
+#=#=#=#=# Propagation starts 2020-03-22T16:51:26Z (last step: 248 msec, total: 248 msec)
+16:51:30||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895884|67de97f8b7421ae048ada98e53bfb757|14383|00227704|4||204|14264|1584895760|8c80507f-d70a-40f7-bd76-01499f8e485a|
+#=#=#=# Syncrun finished 2020-03-22T16:51:27Z (last step: 282 msec, total: 530 msec)
+#=#=#=# Syncrun started 2020-03-22T16:51:29Z
+#=#=#=#=# Propagation starts 2020-03-22T16:51:30Z (last step: 810 msec, total: 810 msec)
+16:51:33||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895887|1c7318948a6d24bcd33a742aa745b623|14387|00227704|4||204|14383|1584895884|fa43d1cc-38b1-4c3e-9963-2b81697a65fe|
+#=#=#=# Syncrun finished 2020-03-22T16:51:31Z (last step: 683 msec, total: 1494 msec)
+#=#=#=# Syncrun started 2020-03-22T16:51:33Z
+#=#=#=#=# Propagation starts 2020-03-22T16:51:33Z (last step: 935 msec, total: 935 msec)
+16:51:37||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895891|16bc84c874e2ff086dca006f7295bc60|14419|00227705|4||204|14296|1584895765|bd1b3002-1885-40b8-b149-eebba37ba46a|
+#=#=#=# Syncrun finished 2020-03-22T16:51:34Z (last step: 297 msec, total: 1232 msec)
+#=#=#=# Syncrun started 2020-03-22T16:52:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:52:13Z (last step: 1130 msec, total: 1130 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:52:13Z (last step: 11 msec, total: 1141 msec)
+#=#=#=# Syncrun started 2020-03-22T16:52:23Z
+#=#=#=#=# Propagation starts 2020-03-22T16:52:24Z (last step: 327 msec, total: 327 msec)
+16:52:27||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895941|e50e0f081b595f33fddeb0bee169d2f4|14387|00227704|4||204|14387|1584895887|f995305b-6938-491d-8b48-eaa0b843b87e|
+#=#=#=# Syncrun finished 2020-03-22T16:52:24Z (last step: 302 msec, total: 630 msec)
+#=#=#=# Syncrun started 2020-03-22T16:52:27Z
+#=#=#=#=# Propagation starts 2020-03-22T16:52:28Z (last step: 844 msec, total: 844 msec)
+16:52:31||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895945|a511397b60ec085c5573e64293ed56b1|14419|00227705|4||204|14419|1584895891|795b97c8-d85e-42d1-a7cb-2bb771ff192a|
+#=#=#=# Syncrun finished 2020-03-22T16:52:28Z (last step: 418 msec, total: 1263 msec)
+#=#=#=# Syncrun started 2020-03-22T16:52:54Z
+#=#=#=#=# Propagation starts 2020-03-22T16:52:55Z (last step: 1249 msec, total: 1249 msec)
+16:52:58||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895972|efca37fc0bfe20e694f71abf7b77a041|14349|00227704|4||204|14387|1584895941|88a87919-6798-43e6-9c5e-1e0531207374|
+#=#=#=# Syncrun finished 2020-03-22T16:52:55Z (last step: 363 msec, total: 1613 msec)
+#=#=#=# Syncrun started 2020-03-22T16:52:57Z
+#=#=#=#=# Propagation starts 2020-03-22T16:52:58Z (last step: 874 msec, total: 874 msec)
+16:53:01||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895975|254b5088a594bc43ced9eb02bda31116|14381|00227705|4||204|14419|1584895945|4f04bf32-21a9-4e8a-8ef6-18ce0712b405|
+#=#=#=# Syncrun finished 2020-03-22T16:52:59Z (last step: 299 msec, total: 1173 msec)
+#=#=#=# Syncrun started 2020-03-22T16:53:17Z
+#=#=#=#=# Propagation starts 2020-03-22T16:53:18Z (last step: 1218 msec, total: 1218 msec)
+16:53:22||resources/views/player/graph.blade.php|INST_SYNC|Up|1584895995|154e23166900ce5a814792324e1f01e5|14322|00227704|4||204|14349|1584895972|b37c5063-db03-410b-a42a-e116986a434e|
+#=#=#=# Syncrun finished 2020-03-22T16:53:19Z (last step: 306 msec, total: 1524 msec)
+#=#=#=# Syncrun started 2020-03-22T16:53:21Z
+#=#=#=#=# Propagation starts 2020-03-22T16:53:22Z (last step: 899 msec, total: 899 msec)
+16:53:25||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584895999|3997fdc5c784f4e4439663b8e97826d6|14354|00227705|4||204|14381|1584895975|f06c9c87-3719-433c-b31f-fbbc1229e90f|
+#=#=#=# Syncrun finished 2020-03-22T16:53:22Z (last step: 264 msec, total: 1164 msec)
+#=#=#=# Syncrun started 2020-03-22T16:53:58Z
+#=#=#=#=# Propagation starts 2020-03-22T16:53:59Z (last step: 1062 msec, total: 1062 msec)
+16:54:02||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896036|ca9bd332eb626d9f044edce7a4afc24a|14354|00227704|4||204|14322|1584895995|90158cfd-2762-4b2c-ac1d-c086996406b6|
+#=#=#=# Syncrun finished 2020-03-22T16:53:59Z (last step: 371 msec, total: 1433 msec)
+#=#=#=# Syncrun started 2020-03-22T16:54:02Z
+#=#=#=#=# Propagation starts 2020-03-22T16:54:03Z (last step: 985 msec, total: 985 msec)
+16:54:06||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896040|e5934ca36b9eb5d9683fbd2ae58e1174|14386|00227705|4||204|14354|1584895999|01c5323c-f3e6-499d-a85f-7d4ffbb75fdb|
+#=#=#=# Syncrun finished 2020-03-22T16:54:04Z (last step: 323 msec, total: 1309 msec)
+#=#=#=# Syncrun started 2020-03-22T16:54:26Z
+#=#=#=#=# Propagation starts 2020-03-22T16:54:27Z (last step: 1278 msec, total: 1278 msec)
+16:54:31||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896064|b0a78344423217d9a82428e3876875ae|14354|00227704|4||204|14354|1584896036|1bc4d4a4-e576-48ae-8de9-60922674fe40|
+#=#=#=# Syncrun finished 2020-03-22T16:54:28Z (last step: 257 msec, total: 1536 msec)
+#=#=#=# Syncrun started 2020-03-22T16:54:30Z
+#=#=#=#=# Propagation starts 2020-03-22T16:54:31Z (last step: 841 msec, total: 841 msec)
+16:54:34||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896068|750375d92bf8d8c64e90f0d086179894|14386|00227705|4||204|14386|1584896040|6d813126-5afb-4140-a862-08849ce5e516|
+#=#=#=# Syncrun finished 2020-03-22T16:54:31Z (last step: 321 msec, total: 1163 msec)
+#=#=#=# Syncrun started 2020-03-22T16:54:58Z
+#=#=#=#=# Propagation starts 2020-03-22T16:54:59Z (last step: 1274 msec, total: 1274 msec)
+||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896098|b0a78344423217d9a82428e3876875ae|14355|00227704|3|Fichier local modifié pendant la synchronisation.|0|14354|1584896064||
+#=#=#=# Syncrun finished 2020-03-22T16:54:59Z (last step: 54 msec, total: 1328 msec)
+#=#=#=# Syncrun started 2020-03-22T16:55:01Z
+#=#=#=#=# Propagation starts 2020-03-22T16:55:01Z (last step: 280 msec, total: 280 msec)
+16:55:05||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896099|52f5d9101de3c6619d1ee6a71791529b|14387|00227705|4||204|14386|1584896068|56b816a7-9763-4b83-8b33-fbcb9842ca88|
+16:55:05||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896098|638dfd78a9d4ea8ed77a3d3c2924f50b|14355|00227704|4||204|14354|1584896064|1f6123e9-2dbf-464b-92dc-d2641ce69018|
+#=#=#=# Syncrun finished 2020-03-22T16:55:02Z (last step: 349 msec, total: 629 msec)
+#=#=#=# Syncrun started 2020-03-22T16:55:09Z
+#=#=#=#=# Propagation starts 2020-03-22T16:55:10Z (last step: 1060 msec, total: 1060 msec)
+16:55:13||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896107|57fd5426265238e8f14b064e5bcd23d5|14354|00227704|4||204|14355|1584896098|39770272-0c54-4001-a3fc-3163f57d0c8b|
+#=#=#=# Syncrun finished 2020-03-22T16:55:10Z (last step: 246 msec, total: 1307 msec)
+#=#=#=# Syncrun started 2020-03-22T16:55:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:55:13Z (last step: 894 msec, total: 894 msec)
+16:55:16||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896109|cfbb1005942637feb7797f32f768bddb|14386|00227705|4||204|14387|1584896099|ed90ed85-1421-422a-83a0-06d38be71240|
+#=#=#=# Syncrun finished 2020-03-22T16:55:14Z (last step: 292 msec, total: 1187 msec)
+#=#=#=# Syncrun started 2020-03-22T16:55:37Z
+#=#=#=#=# Propagation starts 2020-03-22T16:55:38Z (last step: 1186 msec, total: 1186 msec)
+16:55:41||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896135|b17be4a39db670b0298ab41a8a9c9f4c|14365|00227704|4||204|14354|1584896107|2ef2eecc-9bce-46a0-a83d-929209b71b27|
+#=#=#=# Syncrun finished 2020-03-22T16:55:38Z (last step: 377 msec, total: 1564 msec)
+#=#=#=# Syncrun started 2020-03-22T16:55:41Z
+#=#=#=#=# Propagation starts 2020-03-22T16:55:41Z (last step: 942 msec, total: 942 msec)
+16:55:45||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896139|a592ec2be601cb3c4896789b9cee4b12|14397|00227705|4||204|14386|1584896109|87731983-da09-4cba-824f-1744807fe85f|
+#=#=#=# Syncrun finished 2020-03-22T16:55:42Z (last step: 323 msec, total: 1266 msec)
+#=#=#=# Syncrun started 2020-03-22T16:56:34Z
+#=#=#=#=# Propagation starts 2020-03-22T16:56:35Z (last step: 1147 msec, total: 1147 msec)
+16:56:38||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896192|3d5b0a4ced6a141e27610251077b0bcf|14364|00227704|4||204|14365|1584896135|cb801a19-0f4a-4bdb-b823-b8797379b32d|
+#=#=#=# Syncrun finished 2020-03-22T16:56:36Z (last step: 290 msec, total: 1437 msec)
+#=#=#=# Syncrun started 2020-03-22T16:56:38Z
+#=#=#=#=# Propagation starts 2020-03-22T16:56:39Z (last step: 957 msec, total: 957 msec)
+16:56:42||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896196|809132fb1f271272b5793d4896568086|14396|00227705|4||204|14397|1584896139|89d8e9c2-d702-4f15-9433-6d4beba7600d|
+#=#=#=# Syncrun finished 2020-03-22T16:56:40Z (last step: 861 msec, total: 1818 msec)
+#=#=#=# Syncrun started 2020-03-22T16:56:50Z
+#=#=#=#=# Propagation starts 2020-03-22T16:56:51Z (last step: 983 msec, total: 983 msec)
+16:56:54||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896208|ef74885188dc8f1d1e991038217b8be5|14360|00227704|4||204|14364|1584896192|a755579a-1a35-4347-8bcf-6559e24683c2|
+#=#=#=# Syncrun finished 2020-03-22T16:56:52Z (last step: 244 msec, total: 1228 msec)
+#=#=#=# Syncrun started 2020-03-22T16:56:54Z
+#=#=#=#=# Propagation starts 2020-03-22T16:56:55Z (last step: 961 msec, total: 961 msec)
+16:56:58||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896212|db42935e7dca7c1f1fec631791b9df87|14392|00227705|4||204|14396|1584896196|3b376531-10c8-47c3-af7d-5aaf01007e69|
+#=#=#=# Syncrun finished 2020-03-22T16:56:55Z (last step: 298 msec, total: 1260 msec)
+#=#=#=# Syncrun started 2020-03-22T16:57:07Z
+#=#=#=#=# Propagation starts 2020-03-22T16:57:08Z (last step: 1120 msec, total: 1120 msec)
+16:57:11||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896225|3f01ffaa7f4fd9ee25fa000e8e561dec|14368|00227704|4||204|14360|1584896208|40483e60-1f63-4b97-82c0-6b49e5ef67ad|
+16:57:11||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896226|bc56151dd973d4f733ff78ebfc8a9386|14400|00227705|4||204|14392|1584896212|fafce9c5-7acb-4318-9ec0-ed2c3b84c292|
+#=#=#=# Syncrun finished 2020-03-22T16:57:08Z (last step: 269 msec, total: 1389 msec)
+#=#=#=# Syncrun started 2020-03-22T16:57:34Z
+#=#=#=#=# Propagation starts 2020-03-22T16:57:35Z (last step: 1132 msec, total: 1132 msec)
+16:57:38||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896252|ffd411114dd971b29de73bcd73b1af4f|14365|00227704|4||204|14368|1584896225|75843e57-c6b1-4fa0-8cae-3da98d059fc2|
+#=#=#=# Syncrun finished 2020-03-22T16:57:36Z (last step: 235 msec, total: 1367 msec)
+#=#=#=# Syncrun started 2020-03-22T16:57:38Z
+#=#=#=#=# Propagation starts 2020-03-22T16:57:39Z (last step: 843 msec, total: 843 msec)
+16:57:42||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896256|1f764589b0a8aa7055cfc7fd9ef4fb6b|14397|00227705|4||204|14400|1584896226|b5fc2664-0fec-46d0-a474-2993633fb2c2|
+#=#=#=# Syncrun finished 2020-03-22T16:57:39Z (last step: 302 msec, total: 1145 msec)
+#=#=#=# Syncrun started 2020-03-22T16:58:12Z
+#=#=#=#=# Propagation starts 2020-03-22T16:58:14Z (last step: 1306 msec, total: 1306 msec)
+#=#=#=# Syncrun finished 2020-03-22T16:58:14Z (last step: 10 msec, total: 1317 msec)
+#=#=#=# Syncrun started 2020-03-22T16:59:46Z
+#=#=#=#=# Propagation starts 2020-03-22T16:59:46Z (last step: 282 msec, total: 282 msec)
+16:59:49||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896384|ffd411114dd971b29de73bcd73b1af4f|14365|00227704|4||204|14365|1584896252|2a03ce1d-424d-4350-ab20-606f80d4a136|
+#=#=#=# Syncrun finished 2020-03-22T16:59:47Z (last step: 370 msec, total: 653 msec)
+#=#=#=# Syncrun started 2020-03-22T16:59:53Z
+#=#=#=#=# Propagation starts 2020-03-22T16:59:54Z (last step: 901 msec, total: 901 msec)
+16:59:57||routes/web.php|INST_SYNC|Up|1584896391|e2a80bae5102e558b8f3890e329f4eb6|3709|00217759|4||204|3709|1584895167|e40baa33-509c-4795-b94c-4d43f53805ac|
+#=#=#=# Syncrun finished 2020-03-22T16:59:55Z (last step: 311 msec, total: 1212 msec)
+#=#=#=# Syncrun started 2020-03-22T16:59:56Z
+#=#=#=#=# Propagation starts 2020-03-22T16:59:57Z (last step: 443 msec, total: 443 msec)
+17:00:00||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896394|1f764589b0a8aa7055cfc7fd9ef4fb6b|14397|00227705|4||204|14397|1584896256|b77e5fe6-165d-4a14-992e-994467bae885|
+#=#=#=# Syncrun finished 2020-03-22T16:59:57Z (last step: 324 msec, total: 768 msec)
+#=#=#=# Syncrun started 2020-03-22T17:00:30Z
+#=#=#=#=# Propagation starts 2020-03-22T17:00:31Z (last step: 1179 msec, total: 1179 msec)
+17:00:35||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896428|d7fc52008735603f4e2c1ff0d452beb6|14365|00227704|4||204|14365|1584896384|7b6db2be-c9ad-4a3d-bb55-097735c47316|
+#=#=#=# Syncrun finished 2020-03-22T17:00:32Z (last step: 272 msec, total: 1452 msec)
+#=#=#=# Syncrun started 2020-03-22T17:00:34Z
+#=#=#=#=# Propagation starts 2020-03-22T17:00:35Z (last step: 921 msec, total: 921 msec)
+17:00:38||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896432|5770e1ccc9cbfcdc084dbcd57aa7dbd2|14397|00227705|4||204|14397|1584896394|c97e2ba1-3b68-4463-bccb-1e5d27ecc72c|
+#=#=#=# Syncrun finished 2020-03-22T17:00:36Z (last step: 327 msec, total: 1248 msec)
+#=#=#=# Syncrun started 2020-03-22T17:00:54Z
+#=#=#=#=# Propagation starts 2020-03-22T17:00:55Z (last step: 1273 msec, total: 1273 msec)
+17:00:58||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896452|a53434efda4993d0d8bbedef216697c7|14365|00227704|4||204|14365|1584896428|9a8d6dc7-bafb-4547-8e58-990057ac40d5|
+#=#=#=# Syncrun finished 2020-03-22T17:00:57Z (last step: 1886 msec, total: 3160 msec)
+#=#=#=# Syncrun started 2020-03-22T17:01:00Z
+#=#=#=#=# Propagation starts 2020-03-22T17:01:01Z (last step: 1071 msec, total: 1071 msec)
+17:01:04||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896456|46a3ccc296fb365fa1f8a5b0d5d91b5e|14397|00227705|4||204|14397|1584896432|7b627fe9-bc96-47a9-adda-046a02335716|
+#=#=#=# Syncrun finished 2020-03-22T17:01:01Z (last step: 265 msec, total: 1336 msec)
+#=#=#=# Syncrun started 2020-03-22T17:01:18Z
+#=#=#=#=# Propagation starts 2020-03-22T17:01:19Z (last step: 1318 msec, total: 1318 msec)
+17:01:22||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896476|e8a86b1bc2745411cd7fcc105259e6d7|14366|00227704|4||204|14365|1584896452|5202ef4c-0276-4711-b3da-b86d1e7b33f9|
+#=#=#=# Syncrun finished 2020-03-22T17:01:20Z (last step: 304 msec, total: 1622 msec)
+#=#=#=# Syncrun started 2020-03-22T17:01:22Z
+#=#=#=#=# Propagation starts 2020-03-22T17:01:23Z (last step: 831 msec, total: 831 msec)
+17:01:26||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896480|ffa2cb52b226ecf4370e8127a6acb781|14398|00227705|4||204|14397|1584896456|c484043d-72c0-4f21-a843-bd931913ff69|
+#=#=#=# Syncrun finished 2020-03-22T17:01:23Z (last step: 362 msec, total: 1193 msec)
+#=#=#=# Syncrun started 2020-03-22T17:02:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:02:14Z (last step: 1178 msec, total: 1178 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:02:14Z (last step: 9 msec, total: 1187 msec)
+#=#=#=# Syncrun started 2020-03-22T17:02:24Z
+#=#=#=#=# Propagation starts 2020-03-22T17:02:25Z (last step: 276 msec, total: 276 msec)
+17:02:28||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896542|d23d373a6a33576aaef7907a0b440603|14408|00227704|4||204|14366|1584896476|42b1c696-cca8-4e0d-8fb6-2772447bc984|
+#=#=#=# Syncrun finished 2020-03-22T17:02:25Z (last step: 331 msec, total: 607 msec)
+#=#=#=# Syncrun started 2020-03-22T17:02:28Z
+#=#=#=#=# Propagation starts 2020-03-22T17:02:29Z (last step: 968 msec, total: 968 msec)
+17:02:32||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896546|f636c1ad4203c5902cf16ebf36a18f19|14440|00227705|4||204|14398|1584896480|427a8a0a-db02-4aff-a0c8-54b2d52a62d0|
+#=#=#=# Syncrun finished 2020-03-22T17:02:30Z (last step: 392 msec, total: 1360 msec)
+#=#=#=# Syncrun started 2020-03-22T17:03:07Z
+#=#=#=#=# Propagation starts 2020-03-22T17:03:09Z (last step: 1139 msec, total: 1139 msec)
+17:03:12||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896585|7ba73038e7c635c1d8bb4f75ee3af3ef|14365|00227704|4||204|14408|1584896542|6cda6235-dd15-4640-bf5d-c6da3f4783f4|
+#=#=#=# Syncrun finished 2020-03-22T17:03:09Z (last step: 345 msec, total: 1484 msec)
+#=#=#=# Syncrun started 2020-03-22T17:03:11Z
+#=#=#=#=# Propagation starts 2020-03-22T17:03:12Z (last step: 851 msec, total: 851 msec)
+17:03:15||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896588|3850c84215e0d539c13541459cc79b0a|14397|00227705|4||204|14440|1584896546|a1c55e91-ccf3-4b31-bccd-c98899f9c433|
+#=#=#=# Syncrun finished 2020-03-22T17:03:12Z (last step: 257 msec, total: 1108 msec)
+#=#=#=# Syncrun started 2020-03-22T17:04:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:04:14Z (last step: 1326 msec, total: 1326 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:04:14Z (last step: 10 msec, total: 1337 msec)
+#=#=#=# Syncrun started 2020-03-22T17:05:01Z
+#=#=#=#=# Propagation starts 2020-03-22T17:05:01Z (last step: 284 msec, total: 284 msec)
+17:05:05||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896699|1a8b134eb3a03ebe58fab2a1c66fe2e6|14364|00227704|4||204|14365|1584896585|30de3e22-2485-4335-bb72-258b836669f9|
+#=#=#=# Syncrun finished 2020-03-22T17:05:02Z (last step: 346 msec, total: 631 msec)
+#=#=#=# Syncrun started 2020-03-22T17:05:05Z
+#=#=#=#=# Propagation starts 2020-03-22T17:05:06Z (last step: 987 msec, total: 987 msec)
+17:05:09||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896703|db8650e5623536b1e9509612038b3f48|14396|00227705|4||204|14397|1584896588|a2b2f7cf-3d17-42a6-afc4-e14dc5820611|
+#=#=#=# Syncrun finished 2020-03-22T17:05:06Z (last step: 228 msec, total: 1216 msec)
+#=#=#=# Syncrun started 2020-03-22T17:05:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:05:43Z (last step: 1222 msec, total: 1222 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:05:43Z (last step: 11 msec, total: 1233 msec)
+#=#=#=# Syncrun started 2020-03-22T17:07:52Z
+#=#=#=#=# Propagation starts 2020-03-22T17:07:52Z (last step: 327 msec, total: 327 msec)
+17:07:55||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896870|db475e40c316de6f57000cc46c542e72|14410|00227704|4||204|14364|1584896699|85939383-028d-4515-974b-2a7f0e6cbdcb|
+#=#=#=# Syncrun finished 2020-03-22T17:07:52Z (last step: 355 msec, total: 682 msec)
+#=#=#=# Syncrun started 2020-03-22T17:08:00Z
+#=#=#=#=# Propagation starts 2020-03-22T17:08:01Z (last step: 814 msec, total: 814 msec)
+17:08:04||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896878|fae4f9e8210e30db42b188bad39aa039|14442|00227705|4||204|14396|1584896703|12a5f1ee-abc4-4fbe-88de-fee919a042c3|
+#=#=#=# Syncrun finished 2020-03-22T17:08:02Z (last step: 339 msec, total: 1154 msec)
+#=#=#=# Syncrun started 2020-03-22T17:08:38Z
+#=#=#=#=# Propagation starts 2020-03-22T17:08:39Z (last step: 1328 msec, total: 1328 msec)
+17:08:42||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896916|047a41c6efb8bbe455297dec20173687|14410|00227704|4||204|14410|1584896870|7860711d-ba05-43ec-9249-d226c41b11d5|
+#=#=#=# Syncrun finished 2020-03-22T17:08:40Z (last step: 445 msec, total: 1773 msec)
+#=#=#=# Syncrun started 2020-03-22T17:08:43Z
+#=#=#=#=# Propagation starts 2020-03-22T17:08:44Z (last step: 884 msec, total: 884 msec)
+17:08:47||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896921|b3693f93d9c545845595e35cd6ba8202|14442|00227705|4||204|14442|1584896878|09641171-8e55-4eec-8b72-8b9573519be1|
+#=#=#=# Syncrun finished 2020-03-22T17:08:44Z (last step: 463 msec, total: 1347 msec)
+#=#=#=# Syncrun started 2020-03-22T17:09:05Z
+#=#=#=#=# Propagation starts 2020-03-22T17:09:06Z (last step: 1284 msec, total: 1284 msec)
+||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896945|b3693f93d9c545845595e35cd6ba8202|14487|00227705|3|Fichier local modifié pendant la synchronisation.|0|14442|1584896921||
+17:09:09||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896943|3095c6bbb38a6847498d25db4777ec44|14455|00227704|4||204|14410|1584896916|5f0db79f-1456-4360-8438-fc19dbffcb1b|
+#=#=#=# Syncrun finished 2020-03-22T17:09:07Z (last step: 351 msec, total: 1635 msec)
+#=#=#=# Syncrun started 2020-03-22T17:09:09Z
+#=#=#=#=# Propagation starts 2020-03-22T17:09:10Z (last step: 927 msec, total: 927 msec)
+17:09:13||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584896945|8fc1c689cc95fbebcfcead23b8b59903|14487|00227705|4||204|14442|1584896921|5b8cbf62-250a-4aea-a460-7c737c85606b|
+#=#=#=# Syncrun finished 2020-03-22T17:09:10Z (last step: 208 msec, total: 1136 msec)
+#=#=#=# Syncrun started 2020-03-22T17:09:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:09:44Z (last step: 1290 msec, total: 1290 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:09:44Z (last step: 10 msec, total: 1301 msec)
+#=#=#=# Syncrun started 2020-03-22T17:09:56Z
+#=#=#=#=# Propagation starts 2020-03-22T17:09:56Z (last step: 256 msec, total: 256 msec)
+17:09:59||resources/views/player/graph.blade.php|INST_SYNC|Up|1584896994|05f742023911009e2533dd1a32f8eb85|14454|00227704|4||204|14455|1584896943|94f632ec-095a-410d-9f94-ba8224f1e315|
+#=#=#=# Syncrun finished 2020-03-22T17:09:57Z (last step: 263 msec, total: 519 msec)
+#=#=#=# Syncrun started 2020-03-22T17:10:02Z
+#=#=#=#=# Propagation starts 2020-03-22T17:10:03Z (last step: 898 msec, total: 898 msec)
+17:10:06||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897000|d6823faadb2aa20c610ffc4a4f506f1c|14486|00227705|4||204|14487|1584896945|87b33c3e-e6a7-4257-aad7-e10a67e0742e|
+#=#=#=# Syncrun finished 2020-03-22T17:10:03Z (last step: 316 msec, total: 1214 msec)
+#=#=#=# Syncrun started 2020-03-22T17:10:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:10:13Z (last step: 1167 msec, total: 1167 msec)
+17:10:16||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897010|bfc76d69e43654646cf4ab5d4fa985c6|14455|00227704|4||204|14454|1584896994|0045bc41-0866-49dd-b01c-9089c6965b9e|
+#=#=#=# Syncrun finished 2020-03-22T17:10:14Z (last step: 869 msec, total: 2036 msec)
+#=#=#=# Syncrun started 2020-03-22T17:10:18Z
+#=#=#=#=# Propagation starts 2020-03-22T17:10:19Z (last step: 957 msec, total: 957 msec)
+17:10:22||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897016|ff230d552c74abc78aa52df0efd9e666|14487|00227705|4||204|14486|1584897000|f4cb3e2a-41f7-42e2-9a9b-4a68bbacd107|
+#=#=#=# Syncrun finished 2020-03-22T17:10:19Z (last step: 251 msec, total: 1209 msec)
+#=#=#=# Syncrun started 2020-03-22T17:11:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:11:13Z (last step: 1194 msec, total: 1194 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:11:13Z (last step: 11 msec, total: 1205 msec)
+#=#=#=# Syncrun started 2020-03-22T17:11:32Z
+#=#=#=#=# Propagation starts 2020-03-22T17:11:32Z (last step: 233 msec, total: 233 msec)
+17:11:35||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897090|c78d98e4edf86e2bbc65650441494812|14637|00227704|4||204|14455|1584897010|efcf47db-4c90-45ad-952e-27d2d312c34a|
+#=#=#=# Syncrun finished 2020-03-22T17:11:33Z (last step: 815 msec, total: 1049 msec)
+#=#=#=# Syncrun started 2020-03-22T17:11:35Z
+#=#=#=#=# Propagation starts 2020-03-22T17:11:36Z (last step: 878 msec, total: 878 msec)
+17:11:39||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897093|8a87a8d8e67ccd04c7dc42c50e447e14|14669|00227705|4||204|14487|1584897016|8c9e5c43-3494-4587-a652-a09a0a7104be|
+#=#=#=# Syncrun finished 2020-03-22T17:11:36Z (last step: 279 msec, total: 1158 msec)
+#=#=#=# Syncrun started 2020-03-22T17:12:03Z
+#=#=#=#=# Propagation starts 2020-03-22T17:12:05Z (last step: 1547 msec, total: 1547 msec)
+17:12:08||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897121|9ff31ab90cb358158b2cffbbca9c2936|14637|00227704|4||204|14637|1584897090|e7810167-4825-4c3c-9f84-a5dc37b595e2|
+#=#=#=# Syncrun finished 2020-03-22T17:12:05Z (last step: 490 msec, total: 2037 msec)
+#=#=#=# Syncrun started 2020-03-22T17:12:07Z
+#=#=#=#=# Propagation starts 2020-03-22T17:12:08Z (last step: 974 msec, total: 974 msec)
+17:12:11||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897125|6e9f62f05f7e84497b47c53e4298c3ce|14669|00227705|4||204|14669|1584897093|ff7de1b2-4ee3-4708-8c62-62e77357b564|
+#=#=#=# Syncrun finished 2020-03-22T17:12:09Z (last step: 300 msec, total: 1275 msec)
+#=#=#=# Syncrun started 2020-03-22T17:12:35Z
+#=#=#=#=# Propagation starts 2020-03-22T17:12:36Z (last step: 1185 msec, total: 1185 msec)
+17:12:39||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897153|424f2e340162b562122b9582683d69eb|14637|00227704|4||204|14637|1584897121|2c3edf61-a5da-47f2-80a6-95fac9402ac1|
+#=#=#=# Syncrun finished 2020-03-22T17:12:36Z (last step: 424 msec, total: 1610 msec)
+#=#=#=# Syncrun started 2020-03-22T17:12:38Z
+#=#=#=#=# Propagation starts 2020-03-22T17:12:39Z (last step: 830 msec, total: 830 msec)
+17:12:42||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897156|6621f8e0a3b9d48696f6cc924a503616|14669|00227705|4||204|14669|1584897125|3ee9361f-0c3c-45ff-bb45-2785f3059fe9|
+#=#=#=# Syncrun finished 2020-03-22T17:12:40Z (last step: 317 msec, total: 1147 msec)
+#=#=#=# Syncrun started 2020-03-22T17:13:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:13:13Z (last step: 1157 msec, total: 1157 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:13:13Z (last step: 10 msec, total: 1167 msec)
+#=#=#=# Syncrun started 2020-03-22T17:13:23Z
+#=#=#=#=# Propagation starts 2020-03-22T17:13:24Z (last step: 368 msec, total: 368 msec)
+||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897203|6621f8e0a3b9d48696f6cc924a503616|14669|00227705|3|Fichier local modifié pendant la synchronisation.|0|14669|1584897156||
+17:13:27||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897201|4670e78ff4ca98c3a9016d3ee85b7247|14637|00227704|4||204|14637|1584897153|af85dfe5-5144-4d02-a066-d31c0b56c0e9|
+#=#=#=# Syncrun finished 2020-03-22T17:13:24Z (last step: 391 msec, total: 759 msec)
+#=#=#=# Syncrun started 2020-03-22T17:13:26Z
+#=#=#=#=# Propagation starts 2020-03-22T17:13:27Z (last step: 815 msec, total: 815 msec)
+17:13:30||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897203|f6291924b7b2a314361a921fac9a8413|14669|00227705|4||204|14669|1584897156|0702415f-4af0-41b9-8055-daea792864a2|
+#=#=#=# Syncrun finished 2020-03-22T17:13:27Z (last step: 279 msec, total: 1094 msec)
+#=#=#=# Syncrun started 2020-03-22T17:13:38Z
+#=#=#=#=# Propagation starts 2020-03-22T17:13:40Z (last step: 1126 msec, total: 1126 msec)
+17:13:43||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897216|424f2e340162b562122b9582683d69eb|14637|00227704|4||204|14637|1584897201|8546de47-92a4-44bc-8a78-72015a3014b8|
+#=#=#=# Syncrun finished 2020-03-22T17:13:40Z (last step: 344 msec, total: 1470 msec)
+#=#=#=# Syncrun started 2020-03-22T17:14:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:14:13Z (last step: 897 msec, total: 897 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:14:13Z (last step: 12 msec, total: 910 msec)
+#=#=#=# Syncrun started 2020-03-22T17:17:30Z
+#=#=#=#=# Propagation starts 2020-03-22T17:17:30Z (last step: 299 msec, total: 299 msec)
+17:17:33||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897448|6461f3f750298d08d388c06f24fb6e6d|14746|00227704|4||204|14637|1584897216|6222a718-7bb7-47f9-9d7a-c61088c81f7d|
+#=#=#=# Syncrun finished 2020-03-22T17:17:31Z (last step: 362 msec, total: 661 msec)
+#=#=#=# Syncrun started 2020-03-22T17:17:37Z
+#=#=#=#=# Propagation starts 2020-03-22T17:17:38Z (last step: 905 msec, total: 905 msec)
+17:17:41||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897455|bfc8ccd6312eb0c5160f17401e9fecb2|14778|00227705|4||204|14669|1584897203|ade19583-50b6-40e0-903b-83508f04cd3f|
+#=#=#=# Syncrun finished 2020-03-22T17:17:39Z (last step: 800 msec, total: 1705 msec)
+#=#=#=# Syncrun started 2020-03-22T17:18:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:18:13Z (last step: 1183 msec, total: 1183 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:18:13Z (last step: 13 msec, total: 1196 msec)
+#=#=#=# Syncrun started 2020-03-22T17:19:16Z
+#=#=#=#=# Propagation starts 2020-03-22T17:19:16Z (last step: 327 msec, total: 327 msec)
+17:19:19||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897553|fb0210209372fd4b8a7eedc8f61c0617|14787|00227704|4||204|14746|1584897448|6487759f-e895-4ac5-8023-11ca363b6252|
+#=#=#=# Syncrun finished 2020-03-22T17:19:16Z (last step: 523 msec, total: 851 msec)
+#=#=#=# Syncrun started 2020-03-22T17:19:23Z
+#=#=#=#=# Propagation starts 2020-03-22T17:19:24Z (last step: 848 msec, total: 848 msec)
+17:19:27||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897561|d435eb2ddc259d8d542e73a273dee4fe|14819|00227705|4||204|14778|1584897455|9b112a1f-2f44-43cc-bdd3-13b50f184f91|
+#=#=#=# Syncrun finished 2020-03-22T17:19:25Z (last step: 412 msec, total: 1260 msec)
+#=#=#=# Syncrun started 2020-03-22T17:19:44Z
+#=#=#=#=# Propagation starts 2020-03-22T17:19:45Z (last step: 1082 msec, total: 1082 msec)
+17:19:48||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897582|a50f2f8e90d22cc5f8172353273b687a|14788|00227704|4||204|14787|1584897553|2f261984-c992-4a28-a13a-7a5ae93ad0cc|
+#=#=#=# Syncrun finished 2020-03-22T17:19:45Z (last step: 353 msec, total: 1436 msec)
+#=#=#=# Syncrun started 2020-03-22T17:19:48Z
+#=#=#=#=# Propagation starts 2020-03-22T17:19:48Z (last step: 782 msec, total: 782 msec)
+17:19:51||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897586|7814a17c23993c0cc880944146fee3e6|14820|00227705|4||204|14819|1584897561|3e8231cd-0f96-44a7-b08a-9996806780ce|
+#=#=#=# Syncrun finished 2020-03-22T17:19:49Z (last step: 268 msec, total: 1051 msec)
+#=#=#=# Syncrun started 2020-03-22T17:20:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:20:44Z (last step: 1313 msec, total: 1313 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:20:44Z (last step: 9 msec, total: 1323 msec)
+#=#=#=# Syncrun started 2020-03-22T17:20:58Z
+#=#=#=#=# Propagation starts 2020-03-22T17:20:58Z (last step: 327 msec, total: 327 msec)
+17:21:01||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897656|f414dfcd60c32fab0e0c82ceebe1b269|14789|00227704|4||204|14788|1584897582|c7944c69-e4fd-449a-bcd2-dec52a1f75aa|
+#=#=#=# Syncrun finished 2020-03-22T17:20:58Z (last step: 328 msec, total: 656 msec)
+#=#=#=# Syncrun started 2020-03-22T17:21:02Z
+#=#=#=#=# Propagation starts 2020-03-22T17:21:03Z (last step: 843 msec, total: 843 msec)
+17:21:06||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897660|98e243b2721db4d7832e8f9a11b246d2|14821|00227705|4||204|14820|1584897586|453c2b3e-cf90-4ce8-9283-f2427aa48149|
+#=#=#=# Syncrun finished 2020-03-22T17:21:03Z (last step: 351 msec, total: 1194 msec)
+#=#=#=# Syncrun started 2020-03-22T17:21:23Z
+#=#=#=#=# Propagation starts 2020-03-22T17:21:24Z (last step: 1250 msec, total: 1250 msec)
+17:21:27||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897681|c2577388ca3692c886d2ad7ee3e6ea72|14788|00227704|4||204|14789|1584897656|f09425bd-c140-4915-bf73-8ec336a9f854|
+#=#=#=# Syncrun finished 2020-03-22T17:21:25Z (last step: 448 msec, total: 1698 msec)
+#=#=#=# Syncrun started 2020-03-22T17:21:27Z
+#=#=#=#=# Propagation starts 2020-03-22T17:21:28Z (last step: 857 msec, total: 857 msec)
+17:21:31||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897684|60251101e49459e5ec7c61479c1eb89b|14820|00227705|4||204|14821|1584897660|89d68d3e-85d4-48d2-ac51-921686b2e758|
+#=#=#=# Syncrun finished 2020-03-22T17:21:28Z (last step: 298 msec, total: 1155 msec)
+#=#=#=# Syncrun started 2020-03-22T17:22:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:22:13Z (last step: 1076 msec, total: 1076 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:22:13Z (last step: 12 msec, total: 1088 msec)
+#=#=#=# Syncrun started 2020-03-22T17:22:36Z
+#=#=#=#=# Propagation starts 2020-03-22T17:22:36Z (last step: 308 msec, total: 308 msec)
+17:22:39||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897754|664e88d317ff8273c9289166b766f596|14790|00227704|4||204|14788|1584897681|65d5714c-20e0-48de-abcf-9bddd77cd354|
+#=#=#=# Syncrun finished 2020-03-22T17:22:37Z (last step: 759 msec, total: 1068 msec)
+#=#=#=# Syncrun started 2020-03-22T17:22:38Z
+#=#=#=#=# Propagation starts 2020-03-22T17:22:39Z (last step: 889 msec, total: 889 msec)
+17:22:42||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897756|c4da9149a0ca7a015a896a13aeccf085|14822|00227705|4||204|14820|1584897684|72fe4d23-ee99-4a08-a669-081ec6db112b|
+#=#=#=# Syncrun finished 2020-03-22T17:22:40Z (last step: 292 msec, total: 1181 msec)
+#=#=#=# Syncrun started 2020-03-22T17:23:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:23:13Z (last step: 1130 msec, total: 1130 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:23:13Z (last step: 13 msec, total: 1143 msec)
+#=#=#=# Syncrun started 2020-03-22T17:24:24Z
+#=#=#=#=# Propagation starts 2020-03-22T17:24:25Z (last step: 331 msec, total: 331 msec)
+17:24:28||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897862|7493bce46103b5e1264d1e47346ea891|14821|00227704|4||204|14790|1584897754|91d6dfc7-08f2-4937-be14-5d0c53cf4619|
+#=#=#=# Syncrun finished 2020-03-22T17:24:25Z (last step: 323 msec, total: 654 msec)
+#=#=#=# Syncrun started 2020-03-22T17:24:31Z
+#=#=#=#=# Propagation starts 2020-03-22T17:24:32Z (last step: 868 msec, total: 868 msec)
+17:24:35||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897869|0a404cae2e926e1ff3535ce594ef15cf|14853|00227705|4||204|14822|1584897756|588bd9e3-2ea3-4aed-86fd-8b7e9ff83b73|
+#=#=#=# Syncrun finished 2020-03-22T17:24:33Z (last step: 317 msec, total: 1186 msec)
+#=#=#=# Syncrun started 2020-03-22T17:25:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:25:13Z (last step: 1178 msec, total: 1178 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:25:13Z (last step: 11 msec, total: 1189 msec)
+#=#=#=# Syncrun started 2020-03-22T17:25:18Z
+#=#=#=#=# Propagation starts 2020-03-22T17:25:19Z (last step: 305 msec, total: 305 msec)
+17:25:22||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897916|f2fcdad38108e1e2f2f7651ee03970da|14822|00227704|4||204|14821|1584897862|aa11e2e7-faf0-4748-97a6-e7db10f6bc1c|
+#=#=#=# Syncrun finished 2020-03-22T17:25:19Z (last step: 349 msec, total: 655 msec)
+#=#=#=# Syncrun started 2020-03-22T17:25:22Z
+#=#=#=#=# Propagation starts 2020-03-22T17:25:23Z (last step: 856 msec, total: 856 msec)
+17:25:26||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897920|622d39e6a7dada1c580836b8f17c5680|14854|00227705|4||204|14853|1584897869|ff08aa35-ae09-4419-a311-1f4eb0234c83|
+#=#=#=# Syncrun finished 2020-03-22T17:25:23Z (last step: 282 msec, total: 1138 msec)
+#=#=#=# Syncrun started 2020-03-22T17:25:58Z
+#=#=#=#=# Propagation starts 2020-03-22T17:25:59Z (last step: 1194 msec, total: 1194 msec)
+17:26:02||resources/views/player/graph.blade.php|INST_SYNC|Up|1584897956|e3407b48d5e1c4c63aac247881665b16|14804|00227704|4||204|14822|1584897916|af3dd514-f650-4631-b99b-70965a439f83|
+#=#=#=# Syncrun finished 2020-03-22T17:26:00Z (last step: 402 msec, total: 1596 msec)
+#=#=#=# Syncrun started 2020-03-22T17:26:07Z
+#=#=#=#=# Propagation starts 2020-03-22T17:26:08Z (last step: 826 msec, total: 826 msec)
+17:26:11||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584897965|fdadad21607bf9086bf14232fb61edda|14836|00227705|4||204|14854|1584897920|162614d4-bf2c-455e-b6ad-5ebd1a41f550|
+#=#=#=# Syncrun finished 2020-03-22T17:26:08Z (last step: 294 msec, total: 1121 msec)
+#=#=#=# Syncrun started 2020-03-22T17:26:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:26:43Z (last step: 1045 msec, total: 1045 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:26:43Z (last step: 11 msec, total: 1056 msec)
+#=#=#=# Syncrun started 2020-03-22T17:28:35Z
+#=#=#=#=# Propagation starts 2020-03-22T17:28:36Z (last step: 267 msec, total: 267 msec)
+17:28:39||resources/views/player/graph.blade.php|INST_SYNC|Up|1584898113|4f37ebd6f26de818f95a4a3b1834f45b|14638|00227704|4||204|14804|1584897956|f771cff4-444f-4d09-97cb-ef3368540479|
+#=#=#=# Syncrun finished 2020-03-22T17:28:36Z (last step: 276 msec, total: 543 msec)
+#=#=#=# Syncrun started 2020-03-22T17:28:44Z
+#=#=#=#=# Propagation starts 2020-03-22T17:28:45Z (last step: 861 msec, total: 861 msec)
+17:28:48||resources/views/player/graph.blade.php|INST_SYNC|Up|1584898122|4f2d2d97f476b4b073adae081251ac91|14804|00227704|4||204|14638|1584898113|c17421e7-5aa2-41bb-ad7c-802d2e8e5593|
+#=#=#=# Syncrun finished 2020-03-22T17:28:46Z (last step: 1367 msec, total: 2229 msec)
+#=#=#=# Syncrun started 2020-03-22T17:28:49Z
+#=#=#=#=# Propagation starts 2020-03-22T17:28:50Z (last step: 810 msec, total: 810 msec)
+17:28:53||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584898127|df0032204404f4e35db1eae59c335d47|14836|00227705|4||204|14836|1584897965|67eaf91c-f023-4540-970f-a7a4f352d98f|
+#=#=#=# Syncrun finished 2020-03-22T17:28:50Z (last step: 324 msec, total: 1135 msec)
+#=#=#=# Syncrun started 2020-03-22T17:29:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:29:43Z (last step: 1098 msec, total: 1098 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:29:43Z (last step: 8 msec, total: 1107 msec)
+#=#=#=# Syncrun started 2020-03-22T17:31:31Z
+#=#=#=#=# Propagation starts 2020-03-22T17:31:31Z (last step: 279 msec, total: 279 msec)
+17:31:34||resources/views/player/graph.blade.php|INST_SYNC|Up|1584898289|5b06c1b50fb8978655d4b6a39c3df1f2|14676|00227704|4||204|14804|1584898122|3d066572-93ea-4a59-ae94-acdf63fd3892|
+#=#=#=# Syncrun finished 2020-03-22T17:31:32Z (last step: 884 msec, total: 1163 msec)
+#=#=#=# Syncrun started 2020-03-22T17:31:34Z
+#=#=#=#=# Propagation starts 2020-03-22T17:31:35Z (last step: 819 msec, total: 819 msec)
+17:31:38||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584898292|85701489be54b0dffd52c95c48748026|14708|00227705|4||204|14836|1584898127|1f02b86a-8826-424f-839b-7064673fe3dd|
+#=#=#=# Syncrun finished 2020-03-22T17:31:36Z (last step: 833 msec, total: 1653 msec)
+#=#=#=# Syncrun started 2020-03-22T17:31:47Z
+#=#=#=#=# Propagation starts 2020-03-22T17:31:48Z (last step: 1184 msec, total: 1184 msec)
+17:31:51||resources/views/player/graph.blade.php|INST_SYNC|Up|1584898305|ee8b6a1ba0e85efb1ff30776112ad933|14696|00227704|4||204|14676|1584898289|a7608f9e-8839-45f1-b98f-b714d9b8cb42|
+#=#=#=# Syncrun finished 2020-03-22T17:31:49Z (last step: 817 msec, total: 2001 msec)
+#=#=#=# Syncrun started 2020-03-22T17:31:51Z
+#=#=#=#=# Propagation starts 2020-03-22T17:31:52Z (last step: 841 msec, total: 841 msec)
+17:31:55||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584898308|6da81ffbb020ff442dfb95f9089e2f30|14728|00227705|4||204|14708|1584898292|0514954f-5107-4a41-97c3-3e16e54e365f|
+#=#=#=# Syncrun finished 2020-03-22T17:31:52Z (last step: 270 msec, total: 1111 msec)
+#=#=#=# Syncrun started 2020-03-22T17:32:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:32:43Z (last step: 1104 msec, total: 1104 msec)
+17:32:46||resources/views/player/graph.blade.php|INST_SYNC|Up|1584898360|3f902ed1636cc465f8b350078eb0c6d5|14700|00227704|4||204|14696|1584898305|1e7da90d-631b-40e5-9f3d-27d773e33d62|
+#=#=#=# Syncrun finished 2020-03-22T17:32:43Z (last step: 318 msec, total: 1422 msec)
+#=#=#=# Syncrun started 2020-03-22T17:32:45Z
+#=#=#=#=# Propagation starts 2020-03-22T17:32:46Z (last step: 1089 msec, total: 1089 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:32:46Z (last step: 24 msec, total: 1113 msec)
+#=#=#=# Syncrun started 2020-03-22T17:32:48Z
+#=#=#=#=# Propagation starts 2020-03-22T17:32:48Z (last step: 281 msec, total: 281 msec)
+17:32:51||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584898365|224ed5a107637af27fc7dc00bd6bd90b|14732|00227705|4||204|14728|1584898308|27680a84-40bd-43c3-8be7-613efaff6507|
+#=#=#=# Syncrun finished 2020-03-22T17:32:48Z (last step: 281 msec, total: 562 msec)
+#=#=#=# Syncrun started 2020-03-22T17:33:42Z
+#=#=#=#=# Propagation starts 2020-03-22T17:33:43Z (last step: 1124 msec, total: 1124 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:33:43Z (last step: 10 msec, total: 1135 msec)
+#=#=#=# Syncrun started 2020-03-22T17:46:15Z
+#=#=#=#=# Propagation starts 2020-03-22T17:46:19Z (last step: 4011 msec, total: 4011 msec)
+17:46:23||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899173|684316d5b1011cf35f9e992343b92f7d|14742|00227704|4||204|14700|1584898360|560c56b5-b00e-40fc-9e60-d62234bfc326|
+#=#=#=# Syncrun finished 2020-03-22T17:46:21Z (last step: 2436 msec, total: 6447 msec)
+#=#=#=# Syncrun started 2020-03-22T17:46:25Z
+#=#=#=#=# Propagation starts 2020-03-22T17:46:26Z (last step: 948 msec, total: 948 msec)
+17:46:29||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584899178|8e474f222367a925ec827d3b34c3dfd8|14774|00227705|4||204|14732|1584898365|b04537e9-f8a3-4ef0-a7ca-939944187800|
+#=#=#=# Syncrun finished 2020-03-22T17:46:26Z (last step: 252 msec, total: 1200 msec)
+#=#=#=# Syncrun started 2020-03-22T17:46:31Z
+#=#=#=#=# Propagation starts 2020-03-22T17:46:32Z (last step: 1086 msec, total: 1086 msec)
+17:46:35||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899189|5915d1a25ecf26ef7d117d4f1e130e00|14742|00227704|4||204|14742|1584899173|feefce86-44ba-4906-8793-200c683d0dc0|
+#=#=#=# Syncrun finished 2020-03-22T17:46:32Z (last step: 355 msec, total: 1441 msec)
+#=#=#=# Syncrun started 2020-03-22T17:46:34Z
+#=#=#=#=# Propagation starts 2020-03-22T17:46:35Z (last step: 737 msec, total: 737 msec)
+17:46:38||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584899192|d8f9c1eda7be7bd34349eee1690dc095|14774|00227705|4||204|14774|1584899178|6928cfd2-a819-4311-8d4f-910931201371|
+#=#=#=# Syncrun finished 2020-03-22T17:46:36Z (last step: 315 msec, total: 1052 msec)
+#=#=#=# Syncrun started 2020-03-22T17:47:13Z
+#=#=#=#=# Propagation starts 2020-03-22T17:47:14Z (last step: 1361 msec, total: 1361 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:47:14Z (last step: 15 msec, total: 1376 msec)
+#=#=#=# Syncrun started 2020-03-22T17:49:56Z
+#=#=#=#=# Propagation starts 2020-03-22T17:50:01Z (last step: 4566 msec, total: 4566 msec)
+17:50:04||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899394|4769e53c8ee3b6ed6ad7f72f118bc13a|14902|00227704|4||204|14742|1584899189|574e8db3-7397-4b4b-a2b6-622a956829a1|
+#=#=#=# Syncrun finished 2020-03-22T17:50:03Z (last step: 2201 msec, total: 6768 msec)
+#=#=#=# Syncrun started 2020-03-22T17:50:44Z
+#=#=#=#=# Propagation starts 2020-03-22T17:50:55Z (last step: 11492 msec, total: 11492 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:50:55Z (last step: 9 msec, total: 11502 msec)
+#=#=#=# Syncrun started 2020-03-22T17:51:50Z
+#=#=#=#=# Propagation starts 2020-03-22T17:51:57Z (last step: 6994 msec, total: 6994 msec)
+17:52:00||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899508|e689b7a382ee85623ff81072adbcd87e|15126|00227704|4||204|14902|1584899394|8d33f657-8feb-4a56-b19c-b6d8a75cd5fd|
+#=#=#=# Syncrun finished 2020-03-22T17:52:00Z (last step: 2667 msec, total: 9662 msec)
+#=#=#=# Syncrun started 2020-03-22T17:52:05Z
+#=#=#=#=# Propagation starts 2020-03-22T17:52:20Z (last step: 15366 msec, total: 15366 msec)
+17:52:23||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584899517|1a6a27200c0cf2acec3bfb6116e0a435|15158|00227705|4||204|14774|1584899192|f11031cc-d684-41ed-bde8-bed0d4ce562b|
+#=#=#=# Syncrun finished 2020-03-22T17:52:23Z (last step: 2647 msec, total: 18014 msec)
+#=#=#=# Syncrun started 2020-03-22T17:53:03Z
+#=#=#=#=# Propagation starts 2020-03-22T17:53:37Z (last step: 33886 msec, total: 33886 msec)
+17:53:40||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899608|dbf79b772af4c653b42d8a8ec16bf63f|15125|00227704|4||204|15126|1584899508|523cdd76-3ed3-4b00-85e5-c63fb617a347|
+#=#=#=# Syncrun finished 2020-03-22T17:53:39Z (last step: 1595 msec, total: 35481 msec)
+#=#=#=# Syncrun started 2020-03-22T17:53:48Z
+#=#=#=#=# Propagation starts 2020-03-22T17:53:57Z (last step: 9249 msec, total: 9249 msec)
+17:54:01||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584899612|f6a9c8c2b1e2e21eaf7fcb97f91d5b33|15157|00227705|4||204|15158|1584899517|609343d4-f208-4222-b335-1d586230744f|
+#=#=#=# Syncrun finished 2020-03-22T17:53:59Z (last step: 1206 msec, total: 10455 msec)
+#=#=#=# Syncrun started 2020-03-22T17:54:12Z
+#=#=#=#=# Propagation starts 2020-03-22T17:54:25Z (last step: 13557 msec, total: 13557 msec)
+17:54:28||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584899651|6bc9e210a647cf79fba22ec4de1214c2|15157|00227705|4||204|15157|1584899612|4c5f780a-cc83-4a07-a24a-7d9ae0ac8e7a|
+17:54:28||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899650|5e2258612b03e4fe4aee7ec3d110565b|15125|00227704|4||204|15125|1584899608|eab36087-9fe7-4b28-90d5-46e84575b7e4|
+#=#=#=# Syncrun finished 2020-03-22T17:54:26Z (last step: 1040 msec, total: 14598 msec)
+#=#=#=# Syncrun started 2020-03-22T17:54:53Z
+#=#=#=#=# Propagation starts 2020-03-22T17:55:04Z (last step: 11001 msec, total: 11001 msec)
+17:55:08||resources/views/player/graph.blade.php|INST_SYNC|Up|1584899691|ba5418b001a7a61a0bf835405866b8eb|15125|00227704|4||204|15125|1584899650|f14d1cfd-c1b8-4a93-920f-427ea94db4fc|
+#=#=#=# Syncrun finished 2020-03-22T17:55:05Z (last step: 741 msec, total: 11743 msec)
+#=#=#=# Syncrun started 2020-03-22T17:55:11Z
+#=#=#=#=# Propagation starts 2020-03-22T17:55:15Z (last step: 4388 msec, total: 4388 msec)
+17:55:18||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584899694|b9372639f4762b36a7c6b19920093975|15157|00227705|4||204|15157|1584899651|1f40526e-c0fe-4abc-9b77-fb6f2352a6b9|
+#=#=#=# Syncrun finished 2020-03-22T17:55:16Z (last step: 1187 msec, total: 5576 msec)
+#=#=#=# Syncrun started 2020-03-22T17:56:13Z
+#=#=#=#=# Propagation starts 2020-03-22T17:56:17Z (last step: 4670 msec, total: 4670 msec)
+#=#=#=# Syncrun finished 2020-03-22T17:56:17Z (last step: 10 msec, total: 4680 msec)
+#=#=#=# Syncrun started 2020-03-22T18:00:22Z
+#=#=#=#=# Propagation starts 2020-03-22T18:00:23Z (last step: 376 msec, total: 376 msec)
+18:00:26||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900020|e71cfc14e35e9965d87f2d7c97e39fc6|15218|00227704|4||204|15125|1584899691|a4ee9046-c1ae-49c4-9258-0da52232b220|
+#=#=#=# Syncrun finished 2020-03-22T18:00:23Z (last step: 444 msec, total: 821 msec)
+#=#=#=# Syncrun started 2020-03-22T18:00:27Z
+#=#=#=#=# Propagation starts 2020-03-22T18:00:28Z (last step: 937 msec, total: 937 msec)
+18:00:31||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900025|6d78f0668f22dd6ef4644dc555a533c7|15250|00227705|4||204|15157|1584899694|fe9fd93b-22d7-4706-9763-678a37f9aaad|
+#=#=#=# Syncrun finished 2020-03-22T18:00:28Z (last step: 292 msec, total: 1229 msec)
+#=#=#=# Syncrun started 2020-03-22T18:00:40Z
+#=#=#=#=# Propagation starts 2020-03-22T18:00:41Z (last step: 1123 msec, total: 1123 msec)
+||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900040|6d78f0668f22dd6ef4644dc555a533c7|15252|00227705|3|Fichier local modifié pendant la synchronisation.|0|15250|1584900025||
+18:00:45||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900038|4731d8f64a74e91b9df3523b240704f8|15220|00227704|4||204|15218|1584900020|f6bb612a-d055-42ad-9d7f-278743da5c5c|
+#=#=#=# Syncrun finished 2020-03-22T18:00:42Z (last step: 334 msec, total: 1458 msec)
+#=#=#=# Syncrun started 2020-03-22T18:00:44Z
+#=#=#=#=# Propagation starts 2020-03-22T18:00:45Z (last step: 1059 msec, total: 1059 msec)
+18:00:48||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900040|dc333a9f309119cf81e5c7b881b9f72a|15252|00227705|4||204|15250|1584900025|c69dc41a-e4ea-484e-aeb3-efaeed658e90|
+#=#=#=# Syncrun finished 2020-03-22T18:00:46Z (last step: 1007 msec, total: 2066 msec)
+#=#=#=# Syncrun started 2020-03-22T18:01:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:01:13Z (last step: 1090 msec, total: 1090 msec)
+18:01:16||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900070|d4044785c721cf6b603658513977dc76|15220|00227704|4||204|15220|1584900038|4dc13a99-2796-4eb6-89c2-f6dada991564|
+#=#=#=# Syncrun finished 2020-03-22T18:01:13Z (last step: 606 msec, total: 1697 msec)
+#=#=#=# Syncrun started 2020-03-22T18:01:18Z
+#=#=#=#=# Propagation starts 2020-03-22T18:01:19Z (last step: 819 msec, total: 819 msec)
+18:01:22||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900076|1600ab528aae8c1a59e9eea29c34d203|15252|00227705|4||204|15252|1584900040|e8d5cc34-961e-4b50-8566-2b58651cbda9|
+#=#=#=# Syncrun finished 2020-03-22T18:01:19Z (last step: 281 msec, total: 1100 msec)
+#=#=#=# Syncrun started 2020-03-22T18:02:13Z
+#=#=#=#=# Propagation starts 2020-03-22T18:02:13Z (last step: 907 msec, total: 907 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:02:13Z (last step: 11 msec, total: 919 msec)
+#=#=#=# Syncrun started 2020-03-22T18:04:05Z
+#=#=#=#=# Propagation starts 2020-03-22T18:04:05Z (last step: 383 msec, total: 383 msec)
+||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900245|1600ab528aae8c1a59e9eea29c34d203|15203|00227705|3|Fichier local modifié pendant la synchronisation.|0|15252|1584900076||
+18:04:09||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900243|7aa6ad2841203a71e8af21fb73e98779|15171|00227704|4||204|15220|1584900070|839ceee4-b4f3-4ef7-a01c-9bf035adaf9e|
+#=#=#=# Syncrun finished 2020-03-22T18:04:06Z (last step: 353 msec, total: 736 msec)
+#=#=#=# Syncrun started 2020-03-22T18:04:08Z
+#=#=#=#=# Propagation starts 2020-03-22T18:04:09Z (last step: 825 msec, total: 825 msec)
+18:04:12||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900245|fa265a12a406be4bab3799c7d1ffb096|15203|00227705|4||204|15252|1584900076|0dd9d3d7-3f12-4e4c-b427-1a065ad420ea|
+#=#=#=# Syncrun finished 2020-03-22T18:04:09Z (last step: 289 msec, total: 1114 msec)
+#=#=#=# Syncrun started 2020-03-22T18:04:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:04:43Z (last step: 1109 msec, total: 1109 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:04:43Z (last step: 10 msec, total: 1119 msec)
+#=#=#=# Syncrun started 2020-03-22T18:05:00Z
+#=#=#=#=# Propagation starts 2020-03-22T18:05:00Z (last step: 317 msec, total: 317 msec)
+18:05:04||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900298|3a71f1f555c4d0cb3402ebd8653dbbd4|15263|00227704|4||204|15171|1584900243|16f58e14-7c1c-468f-a630-fae8134120b3|
+#=#=#=# Syncrun finished 2020-03-22T18:05:01Z (last step: 243 msec, total: 561 msec)
+#=#=#=# Syncrun started 2020-03-22T18:05:09Z
+#=#=#=#=# Propagation starts 2020-03-22T18:05:10Z (last step: 884 msec, total: 884 msec)
+18:05:13||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900307|1dee04427bb26c174a08af27ee9480a6|15295|00227705|4||204|15203|1584900245|3b036a65-7504-43b9-a4e0-4932038a3c06|
+#=#=#=# Syncrun finished 2020-03-22T18:05:10Z (last step: 303 msec, total: 1188 msec)
+#=#=#=# Syncrun started 2020-03-22T18:05:34Z
+#=#=#=#=# Propagation starts 2020-03-22T18:05:35Z (last step: 1281 msec, total: 1281 msec)
+18:05:38||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900333|c65de9f5310b277cb77981b23072a67b|15295|00227705|4||204|15295|1584900307|4c625f5b-1f14-454d-8455-0bae831f1993|
+18:05:38||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900332|0dabc710e91ae8d0ce5aec4259dddf05|15263|00227704|4||204|15263|1584900298|fea93323-3893-43b5-869f-4fe2ccc16212|
+#=#=#=# Syncrun finished 2020-03-22T18:05:35Z (last step: 239 msec, total: 1520 msec)
+#=#=#=# Syncrun started 2020-03-22T18:06:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:06:13Z (last step: 995 msec, total: 995 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:06:13Z (last step: 16 msec, total: 1012 msec)
+#=#=#=# Syncrun started 2020-03-22T18:06:16Z
+#=#=#=#=# Propagation starts 2020-03-22T18:06:16Z (last step: 293 msec, total: 293 msec)
+18:06:19||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900374|6f69b8def368667ea01bb7c9fc0a2680|15355|00227704|4||204|15263|1584900332|43cfdab9-3cc6-4e6d-9129-d41c17c777e0|
+#=#=#=# Syncrun finished 2020-03-22T18:06:16Z (last step: 320 msec, total: 613 msec)
+#=#=#=# Syncrun started 2020-03-22T18:06:19Z
+#=#=#=#=# Propagation starts 2020-03-22T18:06:20Z (last step: 902 msec, total: 902 msec)
+18:06:23||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900377|a620ddbbbae39e3ee4a693ab7f264af8|15387|00227705|4||204|15295|1584900333|38c9f6bb-2d4d-4f2b-9aab-da9535cbe9bf|
+#=#=#=# Syncrun finished 2020-03-22T18:06:20Z (last step: 396 msec, total: 1299 msec)
+#=#=#=# Syncrun started 2020-03-22T18:06:52Z
+#=#=#=#=# Propagation starts 2020-03-22T18:06:54Z (last step: 1189 msec, total: 1189 msec)
+18:06:57||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900410|481045516cf17a7e33017f5f9ed061b0|15401|00227704|4||204|15355|1584900374|74626372-c498-4d5b-b019-7a7d50c6ed87|
+#=#=#=# Syncrun finished 2020-03-22T18:06:54Z (last step: 312 msec, total: 1501 msec)
+#=#=#=# Syncrun started 2020-03-22T18:06:56Z
+#=#=#=#=# Propagation starts 2020-03-22T18:06:57Z (last step: 809 msec, total: 809 msec)
+18:07:00||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900414|86ac6359e0f62d003bbb73b1eb015c8b|15433|00227705|4||204|15387|1584900377|154c365e-73ec-4605-8e10-ee702b768870|
+#=#=#=# Syncrun finished 2020-03-22T18:06:57Z (last step: 238 msec, total: 1048 msec)
+#=#=#=# Syncrun started 2020-03-22T18:07:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:07:44Z (last step: 1148 msec, total: 1148 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:07:44Z (last step: 11 msec, total: 1160 msec)
+#=#=#=# Syncrun started 2020-03-22T18:08:02Z
+#=#=#=#=# Propagation starts 2020-03-22T18:08:02Z (last step: 283 msec, total: 283 msec)
+18:08:05||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900480|4d543deb7ff67af67c5ff9df52f382c1|15568|00227704|4||204|15401|1584900410|91a9c78e-aaa5-4972-b370-26e4cbc3d7e7|
+#=#=#=# Syncrun finished 2020-03-22T18:08:02Z (last step: 279 msec, total: 563 msec)
+#=#=#=# Syncrun started 2020-03-22T18:08:09Z
+#=#=#=#=# Propagation starts 2020-03-22T18:08:10Z (last step: 835 msec, total: 835 msec)
+18:08:13||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900487|29e456445e628e5758b92eec7fcc6852|15600|00227705|4||204|15433|1584900414|6bc13c70-5714-465d-b5c1-3c4a2be084ef|
+#=#=#=# Syncrun finished 2020-03-22T18:08:11Z (last step: 239 msec, total: 1075 msec)
+#=#=#=# Syncrun started 2020-03-22T18:08:43Z
+#=#=#=#=# Propagation starts 2020-03-22T18:08:44Z (last step: 1158 msec, total: 1158 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:08:44Z (last step: 9 msec, total: 1168 msec)
+#=#=#=# Syncrun started 2020-03-22T18:10:30Z
+#=#=#=#=# Propagation starts 2020-03-22T18:10:31Z (last step: 246 msec, total: 246 msec)
+18:10:34||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900628|1682f9b2080de345ea379bd60d42fece|15571|00227704|4||204|15568|1584900480|7b1dfc0a-72fc-4279-8a8a-1950f75252fd|
+#=#=#=# Syncrun finished 2020-03-22T18:10:31Z (last step: 372 msec, total: 619 msec)
+#=#=#=# Syncrun started 2020-03-22T18:10:39Z
+#=#=#=#=# Propagation starts 2020-03-22T18:10:40Z (last step: 817 msec, total: 817 msec)
+18:10:43||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900637|d4826eb926ba3aa6381e7605e30db45e|15572|00227704|4||204|15571|1584900628|0510ef46-b2ff-40d2-a7ee-b9b4cc5d6dce|
+#=#=#=# Syncrun finished 2020-03-22T18:10:40Z (last step: 257 msec, total: 1075 msec)
+#=#=#=# Syncrun started 2020-03-22T18:10:44Z
+#=#=#=#=# Propagation starts 2020-03-22T18:10:45Z (last step: 1129 msec, total: 1129 msec)
+18:10:48||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900642|45eed3adeaa9e153b37c44a877ea8e20|15604|00227705|4||204|15600|1584900487|080d0255-d616-445d-bc9d-48dcc425e801|
+#=#=#=# Syncrun finished 2020-03-22T18:10:45Z (last step: 328 msec, total: 1458 msec)
+#=#=#=# Syncrun started 2020-03-22T18:11:14Z
+#=#=#=#=# Propagation starts 2020-03-22T18:11:15Z (last step: 1230 msec, total: 1230 msec)
+18:11:18||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900672|0917c96f530d277f4e607878157de109|15589|00227704|4||204|15572|1584900637|a251fb52-4aab-4e96-bb1f-327d8d0b510a|
+#=#=#=# Syncrun finished 2020-03-22T18:11:16Z (last step: 829 msec, total: 2060 msec)
+#=#=#=# Syncrun started 2020-03-22T18:11:18Z
+#=#=#=#=# Propagation starts 2020-03-22T18:11:19Z (last step: 1043 msec, total: 1043 msec)
+18:11:23||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900675|537ad4620b4a680cf2c1e4d2a1f14f10|15621|00227705|4||204|15604|1584900642|0a6d832e-f07e-4490-bb61-603a09ce4d1d|
+#=#=#=# Syncrun finished 2020-03-22T18:11:20Z (last step: 269 msec, total: 1313 msec)
+#=#=#=# Syncrun started 2020-03-22T18:11:34Z
+#=#=#=#=# Propagation starts 2020-03-22T18:11:35Z (last step: 1279 msec, total: 1279 msec)
+18:11:38||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900692|961aef33a9bcee92811a0f2b6ab100e3|15589|00227704|4||204|15589|1584900672|2ff3a372-acc2-4f47-9fcf-69c6298e401a|
+#=#=#=# Syncrun finished 2020-03-22T18:11:35Z (last step: 366 msec, total: 1645 msec)
+#=#=#=# Syncrun started 2020-03-22T18:11:37Z
+#=#=#=#=# Propagation starts 2020-03-22T18:11:38Z (last step: 959 msec, total: 959 msec)
+18:11:42||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900695|f949ee4723fffdf3d9a491176e54f395|15621|00227705|4||204|15621|1584900675|a7babcd9-2a60-4caa-bb98-16bcc8ee5a95|
+#=#=#=# Syncrun finished 2020-03-22T18:11:39Z (last step: 331 msec, total: 1291 msec)
+#=#=#=# Syncrun started 2020-03-22T18:11:52Z
+#=#=#=#=# Propagation starts 2020-03-22T18:11:53Z (last step: 1021 msec, total: 1021 msec)
+18:11:56||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900710|9c4dca9157ac1ad4898f48d5761c32db|15589|00227704|4||204|15589|1584900692|7eb0154b-dbc0-42af-894e-3cfbf2825548|
+#=#=#=# Syncrun finished 2020-03-22T18:11:53Z (last step: 274 msec, total: 1296 msec)
+#=#=#=# Syncrun started 2020-03-22T18:11:55Z
+#=#=#=#=# Propagation starts 2020-03-22T18:11:56Z (last step: 871 msec, total: 871 msec)
+18:11:59||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900713|0bb86a2c1a1de3b85c6faec7b4dce6b2|15621|00227705|4||204|15621|1584900695|d501e6ac-815c-4c5a-9dc3-1dae27633a86|
+#=#=#=# Syncrun finished 2020-03-22T18:11:56Z (last step: 274 msec, total: 1146 msec)
+#=#=#=# Syncrun started 2020-03-22T18:12:13Z
+#=#=#=#=# Propagation starts 2020-03-22T18:12:15Z (last step: 1272 msec, total: 1272 msec)
+18:12:18||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900733|6921e1f47ae5e47b8352bcc72a157abe|15621|00227705|4||204|15621|1584900713|9383098b-bff3-4cea-b0eb-6cf12e71ab69|
+18:12:18||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900731|16dcaca2638a6060b7094c976d0c930f|15589|00227704|4||204|15589|1584900710|d535579c-4e06-4d3a-bc90-7aa76d3a064d|
+#=#=#=# Syncrun finished 2020-03-22T18:12:15Z (last step: 239 msec, total: 1511 msec)
+#=#=#=# Syncrun started 2020-03-22T18:12:29Z
+#=#=#=#=# Propagation starts 2020-03-22T18:12:30Z (last step: 1275 msec, total: 1275 msec)
+18:12:33||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900747|b46cc71983124a44ab0ddbcb2ea21884|15589|00227704|4||204|15589|1584900731|1bed471f-3e23-4e3c-8095-27c61a8a440a|
+18:12:33||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900748|8041b234a322b8ae5d3db5fec567e980|15621|00227705|4||204|15621|1584900733|60760604-abd7-4792-8091-ffdc731c98c5|
+#=#=#=# Syncrun finished 2020-03-22T18:12:30Z (last step: 247 msec, total: 1522 msec)
+#=#=#=# Syncrun started 2020-03-22T18:12:47Z
+#=#=#=#=# Propagation starts 2020-03-22T18:12:49Z (last step: 1316 msec, total: 1316 msec)
+18:12:52||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900765|d43bb67009dde283ca90f2b0ab971c6f|15589|00227704|4||204|15589|1584900747|d6fb674b-6c73-48db-ab00-0935cf444ffd|
+18:12:52||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900767|f2da038f26853e5acb6c66c0afa43cf6|15621|00227705|4||204|15621|1584900748|4bccd5db-6c4c-4959-8126-b7fb0efa2645|
+#=#=#=# Syncrun finished 2020-03-22T18:12:49Z (last step: 235 msec, total: 1552 msec)
+#=#=#=# Syncrun started 2020-03-22T18:13:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:13:16Z (last step: 3898 msec, total: 3898 msec)
+18:13:19||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900790|03781ca3bf12962ff2fbfe6af25d2e5e|15610|00227704|4||204|15589|1584900765|54eea3a1-162a-4670-a13e-f915fdf77f5a|
+#=#=#=# Syncrun finished 2020-03-22T18:13:16Z (last step: 253 msec, total: 4152 msec)
+#=#=#=# Syncrun started 2020-03-22T18:13:31Z
+#=#=#=#=# Propagation starts 2020-03-22T18:13:32Z (last step: 932 msec, total: 932 msec)
+18:13:35||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900809|6db96a565511fe8969d626f3e2cc0298|15747|00227704|4||204|15610|1584900790|2cfe2094-c047-419b-b400-da7df55ae66e|
+#=#=#=# Syncrun finished 2020-03-22T18:13:32Z (last step: 247 msec, total: 1180 msec)
+#=#=#=# Syncrun started 2020-03-22T18:13:40Z
+#=#=#=#=# Propagation starts 2020-03-22T18:13:41Z (last step: 821 msec, total: 821 msec)
+18:13:44||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900818|807c3d2783ae33c4daaa21de9eef08b2|15779|00227705|4||204|15621|1584900767|7a05e183-f6ad-4601-b6bb-c9c7136a4434|
+#=#=#=# Syncrun finished 2020-03-22T18:13:42Z (last step: 259 msec, total: 1080 msec)
+#=#=#=# Syncrun started 2020-03-22T18:13:58Z
+#=#=#=#=# Propagation starts 2020-03-22T18:13:59Z (last step: 1397 msec, total: 1397 msec)
+18:14:03||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584900837|93a94937eff2730f8c316e7cbe58b361|15916|00227705|4||204|15779|1584900818|82422d81-f501-4778-ba54-605a2828d83e|
+18:14:03||resources/views/player/graph.blade.php|INST_SYNC|Up|1584900836|fd77bade8ac61eecd23116aa84bf940c|15884|00227704|4||204|15747|1584900809|37438bf3-40ed-4305-87b0-56c31bade4bb|
+#=#=#=# Syncrun finished 2020-03-22T18:14:00Z (last step: 427 msec, total: 1824 msec)
+#=#=#=# Syncrun started 2020-03-22T18:14:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:14:43Z (last step: 1032 msec, total: 1032 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:14:43Z (last step: 11 msec, total: 1043 msec)
+#=#=#=# Syncrun started 2020-03-22T18:17:59Z
+#=#=#=#=# Propagation starts 2020-03-22T18:18:00Z (last step: 361 msec, total: 361 msec)
+18:18:03||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901077|7f11dc0e7750d5fa09555a46238e534b|15965|00227704|4||204|15884|1584900836|363b7026-c358-48ff-9acf-24e6b89951b7|
+#=#=#=# Syncrun finished 2020-03-22T18:18:00Z (last step: 412 msec, total: 774 msec)
+#=#=#=# Syncrun started 2020-03-22T18:18:03Z
+#=#=#=#=# Propagation starts 2020-03-22T18:18:04Z (last step: 991 msec, total: 991 msec)
+18:18:07||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901081|f47f38c8478fc7098111b5bd430a6afb|15997|00227705|4||204|15916|1584900837|b1e587ea-d171-48ca-8ef1-89e32e69b569|
+#=#=#=# Syncrun finished 2020-03-22T18:18:04Z (last step: 295 msec, total: 1287 msec)
+#=#=#=# Syncrun started 2020-03-22T18:18:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:18:44Z (last step: 1092 msec, total: 1092 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:18:44Z (last step: 11 msec, total: 1104 msec)
+#=#=#=# Syncrun started 2020-03-22T18:18:48Z
+#=#=#=#=# Propagation starts 2020-03-22T18:18:48Z (last step: 310 msec, total: 310 msec)
+18:18:51||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901126|06ade9911ca52eae98ebdee9afefaee1|15999|00227704|4||204|15965|1584901077|b7411e03-4378-49b3-a805-d04f4b8cb56f|
+#=#=#=# Syncrun finished 2020-03-22T18:18:49Z (last step: 288 msec, total: 599 msec)
+#=#=#=# Syncrun started 2020-03-22T18:18:50Z
+#=#=#=#=# Propagation starts 2020-03-22T18:18:51Z (last step: 882 msec, total: 882 msec)
+18:18:54||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901128|42f2c8ce0baac42c587dab8f47a7e53d|16031|00227705|4||204|15997|1584901081|49b0c335-7085-4242-91ee-cdd40254fb3b|
+#=#=#=# Syncrun finished 2020-03-22T18:18:51Z (last step: 335 msec, total: 1218 msec)
+#=#=#=# Syncrun started 2020-03-22T18:19:01Z
+#=#=#=#=# Propagation starts 2020-03-22T18:19:02Z (last step: 1129 msec, total: 1129 msec)
+18:19:06||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901139|8e0007fc2ae681c65da010839e1d8a16|15999|00227704|4||204|15999|1584901126|80dabb38-e529-4cd2-99a3-e9a5d5eb2285|
+#=#=#=# Syncrun finished 2020-03-22T18:19:03Z (last step: 310 msec, total: 1440 msec)
+#=#=#=# Syncrun started 2020-03-22T18:19:05Z
+#=#=#=#=# Propagation starts 2020-03-22T18:19:06Z (last step: 888 msec, total: 888 msec)
+18:19:09||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901141|e0715b7c239fbe4f506ff21dbfb7418f|16031|00227705|4||204|16031|1584901128|1037a67a-0298-4e2b-97e1-32fff16d4e1c|
+#=#=#=# Syncrun finished 2020-03-22T18:19:06Z (last step: 294 msec, total: 1182 msec)
+#=#=#=# Syncrun started 2020-03-22T18:19:30Z
+#=#=#=#=# Propagation starts 2020-03-22T18:19:31Z (last step: 1135 msec, total: 1135 msec)
+18:19:34||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901168|e8c4ea451b4d7e3c40e26480092e39d7|15970|00227704|4||204|15999|1584901139|7c471da0-2af6-45ce-af2e-380567ec02c0|
+#=#=#=# Syncrun finished 2020-03-22T18:19:31Z (last step: 352 msec, total: 1487 msec)
+#=#=#=# Syncrun started 2020-03-22T18:19:33Z
+#=#=#=#=# Propagation starts 2020-03-22T18:19:34Z (last step: 887 msec, total: 887 msec)
+18:19:37||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901170|3aad2d9df63462bafc9c9197bbd298f3|16002|00227705|4||204|16031|1584901141|1f84e362-5d74-4bf8-abfc-ed85bf1e0575|
+#=#=#=# Syncrun finished 2020-03-22T18:19:34Z (last step: 302 msec, total: 1189 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:13Z (last step: 1251 msec, total: 1251 msec)
+||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901212|3aad2d9df63462bafc9c9197bbd298f3|16007|00227705|3|Fichier local modifié pendant la synchronisation.|0|16002|1584901170||
+18:20:17||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901210|c3285d052e921798999e63e37994bc8e|15975|00227704|4||204|15970|1584901168|428c98a9-bf74-4eb9-b8ac-706942c9d03b|
+#=#=#=# Syncrun finished 2020-03-22T18:20:14Z (last step: 311 msec, total: 1562 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:16Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:17Z (last step: 1029 msec, total: 1029 msec)
+18:20:20||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901212|582558216efd6a046214541f5ec053c7|16007|00227705|4||204|16002|1584901170|eaa04ed4-12b1-479e-b011-6ec5cb71d843|
+#=#=#=# Syncrun finished 2020-03-22T18:20:17Z (last step: 219 msec, total: 1248 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:19Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:20Z (last step: 1036 msec, total: 1036 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:20:20Z (last step: 10 msec, total: 1046 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:24Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:25Z (last step: 300 msec, total: 300 msec)
+18:20:28||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901222|7f11dc0e7750d5fa09555a46238e534b|15965|00227704|4||204|15975|1584901210|21c28322-f253-4216-bc89-104114abcb8e|
+#=#=#=# Syncrun finished 2020-03-22T18:20:25Z (last step: 327 msec, total: 628 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:27Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:28Z (last step: 821 msec, total: 821 msec)
+18:20:31||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901225|f47f38c8478fc7098111b5bd430a6afb|15997|00227705|4||204|16007|1584901212|ac936100-a3b1-4b23-82da-4c7024d5ae53|
+#=#=#=# Syncrun finished 2020-03-22T18:20:28Z (last step: 308 msec, total: 1129 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:46Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:47Z (last step: 1015 msec, total: 1015 msec)
+18:20:50||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901245|88c333615d979e7da4e1b967816ad8c4|16012|00227705|4||204|15997|1584901225|b01ba2fd-c6a1-4e07-b231-b00f57c7eee2|
+18:20:50||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901244|f801c818c26eb7f0f0fd30d727194b94|15980|00227704|4||204|15965|1584901222|b0228a43-77f1-4471-af33-a3ce83feeb04|
+#=#=#=# Syncrun finished 2020-03-22T18:20:47Z (last step: 272 msec, total: 1288 msec)
+#=#=#=# Syncrun started 2020-03-22T18:20:57Z
+#=#=#=#=# Propagation starts 2020-03-22T18:20:58Z (last step: 1020 msec, total: 1020 msec)
+18:21:01||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901255|4fa3311118d5126a384198f8f9d7883f|15980|00227704|4||204|15980|1584901244|900b7103-72f5-4025-a792-4fc0f556ff75|
+#=#=#=# Syncrun finished 2020-03-22T18:20:58Z (last step: 364 msec, total: 1384 msec)
+#=#=#=# Syncrun started 2020-03-22T18:21:00Z
+#=#=#=#=# Propagation starts 2020-03-22T18:21:01Z (last step: 864 msec, total: 864 msec)
+18:21:04||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901257|ced37d3025ae1abc5e6f1ee6968a06d3|16012|00227705|4||204|16012|1584901245|a2c7e278-651c-4bef-9a3d-781862475cda|
+#=#=#=# Syncrun finished 2020-03-22T18:21:01Z (last step: 287 msec, total: 1151 msec)
+#=#=#=# Syncrun started 2020-03-22T18:21:20Z
+#=#=#=#=# Propagation starts 2020-03-22T18:21:21Z (last step: 1410 msec, total: 1410 msec)
+18:21:24||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584901279|4b06b19858694ad7327a7793838c46a9|16012|00227705|4||204|16012|1584901257|02056629-38b0-4223-84b8-2e25916fb183|
+18:21:24||resources/views/player/graph.blade.php|INST_SYNC|Up|1584901278|908a91ac87a4bf4a3ccaac5bc7a935bb|15980|00227704|4||204|15980|1584901255|d91c5377-fa43-42b2-8897-c52f061732c2|
+#=#=#=# Syncrun finished 2020-03-22T18:21:21Z (last step: 347 msec, total: 1757 msec)
+#=#=#=# Syncrun started 2020-03-22T18:22:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:22:14Z (last step: 1205 msec, total: 1205 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:22:14Z (last step: 11 msec, total: 1217 msec)
+#=#=#=# Syncrun started 2020-03-22T18:22:35Z
+#=#=#=#=# Propagation starts 2020-03-22T18:22:36Z (last step: 295 msec, total: 295 msec)
+18:22:39||resources/views/player/resume.blade.php|INST_SYNC|Up|1584901353|a9f45213563c625bb63cf9b408ab7a9a|34922|00217741|4||204|34955|1584895314|04d289db-5102-46e2-832f-ed5594c30301|
+#=#=#=# Syncrun finished 2020-03-22T18:22:36Z (last step: 315 msec, total: 610 msec)
+#=#=#=# Syncrun started 2020-03-22T18:22:38Z
+#=#=#=#=# Propagation starts 2020-03-22T18:22:39Z (last step: 949 msec, total: 949 msec)
+18:22:42||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584901356|8eb09a833e86317fa7614bfca91f3d8b|35216|00227693|4||204|35249|1584895319|800c79e8-53e1-416b-a445-9f6332f1998c|
+#=#=#=# Syncrun finished 2020-03-22T18:22:40Z (last step: 599 msec, total: 1549 msec)
+#=#=#=# Syncrun started 2020-03-22T18:23:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:23:14Z (last step: 1073 msec, total: 1073 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:23:14Z (last step: 11 msec, total: 1084 msec)
+#=#=#=# Syncrun started 2020-03-22T18:24:28Z
+#=#=#=#=# Propagation starts 2020-03-22T18:24:28Z (last step: 335 msec, total: 335 msec)
+18:24:31||resources/views/player/resume.blade.php|INST_SYNC|Up|1584901466|e2e098b8f611f618cf4658936302d05d|34939|00217741|4||204|34922|1584901353|41676455-aa90-436a-8384-9279c1dd3a21|
+#=#=#=# Syncrun finished 2020-03-22T18:24:28Z (last step: 379 msec, total: 715 msec)
+#=#=#=# Syncrun started 2020-03-22T18:24:32Z
+#=#=#=#=# Propagation starts 2020-03-22T18:24:33Z (last step: 935 msec, total: 935 msec)
+18:24:36||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584901470|5a732b745854674806d558858727657b|35233|00227693|4||204|35216|1584901356|a4ba1424-5564-4be1-a748-1e2dcc277020|
+#=#=#=# Syncrun finished 2020-03-22T18:24:34Z (last step: 781 msec, total: 1716 msec)
+#=#=#=# Syncrun started 2020-03-22T18:25:08Z
+#=#=#=#=# Propagation starts 2020-03-22T18:25:09Z (last step: 1254 msec, total: 1254 msec)
+18:25:12||storage/framework/views/9c60e5d967011adf3bfe5f1c1c998f652d5e2bc8.php|INST_NEW|Up|1584901506|397bdc9463051dabffbcc45489863966|21068|00227706|4||201|0|0|1eb04b9e-d2b7-4e5e-aed8-2b5b292d9073|
+#=#=#=# Syncrun finished 2020-03-22T18:25:09Z (last step: 228 msec, total: 1482 msec)
+#=#=#=# Syncrun started 2020-03-22T18:25:43Z
+#=#=#=#=# Propagation starts 2020-03-22T18:25:44Z (last step: 1143 msec, total: 1143 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:25:44Z (last step: 7 msec, total: 1150 msec)
+#=#=#=# Syncrun started 2020-03-22T18:27:36Z
+#=#=#=#=# Propagation starts 2020-03-22T18:27:36Z (last step: 387 msec, total: 387 msec)
+18:27:39||resources/views/player/resume.blade.php|INST_SYNC|Up|1584901654|cec1e109ef13b693fd3428a97c4a2863|35120|00217741|4||204|34939|1584901466|a8d42f2b-669c-44e5-9dde-f468acf233cd|
+#=#=#=# Syncrun finished 2020-03-22T18:27:37Z (last step: 313 msec, total: 700 msec)
+#=#=#=# Syncrun started 2020-03-22T18:27:49Z
+#=#=#=#=# Propagation starts 2020-03-22T18:27:50Z (last step: 963 msec, total: 963 msec)
+18:27:53||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584901667|080cf537f9627addf368a91793c9e8fd|35414|00227693|4||204|35233|1584901470|0c34bfd4-cc4d-4c0f-8d87-272749cb3f5a|
+#=#=#=# Syncrun finished 2020-03-22T18:27:50Z (last step: 313 msec, total: 1277 msec)
+#=#=#=# Syncrun started 2020-03-22T18:28:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:28:44Z (last step: 1142 msec, total: 1142 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:28:44Z (last step: 13 msec, total: 1156 msec)
+#=#=#=# Syncrun started 2020-03-22T18:31:59Z
+#=#=#=#=# Propagation starts 2020-03-22T18:32:00Z (last step: 311 msec, total: 311 msec)
+18:32:03||resources/views/player/resume.blade.php|INST_SYNC|Up|1584901917|ab7c48ef24f9937da1422f3a5c89e89f|35357|00217741|4||204|35120|1584901654|f0afdb90-2fb6-4278-97ea-c3dea541d39f|
+#=#=#=# Syncrun finished 2020-03-22T18:32:00Z (last step: 465 msec, total: 777 msec)
+#=#=#=# Syncrun started 2020-03-22T18:32:36Z
+#=#=#=#=# Propagation starts 2020-03-22T18:32:37Z (last step: 875 msec, total: 875 msec)
+18:32:40||resources/views/player/resume.blade.php|INST_SYNC|Up|1584901954|c1a0d37d0108124ea8a5369b5072e0b9|35363|00217741|4||204|35357|1584901917|8849f1d6-ce25-42e4-a6d3-ec33136b26f4|
+#=#=#=# Syncrun finished 2020-03-22T18:32:37Z (last step: 292 msec, total: 1167 msec)
+#=#=#=# Syncrun started 2020-03-22T18:32:41Z
+#=#=#=#=# Propagation starts 2020-03-22T18:32:42Z (last step: 804 msec, total: 804 msec)
+18:32:45||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584901959|f5ca8557872cd05722d07f9fe8477313|35657|00227693|4||204|35414|1584901667|8a7454bd-686b-46e5-91fd-d2ae7166fcd7|
+#=#=#=# Syncrun finished 2020-03-22T18:32:42Z (last step: 417 msec, total: 1222 msec)
+#=#=#=# Syncrun started 2020-03-22T18:33:17Z
+#=#=#=#=# Propagation starts 2020-03-22T18:33:18Z (last step: 1164 msec, total: 1164 msec)
+18:33:22||resources/views/player/resume.blade.php|INST_SYNC|Up|1584901995|35b9c087f747c244414e21e0578b405d|35358|00217741|4||204|35363|1584901954|de73529a-ddd7-4f4d-aa3d-9d8e1412ebfc|
+#=#=#=# Syncrun finished 2020-03-22T18:33:19Z (last step: 227 msec, total: 1392 msec)
+#=#=#=# Syncrun started 2020-03-22T18:33:22Z
+#=#=#=#=# Propagation starts 2020-03-22T18:33:22Z (last step: 790 msec, total: 790 msec)
+18:33:26||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584902000|6f02b6b452b33d6a37d8c4726ba93f1e|35652|00227693|4||204|35657|1584901959|2cb10f59-1383-472a-83d2-75fd61af86d7|
+#=#=#=# Syncrun finished 2020-03-22T18:33:23Z (last step: 260 msec, total: 1051 msec)
+#=#=#=# Syncrun started 2020-03-22T18:33:41Z
+#=#=#=#=# Propagation starts 2020-03-22T18:33:42Z (last step: 955 msec, total: 955 msec)
+18:33:45||resources/views/player/resume.blade.php|INST_SYNC|Up|1584902019|9fa9c09db66ab63957c932f5fc29a0bb|35359|00217741|4||204|35358|1584901995|24ea27da-5730-47ff-ae0a-dc7574f095eb|
+#=#=#=# Syncrun finished 2020-03-22T18:33:42Z (last step: 418 msec, total: 1373 msec)
+#=#=#=# Syncrun started 2020-03-22T18:33:44Z
+#=#=#=#=# Propagation starts 2020-03-22T18:33:45Z (last step: 926 msec, total: 926 msec)
+18:33:48||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584902022|d11c917a32f60a1a9df5af294101091f|35653|00227693|4||204|35652|1584902000|602ca088-77ca-48b7-9345-4dd36e83b750|
+#=#=#=# Syncrun finished 2020-03-22T18:33:46Z (last step: 323 msec, total: 1250 msec)
+#=#=#=# Syncrun started 2020-03-22T18:33:57Z
+#=#=#=#=# Propagation starts 2020-03-22T18:33:58Z (last step: 927 msec, total: 927 msec)
+18:34:01||resources/views/player/resume.blade.php|INST_SYNC|Up|1584902035|9dda6929fed9ce2d1d4d6f09a2f93cab|35359|00217741|4||204|35359|1584902019|76a23578-cd9a-4bae-bab7-18c53eb77963|
+#=#=#=# Syncrun finished 2020-03-22T18:33:58Z (last step: 242 msec, total: 1170 msec)
+#=#=#=# Syncrun started 2020-03-22T18:34:00Z
+#=#=#=#=# Propagation starts 2020-03-22T18:34:00Z (last step: 877 msec, total: 877 msec)
+18:34:04||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584902037|a2eabb60fd324c70757563afead46d1d|35653|00227693|4||204|35653|1584902022|3ace0fb3-4105-4a6b-b2ff-68dc1cfeba28|
+#=#=#=# Syncrun finished 2020-03-22T18:34:01Z (last step: 307 msec, total: 1184 msec)
+#=#=#=# Syncrun started 2020-03-22T18:34:19Z
+#=#=#=#=# Propagation starts 2020-03-22T18:34:20Z (last step: 1066 msec, total: 1066 msec)
+18:34:24||resources/views/player/resume.blade.php|INST_SYNC|Up|1584902057|516fc7201273cfd55614a90a35380a8a|35358|00217741|4||204|35359|1584902035|8bc8d7c2-00c0-4c61-949f-325213df0abc|
+#=#=#=# Syncrun finished 2020-03-22T18:34:21Z (last step: 320 msec, total: 1387 msec)
+#=#=#=# Syncrun started 2020-03-22T18:34:23Z
+#=#=#=#=# Propagation starts 2020-03-22T18:34:23Z (last step: 854 msec, total: 854 msec)
+18:34:27||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584902060|309ceea2f1dac0f627d6c635940ea8db|35652|00227693|4||204|35653|1584902037|49547efd-78e9-4830-a4df-e5e4b7ca234f|
+#=#=#=# Syncrun finished 2020-03-22T18:34:24Z (last step: 298 msec, total: 1152 msec)
+#=#=#=# Syncrun started 2020-03-22T18:35:12Z
+#=#=#=#=# Propagation starts 2020-03-22T18:35:14Z (last step: 1079 msec, total: 1079 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:35:14Z (last step: 9 msec, total: 1089 msec)
+#=#=#=# Syncrun started 2020-03-22T18:35:26Z
+#=#=#=#=# Propagation starts 2020-03-22T18:35:26Z (last step: 334 msec, total: 334 msec)
+18:35:29||resources/views/player/resume.blade.php|INST_SYNC|Up|1584902124|493ae4b0b259de041a0c5e4388c607ef|35374|00217741|4||204|35358|1584902057|c298ceb4-c4ca-40d4-8438-e3281d6fd944|
+#=#=#=# Syncrun finished 2020-03-22T18:35:27Z (last step: 391 msec, total: 726 msec)
+#=#=#=# Syncrun started 2020-03-22T18:36:13Z
+#=#=#=#=# Propagation starts 2020-03-22T18:36:13Z (last step: 900 msec, total: 900 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:36:13Z (last step: 12 msec, total: 912 msec)
+#=#=#=# Syncrun started 2020-03-22T18:36:49Z
+#=#=#=#=# Propagation starts 2020-03-22T18:36:49Z (last step: 293 msec, total: 293 msec)
+18:36:53||resources/views/player/graphiques-fullscreen.blade.php|INST_REMOVE|Up|1584894955|501062d4cc000139361c71c53f17ab9f|15991|00227703|4||204|15991|1584894955|99e9d9b7-bad9-4a50-9474-8f1e91ed6f57|
+18:36:53||resources/views/player/graphiques-fullscreen.php|INST_REMOVE|Up|1584894227|5160201c0ba7284e4a8ed162d0e26098|15991|00227702|4||204|15991|1584894227|43db1055-592a-4fcb-a309-b52aae0e14d8|
+#=#=#=# Syncrun finished 2020-03-22T18:36:50Z (last step: 490 msec, total: 784 msec)
+#=#=#=# Syncrun started 2020-03-22T18:37:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:37:43Z (last step: 870 msec, total: 870 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:37:43Z (last step: 10 msec, total: 880 msec)
+#=#=#=# Syncrun started 2020-03-22T18:42:26Z
+#=#=#=#=# Propagation starts 2020-03-22T18:42:26Z (last step: 277 msec, total: 277 msec)
+18:42:30||resources/views/player/graph.blade.php|INST_SYNC|Up|1584902544|153d36492bcf9911fdd238b67e52b25a|15975|00227704|4||204|15980|1584901278|bf9fd741-3830-4b7f-82e9-5b1e69fcdd4a|
+#=#=#=# Syncrun finished 2020-03-22T18:42:27Z (last step: 408 msec, total: 686 msec)
+#=#=#=# Syncrun started 2020-03-22T18:42:29Z
+#=#=#=#=# Propagation starts 2020-03-22T18:42:30Z (last step: 922 msec, total: 922 msec)
+18:42:33||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584902547|79dec59f592dad457a8b7e510ac9c910|16007|00227705|4||204|16012|1584901279|c512139a-1cf6-45c4-94ba-b6797034ef38|
+#=#=#=# Syncrun finished 2020-03-22T18:42:30Z (last step: 264 msec, total: 1186 msec)
+#=#=#=# Syncrun started 2020-03-22T18:43:13Z
+#=#=#=#=# Propagation starts 2020-03-22T18:43:14Z (last step: 1278 msec, total: 1278 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:43:14Z (last step: 10 msec, total: 1289 msec)
+#=#=#=# Syncrun started 2020-03-22T18:51:45Z
+#=#=#=#=# Propagation starts 2020-03-22T18:51:50Z (last step: 4811 msec, total: 4811 msec)
+18:51:55||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903103|17045f322408d6aa26e61332c90d850d|15910|00227704|4||204|15975|1584902544|50619da8-5172-4438-8935-393f8c80ba0e|
+#=#=#=# Syncrun finished 2020-03-22T18:51:53Z (last step: 2485 msec, total: 7297 msec)
+#=#=#=# Syncrun started 2020-03-22T18:51:57Z
+#=#=#=#=# Propagation starts 2020-03-22T18:51:58Z (last step: 1025 msec, total: 1025 msec)
+18:52:01||storage/framework/views/322970e30e6758305203d3b227725c8d118cbd85.php|INST_SYNC|Up|1584903109|f68e0b1292302a42d2466703431fc034|35668|00227693|4||204|35652|1584902060|5cf04e51-4c2b-4b90-9597-8853106b3ce8|
+18:52:01||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903112|aa2b73366a2783c47a690bb8fad64bd4|15942|00227705|4||204|16007|1584902547|e2456e62-45df-4063-9cf7-3f8d7a61a6ef|
+#=#=#=# Syncrun finished 2020-03-22T18:51:58Z (last step: 316 msec, total: 1342 msec)
+#=#=#=# Syncrun started 2020-03-22T18:52:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:52:44Z (last step: 1176 msec, total: 1176 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:52:44Z (last step: 8 msec, total: 1184 msec)
+#=#=#=# Syncrun started 2020-03-22T18:54:06Z
+#=#=#=#=# Propagation starts 2020-03-22T18:54:06Z (last step: 274 msec, total: 274 msec)
+18:54:09||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903244|a822a65191b0ddc4934b1c14633eac04|15910|00227704|4||204|15910|1584903103|268fb9e9-1eba-4014-b8e6-68254bf1672d|
+#=#=#=# Syncrun finished 2020-03-22T18:54:07Z (last step: 823 msec, total: 1098 msec)
+#=#=#=# Syncrun started 2020-03-22T18:54:09Z
+#=#=#=#=# Propagation starts 2020-03-22T18:54:10Z (last step: 899 msec, total: 899 msec)
+18:54:13||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903247|2d02c27061650f1eabdb906577050eab|15942|00227705|4||204|15942|1584903112|88a3daac-53b3-419b-a732-99401ca54785|
+#=#=#=# Syncrun finished 2020-03-22T18:54:10Z (last step: 247 msec, total: 1146 msec)
+#=#=#=# Syncrun started 2020-03-22T18:54:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:54:44Z (last step: 1208 msec, total: 1208 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:54:44Z (last step: 11 msec, total: 1220 msec)
+#=#=#=# Syncrun started 2020-03-22T18:54:50Z
+#=#=#=#=# Propagation starts 2020-03-22T18:54:50Z (last step: 271 msec, total: 271 msec)
+18:54:54||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903288|1d9736b4a72ae9a947894edec8d4a940|15910|00227704|4||204|15910|1584903244|97667062-eb67-456b-9eec-78dc72e8f6fa|
+#=#=#=# Syncrun finished 2020-03-22T18:54:51Z (last step: 251 msec, total: 522 msec)
+#=#=#=# Syncrun started 2020-03-22T18:54:53Z
+#=#=#=#=# Propagation starts 2020-03-22T18:54:54Z (last step: 867 msec, total: 867 msec)
+18:54:57||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903291|28b2711238fa13c57999b575a82d3f3e|15942|00227705|4||204|15942|1584903247|be8e1fca-548e-46a8-b235-0a404001d6c7|
+#=#=#=# Syncrun finished 2020-03-22T18:54:54Z (last step: 258 msec, total: 1125 msec)
+#=#=#=# Syncrun started 2020-03-22T18:55:04Z
+#=#=#=#=# Propagation starts 2020-03-22T18:55:05Z (last step: 1045 msec, total: 1045 msec)
+18:55:08||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903302|0a72cf33bad8e9396421703dd712f308|15909|00227704|4||204|15910|1584903288|4a9b30be-49bf-4cef-8701-42e844a174fd|
+#=#=#=# Syncrun finished 2020-03-22T18:55:05Z (last step: 265 msec, total: 1311 msec)
+#=#=#=# Syncrun started 2020-03-22T18:55:07Z
+#=#=#=#=# Propagation starts 2020-03-22T18:55:08Z (last step: 891 msec, total: 891 msec)
+18:55:11||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903304|dfb153e1f264797872a29e36d1126f7d|15941|00227705|4||204|15942|1584903291|e8e83e1e-eab5-48d9-bc7f-bdb73be2ab9a|
+#=#=#=# Syncrun finished 2020-03-22T18:55:09Z (last step: 876 msec, total: 1767 msec)
+#=#=#=# Syncrun started 2020-03-22T18:55:29Z
+#=#=#=#=# Propagation starts 2020-03-22T18:55:30Z (last step: 1123 msec, total: 1123 msec)
+18:55:33||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903327|91ab04a69948f541a583a63f91b84720|15910|00227704|4||204|15909|1584903302|fc09ede2-bd9e-46ee-9080-c2e7b4457d10|
+#=#=#=# Syncrun finished 2020-03-22T18:55:30Z (last step: 291 msec, total: 1414 msec)
+#=#=#=# Syncrun started 2020-03-22T18:55:36Z
+#=#=#=#=# Propagation starts 2020-03-22T18:55:37Z (last step: 837 msec, total: 837 msec)
+18:55:40||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903334|dbcbcc33ef4506cb7b14b396c4dff2f4|15942|00227705|4||204|15941|1584903304|0f8fad32-6c11-4ba4-82a9-a290d3e897b0|
+#=#=#=# Syncrun finished 2020-03-22T18:55:38Z (last step: 741 msec, total: 1578 msec)
+#=#=#=# Syncrun started 2020-03-22T18:55:53Z
+#=#=#=#=# Propagation starts 2020-03-22T18:55:54Z (last step: 1245 msec, total: 1245 msec)
+18:55:57||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903351|84b6665adacc3bcfd3a0d1bcea03f021|15910|00227704|4||204|15910|1584903327|ef31c5f8-3dc1-483a-af31-225b84ce48be|
+#=#=#=# Syncrun finished 2020-03-22T18:55:54Z (last step: 293 msec, total: 1539 msec)
+#=#=#=# Syncrun started 2020-03-22T18:55:56Z
+#=#=#=#=# Propagation starts 2020-03-22T18:55:57Z (last step: 827 msec, total: 827 msec)
+18:56:00||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903354|0a6b8a9f962b527173eac1e19df654c6|15942|00227705|4||204|15942|1584903334|bac27ffd-5348-471b-ae0e-88a7392eeacc|
+#=#=#=# Syncrun finished 2020-03-22T18:55:57Z (last step: 296 msec, total: 1123 msec)
+#=#=#=# Syncrun started 2020-03-22T18:56:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:56:44Z (last step: 1053 msec, total: 1053 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:56:44Z (last step: 10 msec, total: 1064 msec)
+#=#=#=# Syncrun started 2020-03-22T18:57:17Z
+#=#=#=#=# Propagation starts 2020-03-22T18:57:17Z (last step: 267 msec, total: 267 msec)
+18:57:20||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903435|ae49df9e78db6a42d5c70e5a54a0416b|15910|00227704|4||204|15910|1584903351|b14bdf1a-fb72-4277-837c-61fa5c8fca00|
+#=#=#=# Syncrun finished 2020-03-22T18:57:18Z (last step: 365 msec, total: 632 msec)
+#=#=#=# Syncrun started 2020-03-22T18:57:21Z
+#=#=#=#=# Propagation starts 2020-03-22T18:57:22Z (last step: 811 msec, total: 811 msec)
+18:57:25||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903439|1f7a7ed77b7f18cd6b78e59f4877bdd1|15942|00227705|4||204|15942|1584903354|0cdeff6b-69de-44fa-a75c-6a2d6114b04d|
+#=#=#=# Syncrun finished 2020-03-22T18:57:22Z (last step: 844 msec, total: 1656 msec)
+#=#=#=# Syncrun started 2020-03-22T18:57:53Z
+#=#=#=#=# Propagation starts 2020-03-22T18:57:54Z (last step: 1165 msec, total: 1165 msec)
+18:57:57||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903471|f9b9e92e8713e9d0a8d481f1c679194a|15910|00227704|4||204|15910|1584903435|57312919-eae6-4cec-b2e5-adf94fd93e93|
+#=#=#=# Syncrun finished 2020-03-22T18:57:54Z (last step: 301 msec, total: 1466 msec)
+#=#=#=# Syncrun started 2020-03-22T18:57:56Z
+#=#=#=#=# Propagation starts 2020-03-22T18:57:57Z (last step: 947 msec, total: 947 msec)
+18:58:00||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903473|4b949562978d80286aafcc30b0a8678f|15942|00227705|4||204|15942|1584903439|360fb28d-b984-4e6a-88fd-8be7dae2cc17|
+#=#=#=# Syncrun finished 2020-03-22T18:57:57Z (last step: 281 msec, total: 1228 msec)
+#=#=#=# Syncrun started 2020-03-22T18:58:42Z
+#=#=#=#=# Propagation starts 2020-03-22T18:58:44Z (last step: 1202 msec, total: 1202 msec)
+#=#=#=# Syncrun finished 2020-03-22T18:58:44Z (last step: 9 msec, total: 1211 msec)
+#=#=#=# Syncrun started 2020-03-22T18:59:13Z
+#=#=#=#=# Propagation starts 2020-03-22T18:59:13Z (last step: 245 msec, total: 245 msec)
+18:59:16||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903551|91b8ae39d031d5e19fb48082f0431bab|15910|00227704|4||204|15910|1584903471|936a8092-4a51-407b-89fe-150437e47d7f|
+#=#=#=# Syncrun finished 2020-03-22T18:59:13Z (last step: 240 msec, total: 485 msec)
+#=#=#=# Syncrun started 2020-03-22T18:59:16Z
+#=#=#=#=# Propagation starts 2020-03-22T18:59:17Z (last step: 803 msec, total: 803 msec)
+18:59:20||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903554|12af5e19309c84b3653391626495ea1e|15942|00227705|4||204|15942|1584903473|8830766d-2f18-4998-a19c-6a5a44a58f5c|
+#=#=#=# Syncrun finished 2020-03-22T18:59:17Z (last step: 288 msec, total: 1091 msec)
+#=#=#=# Syncrun started 2020-03-22T19:00:13Z
+#=#=#=#=# Propagation starts 2020-03-22T19:00:14Z (last step: 1112 msec, total: 1112 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:00:14Z (last step: 7 msec, total: 1120 msec)
+#=#=#=# Syncrun started 2020-03-22T19:00:27Z
+#=#=#=#=# Propagation starts 2020-03-22T19:00:27Z (last step: 257 msec, total: 257 msec)
+19:00:30||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903625|46986228899b8fd91478f1d3e776c69d|15910|00227704|4||204|15910|1584903551|521ab70e-616d-43cc-9d10-0fcae96b919b|
+#=#=#=# Syncrun finished 2020-03-22T19:00:27Z (last step: 237 msec, total: 494 msec)
+#=#=#=# Syncrun started 2020-03-22T19:00:30Z
+#=#=#=#=# Propagation starts 2020-03-22T19:00:31Z (last step: 852 msec, total: 852 msec)
+19:00:34||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903628|e1dbcf5e02485ccbd88ecb535fee8be4|15942|00227705|4||204|15942|1584903554|5cfb3606-d3d9-43ed-b4fb-8361de6f1ec7|
+#=#=#=# Syncrun finished 2020-03-22T19:00:31Z (last step: 315 msec, total: 1167 msec)
+#=#=#=# Syncrun started 2020-03-22T19:01:13Z
+#=#=#=#=# Propagation starts 2020-03-22T19:01:14Z (last step: 1007 msec, total: 1007 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:01:14Z (last step: 11 msec, total: 1018 msec)
+#=#=#=# Syncrun started 2020-03-22T19:01:57Z
+#=#=#=#=# Propagation starts 2020-03-22T19:01:57Z (last step: 355 msec, total: 355 msec)
+19:02:00||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903715|8ab7ae62cf246e22289d39014e617288|15910|00227704|4||204|15910|1584903625|ce710f10-de3f-44b0-8689-38dcb989f435|
+#=#=#=# Syncrun finished 2020-03-22T19:01:58Z (last step: 328 msec, total: 684 msec)
+#=#=#=# Syncrun started 2020-03-22T19:02:00Z
+#=#=#=#=# Propagation starts 2020-03-22T19:02:01Z (last step: 820 msec, total: 820 msec)
+19:02:04||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903718|ac93727ce2836d7e4ee8029970371b8b|15942|00227705|4||204|15942|1584903628|b1ca3403-768e-4d48-9513-2d4946b00807|
+#=#=#=# Syncrun finished 2020-03-22T19:02:02Z (last step: 293 msec, total: 1114 msec)
+#=#=#=# Syncrun started 2020-03-22T19:02:42Z
+#=#=#=#=# Propagation starts 2020-03-22T19:02:44Z (last step: 1177 msec, total: 1177 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:02:44Z (last step: 12 msec, total: 1189 msec)
+#=#=#=# Syncrun started 2020-03-22T19:05:06Z
+#=#=#=#=# Propagation starts 2020-03-22T19:05:07Z (last step: 280 msec, total: 280 msec)
+19:05:10||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903904|aaa5c8c28b114a6a40655ae00f012d9e|15910|00227704|4||204|15910|1584903715|9ee48a54-6ae9-4b08-81af-5658d5f6165c|
+#=#=#=# Syncrun finished 2020-03-22T19:05:07Z (last step: 319 msec, total: 600 msec)
+#=#=#=# Syncrun started 2020-03-22T19:05:16Z
+#=#=#=#=# Propagation starts 2020-03-22T19:05:16Z (last step: 883 msec, total: 883 msec)
+19:05:19||resources/views/player/graph.blade.php|INST_SYNC|Up|1584903913|aaa5c8c28b114a6a40655ae00f012d9e|15910|00227704|4||204|15910|1584903904|45dc0c56-9265-48e8-944b-6baeb67b970f|
+#=#=#=# Syncrun finished 2020-03-22T19:05:17Z (last step: 316 msec, total: 1199 msec)
+#=#=#=# Syncrun started 2020-03-22T19:05:23Z
+#=#=#=#=# Propagation starts 2020-03-22T19:05:24Z (last step: 938 msec, total: 938 msec)
+19:05:27||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584903921|f00355cdab8fed8806dc698011695310|15942|00227705|4||204|15942|1584903718|15661998-d00f-4c72-b362-1e30e226e21e|
+#=#=#=# Syncrun finished 2020-03-22T19:05:25Z (last step: 289 msec, total: 1228 msec)
+#=#=#=# Syncrun started 2020-03-22T19:06:12Z
+#=#=#=#=# Propagation starts 2020-03-22T19:06:14Z (last step: 1119 msec, total: 1119 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:06:14Z (last step: 8 msec, total: 1127 msec)
+#=#=#=# Syncrun started 2020-03-22T19:10:12Z
+#=#=#=#=# Propagation starts 2020-03-22T19:10:13Z (last step: 362 msec, total: 362 msec)
+19:10:16||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904210|2f05b13ee01d8a8c3d4b8aec364df31c|15921|00227704|4||204|15910|1584903913|439286f5-a5bc-46a3-8466-1085511656c3|
+#=#=#=# Syncrun finished 2020-03-22T19:10:14Z (last step: 1153 msec, total: 1516 msec)
+#=#=#=# Syncrun started 2020-03-22T19:10:16Z
+#=#=#=#=# Propagation starts 2020-03-22T19:10:17Z (last step: 829 msec, total: 829 msec)
+19:10:20||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904213|d50a44d0acb941ece0b3c27fd8a76bfb|15953|00227705|4||204|15942|1584903921|3fbfb2f5-f5b3-4640-8a2e-8c553e9880ad|
+#=#=#=# Syncrun finished 2020-03-22T19:10:17Z (last step: 351 msec, total: 1180 msec)
+#=#=#=# Syncrun started 2020-03-22T19:11:13Z
+#=#=#=#=# Propagation starts 2020-03-22T19:11:14Z (last step: 945 msec, total: 945 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:11:14Z (last step: 7 msec, total: 952 msec)
+#=#=#=# Syncrun started 2020-03-22T19:11:15Z
+#=#=#=#=# Propagation starts 2020-03-22T19:11:16Z (last step: 358 msec, total: 358 msec)
+19:11:19||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904273|b3711db1763b2f97ef6639af825499b1|15915|00227704|4||204|15921|1584904210|0a305e1a-8f90-417a-bb1f-b0ccd3157a27|
+#=#=#=# Syncrun finished 2020-03-22T19:11:16Z (last step: 368 msec, total: 727 msec)
+#=#=#=# Syncrun started 2020-03-22T19:11:20Z
+#=#=#=#=# Propagation starts 2020-03-22T19:11:21Z (last step: 930 msec, total: 930 msec)
+19:11:24||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904278|a266dc210749e79e4847adaad475f8bf|15916|00227704|4||204|15915|1584904273|56bdcb8e-beb7-4b6e-aab8-52b068d695df|
+#=#=#=# Syncrun finished 2020-03-22T19:11:21Z (last step: 232 msec, total: 1162 msec)
+#=#=#=# Syncrun started 2020-03-22T19:11:23Z
+#=#=#=#=# Propagation starts 2020-03-22T19:11:24Z (last step: 815 msec, total: 815 msec)
+19:11:27||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904281|ea48e267c62db7a181f0786883471574|15948|00227705|4||204|15953|1584904213|1c412b91-cde4-48c0-b090-9518c3169dec|
+#=#=#=# Syncrun finished 2020-03-22T19:11:24Z (last step: 255 msec, total: 1071 msec)
+#=#=#=# Syncrun started 2020-03-22T19:12:13Z
+#=#=#=#=# Propagation starts 2020-03-22T19:12:14Z (last step: 1491 msec, total: 1491 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:12:14Z (last step: 9 msec, total: 1500 msec)
+#=#=#=# Syncrun started 2020-03-22T19:12:29Z
+#=#=#=#=# Propagation starts 2020-03-22T19:12:29Z (last step: 312 msec, total: 312 msec)
+19:12:32||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904347|afb210b657be602e8ea6c97ac89252a8|15949|00227704|4||204|15916|1584904278|956d9647-9539-4a9b-9c2a-90ed8588c119|
+#=#=#=# Syncrun finished 2020-03-22T19:12:30Z (last step: 393 msec, total: 706 msec)
+#=#=#=# Syncrun started 2020-03-22T19:12:32Z
+#=#=#=#=# Propagation starts 2020-03-22T19:12:33Z (last step: 1164 msec, total: 1164 msec)
+19:12:37||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904350|934904c8f89bb45aafa74225ec29d8e2|15981|00227705|4||204|15948|1584904281|0a903335-4af3-4520-b428-569ee5e59e7d|
+#=#=#=# Syncrun finished 2020-03-22T19:12:34Z (last step: 314 msec, total: 1479 msec)
+#=#=#=# Syncrun started 2020-03-22T19:12:54Z
+#=#=#=#=# Propagation starts 2020-03-22T19:12:55Z (last step: 1487 msec, total: 1487 msec)
+19:12:58||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904371|c9edfec9f0f10b8c2484192e8b96652d|15949|00227704|4||204|15949|1584904347|d09ac3f5-4bbf-4659-b88c-63f2e07ba77e|
+#=#=#=# Syncrun finished 2020-03-22T19:12:56Z (last step: 888 msec, total: 2375 msec)
+#=#=#=# Syncrun started 2020-03-22T19:12:58Z
+#=#=#=#=# Propagation starts 2020-03-22T19:13:00Z (last step: 1180 msec, total: 1180 msec)
+19:13:03||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904374|7c4cffc8109c1d249796b65182ae1a7d|15981|00227705|4||204|15981|1584904350|04a1dc60-c691-4cca-bd26-75848d0e4c0c|
+#=#=#=# Syncrun finished 2020-03-22T19:13:00Z (last step: 263 msec, total: 1444 msec)
+#=#=#=# Syncrun started 2020-03-22T19:13:42Z
+#=#=#=#=# Propagation starts 2020-03-22T19:13:44Z (last step: 1061 msec, total: 1061 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:13:44Z (last step: 8 msec, total: 1070 msec)
+#=#=#=# Syncrun started 2020-03-22T19:14:56Z
+#=#=#=#=# Propagation starts 2020-03-22T19:14:56Z (last step: 432 msec, total: 432 msec)
+19:14:59||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904494|a02e6c90b58db1151fcb19721d702219|16093|00227704|4||204|15949|1584904371|79245fc3-1a2b-4aa2-b707-37c13f82b77a|
+#=#=#=# Syncrun finished 2020-03-22T19:14:56Z (last step: 255 msec, total: 688 msec)
+#=#=#=# Syncrun started 2020-03-22T19:15:01Z
+#=#=#=#=# Propagation starts 2020-03-22T19:15:02Z (last step: 805 msec, total: 805 msec)
+19:15:05||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904499|39a1bc57d7283967f8faba8280639bee|16125|00227705|4||204|15981|1584904374|acf42246-49fd-4eca-b8c2-d3de42ea7394|
+#=#=#=# Syncrun finished 2020-03-22T19:15:02Z (last step: 366 msec, total: 1171 msec)
+#=#=#=# Syncrun started 2020-03-22T19:15:43Z
+#=#=#=#=# Propagation starts 2020-03-22T19:15:44Z (last step: 1065 msec, total: 1065 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:15:44Z (last step: 13 msec, total: 1079 msec)
+#=#=#=# Syncrun started 2020-03-22T19:17:14Z
+#=#=#=#=# Propagation starts 2020-03-22T19:17:15Z (last step: 288 msec, total: 288 msec)
+19:17:18||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904632|c86faf8a0b23e69db7dbd60a51897ee2|16162|00227704|4||204|16093|1584904494|d042d222-a7fc-4110-ace9-124e09d208c0|
+#=#=#=# Syncrun finished 2020-03-22T19:17:15Z (last step: 362 msec, total: 650 msec)
+#=#=#=# Syncrun started 2020-03-22T19:17:19Z
+#=#=#=#=# Propagation starts 2020-03-22T19:17:20Z (last step: 779 msec, total: 779 msec)
+19:17:23||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904637|a66c858982744210d02a2c838ab55ab6|16194|00227705|4||204|16125|1584904499|287fdf67-50cd-441b-a3d4-43599d53be42|
+#=#=#=# Syncrun finished 2020-03-22T19:17:20Z (last step: 328 msec, total: 1107 msec)
+#=#=#=# Syncrun started 2020-03-22T19:17:35Z
+#=#=#=#=# Propagation starts 2020-03-22T19:17:36Z (last step: 1053 msec, total: 1053 msec)
+19:17:39||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904653|b9bbc9da42bcefe4f9f2e51aee35626a|16162|00227704|4||204|16162|1584904632|90d15b36-4053-4c5c-ab4c-0464de9681ab|
+#=#=#=# Syncrun finished 2020-03-22T19:17:37Z (last step: 366 msec, total: 1419 msec)
+#=#=#=# Syncrun started 2020-03-22T19:17:39Z
+#=#=#=#=# Propagation starts 2020-03-22T19:17:40Z (last step: 826 msec, total: 826 msec)
+19:17:43||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904656|b74b8b18bf0836db0f143de4f4ce160a|16194|00227705|4||204|16194|1584904637|494e4437-56a4-49ef-ab31-7999cb0444e9|
+#=#=#=# Syncrun finished 2020-03-22T19:17:40Z (last step: 253 msec, total: 1079 msec)
+#=#=#=# Syncrun started 2020-03-22T19:17:50Z
+#=#=#=#=# Propagation starts 2020-03-22T19:17:51Z (last step: 1170 msec, total: 1170 msec)
+19:17:54||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904668|ab62640a7cbef7ef6b678fa7157f49e7|16162|00227704|4||204|16162|1584904653|3958ec82-64c3-45d9-886f-80eb907a5f12|
+#=#=#=# Syncrun finished 2020-03-22T19:17:51Z (last step: 338 msec, total: 1509 msec)
+#=#=#=# Syncrun started 2020-03-22T19:17:53Z
+#=#=#=#=# Propagation starts 2020-03-22T19:17:54Z (last step: 810 msec, total: 810 msec)
+19:17:57||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904671|2c0a4a451bfa4e68dca04366d072b108|16194|00227705|4||204|16194|1584904656|abd1a29d-0d5e-4bc4-b253-61729e4fa0bc|
+#=#=#=# Syncrun finished 2020-03-22T19:17:55Z (last step: 426 msec, total: 1236 msec)
+#=#=#=# Syncrun started 2020-03-22T19:18:16Z
+#=#=#=#=# Propagation starts 2020-03-22T19:18:17Z (last step: 1009 msec, total: 1009 msec)
+19:18:20||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904694|7d88f691f75c390a035e25293897c313|16146|00227704|4||204|16162|1584904668|5967c518-408a-400a-937d-58644e94aadd|
+#=#=#=# Syncrun finished 2020-03-22T19:18:17Z (last step: 230 msec, total: 1239 msec)
+#=#=#=# Syncrun started 2020-03-22T19:18:20Z
+#=#=#=#=# Propagation starts 2020-03-22T19:18:21Z (last step: 876 msec, total: 876 msec)
+19:18:24||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904698|32ce71c6e1439f520939bbcdd33effdc|16178|00227705|4||204|16194|1584904671|fe18da82-6cb4-401c-a811-852c785ce8a7|
+#=#=#=# Syncrun finished 2020-03-22T19:18:21Z (last step: 310 msec, total: 1186 msec)
+#=#=#=# Syncrun started 2020-03-22T19:18:27Z
+#=#=#=#=# Propagation starts 2020-03-22T19:18:28Z (last step: 1146 msec, total: 1146 msec)
+19:18:31||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904705|42e02971743e43b9a4fa9fb160366631|16146|00227704|4||204|16146|1584904694|7043bd90-a79f-484e-9458-50cb61cb3db4|
+#=#=#=# Syncrun finished 2020-03-22T19:18:29Z (last step: 685 msec, total: 1831 msec)
+#=#=#=# Syncrun started 2020-03-22T19:18:31Z
+#=#=#=#=# Propagation starts 2020-03-22T19:18:32Z (last step: 845 msec, total: 845 msec)
+19:18:35||storage/framework/views/9cfefee1cf3d892c9f585739c4004a55e7d53523.php|INST_SYNC|Up|1584904707|8d602abc3e2da799ab42afe7c8a083e0|16178|00227705|4||204|16178|1584904698|6dc255e0-2001-44ea-b9e6-8898906537fb|
+#=#=#=# Syncrun finished 2020-03-22T19:18:32Z (last step: 343 msec, total: 1189 msec)
+#=#=#=# Syncrun started 2020-03-22T19:19:12Z
+#=#=#=#=# Propagation starts 2020-03-22T19:19:14Z (last step: 1198 msec, total: 1198 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:19:14Z (last step: 8 msec, total: 1207 msec)
+#=#=#=# Syncrun started 2020-03-22T19:22:44Z
+#=#=#=#=# Propagation starts 2020-03-22T19:22:44Z (last step: 303 msec, total: 303 msec)
+19:22:47||resources/views/player/graph.blade.php|INST_SYNC|Up|1584904962|936ec6a99dbeb5f6fba55a7fca0dbd62|16145|00227704|4||204|16146|1584904705|a3592733-5d2b-4de4-b389-2a6297e62839|
+#=#=#=# Syncrun finished 2020-03-22T19:22:45Z (last step: 381 msec, total: 684 msec)
+#=#=#=# Syncrun started 2020-03-22T19:23:43Z
+#=#=#=#=# Propagation starts 2020-03-22T19:23:43Z (last step: 880 msec, total: 880 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:23:43Z (last step: 9 msec, total: 889 msec)
+#=#=#=# Syncrun started 2020-03-22T19:23:48Z
+#=#=#=#=# Propagation starts 2020-03-22T19:23:49Z (last step: 312 msec, total: 312 msec)
+19:23:52||resources/views/player/resume.blade.php|INST_SYNC|Up|1584905026|1568b1ce57cbbe5b04372035a5bbb20d|35426|00217741|4||204|35374|1584902124|0adc3631-7e81-488e-bc20-6da3056a6d3b|
+#=#=#=# Syncrun finished 2020-03-22T19:23:49Z (last step: 289 msec, total: 602 msec)
+#=#=#=# Syncrun started 2020-03-22T19:24:43Z
+#=#=#=#=# Propagation starts 2020-03-22T19:24:43Z (last step: 791 msec, total: 791 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:24:43Z (last step: 7 msec, total: 799 msec)
+#=#=#=# Syncrun started 2020-03-22T19:26:09Z
+#=#=#=#=# Propagation starts 2020-03-22T19:26:09Z (last step: 320 msec, total: 320 msec)
+19:26:12||resources/views/player/resume.blade.php|INST_SYNC|Up|1584905167|361b91e131a94dfa22f65fe55950cfdb|35397|00217741|4||204|35426|1584905026|c8158230-23bc-45ce-bfb4-ab981a0d40df|
+#=#=#=# Syncrun finished 2020-03-22T19:26:09Z (last step: 391 msec, total: 712 msec)
+#=#=#=# Syncrun started 2020-03-22T19:26:42Z
+#=#=#=#=# Propagation starts 2020-03-22T19:26:43Z (last step: 940 msec, total: 940 msec)
+19:26:46||resources/views/player/resume.blade.php|INST_SYNC|Up|1584905200|493ae4b0b259de041a0c5e4388c607ef|35374|00217741|4||204|35397|1584905167|9253bb58-fdc5-494b-b6a9-0e190f68b03a|
+#=#=#=# Syncrun finished 2020-03-22T19:26:44Z (last step: 734 msec, total: 1674 msec)
+#=#=#=# Syncrun started 2020-03-22T19:26:46Z
+#=#=#=#=# Propagation starts 2020-03-22T19:26:47Z (last step: 869 msec, total: 869 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:26:47Z (last step: 8 msec, total: 877 msec)
+#=#=#=# Syncrun started 2020-03-22T19:26:50Z
+#=#=#=#=# Propagation starts 2020-03-22T19:26:51Z (last step: 282 msec, total: 282 msec)
+19:26:54||resources/views/player/resume.blade.php|INST_SYNC|Up|1584905208|516fc7201273cfd55614a90a35380a8a|35358|00217741|4||204|35374|1584905200|252a3771-b2ce-461e-8277-a809c4119de5|
+#=#=#=# Syncrun finished 2020-03-22T19:26:51Z (last step: 322 msec, total: 604 msec)
+#=#=#=# Syncrun started 2020-03-22T19:27:43Z
+#=#=#=#=# Propagation starts 2020-03-22T19:27:44Z (last step: 905 msec, total: 905 msec)
+#=#=#=# Syncrun finished 2020-03-22T19:27:44Z (last step: 8 msec, total: 914 msec)
+#=#=#=# Syncrun started 2020-03-22T20:55:08Z
+#=#=#=#=# Propagation starts 2020-03-22T20:55:12Z (last step: 3511 msec, total: 3511 msec)
+#=#=#=# Syncrun finished 2020-03-22T20:55:14Z (last step: 2465 msec, total: 5976 msec)
+#=#=#=# Syncrun started 2020-03-22T21:19:35Z
+#=#=#=#=# Propagation starts 2020-03-22T21:19:36Z (last step: 425 msec, total: 425 msec)
+#=#=#=# Syncrun finished 2020-03-22T21:19:36Z (last step: 5 msec, total: 430 msec)
+#=#=#=# Syncrun started 2020-03-22T22:04:28Z
+#=#=#=#=# Propagation starts 2020-03-22T22:04:31Z (last step: 2880 msec, total: 2880 msec)
+#=#=#=# Syncrun finished 2020-03-22T22:04:33Z (last step: 2315 msec, total: 5196 msec)
+#=#=#=# Syncrun started 2020-03-22T23:54:16Z
+#=#=#=#=# Propagation starts 2020-03-22T23:54:19Z (last step: 2749 msec, total: 2749 msec)
+23:54:22||README.md|INST_SYNC|Up|1584921254|c18d2cbfef422ec3572f001ec3e364af|1744|00227583|4||204|1505|1584791440|291b5557-3114-4dbf-92e1-e8a7e936afed|
+#=#=#=# Syncrun finished 2020-03-22T23:54:21Z (last step: 2373 msec, total: 5123 msec)
+#=#=#=# Syncrun started 2020-03-22T23:54:46Z
+#=#=#=#=# Propagation starts 2020-03-22T23:54:46Z (last step: 327 msec, total: 327 msec)
+23:54:49||README.md|INST_SYNC|Up|1584921284|587455bfa380da322858456896529c29|1744|00227583|4||204|1744|1584921254|d7cc150f-b957-46d0-90db-8b7c8d5f7473|
+#=#=#=# Syncrun finished 2020-03-22T23:54:46Z (last step: 306 msec, total: 633 msec)
+#=#=#=# Syncrun started 2020-03-22T23:55:28Z
+#=#=#=#=# Propagation starts 2020-03-22T23:55:28Z (last step: 276 msec, total: 276 msec)
+#=#=#=# Syncrun finished 2020-03-22T23:55:28Z (last step: 5 msec, total: 282 msec)
