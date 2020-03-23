@@ -1,4 +1,5 @@
 <?php
+
 // graph1 : Données synthétisées par partie
 $nbParties = count($games) / 10;
 $score = [];
@@ -6,7 +7,7 @@ $duree = [];
 $label = [];
 // dd($nbParties);
 for ($i = 0; $i < $nbParties; $i++) {
-    $label[$i] = $i + 1 . ' ('.$games[10*$i + $i]->created_at->format('d/m/Y').')';
+    $label[$i] = $i + 1 . ' ('.$games[10*$i + 5]->created_at->format('d/m/Y').')';
     $score[$i] = $games[10 * ($i + 1) - 1]->score_game;
     $duree[$i] = $games[10 * ($i + 1) - 1]->duree_game;
 };
@@ -191,6 +192,16 @@ for ($j = 0; $j < $nbParties; $j++) {
             color: hsl(47, 97%, 18%);
             font-weight: 500;
             text-decoration-color: hsl(47, 97%, 18%);
+        }
+
+        .links-graph {
+            color: hsl(35, 96%, 52%);
+            text-decoration: underline;
+        }
+
+        .links-graph:hover {
+            color: hsla(35, 99%, 73%, 0.89);
+            text-decoration: none;
         }
 
 
@@ -509,6 +520,7 @@ for ($j = 0; $j < $nbParties; $j++) {
 
                 <div class="col-lg-8 my-auto mb-graph-resp chart-container">
                     <canvas id="myChart" width="900" height="600" style ="width :80% ; height : auto ;"></canvas>
+                    <div class="mx-auto text-center mt-3 "><a href="graph?id=<?= $id; ?>&chart=<?= $_GET['chart']; ?>&graph=ok" class="links-graph">Version agrandie du graphique</a></div>
                 </div>
             </div>
         </div>
@@ -532,7 +544,6 @@ for ($j = 0; $j < $nbParties; $j++) {
     <!-- JS uTIL.JS  -->
     <script src="js/utils.js"></script>
 
-    <!-- SCRIPT JS - GESTION AFFICHAGE AIDE -->
     <script>
         $(document).ready(function(){
             $('#explication').click(function(){
@@ -583,7 +594,7 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             datasets: [{
                 <?php for ($j = 0; $j < $nbParties; $j++) : ?>
-                    label: "Partie <?= $j + 1  . ' ('.$games[10*$j + $j]->created_at->format('d/m/Y').')'; ?>",
+                    label: "Partie <?= $j + 1  . ' ('.$games[10*$j + 5]->created_at->format('d/m/Y').')'; ?>",
                     <?php $coul = $couleurs[$j % $nbCouleurs]; ?>
                     backgroundColor: color(window.chartColors.<?= $coul; ?>).alpha(0.5).rgbString(),
                     borderColor: window.chartColors.<?= $coul; ?>,
@@ -606,7 +617,7 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             datasets: [{
                 <?php for ($j = 0; $j < $nbParties; $j++) : ?>
-                label: "Partie <?= $j + 1  . ' ('.$games[10*$j + $j]->created_at->format('d/m/Y').')'; ?>",
+                label: "Partie <?= $j + 1  . ' ('.$games[10*$j + 5]->created_at->format('d/m/Y').')'; ?>",
                     <?php $coul = $couleurs[$j % $nbCouleurs]; ?>
                     backgroundColor: color(window.chartColors.<?= $coul; ?>).alpha(0.5).rgbString(),
                     borderColor: window.chartColors.<?= $coul; ?>,
@@ -806,7 +817,10 @@ for ($j = 0; $j < $nbParties; $j++) {
                                     labelString: 'Durée'
                                 },
                                 position: 'left',
-
+                                labels: {
+                                    fontColor: '#edededf7',
+                                    padding: 15,
+                                }
                             }],
                         }
                     }

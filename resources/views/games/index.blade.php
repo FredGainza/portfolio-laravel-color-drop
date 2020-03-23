@@ -70,10 +70,6 @@
 
 
 
-
-
-
-
                 <!-- #################### DEBUT CONTAINER DU JEU ################## -->
                 <!-- ############################################################## -->
 
@@ -99,10 +95,10 @@
                     <div class="row mr-30px flex-no-wrap">
 
                         <!-- Affichage du score -->
-                        <div class="col-5 offset-3 mt-4 nowrap">
+                        <div class="col-5 offset-3 mt-1 nowrap">
                             <img src="img/logo-color.png" class="img-fluid" alt="Logo de Color-Drop">
                         </div>
-                        <div id="score" class="col-3 mt2-5r ml-5 score cartoon">
+                        <div id="score" class="col-3 ml-5 score cartoon">
                             <span>SCORE :</span> &nbsp;&nbsp;&nbsp; <span id="scoreAffiche" class="text-danger"></span>
                         </div>
                         <!-- Affichage icône fullscreen -->

@@ -132,9 +132,11 @@ class GamesController extends Controller
         return view('users.show', compact('players', 'user'));
     }
 
-    public function index1()
+    public function index1($name = null)
     {
-        $games = Game::all();
+        $query = $name ? Player::whereName($name)->firstOrFail()->games() : Game::query();
+        $games = $query->oldest('id')->get();
+        // $games = Game::all();
         $users = User::all();
         $players = Player::all();
         $nbParties = count($games)/10;
@@ -143,7 +145,7 @@ class GamesController extends Controller
             $player = $partie['player_id'];
             $user = User::find($player['user_id']);
         }
-        return view('games.index1', compact('games', 'users', 'players'));
+        return view('games.index1', compact('games', 'users', 'players', 'name'));
     }
 
     public function destroy($id)

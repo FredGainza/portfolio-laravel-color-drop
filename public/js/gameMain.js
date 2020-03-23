@@ -135,7 +135,8 @@ function shuffle(a) {
     TABLEAU DES COULEURS JS
 ===============================================
 */
-let couleurs = ["red", "blue", "yellow", "green", "purple", "maroon", "#ff0080", "darkorange"];
+// let couleurs = ["red", "blue", "yellow", "green", "purple", "maroon", "#ff0080", "darkorange"];
+let couleurs = ["red", "MediumBlue", "yellow", "darkgreen", "Indigo", "DarkRed", "deeppink", "DarkOrange"];
 let couleursOrder = [].concat(couleurs);
 
 let nbFormes = 0;
@@ -218,7 +219,7 @@ $(document).ready(function () {
         TABLEAU DES COULEURS JQUERY
     ===============================================
     */
-    $couleurs = ["red", "blue", "yellow", "green", "black", "purple", "maroon", "hotpink", "darkorange"];
+    $couleurs = ["red", "MediumBlue", "yellow", "darkgreen", "black", "Indigo", "DarkRed", "deeppink", "DarkOrange"];
     $couleursOrder = [].concat($couleurs);
 
 
@@ -316,7 +317,7 @@ $(document).ready(function () {
     }
     if ($choixJoueur == 'difficile'){
         $difficulte = "fit";
-        $snapTolerance = 5;
+        $snapTolerance = 0;
     }
 
 /*
@@ -325,6 +326,7 @@ $(document).ready(function () {
 ===============================================
 */
     function affich(){
+        $('#containerOrigin').hide();
         if ($nbClick > 8 && $nbClick <= 10){
             $('#panier_1').remove();
             $('#panier_2').remove();
@@ -534,6 +536,7 @@ $(document).ready(function () {
 
         // Niveau 2
         } else if ($nbClick === 2){
+            $('#containerOrigin').fadeIn(600);
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
             $('#cible').css("bottom", "52%");
@@ -543,6 +546,7 @@ $(document).ready(function () {
 
         // Niveau 3
         } else if ($nbClick === 3){
+            $('#containerOrigin').fadeIn(600);
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
             $('#cible').css("bottom", "52%");
@@ -553,6 +557,7 @@ $(document).ready(function () {
 
         // Niveau 4
         } else if ($nbClick === 4){
+            $('#containerOrigin').fadeIn(600);
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
             $('#cible').css("bottom", "52%");
@@ -581,12 +586,12 @@ $(document).ready(function () {
 			$d=0;
             if ($difficulte == "fit"){
                 if (window.innerWidth<1000){
-                    $d="20%";
-                } else {
                     $d="18%";
+                } else {
+                    $d="16%";
                 }
             } else {
-                $d = "16%";
+                $d = "15%";
             }
 
             // Ajout dans le DOM des DIV des carrés cibles et des DIV de la palette color
@@ -679,18 +684,28 @@ $(document).ready(function () {
         */
 
         // Fonctions JS pour afficher les formes géométriques en fonction du niveau
+        $d=0;
         function formesCible() {
             $formesCibles = [];
-            $difficulte =="fit" ? $d = "17%" : $d = "16%";
+            // $difficulte =="fit" ? $d = "17%" : $d = "16%";
+            if ($difficulte == "fit"){
+                if (window.innerWidth<1000){
+                    $d="17%";
+                } else {
+                    $d="16%";
+                }
+            } else {
+                $d = "15%";
+            }
             for($z=0; $z<$nbFormes; $z++){
-                $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-1"></canvas><br>';
+                $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-2"></canvas><br>';
             }
         }
 
         function formesOrigine() {
             $formes = [];
             for($z=0; $z<$nbFormes; $z++){
-                $formes[$z] = '<canvas id="forme'+$z+'" width="100" height="100" style ="width :9% ; height : auto; z-index: 999" class="bg-darky2 mx-3"></canvas><br>';
+                $formes[$z] = '<canvas id="forme'+$z+'" width="100" height="100" style ="width :8% ; height : auto; z-index: 999" class="bg-darky2 mx-3"></canvas><br>';
             }
         }
 
@@ -719,6 +734,7 @@ $(document).ready(function () {
             $nbFormes = -2+$i;
             nbFormes = -2+$i;
             couleurTab[$i-5] = [];
+            $('#containerOrigin').fadeIn(600);
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
             $('#cible').css("bottom", "52%");
@@ -859,6 +875,8 @@ $(document).ready(function () {
 
         if($nbClick > 8 && $nbClick < 11){
             $('#levelNumber').text('Niveau '+$nbClick);
+            $('#containerOrigin').css("background-image", "url('../img/wood2.png')");
+            $('#containerOrigin').fadeIn(600);
             $('#nextLevel').fadeOut(500);
             $('#successLevel').removeAttr('src');
 

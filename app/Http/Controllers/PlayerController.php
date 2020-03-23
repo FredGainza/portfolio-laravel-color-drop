@@ -135,6 +135,26 @@ class PlayerController extends Controller
                                     ->with('partieMin', $partieMin);
     }
 
+    public function graph()
+    {
+        $user = Auth::user();
+        $player = Player::find($_GET['id']);
+        $games = Game::where('player_id', $_GET['id'])->get();
+        $durees = Game::where('player_id', $_GET['id'])->get()
+                    ->where('level_id', 10);
+        if (isset($games)){
+            $dureeMin = Game::where('player_id', $_GET['id'])->get()->min('duree_game');
+            $partieMin = Game::where('duree_game', $dureeMin)->select('numGame')->distinct()->get();
+        }
+
+        return view('player.graph')->with('player', $player)
+                                    ->with('games', $games)
+                                    ->with('user', $user)
+                                    ->with('durees', $durees)
+                                    ->with('dureeMin', $dureeMin)
+                                    ->with('partieMin', $partieMin);
+    }
+
     public function select()
     {
         $levels = Level::all();

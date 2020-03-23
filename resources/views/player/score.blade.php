@@ -34,6 +34,11 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    .entete-resp{
+        padding-top: .2rem;
+        padding-left: 0;
+
+    }
 
 
 
@@ -152,6 +157,12 @@
         }
     }
 
+    @media (min-width: 992px){
+        .mr-10p-resp{
+            margin-right: 30%;
+        }
+    }
+
 </style>
 
 @endsection
@@ -161,13 +172,13 @@
     <div class="container">
 
         <!-- START ROW 1 - ENTETE (précédent + aide + Titre) -->
-        <div class="row w-100 pt-0 mt-0 mb-3">
-            <div class="col-md-6 entete-resp">
+        <div class="row w-100 pt-0 mt-0 mb-3 justify-content-between">
+            <div class="col-md-auto entete-resp d-flex ml-0 flex-nowrap justify-content-between">
                 <a href="{{ route('pindex') }}" class="btn btn-light btn-sm btn-previous mr-10p-resp text-dark">Accueil</a>
                 <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="btn btn-light btn-sm btn-previous mr-10p-resp text-dark">Resumé</a>
-                <button id="explication" class="btn btn-light btn-sm mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
+                <button id="explication" class="btn btn-light btn-sm mr-0 ml-auto text-nowrap"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
             </div>
-            <div class="col-md-6 m-resp-titre">
+            <div class="col-md-auto pr-0 m-resp-titre">
                 <h3 class="mr-0 ml-auto textEnfant mb-0 mt-auto">Historique de jeu de {{ $player->name }}</h3>
             </div>
         </div>

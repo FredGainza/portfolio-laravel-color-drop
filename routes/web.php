@@ -90,6 +90,7 @@ Route::get('games', 'PlayerController@select')->name('games');
 Route::get('/pscore', 'PlayerController@score')->name('pscore');
 
 Route::get('/presume', 'PlayerController@resume')->name('presume');
+Route::get('/graph', 'PlayerController@graph')->name('graph');
 Route::get('/pmsg', 'UsersController@msg2players')->name('msg2players');
 Route::get('/pnewsletter', 'UsersController@newsletter')->name('newsletter');
 
@@ -106,7 +107,7 @@ Route::get('/rules', function() {
 
 Route::get('/help', 'HelpController@index')->name('help');
 
-
+Route::get('/games-admin-{player}', 'GamesController@index1')->name('games.player')->middleware ('is_admin');
 Route::get('/games-admin', 'GamesController@index1')->name('games.index1')
 ->middleware ('is_admin');
 
