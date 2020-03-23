@@ -29,7 +29,7 @@
         color: #c9c9c9
     }
 </style>
-<link rel="stylesheet" href="../../css/hamburger.css">
+<link rel="stylesheet" href="../../css/hamburger.min.css">
 @endsection
 
 @section('content')

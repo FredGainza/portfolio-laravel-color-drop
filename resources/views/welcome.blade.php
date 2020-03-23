@@ -29,8 +29,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/btn.css">
-    <link rel="stylesheet" href="css/tooltips.css">
+    <link rel="stylesheet" href="css/btn.min.css">
+    <link rel="stylesheet" href="css/tooltips.min.css">
 
     <title>Color-Drop</title>
 </head>
@@ -41,26 +41,23 @@
     <div id="particles-js"></div>
 
     <div class="container titre text-center pt-1 mb-3">
-        <div class="row">            <div class="philo">
+        <div class="row">
+            <div class="philo">
                 <a href="{{ route('rules') }}" target="_blank" class="buttun btn-2 action-button3 green2 pt-1 pb-2 mx-auto ">Philosophie du jeu</a>
-            </div></div>
+            </div>
+        </div>
         <img src="img/logo2.png" alt="Logo Color-Drop de la page d'accueil" class="rounded img-fluid">
         <div class="col-lg-6 offset-lg-3">
             <div class="d-flex justify-content-center pt-3 pb-4">
-
                 <a href="login" class="buttun btn-3 action-button2 blue ml-4 mr-2">Connexion</a>
                 <a href="register" class="buttun btn-3 action-button2 green mr-4 ml-2">Nouveau compte</a>
-
             </div>
         </div>
         <div class="row justify-content-center align-items-center pt-4 mb-5">
             <a href="{{ route('games.invit') }}" class="buttun btn-2 action-button4 red">Testez-moi !</a>
-            <i class="qtip tip-left ml-3" data-tip="Vous pouvez jouer sans vous inscrire. Mais si vous voulez suivre la progression de votre enfant dans le temps, nous vous conseillons de créer un compte."><img src="img/info2.png" alt=""></i>
-
+            <i class="qtip tip-top ml-3" data-tip="Vous pouvez jouer sans vous inscrire. Mais si vous voulez suivre la progression de votre enfant dans le temps, nous vous conseillons de créer un compte."><img src="img/info2.png" alt=""></i>
         </div>
-
     </div>
-
 
     <!-- SCRIPTS JS - CREATION DR COOKIES -->
     <script>

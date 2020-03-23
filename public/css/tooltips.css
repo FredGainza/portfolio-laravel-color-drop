@@ -23,7 +23,7 @@
   padding: 0.5em;
   font-style: normal;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  min-width: 300px;
+  min-width: 250px;
   text-align: center;
   opacity: 0;
   visibility: hidden;
@@ -109,5 +109,19 @@
   transform: translate(0, -50%);
 }
 
+@media (min-width: 450px){
+    .qtip:before{min-width: 300px;}
+}
 
+@media (min-width: 576px){
+    .qtip:before{min-width: 300px;}
+}
+
+@media (min-width: 768px){
+    .qtip:before{min-width: 350px;}
+}
+
+@media (min-width: 992px){
+    .qtip:before{min-width: 400px;}
+}
 

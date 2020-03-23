@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('scripts-header')
-<link rel="stylesheet" href="css/btn.css">
+<link rel="stylesheet" href="css/btn.min.css">
 @endsection
 @section('content')
 <div class="container">

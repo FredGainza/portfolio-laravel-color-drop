@@ -7,7 +7,7 @@ $duree = [];
 $label = [];
 // dd($nbParties);
 for ($i = 0; $i < $nbParties; $i++) {
-    $label[$i] = $i + 1 . ' ('.$games[10*$i + 5]->created_at->format('d/m/Y').')';
+    $label[$i] = $i + 1;
     $score[$i] = $games[10 * ($i + 1) - 1]->score_game;
     $duree[$i] = $games[10 * ($i + 1) - 1]->duree_game;
 };
@@ -97,7 +97,7 @@ for ($j = 0; $j < $nbParties; $j++) {
     <!-- Google font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
     <link rel="stylesheet" href="css/parents.min.css">
-    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/hamburger.min.css">
     <style>
         body {
             margin: 0 !important;
@@ -594,7 +594,7 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             datasets: [{
                 <?php for ($j = 0; $j < $nbParties; $j++) : ?>
-                    label: "Partie <?= $j + 1  . ' ('.$games[10*$j + 5]->created_at->format('d/m/Y').')'; ?>",
+                    label: "Partie <?= $j + 1; ?>",
                     <?php $coul = $couleurs[$j % $nbCouleurs]; ?>
                     backgroundColor: color(window.chartColors.<?= $coul; ?>).alpha(0.5).rgbString(),
                     borderColor: window.chartColors.<?= $coul; ?>,
@@ -617,7 +617,7 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             datasets: [{
                 <?php for ($j = 0; $j < $nbParties; $j++) : ?>
-                label: "Partie <?= $j + 1  . ' ('.$games[10*$j + 5]->created_at->format('d/m/Y').')'; ?>",
+                label: "Partie <?= $j + 1; ?>",
                     <?php $coul = $couleurs[$j % $nbCouleurs]; ?>
                     backgroundColor: color(window.chartColors.<?= $coul; ?>).alpha(0.5).rgbString(),
                     borderColor: window.chartColors.<?= $coul; ?>,
@@ -687,6 +687,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                                 position: 'left',
                                 id: 'y-axis-1',
                                 ticks: {
+                                    beginAtZero: false,
                                     min: 0,
                                     max: 30,
                                     stepSize: 5,

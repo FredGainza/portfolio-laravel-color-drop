@@ -96,7 +96,7 @@ for ($j = 0; $j < $nbParties; $j++) {
     <!-- Google font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
     {{-- <link rel="stylesheet" href="css/parents.min.css"> --}}
-    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/hamburger.min.css">
     <style>
     body{
         margin: 0 !important;
@@ -111,12 +111,13 @@ for ($j = 0; $j < $nbParties; $j++) {
 		-ms-user-select: none;
     }
     .w-85{width: 80% !important;}
+    .fz-1rem{font-size: .95rem !important;}
 	</style>
 </head>
 
 <body>
-    <button class="btn btn-sm btn-dark py-0 mt-2 ml-3" onclick="history.back()">Retour</button>
-	<div class="mx-auto" style="position: relative; height:90vh; width:90vw"">
+    <button class="btn btn-sm btn-dark py-0 mt-2 ml-3 fz-1rem" onclick="history.back()">Retour</button>
+	<div class="mx-auto" style="position: relative; height:95vh; width:90vw"">
 		<canvas id="myChart"></canvas>
     </div>
 
@@ -135,10 +136,7 @@ for ($j = 0; $j < $nbParties; $j++) {
     <script src="js/utils.js"></script>
 
     <script>
-
     var color = Chart.helpers.color;
-
-
     // DONNEES DU GRAPHIQUE 1
     var synthParPartie = {
         labels: <?php echo $labelJson; ?>,
@@ -229,7 +227,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                         fontSize: '26',
                         fontStyle: false,
                         text: 'Données synthétiques par partie',
-                        padding: 20
+                        padding: 30
                     },
                     scales: {
                         xAxes: [{
@@ -315,7 +313,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                         fontSize: '26',
                         fontStyle: false,
                         text: 'Analyse du score par thème',
-                        padding: 20,
+                        padding: 30
                     },
                     scales: {
                         xAxes: [{
@@ -381,7 +379,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                         fontSize: '26',
                         fontStyle: false,
                         text: 'Analyse du temps par thème',
-                        padding: 20,
+                        padding: 30,
                     },
                     scales: {
                         xAxes: [{

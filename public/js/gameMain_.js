@@ -136,7 +136,7 @@ function shuffle(a) {
 ===============================================
 */
 // let couleurs = ["red", "blue", "yellow", "green", "purple", "maroon", "#ff0080", "darkorange"];
-let couleurs = ["red", "blue", "yellow", "green", "purple", "maroon", "hotpink", "darkorange"];
+let couleurs = ["red", "MediumBlue", "yellow", "darkgreen", "Indigo", "DarkRed", "deeppink", "DarkOrange"];
 let couleursOrder = [].concat(couleurs);
 
 let nbFormes = 0;
@@ -219,7 +219,7 @@ $(document).ready(function () {
         TABLEAU DES COULEURS JQUERY
     ===============================================
     */
-    $couleurs = ["red", "blue", "yellow", "green", "black", "purple", "maroon", "hotpink", "darkorange"];
+    $couleurs = ["red", "MediumBlue", "yellow", "darkgreen", "black", "Indigo", "DarkRed", "deeppink", "DarkOrange"];
     $couleursOrder = [].concat($couleurs);
 
 
@@ -317,7 +317,7 @@ $(document).ready(function () {
     }
     if ($choixJoueur == 'difficile'){
         $difficulte = "fit";
-        $snapTolerance = 5;
+        $snapTolerance = 0;
     }
 
 /*
@@ -586,7 +586,7 @@ $(document).ready(function () {
 			$d=0;
             if ($difficulte == "fit"){
                 if (window.innerWidth<1000){
-                    $d="17%";
+                    $d="18%";
                 } else {
                     $d="16%";
                 }
@@ -690,9 +690,9 @@ $(document).ready(function () {
             // $difficulte =="fit" ? $d = "17%" : $d = "16%";
             if ($difficulte == "fit"){
                 if (window.innerWidth<1000){
-                    $d="19%";
-                } else {
                     $d="17%";
+                } else {
+                    $d="16%";
                 }
             } else {
                 $d = "15%";

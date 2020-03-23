@@ -33,7 +33,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="../css/hamburger.css">
+    <link rel="stylesheet" href="../css/hamburger.min.css">
     <style>
         body {
             background-color: #e3e3e3;
