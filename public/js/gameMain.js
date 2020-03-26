@@ -358,7 +358,7 @@ $(document).ready(function () {
             $d = "15%";
         }
         for($z=0; $z<$nbFormes; $z++){
-            $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-3 mb-2"></canvas><br>';
+            $formesCibles[$z] = '<canvas id="formeCible'+$z+'" width="100" height="100" style ="width :'+$d+' ; height : auto ;" class="draggable mx-4 mb-2"></canvas><br>';
         }
     }
 
@@ -927,7 +927,7 @@ $(document).ready(function () {
                                     $('#gameEnd').show(300);
 
                                     // Affichage de fin de jeu
-                                    $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Bravo, tu as gagné '+$scoreEtoiles+' etoiles au cours de cette partie !"</span><br>');
+                                    $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Bravo, tu as gagné '+$scoreEtoiles+' etoiles au cours de cette partie !</span><br>');
                                     $('#gameFinished').append('<span id="msgGameFinished" class="msgVictoire">Tu as terminé Color-Drop en '+$dureePartieMinutes+' minutes et '+$dureePartieSecondes+ ' secondes.</span>');
 
                                     var scoreTotal = $scoreEtoiles;

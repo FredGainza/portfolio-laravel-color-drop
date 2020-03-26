@@ -112,11 +112,44 @@ for ($j = 0; $j < $nbParties; $j++) {
     }
     .w-85{width: 80% !important;}
     .fz-1rem{font-size: .95rem !important;}
+    .fullScreen {
+        width: 1.75rem;
+        position: fixed;
+        top: 1vw;
+        right: 2vw;
+    }
+    .iconFull {
+        width: 100%;
+        padding: .15vw;
+        border: .15vw solid #2c3235;
+        /* background-color: #1e282a; */
+        border-radius: 5px;
+        cursor: pointer;
+        -webkit-box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.28);
+        -moz-box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.28);
+        box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.28);
+    }
+
+    .iconFull:hover {
+        border-color: .2 solid #120707;
+
+    }
+
+    #fullScreen:hover {
+        background-color: #384c5291;
+    }
+    .mr-15{
+        margin-right: 7rem;
+    }
 	</style>
 </head>
 
 <body>
-    <button class="btn btn-sm btn-dark py-0 mt-2 ml-3 fz-1rem" onclick="history.back()">Retour</button>
+    <div class="d-flex justify-content-between">
+        <button class="btn btn-sm btn-dark py-0 mt-3 ml-3 fz-1rem align-self-start" onclick="history.back()">Retour</button>
+        <button id="hideLEgend" class="btn btn-dark btn-sm py-0 mt-3 fz-1rem mr-15 legende-visible">Masquer la légende</button>
+    </div>
+    <div class="fullScreen"><img id="fullScreen" src="img/expand-128-hover.png" class="iconFull" alt="Icône représentant le plein écran"></div>
 	<div class="mx-auto" style="position: relative; height:95vh; width:90vw"">
 		<canvas id="myChart"></canvas>
     </div>
@@ -134,6 +167,37 @@ for ($j = 0; $j < $nbParties; $j++) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <!-- JS uTIL.JS  -->
     <script src="js/utils.js"></script>
+
+    <script>
+        var fullscreenButton = document.getElementById("fullScreen");
+        fullscreenButton.addEventListener("click", toggleFullScreen, false);
+        function toggleFullScreen() {
+            $('#fullScreen').attr('src', 'img/reduce-128-hover.png').delay(1000)
+            if (!document.fullscreenElement &&    // alternative standard method
+                !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement ) {  // current working methods
+                    if (document.documentElement.requestFullscreen) {
+                        document.documentElement.requestFullscreen();
+                    } else if (document.documentElement.msRequestFullscreen) {
+                        document.documentElement.msRequestFullscreen();
+                    } else if (document.documentElement.mozRequestFullScreen) {
+                        document.documentElement.mozRequestFullScreen();
+                    } else if (document.documentElement.webkitRequestFullscreen) {
+                        document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                    }
+            } else {
+                $('#fullScreen').attr('src', 'img/expand-128-hover.png').delay(1000);
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            }
+        }
+    </script>
 
     <script>
     var color = Chart.helpers.color;
@@ -422,7 +486,25 @@ for ($j = 0; $j < $nbParties; $j++) {
 
     };
     </script>
-
+    <script>
+        $(document).ready(function(){
+            $('#hideLEgend').click(function(){
+                if($("#hideLEgend").hasClass("legende-visible")){
+                    $("#hideLEgend").removeClass("legende-visible");
+                    $("#hideLEgend").addClass("legende-non-visible");
+                    $("#hideLEgend").html('Afficher la légende');
+                    window.myBar.options.legend.display = !window.myBar.options.legend.display;
+                    window.myBar.update();
+                }else if ($("#hideLEgend").hasClass("legende-non-visible")){
+                    $("#hideLEgend").removeClass("legende-non-visible");
+                    $("#hideLEgend").addClass("legende-visible");
+                    $("#hideLEgend").html('Masquer la légende');
+                    window.myBar.options.legend.display = !window.myBar.options.legend.display;
+                    window.myBar.update();
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

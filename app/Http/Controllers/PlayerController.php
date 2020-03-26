@@ -108,6 +108,7 @@ class PlayerController extends Controller
         $users = Auth::user();
         $player = Player::find($_GET['id']);
         $games = Game::where('player_id', $_GET['id'])->get();
+        // dd($games);
         return view('player.score')
                             ->with('player', $player)
                             ->with('games', $games)

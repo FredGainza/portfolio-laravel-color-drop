@@ -197,7 +197,7 @@
 																	style="font-size: 20x; text-align: center;">Bonjour {!! $contentParent !!} </span></strong></span><br /><br /><span
 															style="font-size: 16px; text-align: left;">Nous vous informons que votre enfant
                                                             {!! $contentEnfant !!} a terminé une partie sur Color-Drop.<br /><br />
-                                                        Il a obtenu un score de {!! $score !!} étoiles en {!! $temps !!}, avec un niveau de jeu {!! $dif !!} </span></p>
+                                                        Il a obtenu un score de {!! $score !!} étoiles en {!! $temps !!}, avec un niveau de difficulté {!! $dif !!}.</span></p>
 												</div>
 											</div>
 											<!--[if mso]></td></tr></table><![endif]-->

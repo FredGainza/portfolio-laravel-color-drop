@@ -252,7 +252,6 @@
     .table th, .table td {
         vertical-align: middle !important;
         font-size: .9rem;
-        border-top: none !important;
     }
     .table2 td{
         font-weight: bold !important;
@@ -344,7 +343,7 @@
 		box-shadow: none;
 		background: #ddd;
     }
-    .w-23{width: 23%;}
+
 
     /*
     ==========================================
@@ -389,9 +388,8 @@
         .table th, .table td {
             padding: 0.3vw 0.1vw;
             vertical-align: middle !important;
-            border-top: none !important;
+            border-top: none;
         }
-
         .table th {
             font-size: .8rem !important;
         }
@@ -440,22 +438,11 @@
             width: 100%;
             height: 150%;
         }
-        table.table1 td:first-child, table.table1 th:first-child{
-            padding-left: 2%;
-        }
-        .table td, .table th {
-            font-size: .75rem !important;
-            line-height: 1.4;
+        .table td {
+            font-size: .8rem !important;
         }
         .explication{margin-right: 0 !important;}
         .fz-150{margin-left: 0 !important}
-    }
-
-    @media screen and (max-width: 450px){
-        .table td, .table th {
-            font-size: .7rem !important;
-            line-height: 1.2;
-        }
     }
 
     @media screen and (max-width: 400px){
@@ -591,7 +578,7 @@
 
         {{------------ START ROW 5 - TABLE USER ------------}}
         </div>
-        <div class="row my-2 mTab">
+        <div class="row mb-2 mTab">
             <div class="table-wrapper">
                 <div class="table-title">
                     <div class="row">
@@ -605,10 +592,10 @@
                         {{-- THEAD --}}
                         <thead>
                             <tr>
-                                <th style="width: 29%">Nom</th>
-                                <th style="width: 38%">Email</th>
-                                <th style="width: 12%" class="text-center">Recevoir mail</th>
-                                <th style="width: 21%" class="text-center nowrap">Actions</th>
+                                <th style="width: 20%">Nom</th>
+                                <th style="width: 40%">Email</th>
+                                <th style="width: 20%" class="text-center">Recevoir mail</th>
+                                <th style="width: 20%" class="text-center nowrap">Actions</th>
                             </tr>
                         </thead>
 
@@ -680,19 +667,19 @@
                                         @endif
                                     </td>
                                 </tr>
-                                <tr class="line-h-0-5">
+                                <tr class="line-h-5">
 
-                                    <td colspan="6" class="text-nowrap-resp w-100">
-                                        <div class="text-nowrap d-inline-block w-23 mr-auto ml-1 mt-1 mb-3 text-center">
+                                    <td colspan="6" class="text-nowrap-resp w-100 px-2">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="mb-3 text-nowrap line-h-2-5"><i class="fas fa-chart-line text-info fa-lg mr-2 fz-110r"></i>Resumé</a> &nbsp;
                                         </div>
-                                        <div class="text-nowrap d-inline-block w-23 mx-auto ml-1 mt-1 mb-3 text-center">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/pscore?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-file-alt text-success mr-2 fz-1r"></i>Détail</a> &nbsp;
                                         </div>
-                                        <div class="text-nowrap d-inline-block w-23 mx-auto ml-1 mt-1 mb-3 text-center">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/pedit?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-edit text-dark mr-1"></i>Modifier</a> &nbsp;
                                         </div>
-                                        <div class="text-nowrap d-inline-block w-23 ml-auto ml-1 mt-1 mb-3 mr-1 text-center">
+                                        <div class="text-nowrap d-inline-block w-25 text-center px-2 va-supper">
                                             <a href="https://project-color.fgainza.fr/pdelete?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="far fa-times-circle text-danger mr-1 fa-lg fz-105r"></i>Supprimer</a>&nbsp;
                                         </div>
                                     </td>

@@ -79,6 +79,10 @@ body {
 }
 
 /*----------  PADDING ----------*/
+.plr-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 .pt-3p{padding-top: 3% !important;}
 .pt-9p{padding-top: 9% !important;}
 

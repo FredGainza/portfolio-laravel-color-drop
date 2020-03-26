@@ -30,7 +30,7 @@ class Confirmation extends Mailable
      */
     public function build()
     {
-        return $this->from('project-color@fgainza.fr')
+        return $this->from('project-color@fgainza.fr', 'Color-Drop')
                     ->subject($this->title)
                     ->view('layouts.mail');
     }

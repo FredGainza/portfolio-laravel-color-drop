@@ -131,6 +131,13 @@ for ($j = 0; $j < $nbParties; $j++) {
             margin-right: 5% !important;
         }
 
+
+/***** Padding *****/
+        .plr-0 {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
 /***** DISPLAY *****/
         .visibyOff{display: none;}
         .visibyOn{display: block;}
@@ -209,6 +216,11 @@ for ($j = 0; $j < $nbParties; $j++) {
         .borderTitre {
             border-bottom: 2px solid #e2e3e4;
         }
+        /* .borderTitre-top {
+            border-top: none !important;
+            padding: 0 0 0 1rem !important;
+            margin-top: 1rem;
+        } */
         .bgTitreRed {
             color: hsla(355, 78%, 56%, 0.85);
         }
@@ -225,6 +237,9 @@ for ($j = 0; $j < $nbParties; $j++) {
         .chiffrePartieNum{
             color: #f8ea91;
         }
+        .titre-res{
+            text-align: center !important;
+        }
 
 /*
 ==========================================
@@ -235,11 +250,33 @@ for ($j = 0; $j < $nbParties; $j++) {
             .pr-stats{
                 padding-right: 0 !important;
             }
+            .borderTitre-top {
+                border-top: 2px solid #e2e3e4;
+                padding: 1rem 0 .5rem 0;
+                margin-top: 1rem;
+            }
+            .titre-res{
+                font-size: 1.8rem !important;
+                text-align: center !important;
+            }
+            .bgTitreRed{
+                font-size: 1.6rem !important;
+            }
+        }
+
+        @media screen (min-width: 576px) and (max-width: 991px){
+            .titre-res{
+                font-size: 1.6rem !important;
+                text-align: center !important;
+            }
+            .bgTitreRed{
+                font-size: 1.5rem !important;
+                text-align: center !important;
+            }
         }
 
         @media screen and (max-width: 991px){
             .resp-stats-chiffres{
-
                 margin: 2% auto !important;
             }
             .resp-stats-chiffres ul{
@@ -252,6 +289,11 @@ for ($j = 0; $j < $nbParties; $j++) {
             }
             .resp-stats-titre{
                 text-align: center;
+            }
+            .borderTitre-top {
+                border-top: 2px solid #e2e3e4;
+                padding: 1rem 0 0 0;
+                margin-top: 1rem;
             }
             .bord-titre-resp{
                 border-top: 1px solid #e2e3e4;
@@ -268,6 +310,14 @@ for ($j = 0; $j < $nbParties; $j++) {
             }
         }
 
+        @media (min-width: 992px){
+            .borderTitre-top {
+                border-top: none;
+                padding: 0 2rem 0 1rem;
+                margin-top: 1rem;
+            }
+        }
+
         @media screen and (max-width: 575px){
             .container{
                 width: 95% !important;
@@ -280,6 +330,14 @@ for ($j = 0; $j < $nbParties; $j++) {
             .visibility1{
                 width: 100%;
                 height: 150%;;
+            }
+            .titre-res{
+                font-size: 1.3rem !important;
+                text-align: center !important;
+            }
+            .bgTitreRed{
+                font-size: 1.3rem !important;
+                text-align: center !important;
             }
         }
 
@@ -352,7 +410,7 @@ for ($j = 0; $j < $nbParties; $j++) {
             <div class="row mb-3 mt-1">
                 <a class="btn btn-sm btn-dark fz-80p" href="{{ route('pindex') }}">Accueil</a>
                 <a class="btn btn-sm btn-dark fz-80p mx-3" href="https://project-color.fgainza.fr/pscore?id={{$player->id}}">Détail</a>
-                <button id="explication" class="btn btn-light btn-sm fz-80p mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</a></button>
+                <button id="explication" class="btn btn-light btn-sm fz-80p mr-0 ml-auto"><i class="fas fa-question text-success mr-2"></i>Besoin d'aide</button>
             </div>
             <!-- END ROW 1 - ENTETE (précédent + aide) -->
 
@@ -388,18 +446,21 @@ for ($j = 0; $j < $nbParties; $j++) {
 
             <!-- START ROW 3 - TITRE -->
             <div class="row bg-dark text-white pt-2 borderTitre">
-                <h2 class="light mx-auto my-3">Résumé de l'activité de {{ $player->name }}</h2>
+                <h2 class="titre-res mx-auto my-3">Résumé de l'activité de {{ $player->name }}</h2>
             </div>
             <!-- END ROW 3 - TITRE -->
 
 
             <!-- START ROW 4 - DONNEES CHIFFREES + GRAPHIQUES -->
             <div class="row bg-dark text-white">
-                <div class="col-lg-4 mt-3 pb-3 pr-stats">
-                    <h3 class="bgTitreRed resp-stats-titre">Chiffres clés</h3>
-                    <div class="resp-stats-chiffres">
-                        <ul class="list-unstyled">
-                            <li class="mb-2"><i class="fas fa-angle-right icon"></i>Nombre de parties jouées&nbsp; :&nbsp; &nbsp; <span class="chiffresCles">{{ $player->nbGames }}</span></li>
+                <div class="col-lg-4 mt-3 pr-stats plr-0">
+                    <h3 class="bgTitreRed resp-stats-titre pl-3">Chiffres clés</h3>
+                    <div class="resp-stats-chiffres pl-3">
+                        <ul class="list-unstyled mb-4">
+                            @php
+                                $nbParties = count($games)/10;
+                            @endphp
+                            <li class="mb-2"><i class="fas fa-angle-right icon"></i>Nombre de parties jouées&nbsp; :&nbsp; &nbsp; <span class="chiffresCles">{{ $nbParties }}</span></li>
                             <li class="line-1-5 mb-2"><i class="fas fa-angle-right icon"></i>Score total&nbsp;:&nbsp; &nbsp; <span class="chiffresCles">{{ $player->score }} étoiles</span></li>
 
                             {{-------- CALCUL REPARTITION DU NIVEAU DE DIFFICULTE --------}}
@@ -505,13 +566,12 @@ for ($j = 0; $j < $nbParties; $j++) {
                         </ul>
                     </div>
 
-
-                    <h3 class="bgTitreRed resp-stats-titre bord-titre-resp">Représentation graphique</h3>
+                    <h3 class="bgTitreRed resp-stats-titre borderTitre-top pl-3">Graphiques</h3>
                     @php
                     $id = $player->id
                     @endphp
 
-                    <ul id="links" class="list-unstyled graph-resp">
+                    <ul id="links" class="list-unstyled graph-resp px-3">
                         <li><a id="chart1" href="presume?id=<?= $id; ?>&chart=1" class="btn text-white" role="button" aria-pressed="true">Données synthétiques par partie</a></li>
                         <li><a id="chart2" href="presume?id=<?= $id; ?>&chart=2" class="btn text-white" role="button" aria-pressed="true">Evolution du score par thème</a></li>
                         <li><a id="chart3" href="presume?id=<?= $id; ?>&chart=3" class="btn text-white" role="button" aria-pressed="true">Evolution du temps par thème</a></li>
@@ -519,7 +579,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                 </div>
 
                 <div class="col-lg-8 my-auto mb-graph-resp chart-container">
-                    <canvas id="myChart" width="900" height="600" style ="width :80% ; height : auto ;"></canvas>
+                    <canvas id="myChart" width="1000" height="600" style ="width :100% ; height : auto ;"></canvas>
                     <div class="mx-auto text-center mt-3 "><a href="graph?id=<?= $id; ?>&chart=<?= $_GET['chart']; ?>&graph=ok" class="links-graph">Version agrandie du graphique</a></div>
                 </div>
             </div>
@@ -571,14 +631,14 @@ for ($j = 0; $j < $nbParties; $j++) {
         var synthParPartie = {
             labels: <?php echo $labelJson; ?>,
             datasets: [{
-                label: "Score (en nombre d'étoiles)",
+                label: "Score",
                 backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
                 borderColor: window.chartColors.red,
                 borderWidth: 1,
                 yAxisID: 'y-axis-1',
                 data: <?php echo $scoreJson; ?>
             }, {
-                label: "Durée (en secondes)",
+                label: "Durée (en s.)",
                 backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
                 borderColor: window.chartColors.blue,
                 borderWidth: 1,
@@ -724,6 +784,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                     options: {
                         responsive: true,
                         legend: {
+                            display: false,
                             position: 'bottom',
                             labels: {
                                 fontColor: '#edededf7',
@@ -735,7 +796,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                             fontColor: '#fda77c',
                             fontSize: '18',
                             fontStyle: false,
-                            text: 'Analyse du score par thème',
+                            text: 'Analyse du score par thème (par partie)',
                             padding: 30,
                         },
                         scales: {
@@ -783,6 +844,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                     options: {
                         responsive: true,
                         legend: {
+                            display: false,
                             position: 'bottom',
                             labels: {
                                 fontColor: '#edededf7',
@@ -794,7 +856,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                             fontColor: '#fda77c',
                             fontSize: '18',
                             fontStyle: false,
-                            text: 'Analyse du temps par thème',
+                            text: 'Analyse du temps par thème (par partie)',
                             padding: 30,
                         },
                         scales: {

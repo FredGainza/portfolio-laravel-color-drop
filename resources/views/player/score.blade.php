@@ -424,10 +424,10 @@
                             @for($i=0; $i<$nbParties; $i++)
                                 <tr class="text-center">
                                     <td id="numPartie"><span>{{$i+1}}</span></td>
-                                    <td id="difficulty"><span>{{$games[10*($i+1)-1]->difficulty}}</span></td>
-                                    <td id="date"><span>{{ $games[10*($i+1)-1]->created_at->format('d/m/Y') }}</span></td>
-                                    <td id="score_game"><span>{{$games[10*($i+1)-1]->score_game}}</span></td>
-                                    <td id="duree_game"><span>{{$games[10*($i+1)-1]->duree_game}}</span></td>
+                                    <td id="difficulty"><span>{{$games[10*($i+1)-5]->difficulty}}</span></td>
+                                    <td id="date"><span>{{ $games[10*($i+1)-5]->created_at->format('d/m/Y') }}</span></td>
+                                    <td id="score_game"><span>{{$games[10*($i+1)-5]->score_game}}</span></td>
+                                    <td id="duree_game"><span>{{$games[10*($i+1)-5]->duree_game}}</span></td>
                                 </tr>
                             @endfor
                         </tbody>
@@ -456,7 +456,7 @@
             }
         })
     });
-</script>
+    </script>
 @endsection
 
 

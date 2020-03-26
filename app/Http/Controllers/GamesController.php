@@ -151,8 +151,14 @@ class GamesController extends Controller
     public function destroy($id)
     {
 
-        $games = Game::all();
-
+        if ($_POST['_selec'] == 0){
+            $games = Game::all();
+        } else {
+            $player=Player::find($_POST['_playerId']);
+            $games=Game::where('player_id', $_POST['_playerId'])->get();
+        }
+        // dd($games);
+        // dd($games[$id*10+5]['id']);
         for($i=0; $i<10; $i++){
             $x = ($id)*10 + $i;
             $games[$x]->delete();
@@ -160,7 +166,9 @@ class GamesController extends Controller
         $x=$id+1;
 
         $score=$games[$id*10+5]['score_game'];
-        $player=Player::find($games[$id*10+5]['player_id']);
+        if ($_POST['_selec'] == 0){
+            $player=Player::find($games[$id*10+5]['player_id']);
+        }
 
         $name = $player->name;
         $player->nbGames--;
