@@ -95,7 +95,7 @@
     a{
         color: black;
         text-decoration: none;
-        font-weight: bold;
+        /* font-weight: bold; */
         text-decoration-style: none;
     }
     a:hover {
@@ -128,6 +128,7 @@
         text-align: center;
         font-size: 200%;
         font-weight: bold;
+        font-weight: 900 !important;
         padding: 0.5em 1rem;
         margin: auto;
     }
@@ -254,8 +255,13 @@
         font-size: .9rem;
         border-top: none !important;
     }
+    .table2 th{
+        font-size: .9rem;
+    }
     .table2 td{
-        font-weight: bold !important;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: arial !important;
     }
     table.table1 td:first-child, table.table1 th:first-child{
         padding-left: 4%;
@@ -279,6 +285,9 @@
     }
     table.table td i {
         font-size: 19px;
+    }
+    .action{
+        font-size: .9rem !important;
     }
     .separation, .separation td {
         background-color: #6b82a4 !important;
@@ -449,13 +458,6 @@
         }
         .explication{margin-right: 0 !important;}
         .fz-150{margin-left: 0 !important}
-    }
-
-    @media screen and (max-width: 450px){
-        .table td, .table th {
-            font-size: .7rem !important;
-            line-height: 1.2;
-        }
     }
 
     @media screen and (max-width: 400px){
@@ -684,16 +686,16 @@
 
                                     <td colspan="6" class="text-nowrap-resp w-100">
                                         <div class="text-nowrap d-inline-block w-23 mr-auto ml-1 mt-1 mb-3 text-center">
-                                            <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="mb-3 text-nowrap line-h-2-5"><i class="fas fa-chart-line text-info fa-lg mr-2 fz-110r"></i>Resumé</a> &nbsp;
+                                            <a href="https://project-color.fgainza.fr/presume?id={{$player->id}}&chart=1" class="mb-3 text-nowrap line-h-2-5 action"><i class="fas fa-chart-line text-info fa-lg mr-2 fz-110r"></i>Resumé</a> &nbsp;
                                         </div>
                                         <div class="text-nowrap d-inline-block w-23 mx-auto ml-1 mt-1 mb-3 text-center">
-                                            <a href="https://project-color.fgainza.fr/pscore?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-file-alt text-success mr-2 fz-1r"></i>Détail</a> &nbsp;
+                                            <a href="https://project-color.fgainza.fr/pscore?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5 action"><i class="far fa-file-alt text-success mr-2 fz-1r"></i>Détail</a> &nbsp;
                                         </div>
                                         <div class="text-nowrap d-inline-block w-23 mx-auto ml-1 mt-1 mb-3 text-center">
-                                            <a href="https://project-color.fgainza.fr/pedit?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5"><i class="far fa-edit text-dark mr-1"></i>Modifier</a> &nbsp;
+                                            <a href="https://project-color.fgainza.fr/pedit?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5 action"><i class="far fa-edit text-dark mr-1"></i>Modifier</a> &nbsp;
                                         </div>
                                         <div class="text-nowrap d-inline-block w-23 ml-auto ml-1 mt-1 mb-3 mr-1 text-center">
-                                            <a href="https://project-color.fgainza.fr/pdelete?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="far fa-times-circle text-danger mr-1 fa-lg fz-105r"></i>Supprimer</a>&nbsp;
+                                            <a href="https://project-color.fgainza.fr/pdelete?id={{$player->id}}" class="mb-3 text-nowrap line-h-2-5 action" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="far fa-times-circle text-danger mr-1 fa-lg fz-105r"></i>Supprimer</a>&nbsp;
                                         </div>
                                     </td>
 

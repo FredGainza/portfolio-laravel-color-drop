@@ -39,6 +39,10 @@
             background-color: #e3e3e3;
         }
 
+        th{
+            font-weight: normal !important;
+        }
+
         .navbar a {
             color: white;
         }

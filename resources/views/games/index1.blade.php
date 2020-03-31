@@ -110,9 +110,9 @@
                                 <form action="{{ route('games.destroy', $i) }}" method="post">
                                     @csrf
                                     @method('DELETE')
-                                    <input type="hidden" name="_selec" id="_selec" value="{{$selec}}">
-                                    <input type="hidden" name="_id" id="_id" value="{{$i}}">
-                                    <input type="hidden" name="_playerId" id="_playerId" value="{{$player->id}}">
+                                    <input type="hidden" name="_selec" value="{{$selec}}">
+                                    <input type="hidden" name="_id" value="{{$i}}">
+                                    <input type="hidden" name="_playerId" value="{{$player->id}}">
                                     <button type="submit" class="btn" onclick="return confirm('Confirmez la suppression de cet élément')"><i class="fas fa-times text-danger"></i></button>
                                 </form>
                             </td>

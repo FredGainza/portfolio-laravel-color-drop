@@ -67,9 +67,11 @@
         .list-pers{list-style: none !important;}
         .btn{text-align: left !important;}
         .btn-previous{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: Verdana, "Geneva", Tahoma, sans-serif;
             font-weight: 700;
+            font-size: .8rem !important;
             width: -moz-fit-content;
+            width: -webkit-fit-content;
             padding-top: .2rem !important;
             padding-bottom: .2rem !important;
             background-color: #b3dbbf80;
@@ -87,9 +89,9 @@
             color: hsla(35, 92%, 67%, 0.95);
         }
 
-        ul li a:hover, .links:hover, .btn-link:hover, button a:hover {
+        ul li a:hover, .links:hover, .btn-link:hover {
             color: hsl(47, 97%, 18%);
-            font-weight: 700;
+            font-weight: 600;
             text-decoration-color: hsl(47, 97%, 18%);
         }
         .link-unsub {
@@ -103,7 +105,7 @@
             color: hsla(35, 92%, 67%, 0.95) !important;
         }
         .card-header{
-            padding: 0.25rem 1rem !important;
+            padding: 0.25rem 0 0.25rem 1rem !important;
             background-color: #4f8b8ce6 !important;
         }
         .btn-desinscription{
@@ -131,6 +133,12 @@
         @media screen and (max-width: 575px){
             main{
                 margin: auto 5%;
+            }
+            .btn-previous{
+                font-size: .7rem !important;
+            }
+            h2{
+                font-size: 1.5rem !important;
             }
         }
     </style>
@@ -164,7 +172,7 @@
                         <div class="card mt-2 ml--2">
                             <div class="card-header" id="headingVideo">
                                 <h3 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVideo" aria-expanded="false" aria-controls="collapseVideo">
+                                    <button class="btn btn-link collapsed ml-2" type="button" data-toggle="collapse" data-target="#collapseVideo" aria-expanded="false" aria-controls="collapseVideo">
                                         <li class="links fz-110"><a href="video/webforce/projet-webforce_player.html" target="_blank"> Vidéo d'explication du fonctionnement du jeu</a></li>
                                     </button>
                                 </h3>
@@ -174,7 +182,7 @@
                         <div class="card ml--2">
                             <div class="card-header" id="headingCGU">
                                 <h3 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseCGU" aria-expanded="false" aria-controls="collapseCGU">
+                                    <button class="btn btn-link collapsed ml-2" type="button" data-toggle="collapse" data-target="#collapseCGU" aria-expanded="false" aria-controls="collapseCGU">
                                         <li class="links fz-110"><a href="rules" target="_blank"> Conseils d'utilisation d'ordre général</a></li>
                                     </button>
                                 </h3>
@@ -184,7 +192,7 @@
                         <div class="card ml--2">
                             <div class="card-header" id="headingOneBis">
                             <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOneBis" aria-expanded="false" aria-controls="collapseOneBis">
+                                <button class="btn btn-link collapsed ml-2" type="button" data-toggle="collapse" data-target="#collapseOneBis" aria-expanded="false" aria-controls="collapseOneBis">
                                     <li class="links fz-115p">La page d'accueil et ses réglages</li>
                                 </button>
                             </h3>
@@ -234,7 +242,7 @@
                         <div class="card ml--2">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button class="btn btn-link collapsed ml-2" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <li class="links fz-110">La rubrique "détail" du joueur (explications des tableaux)</li>
                                     </button>
                                 </h2>
@@ -271,7 +279,7 @@
                         <div class="card ml--2">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <button class="btn btn-link collapsed ml-2" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <li class="links fz-110">La rubrique "résumé" du joueur (statistiques et graphiques)</li>
                                     </button>
                                 </h2>

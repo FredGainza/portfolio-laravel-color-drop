@@ -376,7 +376,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                         fontColor: '#fda77c',
                         fontSize: '26',
                         fontStyle: false,
-                        text: 'Analyse du score par thème',
+                        text: 'Evolution du score par thème',
                         padding: 30
                     },
                     scales: {
@@ -442,7 +442,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                         fontColor: '#fda77c',
                         fontSize: '26',
                         fontStyle: false,
-                        text: 'Analyse du temps par thème',
+                        text: 'Evolution du temps par thème',
                         padding: 30,
                     },
                     scales: {
