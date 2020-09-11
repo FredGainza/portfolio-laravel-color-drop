@@ -13,11 +13,16 @@ body {
     background-color: #c2d835;
     background-position: top;
     font-family: 'Open Sans', sans-serif;
-
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .containerPerso{
     width: 450px;
     margin: 0 auto !important
+}
+th {
+    font-weight: normal !important;
 }
 
 
@@ -124,11 +129,16 @@ body {
 
 /*----------  NAVBAR ----------*/
 .navbar-nav a {
-    color: #185459 !important;
+    color: #103437 !important;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
 }
 .navbar-nav a:hover {
     color: #3b5897b3 !important;
+    /* font-family: "Lucida Sans Regular"; */
+    font-weight: 600;
 }
 .dropdown-menu{
     background-color: #5eb1b3b8;
@@ -138,6 +148,7 @@ body {
 }
 .dropdown-item:hover{
     background-color: #91ccceb8 !important;
+    font-weight: normal !important;
 }
 .taille-hamb{
     width: 30%;

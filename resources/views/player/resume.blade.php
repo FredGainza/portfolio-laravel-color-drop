@@ -175,6 +175,23 @@ for ($j = 0; $j < $nbParties; $j++) {
 
 
 /***** Links *****/
+        .navbar-nav a {
+            color: #103437 !important;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "Nunito", sans-serif;
+            font-weight: 600;
+        }
+        .navbar-nav a:hover {
+            color: #3b5897b3 !important;
+            font-weight: 600;
+        }
+        .navbar-nav a.text-dashboard  {
+            color: #782002 !important;
+        }
+        .navbar-nav a.text-dashboard:hover  {
+            color: #7920028f !important;
+        }
         .nav-item a {color: #1f2e4d;}
         ul li a {color: white;}
         ul li a:hover {color: hsl(35, 100%, 55%);}
@@ -282,7 +299,8 @@ for ($j = 0; $j < $nbParties; $j++) {
             .resp-stats-chiffres ul{
                 margin-left: auto;
                 margin-right: auto;
-                width: fit-content;
+                width: -moz-fit-content;
+                width: -webkit-fit-content;
             }
             .resp-stats-chiffres ul li{
                 margin-bottom: 1.4vw !important;
@@ -364,6 +382,12 @@ for ($j = 0; $j < $nbParties; $j++) {
                     <li class="nav-link mr-5">
                         <a href="{{ route('help') }}">Aide</a>
                     </li>
+                </li>
+                @if (Auth::user()->type == 'admin')
+                    <li class="nav-link mr-5">
+                        <a href="{{ route('admin') }}" class="text-dashboard">DASHBOARD</a>
+                    </li>
+                @endif
                 </ul>
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
@@ -796,7 +820,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                             fontColor: '#fda77c',
                             fontSize: '18',
                             fontStyle: false,
-                            text: 'Analyse du score par thème (par partie)',
+                            text: 'Evolution du score par thème (par partie)',
                             padding: 30,
                         },
                         scales: {
@@ -856,7 +880,7 @@ for ($j = 0; $j < $nbParties; $j++) {
                             fontColor: '#fda77c',
                             fontSize: '18',
                             fontStyle: false,
-                            text: 'Analyse du temps par thème (par partie)',
+                            text: 'Evolution du temps par thème (par partie)',
                             padding: 30,
                         },
                         scales: {

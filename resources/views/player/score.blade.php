@@ -47,6 +47,7 @@
     .bg-card{background-color:#37696dcc !important;}
     .col-orange{color: hsla(35, 92%, 67%, 0.95);}
     .text-darkos{color: #07162e;}
+    table th {background: #9bfdd9;}
 
 
 /***** DISPLAY *****/

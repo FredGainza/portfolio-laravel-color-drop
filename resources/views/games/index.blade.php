@@ -149,24 +149,24 @@
 
 
                         <!-- Message de réussite lors de chaque correspondance -->
-                        <div class="col-sm-6 offset-sm-4 pvw-r-3 text-center">
-                            <h3 class="reussiteCorrespondance_1 text-left animated wobble duration-2s">⭐ Bravo ! 😸</h3>
-                            <h3 class="reussiteCorrespondance_2 text-left animated jackInTheBox duration-2s">🌟 Bonne
+                        <div id="msgCorrespondance" class="col-sm-6 offset-sm-4 pvw-r-3 text-center">
+                            <h3 class="reussiteCorrespondance_1 animated wobble duration-2s">⭐ Bravo ! 😸</h3>
+                            <h3 class="reussiteCorrespondance_2 animated jackInTheBox duration-2s">🌟 Bonne
                                 réponse ! 😸</h3>
-                            <h3 class="reussiteCorrespondance_3 text-left animated rubberBand duration-2s">✨ Félicitations ! &#128515;</h3>
-                            <h3 class="reussiteCorrespondance_4 text-left animated swing duration-2s">👏 Bonne
+                            <h3 class="reussiteCorrespondance_3 animated rubberBand duration-2s">✨ Félicitations ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_4 animated swing duration-2s">👏 Bonne
                                 réponse ! 😸</h3>
-                            <h3 class="reussiteCorrespondance_5 text-left animated tada duration-2s">⭐ Bravo ! Continue ! &#128515;</h3>
-                            <h3 class="reussiteCorrespondance_6 text-left animated bounce duration-2s">🌟 Parfait ! ⭐</h3>
-                            <h3 class="reussiteCorrespondance_7 text-left animated zoomIn duration-2s">👍 Félicitations ! 🌟</h3>
-                            <h3 class="reussiteCorrespondance_8 text-left animated zoomInLeft duration-2s">🙃 Bravo ! &#128515;</h3>
-                            <h3 class="reussiteCorrespondance_9 text-left animated fadeInDown duration-2s">✨ Bonne
+                            <h3 class="reussiteCorrespondance_5 animated tada duration-2s">⭐ Bravo ! Continue ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_6 animated bounce duration-2s">🌟 Parfait ! ⭐</h3>
+                            <h3 class="reussiteCorrespondance_7 animated zoomIn duration-2s">👍 Félicitations ! 🌟</h3>
+                            <h3 class="reussiteCorrespondance_8 animated zoomInLeft duration-2s">🙃 Bravo ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_9 animated fadeInDown duration-2s">✨ Bonne
                                 réponse ! 😸</h3>
-                                <h3 class="reussiteCorrespondance_10 text-left animated slideInLeft duration-2s">⭐ Félicitations ! &#128515;</h3>
-                            <h3 class="reussiteCorrespondance_11 text-left animated zoomOutUp duration-4s">🌟 Bonne
+                            <h3 class="reussiteCorrespondance_10 animated slideInLeft duration-2s">⭐ Félicitations ! &#128515;</h3>
+                            <h3 class="reussiteCorrespondance_11 animated flipInX duration-2s">👍 Bravo ! &#128515;</h3>
+                            {{-- <h3 class="reussiteCorrespondance_11 animated zoomOutUp duration-4s">🌟 Bonne
                                 réponse ! 😸</h3>
-                            <h3 class="reussiteCorrespondance_12 text-left animated flipInX duration-2s">👍 Bravo ! &#128515;</h3>
-                            <h3 class="reussiteCorrespondance_13 text-left animated flipOutY duration-2s">👏 Réponse exacte ! ⭐</h3>
+                            <h3 class="reussiteCorrespondance_13 animated flipOutY duration-2s">👏 Réponse exacte ! ⭐</h3> --}}
                             <img id="successLevel" src="" class="successLevel img-fluid animated flash delay-3s infinite pulse pvw-t-3" alt="">
                             <!-- Affichage du message : Niveau Suivant -->
                             <div class="containerLevelJeu pvw-t-1">
@@ -330,6 +330,12 @@
                     }
                 }
             </script>
+
+            {{-- <script>
+                $(document).ready(function(){
+                    $('#lancerJeu').fadeIn();
+                })
+            </script> --}}
 
             <!-- Script qui gère l'affichage de début de jeu - Timer + Bouton 'Lancer le Jeu' -->
             <script>

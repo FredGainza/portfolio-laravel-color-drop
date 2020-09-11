@@ -222,8 +222,30 @@ $(document).ready(function () {
     ===============================================
     */
     $couleurs = ["red", "MediumBlue", "yellow", "darkgreen", "black", "Indigo", "DarkRed", "deeppink", "DarkOrange"];
+    $couleurs2 = ["red", "MediumBlue", "yellow", "darkgreen", "Indigo", "DarkRed", "deeppink", "DarkOrange"];
     $couleursOrder = [].concat($couleurs);
-
+    $couleurs2Order = [].concat($couleurs2);
+    $assoColor = {
+        "red": "ROUGE",
+        "MediumBlue": "BLEU",
+        "yellow": "JAUNE",
+        "darkgreen": "VERT",
+        "black": "NOIR",
+        "Indigo": "VIOLET",
+        "DarkRed": "MARRON",
+        "deeppink": "ROSE",
+        "DarkOrange": "ORANGE"
+    };
+    $assoColorTheme2 = {
+        "red": "ROUGE",
+        "MediumBlue": "BLEU",
+        "yellow": "JAUNE",
+        "darkgreen": "VERT",
+        "Indigo": "VIOLET",
+        "DarkRed": "MARRON",
+        "deeppink": "ROSE",
+        "DarkOrange": "ORANGE"
+    };
 
     /*
     ===============================================
@@ -497,13 +519,14 @@ $(document).ready(function () {
         }
         if($nbClick>1){
             $('#successLevel').removeAttr('src');
-            $('#nextLevel').fadeOut(500);
+            $('#nextLevel').fadeOut(200);
         }
         if($nbClick>1 && $nbClick<9){
             $('#containerOrigin').fadeIn(600);
             $('#containerCible').css("background-image", "url('../img/tab-f2.png')");
             $('#containerCible').css("bottom", "10%");
             $('#cible').css("bottom", "52%");
+            couleurTemp = [];
             couleurTab=[];
         }
         if($nbClick<5){
@@ -572,8 +595,6 @@ $(document).ready(function () {
             $nb=0;
             // Caractéristiques des éléments "droppables"
             for ($i = 0; $i <$nbCarres; $i++) {
-                // $rand = Math.floor(Math.random() * Math.floor(6));
-                // $reussite = '.reussiteCorrespondance_'+$possibilites[$rand-1];
                 $("#carre_"+$i).droppable ({
                     // Détermination du "match" entre le drop et le drag
                     accept :  "#carre_"+$couleurCibles[$i],
@@ -581,19 +602,34 @@ $(document).ready(function () {
                     tolerance: $difficulte,
                     // Evenements lorsqu'un drag & drop est réalisé
                     drop: function(event, ui){
+                        for ($i = 0; $i <9; $i++) {
+                            $("#carre_"+$couleurs[$i]).draggable("disable");
+                            $("#carre_"+$couleurs[$i]).css("cursor", "wait");
+
+                        }
                         if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
                             ion.sound.play("success");
                         }
                         $(ui.draggable).remove();
-                        $rand=Math.floor(Math.random() * Math.floor(13)) + 1;
-                        $('.reussiteCorrespondance_'+$rand).show().fadeIn(500)
-                        .delay(1200)
+                        $rand=Math.floor(Math.random() * Math.floor(11)) + 1;
+                        $x=$rand;
+                        $textCouleur = '<p class="colorTemp text-nowrapap text-center mt-2">C\'est la couleur <span style="color: ' + ui.helper[0].id.slice(6) +'; font-size: 1.65vw">' + $assoColor[ui.helper[0].id.slice(6)] + '.</span></p>';
+                        $('.reussiteCorrespondance_'+$x).append($textCouleur);
+                        $('.reussiteCorrespondance_'+$x).show().fadeIn(500)
+                        .delay(2500)
                         .fadeOut(200, function(){
                             $(this).hide();
+                            for ($i = 0; $i <9; $i++) {
+                                $("#carre_"+$couleurs[$i]).draggable("enable");
+                                $("#carre_"+$couleurs[$i]).css("cursor", "pointer");
+                                $('.colorTemp').remove();
+                            }
                         });
+
                         $(this).effect("pulsate")
                         .addClass("correct")
-                        .delay(1000)
+
+                        .delay(2000)
                         .fadeOut(300, function() {
                             $(this).remove();
                             $nb++;
@@ -616,14 +652,16 @@ $(document).ready(function () {
             */
             $nbFormes = -2+$nbClick;
             nbFormes = -2+$nbClick;
+            couleurTemp[$nbClick-5] = [];
             couleurTab[$nbClick-5] = [];
             $('#cible').empty();
             $('#origin').empty();
 
             // On mélange les positions du tableau de couleurs :
-            couleurTab[$nbClick-5] = shuffle(couleursOrder);
-            couleurTab[$nbClick-5] = [].concat(couleurTab[$nbClick-5]);
-            console.log("Random de la palette des couleurs (sans le noir) : "+couleurTab);
+            couleurTemp[$nbClick-5] = shuffle(couleursOrder);
+            couleurTab[$nbClick-5] = couleurTemp[$nbClick-5].slice();
+            // couleurTab[$nbClick-5] = [].concat(couleurTab[$nbClick-5]);
+            console.log("Random de la palette des couleurs (sans le noir) : "+couleurTab[$nbClick-5]);
             suiteRandom();
 
             // On random l'ordre d'apparition :
@@ -648,18 +686,19 @@ $(document).ready(function () {
             }
 
             // Affichage random des couleurs et de la position des figures (et random du type de figure pour la dernière)
+            $forme6 = '';
             if($nbClick >= 5){
                 cercle("formeCible0", "black", couleurTab[$nbClick-5][0]);
-                triangle("formeCible1", "black", couleurTab[$nbClick-5][3]);
+                triangle("formeCible1", "black", couleurTab[$nbClick-5][1]);
                 carre("formeCible2", 10, 10, 80, "black", couleurTab[$nbClick-5][2]);
 
                 cercle("forme0", "black", couleurTab[$nbClick-5][0]);
-                triangle("forme1", "black", couleurTab[$nbClick-5][3]);
+                triangle("forme1", "black", couleurTab[$nbClick-5][1]);
                 carre("forme2", 10, 10, 80, "black", couleurTab[$nbClick-5][2]);
 
                 if ($nbClick >= 6){
-                    etoile("formeCible3", 50, 52, 5, 45, 25, "black", couleurTab[$nbClick-5][1]);
-                    etoile("forme3", 50, 52, 5, 45, 25, "black", couleurTab[$nbClick-5][1]);
+                    etoile("formeCible3", 50, 52, 5, 45, 25, "black", couleurTab[$nbClick-5][3]);
+                    etoile("forme3", 50, 52, 5, 45, 25, "black", couleurTab[$nbClick-5][3]);
 
                     if ($nbClick >= 7){
                         carre("formeCible4", 10, 10, 80, "black", couleurTab[$nbClick-5][4]);
@@ -670,19 +709,23 @@ $(document).ready(function () {
                             if ($random == 0){
                                 triangle("formeCible5", "black", couleurTab[$nbClick-5][5]);
                                 triangle("forme5", "black", couleurTab[$nbClick-5][5]);
+                                $forme6 = "triangle";
                             }
                             if ($random == 1){
                                 cercle("formeCible5", "black", couleurTab[$nbClick-5][5]);
                                 cercle("forme5", "black", couleurTab[$nbClick-5][5]);
+                                $forme6 = "cercle";
                             }
                             if ($random == 2){
                                 etoile("formeCible5", 50, 52, 5, 45, 25, "black", couleurTab[$nbClick-5][5]);
                                 etoile("forme5", 50, 52, 5, 45, 25, "black", couleurTab[$nbClick-5][5]);
+                                $forme6 = "étoile";
                             }
                         }
                     }
                 }
             }
+            $ordreFormes = ["cercle", "triangle", "carré", "étoile", "carré", $forme6];
             /*
             ===================================================================================
                 TECHNIQUE DU DRAG & DROP (LEVELS 5 A 8)
@@ -709,19 +752,33 @@ $(document).ready(function () {
                     tolerance: $difficulte,
                     // Evenements lorsqu'un drag & drop est réalisé
                     drop: function (event, ui) {
+                        console.log(ui.helper[0].id);
+                        for ($j = 0; $j < $nbFormes; $j++) {
+                            $('#forme' + $j).draggable("disable");
+                            $('#forme' + $j).css("cursor", "wait");
+                        }
                         if ($bruit.attr('src') == 'img/audio/bruit-on.png'){
                             ion.sound.play("success");
                         }
                         $(ui.draggable).remove();
-                        $rand=Math.floor(Math.random() * Math.floor(13)) + 1;
-                        $('.reussiteCorrespondance_'+$rand).show().fadeIn(500)
-                        .delay(1200)
+                        $rand=Math.floor(Math.random() * Math.floor(11)) + 1;
+                        $x=$rand;
+                        // $j=$x1[(ui.helper[0].id.slice(5))];
+                        $textReussite = '<p class="reussiteTemp text-nowrapap text-center mt-2">C\'est un' + ($ordreFormes[ui.helper[0].id.slice(5)] == "étoile" ? 'e <span style="color: ' + couleurTab[$nbClick-5][ui.helper[0].id.slice(5)] +'; font-size: 1.65vw" class="mt-2">&Eacute;TOILE' : ' <span style="color: ' + couleurTab[$nbClick-5][ui.helper[0].id.slice(5)] +'; font-size: 1.65vw">'+($ordreFormes[ui.helper[0].id.slice(5)]).toUpperCase()) + '</span> de couleur <span style="color: ' + couleurTab[$nbClick-5][ui.helper[0].id.slice(5)] +'; font-size: 1.65vw">' + $assoColorTheme2[couleurTab[$nbClick-5][ui.helper[0].id.slice(5)]] + '.</span></p>';
+                        $('.reussiteCorrespondance_'+$x).append($textReussite);
+                        $('.reussiteCorrespondance_'+$x).show().fadeIn(500)
+                        .delay(2500)
                         .fadeOut(200, function () {
                             $(this).hide();
+                            for ($j = 0; $j < $nbFormes; $j++) {
+                                $('#forme' + $j).draggable("enable");
+                                $('#forme' + $j).css("cursor", "pointer");
+                                $('.reussiteTemp').remove();
+                            }
                         });
                         $(this).effect("pulsate")
                         .addClass("correct")
-                        .delay(500)
+                        .delay(2000)
                         .fadeOut(300, function () {
                             $(this).remove();
                             $nb++;
@@ -781,9 +838,11 @@ $(document).ready(function () {
             // Pour chacun des 2 niveaux, on fixe un ordre de référence des éléments sources
             if ($nbClick === 9) {
                 $fruitsImg = ['vert-avocat', 'vert-citron', 'vert-kiwi', 'orange-ananas', 'orange-carotte', 'orange-orange'];
+                $tab1Fruits = ['UN AVOCAT', 'UN CITRON VERT', 'UN KIWI', 'UN ANANAS', 'UNE CAROTTE', 'UNE ORANGE'];
             }
             if ($nbClick === 10) {
                 $fruitsImg = ['jaune-ananas', 'jaune-banane', 'jaune-citron', 'rouge-pomme', 'rouge-cerises', 'rouge-fraise'];
+                $tab2Fruits = ['UN ANANAS', 'UNE BANANE', 'UN CITRON JAUNE', 'UNE TOMATE', 'UNE CERISE', 'UNE FRAISE'];
             }
             console.log("Ordre d'apparition de référence des fruits : "+$fruitsImg);
             console.log("Random de l'ordre d'apparition "+$desordreFix);
@@ -829,19 +888,45 @@ $(document).ready(function () {
                     tolerance: $difficulte,
                     // Evenements lorsqu'un drag & drop est réalisé
                     drop: function (event, ui) {
+                        console.log(ui.helper[0].id.slice(11));
+                        for ($i = 0; $i < $nbFruits; $i++) {
+                            $('#fruitCible_' + $i).draggable("disable");
+                            $('#fruitCible_' + $i).css("cursor", "wait");
+                        }
                         if ( $bruit.attr('src') == 'img/audio/bruit-on.png'){
                             ion.sound.play("success");
                         }
                         $(ui.draggable).remove();
-                        $rand=Math.floor(Math.random() * Math.floor(13)) + 1;
-                        $('.reussiteCorrespondance_'+$rand).show().fadeIn(500)
-                            .delay(1200)
+                        $rand=Math.floor(Math.random() * Math.floor(11)) + 1;
+                        $x=$rand;
+                        $tab = [];
+                        $y=$desordreFix[ui.helper[0].id.slice(11)];
+                        if ($nbClick == 9){
+                            $tab = $tab1Fruits;
+                            $col1="darkgreen";
+                            $col2="darkorange";
+                        }
+                        if ($nbClick == 10){
+                            $tab = $tab2Fruits;
+                            $col1="yellow";
+                            $col2="red";
+                        }
+                        $textFruit = '<p class="fruitTemp text-nowrap text-center mt-2" style="font-size:1.3vw;">C\'est <span style="color:' + ($y < 3 ? $col1 : $col2) + '";>' + $tab[$y]+'</span></p>';
+                        console.log($tab[$y].slice(0, 3));
+                        $('.reussiteCorrespondance_'+$x).append($textFruit);
+                        $('.reussiteCorrespondance_'+$x).show().fadeIn(500)
+                            .delay(2500)
                             .fadeOut(200, function () {
                                 $(this).hide();
+                                for ($i = 0; $i < $nbFruits; $i++) {
+                                    $('#fruitCible_' + $i).draggable("enable");
+                                    $('#fruitCible_' + $i).css("cursor", "pointer");
+                                    $('.fruitTemp').remove();
+                                }
                             });
 
                         $(this).addClass("correct").effect("pulsate")
-                        .delay(500)
+                        .delay(2000)
                         .fadeOut(300, function () {
                             $(this).removeClass("correct").delay(1500).fadeOut();
                             $nb++;

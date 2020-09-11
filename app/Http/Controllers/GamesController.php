@@ -176,6 +176,6 @@ class GamesController extends Controller
         $player->save();
 
         return back()->with('type', 'success')
-                    ->with('message', 'La partie ' .$x. ' du joueur ' .$name. ' bien été supprimée, et ses statistiques mises à jour.');
+                    ->with('message', 'La partie ' .$x. ' du joueur ' .$name. ' a bien été supprimée, et ses statistiques ont été mises à jour.');
     }
 }
